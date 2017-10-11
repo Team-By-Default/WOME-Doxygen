@@ -1,0 +1,10 @@
+<map id="mensajeria.PaquetePersonaje.getNombre" name="mensajeria.PaquetePersonaje.getNombre">
+<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="331,5,468,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="294,57,505,98"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="300,123,499,149"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="303,174,495,215"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="302,240,497,267"/>
+<area shape="rect" id="node7" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="287,291,511,317"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#aec8e45e3eb3091fd509881e6a83bf957" title="mensajeria.PaquetePersonaje.nuevoItem" alt="" coords="271,341,528,368"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="576,291,769,317"/>
+</map>

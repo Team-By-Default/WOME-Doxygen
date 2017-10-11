@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>WOME Cliente: Fichero Fuente E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/comandos/InicioSesion.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">WOME Cliente
+   </div>
+   <div id="projectbrief">Logica del WOME, juego del taller de progra avanzada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_inicio_sesion_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">InicioSesion.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_inicio_sesion_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>comandos;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> javax.swing.JOptionPane;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacemensajeria.html">mensajeria</a>.<a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacemensajeria.html">mensajeria</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcomandos_1_1_inicio_sesion.html">    8</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcomandos_1_1_inicio_sesion.html">InicioSesion</a> <span class="keyword">extends</span> <a class="code" href="classcomandos_1_1_comandos_cliente.html">ComandosCliente</a> {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    @Override</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1">   11</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1">ejecutar</a>() {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a> paquete = (<a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a>) <a class="code" href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">gson</a>.fromJson(<a class="code" href="classmensajeria_1_1_comando.html#ae3071aff9f0620f2f58f152b71934929">cadenaLeida</a>, <a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a>.class);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">if</span> (paquete.<a class="code" href="classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a">getMensaje</a>().equals(<a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a>.<a class="code" href="classmensajeria_1_1_paquete.html#a68a2c07ac025740661bdf6632381ea2f">msjExito</a>)) {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <span class="comment">// El usuario ya inicio sesi�n</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <a class="code" href="namespacecliente.html">cliente</a>.getPaqueteUsuario().setInicioSesion(<span class="keyword">true</span>);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="comment">// Recibo el paquete personaje con los datos</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="namespacecliente.html">cliente</a>.setPaquetePersonaje(<a class="code" href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">gson</a>.fromJson(<a class="code" href="classmensajeria_1_1_comando.html#ae3071aff9f0620f2f58f152b71934929">cadenaLeida</a>, <a class="code" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>.class));</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">if</span> (paquete.<a class="code" href="classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a">getMensaje</a>().equals(<a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a>.<a class="code" href="classmensajeria_1_1_paquete.html#aa342742bf848bcf5f4bf4c28a2fd5c8d">msjFracaso</a>))</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Error al iniciar sesión.&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        + <span class="stringliteral">&quot; Revise el usuario y la contraseña&quot;</span>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="comment">// El usuario no pudo iniciar sesión</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="namespacecliente.html">cliente</a>.getPaqueteUsuario().setInicioSesion(<span class="keyword">false</span>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div><div class="ttc" id="classmensajeria_1_1_paquete_html"><div class="ttname"><a href="classmensajeria_1_1_paquete.html">mensajeria.Paquete</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00007">Paquete.java:7</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_personaje_html"><div class="ttname"><a href="classmensajeria_1_1_paquete_personaje.html">mensajeria.PaquetePersonaje</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_personaje_8java_source.html#l00013">PaquetePersonaje.java:13</a></div></div>
+<div class="ttc" id="namespacemensajeria_html"><div class="ttname"><a href="namespacemensajeria.html">mensajeria</a></div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00001">Comando.java:1</a></div></div>
+<div class="ttc" id="classcomandos_1_1_inicio_sesion_html"><div class="ttname"><a href="classcomandos_1_1_inicio_sesion.html">comandos.InicioSesion</a></div><div class="ttdef"><b>Definition:</b> <a href="_inicio_sesion_8java_source.html#l00008">InicioSesion.java:8</a></div></div>
+<div class="ttc" id="classcomandos_1_1_comandos_cliente_html"><div class="ttname"><a href="classcomandos_1_1_comandos_cliente.html">comandos.ComandosCliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_comandos_cliente_8java_source.html#l00006">ComandosCliente.java:6</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_html_aa342742bf848bcf5f4bf4c28a2fd5c8d"><div class="ttname"><a href="classmensajeria_1_1_paquete.html#aa342742bf848bcf5f4bf4c28a2fd5c8d">mensajeria.Paquete.msjFracaso</a></div><div class="ttdeci">static String msjFracaso</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00010">Paquete.java:10</a></div></div>
+<div class="ttc" id="classcomandos_1_1_inicio_sesion_html_a5ed505a98e862f21a32f5ca3bc5c42f1"><div class="ttname"><a href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1">comandos.InicioSesion.ejecutar</a></div><div class="ttdeci">void ejecutar()</div><div class="ttdef"><b>Definition:</b> <a href="_inicio_sesion_8java_source.html#l00011">InicioSesion.java:11</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html_ae3071aff9f0620f2f58f152b71934929"><div class="ttname"><a href="classmensajeria_1_1_comando.html#ae3071aff9f0620f2f58f152b71934929">mensajeria.Comando.cadenaLeida</a></div><div class="ttdeci">String cadenaLeida</div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00034">Comando.java:34</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html_aad9149662af67c46000257cc2026a8ea"><div class="ttname"><a href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">mensajeria.Comando.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00033">Comando.java:33</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_html_a960ec9a1022c5e1bb8ef0526a2c1734a"><div class="ttname"><a href="classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a">mensajeria.Paquete.getMensaje</a></div><div class="ttdeci">String getMensaje()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00046">Paquete.java:46</a></div></div>
+<div class="ttc" id="namespacecliente_html"><div class="ttname"><a href="namespacecliente.html">cliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_cliente_8java_source.html#l00001">Cliente.java:1</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_html_a68a2c07ac025740661bdf6632381ea2f"><div class="ttname"><a href="classmensajeria_1_1_paquete.html#a68a2c07ac025740661bdf6632381ea2f">mensajeria.Paquete.msjExito</a></div><div class="ttdeci">static String msjExito</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00009">Paquete.java:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_885cc87fac2d91e269af0a5a959fa5f6.html">E:</a></li><li class="navelem"><a class="el" href="dir_e5830d7b0075642d12d6a9324846f513.html">Programacion avanzada</a></li><li class="navelem"><a class="el" href="dir_0be6c60cfd98eafba7da0c11d9a4c117.html">Mordor</a></li><li class="navelem"><a class="el" href="dir_ef027d0d31d0a5f490a63bbeb53be514.html">jrpg-2017b-cliente</a></li><li class="navelem"><a class="el" href="dir_fd040afab45ab710bf27140329b2c417.html">src</a></li><li class="navelem"><a class="el" href="dir_241ed8b8369a93c98d49073279ec189f.html">main</a></li><li class="navelem"><a class="el" href="dir_c2dcb9711995f64160bbe7eff56b7201.html">java</a></li><li class="navelem"><a class="el" href="dir_99024148f28fc4b44fb7af33b279c7fd.html">comandos</a></li><li class="navelem"><a class="el" href="_inicio_sesion_8java.html">InicioSesion.java</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

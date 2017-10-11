@@ -1,0 +1,5 @@
+<map id="estados.EstadoJuego" name="estados.EstadoJuego">
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="5,171,119,197"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="17,81,107,108"/>
+<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_info_personaje.html" title="interfaz.MenuInfoPersonaje" alt="" coords="143,171,322,197"/>
+</map>

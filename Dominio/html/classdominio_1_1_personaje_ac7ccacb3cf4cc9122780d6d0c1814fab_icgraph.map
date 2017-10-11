@@ -1,0 +1,5 @@
+<map id="dominio.Personaje.getAtaque" name="dominio.Personaje.getAtaque">
+<area shape="rect" id="node2" href="$classdominio_1_1_asesino.html#a58505b24eb19d6cdfa2b004d1d609409" title="dominio.Asesino.habilidad1" alt="" coords="247,5,427,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_guerrero.html#a0e592f5d904a46786968166ec7fa7c40" title="dominio.Guerrero.habilidad1" alt="" coords="245,56,428,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_guerrero.html#a28d33790715e18dcbe8b497155f16a13" title="dominio.Guerrero.habilidad3" alt="" coords="245,107,428,133"/>
+</map>

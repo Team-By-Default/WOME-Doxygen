@@ -1,0 +1,7 @@
+<map id="entidades.Entidad.Entidad" name="entidades.Entidad.Entidad">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#abda6647a92cf3f206ea5be88decf68de" title="juego.Juego.getUbicacion\lPersonaje" alt="" coords="271,5,441,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_movimiento.html#a5a0760af416c770132e538533ad5fe5b" title="mensajeria.PaqueteMovimiento.setPosX" alt="" coords="229,71,483,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a459d8fb3e367a3f46dac0dcda26b2a7c" title="mensajeria.PaqueteMovimiento.setPosY" alt="" coords="228,122,484,149"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#afa5c379112a57512db8833193abeae86" title="mensajeria.PaqueteMovimiento.set\lDireccion" alt="" coords="244,173,468,215"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="244,239,468,280"/>
+</map>

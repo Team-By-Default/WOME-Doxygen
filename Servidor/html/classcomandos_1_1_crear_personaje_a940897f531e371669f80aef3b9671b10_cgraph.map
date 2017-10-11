@@ -1,0 +1,11 @@
+<map id="comandos.CrearPersonaje.ejecutar" name="comandos.CrearPersonaje.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6" title="servidor.EscuchaCliente.set\lPaquetePersonaje" alt="" coords="289,5,471,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="285,71,475,98"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb" title="servidor.Conector.registrar\lPersonaje" alt="" coords="293,123,467,164"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="289,188,471,229"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_escucha_cliente.html#adf3ce49fa8e1f9ece4df0cb02b66d854" title="servidor.EscuchaCliente.get\lPaqueteUsuario" alt="" coords="289,253,471,295"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="279,319,481,346"/>
+<area shape="rect" id="node9" href="$classservidor_1_1_escucha_cliente.html#a4362d280441673d10cc4a502a71a1b16" title="servidor.EscuchaCliente.set\lIdPersonaje" alt="" coords="289,371,471,412"/>
+<area shape="rect" id="node10" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="289,436,471,477"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_conector.html#a246c68073110913286b28f5dd9ed097d" title="servidor.Conector.registrar\lInventarioMochila" alt="" coords="529,123,703,164"/>
+</map>

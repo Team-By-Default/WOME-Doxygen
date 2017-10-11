@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>WOME Cliente: Fichero Fuente E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/mensajeria/PaqueteUsuario.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">WOME Cliente
+   </div>
+   <div id="projectbrief">Logica del WOME, juego del taller de progra avanzada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_paquete_usuario_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">PaqueteUsuario.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_paquete_usuario_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>mensajeria;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.io.Serializable;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html">    5</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classmensajeria_1_1_paquete_usuario.html">PaqueteUsuario</a> <span class="keyword">extends</span> <a class="code" href="classmensajeria_1_1_paquete.html">Paquete</a> implements Serializable, Cloneable {</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> idPj;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">private</span> String username;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">private</span> String password;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">boolean</span> inicioSesion;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#aad9c71ae19cf26d23a09e708c436a88e">   12</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#aad9c71ae19cf26d23a09e708c436a88e">PaqueteUsuario</a>(){</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#a54a4ad312b26850d5861642cfdb575d6">   16</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#a54a4ad312b26850d5861642cfdb575d6">PaqueteUsuario</a>(<span class="keywordtype">int</span> pj, String user, String pw){</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        idPj = pj;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        username = user;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        password = pw;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        inicioSesion = <span class="keyword">false</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#aa3fb11920a3f1bf633a1e7335c4c3a1f">   23</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#aa3fb11920a3f1bf633a1e7335c4c3a1f">getIdPj</a>() {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> idPj;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74">setIdPj</a>(<span class="keywordtype">int</span> idPj) {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        this.idPj = idPj;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#aa85eef9184d97447ea1c9ae1ce43fa00">   31</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classmensajeria_1_1_paquete_usuario.html#aa85eef9184d97447ea1c9ae1ce43fa00">getUsername</a>() {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> username;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a">setUsername</a>(String username) {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        this.username = username;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#af88b4d24ba05d5868627fd38e57dc1cb">   39</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classmensajeria_1_1_paquete_usuario.html#af88b4d24ba05d5868627fd38e57dc1cb">getPassword</a>() {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> password;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b">setPassword</a>(String password) {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.password = password;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#af0d1744a6d5ee555bf6f2eb4b2c3691b">   47</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#af0d1744a6d5ee555bf6f2eb4b2c3691b">isInicioSesion</a>() {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> inicioSesion;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#a7b1c73efe76425c7cec4e64344955699">   51</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmensajeria_1_1_paquete_usuario.html#a7b1c73efe76425c7cec4e64344955699">setInicioSesion</a>(<span class="keywordtype">boolean</span> inicioSesion) {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        this.inicioSesion = inicioSesion;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    @Override</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classmensajeria_1_1_paquete_usuario.html#af4ba65084d07f3a03c5752afcfe27e03">   56</a></span>&#160;    <span class="keyword">public</span> Object <a class="code" href="classmensajeria_1_1_paquete_usuario.html#af4ba65084d07f3a03c5752afcfe27e03">clone</a>() {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        Object obj = null;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        obj = super.clone();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> obj;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div><div class="ttc" id="classmensajeria_1_1_paquete_html"><div class="ttname"><a href="classmensajeria_1_1_paquete.html">mensajeria.Paquete</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00007">Paquete.java:7</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_aa85eef9184d97447ea1c9ae1ce43fa00"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#aa85eef9184d97447ea1c9ae1ce43fa00">mensajeria.PaqueteUsuario.getUsername</a></div><div class="ttdeci">String getUsername()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00031">PaqueteUsuario.java:31</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_a54a4ad312b26850d5861642cfdb575d6"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#a54a4ad312b26850d5861642cfdb575d6">mensajeria.PaqueteUsuario.PaqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario(int pj, String user, String pw)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00016">PaqueteUsuario.java:16</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_a8877795f859e82dbe3c998d083a86e74"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74">mensajeria.PaqueteUsuario.setIdPj</a></div><div class="ttdeci">void setIdPj(int idPj)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00027">PaqueteUsuario.java:27</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html">mensajeria.PaqueteUsuario</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00005">PaqueteUsuario.java:5</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_af88b4d24ba05d5868627fd38e57dc1cb"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#af88b4d24ba05d5868627fd38e57dc1cb">mensajeria.PaqueteUsuario.getPassword</a></div><div class="ttdeci">String getPassword()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00039">PaqueteUsuario.java:39</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_af4ba65084d07f3a03c5752afcfe27e03"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#af4ba65084d07f3a03c5752afcfe27e03">mensajeria.PaqueteUsuario.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00056">PaqueteUsuario.java:56</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_aad9c71ae19cf26d23a09e708c436a88e"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#aad9c71ae19cf26d23a09e708c436a88e">mensajeria.PaqueteUsuario.PaqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00012">PaqueteUsuario.java:12</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_af9cb1f9ba5ecd20387278f5ceead724a"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a">mensajeria.PaqueteUsuario.setUsername</a></div><div class="ttdeci">void setUsername(String username)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00035">PaqueteUsuario.java:35</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_af0d1744a6d5ee555bf6f2eb4b2c3691b"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#af0d1744a6d5ee555bf6f2eb4b2c3691b">mensajeria.PaqueteUsuario.isInicioSesion</a></div><div class="ttdeci">boolean isInicioSesion()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00047">PaqueteUsuario.java:47</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_aa3fb11920a3f1bf633a1e7335c4c3a1f"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#aa3fb11920a3f1bf633a1e7335c4c3a1f">mensajeria.PaqueteUsuario.getIdPj</a></div><div class="ttdeci">int getIdPj()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00023">PaqueteUsuario.java:23</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_a7b1c73efe76425c7cec4e64344955699"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#a7b1c73efe76425c7cec4e64344955699">mensajeria.PaqueteUsuario.setInicioSesion</a></div><div class="ttdeci">void setInicioSesion(boolean inicioSesion)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00051">PaqueteUsuario.java:51</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_usuario_html_a5da99249fca92dbb1aca6cd854f6cb3b"><div class="ttname"><a href="classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b">mensajeria.PaqueteUsuario.setPassword</a></div><div class="ttdeci">void setPassword(String password)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_usuario_8java_source.html#l00043">PaqueteUsuario.java:43</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_885cc87fac2d91e269af0a5a959fa5f6.html">E:</a></li><li class="navelem"><a class="el" href="dir_e5830d7b0075642d12d6a9324846f513.html">Programacion avanzada</a></li><li class="navelem"><a class="el" href="dir_0be6c60cfd98eafba7da0c11d9a4c117.html">Mordor</a></li><li class="navelem"><a class="el" href="dir_ef027d0d31d0a5f490a63bbeb53be514.html">jrpg-2017b-cliente</a></li><li class="navelem"><a class="el" href="dir_fd040afab45ab710bf27140329b2c417.html">src</a></li><li class="navelem"><a class="el" href="dir_241ed8b8369a93c98d49073279ec189f.html">main</a></li><li class="navelem"><a class="el" href="dir_c2dcb9711995f64160bbe7eff56b7201.html">java</a></li><li class="navelem"><a class="el" href="dir_93e698227e74c5069837cc2f75715cde.html">mensajeria</a></li><li class="navelem"><a class="el" href="_paquete_usuario_8java.html">PaqueteUsuario.java</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

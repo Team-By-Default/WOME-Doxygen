@@ -1,0 +1,5 @@
+<map id="dominio.Personaje.getTablaDeNiveles" name="dominio.Personaje.getTablaDeNiveles">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a98c8ee00b897c6015dbc3aa89086623e" title="dominio.Personaje.cargar\lTablaNivel" alt="" coords="245,5,415,47"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="236,71,424,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="472,97,705,123"/>
+</map>

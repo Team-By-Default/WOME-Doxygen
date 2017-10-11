@@ -1,0 +1,5 @@
+<map id="dominio.Casta" name="dominio.Casta">
+<area shape="rect" id="node3" href="$classdominio_1_1_asesino.html" title="dominio.Asesino" alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_guerrero.html" title="dominio.Guerrero" alt="" coords="148,155,269,181"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_hechicero.html" title="dominio.Hechicero" alt="" coords="293,155,423,181"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="comandos.Talk.ejecutar" name="comandos.Talk.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39" title="servidor.Servidor.mensaje\lAUsuario" alt="" coords="230,5,399,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="213,71,416,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="222,136,407,177"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_servidor.html#ac88572870d8806b14d570b768bdb7d09" title="servidor.Servidor.mensajeAAll" alt="" coords="218,202,411,229"/>
+</map>

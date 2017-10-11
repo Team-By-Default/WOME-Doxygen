@@ -1,0 +1,8 @@
+<map id="cliente.EscuchaMensajes.run" name="cliente.EscuchaMensajes.run">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#a4ff448fb03c7c7d9ed40a4a50d3fac81" title="juego.Juego.setPersonajes\lConectados" alt="" coords="268,5,447,47"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#a4b9e14ba453f8031886ecf19ac253941" title="juego.Juego.setUbicacion\lPersonajes" alt="" coords="272,71,443,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08" title="mensajeria.Paquete.getObjeto" alt="" coords="259,137,456,163"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_comandos_escucha.html#ae8a0e7a44a37abaf58f5b0dff19d3f0d" title="comandos.ComandosEscucha.set\lJuego" alt="" coords="247,188,468,229"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_comando.html#a773ab86774e1cfd1333870859779405c" title="mensajeria.Comando.setCadena" alt="" coords="252,254,463,281"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_comando.html#ab55e973dc9b657693ee9df2afc005141" title="mensajeria.Comando.ejecutar" alt="" coords="516,279,711,306"/>
+</map>

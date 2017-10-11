@@ -1,0 +1,4 @@
+<map id="dominio.Personaje.golpe_critico" name="dominio.Personaje.golpe_critico">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#add459c0f13cbad7268d04a96242a264a" title="dominio.Personaje.getCasta" alt="" coords="222,5,407,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_casta.html#afedcd46520f8182e69779eb989f11e5d" title="dominio.Casta.getDañoCritico" alt="" coords="217,56,412,83"/>
+</map>

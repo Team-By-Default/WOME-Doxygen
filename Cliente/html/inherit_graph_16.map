@@ -1,0 +1,13 @@
+<map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="143,461,280,488"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_atacar.html" title="mensajeria.PaqueteAtacar" alt="" coords="353,5,528,32"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_batalla.html" title="mensajeria.PaqueteBatalla" alt="" coords="352,107,529,133"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_comerciar.html" title="mensajeria.PaqueteComerciar" alt="" coords="343,208,539,235"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_de_movimientos.html" title="mensajeria.PaqueteDeMovimientos" alt="" coords="328,309,553,336"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_de_personajes.html" title="mensajeria.PaqueteDePersonajes" alt="" coords="331,403,550,429"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_finalizar_batalla.html" title="mensajeria.PaqueteFinalizar\lBatalla" alt="" coords="347,454,534,495"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_mensaje.html" title="mensajeria.PaqueteMensaje" alt="" coords="347,520,534,547"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="339,613,542,640"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="343,816,538,843"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="350,715,531,741"/>
+</map>

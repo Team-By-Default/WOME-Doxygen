@@ -1,0 +1,5 @@
+<map id="entidades.Entidad.getxOffset" name="entidades.Entidad.getxOffset">
+<area shape="rect" id="node2" href="$classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773" title="mundo.Mundo.graficar" alt="" coords="243,31,393,57"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="441,5,640,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="444,56,637,83"/>
+</map>

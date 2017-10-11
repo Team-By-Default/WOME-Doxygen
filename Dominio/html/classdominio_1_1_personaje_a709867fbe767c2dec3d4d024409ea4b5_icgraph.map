@@ -1,0 +1,11 @@
+<map id="dominio.Personaje.getInteligencia" name="dominio.Personaje.getInteligencia">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#aae105c199c14172f5d80fa8886d0712f" title="dominio.Personaje.calcular\lPuntosDeMagia" alt="" coords="269,99,448,141"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_hechicero.html#a70c39f0c45af6a349a73facc79f81a67" title="dominio.Hechicero.habilidad1" alt="" coords="496,5,687,32"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_hechicero.html#ac1277de59d4a02b2c77553a0b0c9b7cb" title="dominio.Hechicero.habilidad2" alt="" coords="496,56,687,83"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_hechicero.html#af1e1d643c11beed3589444266b83ba7c" title="dominio.Hechicero.habilidad3" alt="" coords="496,107,687,133"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="496,157,687,184"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="499,209,684,250"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="740,179,917,221"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="735,245,923,272"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="971,245,1204,272"/>
+</map>

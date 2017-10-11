@@ -1,0 +1,5 @@
+<map id="mensajeria.Comando.ejecutar" name="mensajeria.Comando.ejecutar">
+<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="540,5,667,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_escucha_mensajes.html#a5085f53359994f9f4618c1a08d3e7e4d" title="cliente.EscuchaMensajes.run" alt="" coords="507,68,700,95"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_comando.html#a773ab86774e1cfd1333870859779405c" title="mensajeria.Comando.setCadena" alt="" coords="248,31,459,57"/>
+</map>

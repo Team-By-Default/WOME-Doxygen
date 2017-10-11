@@ -1,0 +1,7 @@
+<map id="dominio.Personaje.modificarAtributos" name="dominio.Personaje.modificarAtributos">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="254,5,433,47"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="239,71,448,112"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#aae105c199c14172f5d80fa8886d0712f" title="dominio.Personaje.calcular\lPuntosDeMagia" alt="" coords="254,136,433,177"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="497,13,711,39"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="496,143,712,170"/>
+</map>

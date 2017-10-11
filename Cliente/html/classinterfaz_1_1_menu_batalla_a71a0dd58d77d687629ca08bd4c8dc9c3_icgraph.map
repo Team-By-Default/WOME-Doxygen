@@ -1,0 +1,4 @@
+<map id="interfaz.MenuBatalla.setHabilitado" name="interfaz.MenuBatalla.setHabilitado">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="216,5,429,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#addbb444f1ae86b464dd2e4f9b14ad64a" title="estados.EstadoBatalla.set\lMiTurno" alt="" coords="235,57,410,98"/>
+</map>

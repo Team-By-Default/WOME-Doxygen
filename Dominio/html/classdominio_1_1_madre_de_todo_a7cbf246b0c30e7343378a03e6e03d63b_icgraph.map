@@ -1,0 +1,7 @@
+<map id="dominio.MadreDeTodo.getNivel" name="dominio.MadreDeTodo.getNivel">
+<area shape="rect" id="node2" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="294,5,479,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_non_playable_character.html#a4d22acf35e0765c229b68872ee2e42f3" title="dominio.NonPlayableCharacter.otorgarExp" alt="" coords="253,56,520,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="293,107,481,133"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="568,132,801,159"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a479e22db38b9f3582164084c55df0fcc" title="dominio.Personaje.otorgarExp" alt="" coords="289,208,485,235"/>
+</map>

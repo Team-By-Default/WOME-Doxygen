@@ -1,0 +1,12 @@
+<map id="juego.Juego.Juego" name="juego.Juego.Juego">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_movimiento.html#a78235c85874aa7a6a069cfb22afd2b66" title="mensajeria.PaqueteMovimiento.set\lIdPersonaje" alt="" coords="184,5,408,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="183,71,409,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="184,123,408,164"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#afa5c379112a57512db8833193abeae86" title="mensajeria.PaqueteMovimiento.set\lDireccion" alt="" coords="184,188,408,229"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="231,254,361,281"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_pantalla.html#ac19c2a00adfba66c18316f52ef6665f1" title="juego.Pantalla.getCanvas" alt="" coords="461,178,629,205"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="457,229,633,255"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="459,279,632,306"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado.html#aa6b81bd0ba547c9c6d96549c3dacc2bd" title="estados.Estado.graficar" alt="" coords="466,330,625,357"/>
+<area shape="rect" id="node9" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="681,221,869,263"/>
+</map>

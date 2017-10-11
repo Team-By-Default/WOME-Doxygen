@@ -1,0 +1,15 @@
+<map id="cliente.Cliente.run" name="cliente.Cliente.run">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_usuario.html#af0d1744a6d5ee555bf6f2eb4b2c3691b" title="mensajeria.PaqueteUsuario.is\lInicioSesion" alt="" coords="207,5,402,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete.html#abd27800008ef66b2d58d6fec07a78d58" title="mensajeria.Paquete.getObjetoSet" alt="" coords="196,71,413,98"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_cliente.html#af0f6ce8e3c939f96e881c08c8a41db80" title="cliente.Cliente.getAccion" alt="" coords="221,122,388,149"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_comando.html#a773ab86774e1cfd1333870859779405c" title="mensajeria.Comando.setCadena" alt="" coords="199,173,410,199"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_comando.html#ab55e973dc9b657693ee9df2afc005141" title="mensajeria.Comando.ejecutar" alt="" coords="477,198,672,225"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_comandos_cliente.html#a030b9bb6938de63b4f7f5169c2cce83d" title="comandos.ComandosCliente.set\lCliente" alt="" coords="199,275,410,316"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08" title="mensajeria.Paquete.getObjeto" alt="" coords="206,341,403,367"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="197,391,412,418"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#a340c1c0b71c260ecfb80d20963abaf5e" title="mensajeria.PaquetePersonaje.getMapa" alt="" coords="180,442,429,469"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba" title="mensajeria.Paquete.setIp" alt="" coords="220,493,389,519"/>
+<area shape="rect" id="node12" href="$classjuego_1_1_juego.html#ae3ec6c4178d0bd067b160b548d0d8ef3" title="juego.Juego.start" alt="" coords="244,543,365,570"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado.html#a04c9c0a867d3cf7f943e5a97747dd9a4" title="estados.Estado.setEstado" alt="" coords="487,518,663,545"/>
+<area shape="rect" id="node14" href="$classjuego_1_1_pantalla.html#a2ba5f8945cc758dd03d79c14328e368a" title="juego.Pantalla.mostrar" alt="" coords="499,569,651,595"/>
+</map>

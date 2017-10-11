@@ -1,0 +1,5 @@
+<map id="inventario.Celda.getLabel" name="inventario.Celda.getLabel">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#a17d03ce06321895c0f82ce9e2dbd37dc" title="mensajeria.PaquetePersonaje.sacar\lBonus" alt="" coords="220,5,451,47"/>
+<area shape="rect" id="node3" href="$classinventario_1_1_celda.html#ace81ec8e95ff65fcabd5060440a79d89" title="inventario.Celda.resetLabel" alt="" coords="247,71,424,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#ae4c68a2dc6cc6e54246e4838fa402431" title="mensajeria.PaquetePersonaje.removerItem" alt="" coords="499,71,768,98"/>
+</map>

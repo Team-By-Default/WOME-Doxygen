@@ -1,0 +1,13 @@
+<map id="servidor.Servidor.getPersonajesConectados" name="servidor.Servidor.getPersonajesConectados">
+<area shape="rect" id="node2" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="258,5,506,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="256,56,508,83"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="281,107,483,149"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="262,173,502,200"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="294,224,470,251"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="287,275,477,301"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="269,325,495,352"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="302,376,462,403"/>
+<area shape="rect" id="node10" href="$classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="277,427,487,453"/>
+<area shape="rect" id="node11" href="$classservidor_1_1_conector.html#a22f46862a359fbdf6d1813ff1cdd5096" title="servidor.Conector.actualizar\lInventario" alt="" coords="291,478,473,519"/>
+<area shape="rect" id="node12" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="291,544,473,571"/>
+</map>

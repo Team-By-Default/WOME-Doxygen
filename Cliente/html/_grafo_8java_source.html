@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>WOME Cliente: Fichero Fuente E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/mundo/Grafo.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">WOME Cliente
+   </div>
+   <div id="projectbrief">Logica del WOME, juego del taller de progra avanzada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_grafo_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Grafo.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_grafo_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespacemundo.html">    1</a></span>&#160;<span class="keyword">package </span>mundo;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html">    3</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classmundo_1_1_grafo.html">Grafo</a> {</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> cantidadDeNodos;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> cantidadDeNodosTotal;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">private</span> <a class="code" href="classmundo_1_1_nodo.html">Nodo</a> [] nodos;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#a30ac1a35e40578c9dc8a1bee15f02d07">    9</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classmundo_1_1_grafo.html#a30ac1a35e40578c9dc8a1bee15f02d07">Grafo</a>(<span class="keywordtype">int</span> cantidadDeNodosTotal){</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        cantidadDeNodos = 0;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        nodos = <span class="keyword">new</span> <a class="code" href="classmundo_1_1_nodo.html">Nodo</a>[cantidadDeNodosTotal];</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        this.cantidadDeNodosTotal = cantidadDeNodosTotal;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#a5681bd9e2ce0036166f8a3a6878ecb07">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmundo_1_1_grafo.html#a5681bd9e2ce0036166f8a3a6878ecb07">agregarNodo</a>(<a class="code" href="classmundo_1_1_nodo.html">Nodo</a> nodo){</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        nodos [cantidadDeNodos++] = nodo;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#a2ed1d1484a06eeae9b3c4bdf247bdb8b">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classmundo_1_1_grafo.html#a2ed1d1484a06eeae9b3c4bdf247bdb8b">agregarAdyacentes</a>(<a class="code" href="classmundo_1_1_nodo.html">Nodo</a> nodoUno, <a class="code" href="classmundo_1_1_nodo.html">Nodo</a> nodoDos){</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        nodoUno.<a class="code" href="classmundo_1_1_nodo.html#a198bcd1fabdc56d844cac8a65c6f2c93">agregarAdyacente</a>(nodoDos);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#a7fa6f37285d556d1286ac26bc91a9456">   23</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classmundo_1_1_nodo.html">Nodo</a> [] <a class="code" href="classmundo_1_1_grafo.html#a7fa6f37285d556d1286ac26bc91a9456">obtenerNodos</a>(){</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> nodos;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#ab41b7285f89f04bc98ca18d87caf0dc8">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classmundo_1_1_grafo.html#ab41b7285f89f04bc98ca18d87caf0dc8">obtenerCantidadDeNodos</a>(){</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> cantidadDeNodos;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmundo_1_1_grafo.html#a2878bac26b10d38da98e08badaf9bdb1">   31</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classmundo_1_1_grafo.html#a2878bac26b10d38da98e08badaf9bdb1">obtenerCantidadDeNodosTotal</a>(){</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> cantidadDeNodosTotal;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div><div class="ttc" id="classmundo_1_1_grafo_html_a2ed1d1484a06eeae9b3c4bdf247bdb8b"><div class="ttname"><a href="classmundo_1_1_grafo.html#a2ed1d1484a06eeae9b3c4bdf247bdb8b">mundo.Grafo.agregarAdyacentes</a></div><div class="ttdeci">void agregarAdyacentes(Nodo nodoUno, Nodo nodoDos)</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00019">Grafo.java:19</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html_a7fa6f37285d556d1286ac26bc91a9456"><div class="ttname"><a href="classmundo_1_1_grafo.html#a7fa6f37285d556d1286ac26bc91a9456">mundo.Grafo.obtenerNodos</a></div><div class="ttdeci">Nodo [] obtenerNodos()</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00023">Grafo.java:23</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html_ab41b7285f89f04bc98ca18d87caf0dc8"><div class="ttname"><a href="classmundo_1_1_grafo.html#ab41b7285f89f04bc98ca18d87caf0dc8">mundo.Grafo.obtenerCantidadDeNodos</a></div><div class="ttdeci">int obtenerCantidadDeNodos()</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00027">Grafo.java:27</a></div></div>
+<div class="ttc" id="classmundo_1_1_nodo_html_a198bcd1fabdc56d844cac8a65c6f2c93"><div class="ttname"><a href="classmundo_1_1_nodo.html#a198bcd1fabdc56d844cac8a65c6f2c93">mundo.Nodo.agregarAdyacente</a></div><div class="ttdeci">void agregarAdyacente(Nodo nodo)</div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8java_source.html#l00035">Nodo.java:35</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html_a2878bac26b10d38da98e08badaf9bdb1"><div class="ttname"><a href="classmundo_1_1_grafo.html#a2878bac26b10d38da98e08badaf9bdb1">mundo.Grafo.obtenerCantidadDeNodosTotal</a></div><div class="ttdeci">int obtenerCantidadDeNodosTotal()</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00031">Grafo.java:31</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html"><div class="ttname"><a href="classmundo_1_1_grafo.html">mundo.Grafo</a></div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00003">Grafo.java:3</a></div></div>
+<div class="ttc" id="classmundo_1_1_nodo_html"><div class="ttname"><a href="classmundo_1_1_nodo.html">mundo.Nodo</a></div><div class="ttdef"><b>Definition:</b> <a href="_nodo_8java_source.html#l00003">Nodo.java:3</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html_a5681bd9e2ce0036166f8a3a6878ecb07"><div class="ttname"><a href="classmundo_1_1_grafo.html#a5681bd9e2ce0036166f8a3a6878ecb07">mundo.Grafo.agregarNodo</a></div><div class="ttdeci">void agregarNodo(Nodo nodo)</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00015">Grafo.java:15</a></div></div>
+<div class="ttc" id="classmundo_1_1_grafo_html_a30ac1a35e40578c9dc8a1bee15f02d07"><div class="ttname"><a href="classmundo_1_1_grafo.html#a30ac1a35e40578c9dc8a1bee15f02d07">mundo.Grafo.Grafo</a></div><div class="ttdeci">Grafo(int cantidadDeNodosTotal)</div><div class="ttdef"><b>Definition:</b> <a href="_grafo_8java_source.html#l00009">Grafo.java:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_885cc87fac2d91e269af0a5a959fa5f6.html">E:</a></li><li class="navelem"><a class="el" href="dir_e5830d7b0075642d12d6a9324846f513.html">Programacion avanzada</a></li><li class="navelem"><a class="el" href="dir_0be6c60cfd98eafba7da0c11d9a4c117.html">Mordor</a></li><li class="navelem"><a class="el" href="dir_ef027d0d31d0a5f490a63bbeb53be514.html">jrpg-2017b-cliente</a></li><li class="navelem"><a class="el" href="dir_fd040afab45ab710bf27140329b2c417.html">src</a></li><li class="navelem"><a class="el" href="dir_241ed8b8369a93c98d49073279ec189f.html">main</a></li><li class="navelem"><a class="el" href="dir_c2dcb9711995f64160bbe7eff56b7201.html">java</a></li><li class="navelem"><a class="el" href="dir_cb7b462108ab9b79e842ddd710c8753c.html">mundo</a></li><li class="navelem"><a class="el" href="_grafo_8java.html">Grafo.java</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

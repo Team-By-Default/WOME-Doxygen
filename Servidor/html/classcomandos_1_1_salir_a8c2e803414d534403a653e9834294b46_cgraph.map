@@ -1,0 +1,6 @@
+<map id="comandos.Salir.ejecutar" name="comandos.Salir.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a81e983da1a2b2bd2c44eec5c64ab237f" title="servidor.EscuchaCliente.get\lEntrada" alt="" coords="217,5,400,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="217,71,400,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#a45b07e29db6a7eba2919cb0f9df791aa" title="servidor.EscuchaCliente.get\lSocket" alt="" coords="217,136,400,177"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="216,201,401,243"/>
+</map>

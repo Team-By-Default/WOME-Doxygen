@@ -1,0 +1,5 @@
+<map id="servidor.EscuchaCliente.getPaqueteUsuario" name="servidor.EscuchaCliente.getPaqueteUsuario">
+<area shape="rect" id="node2" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="236,5,461,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="245,56,452,83"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_registro.html#adff5fedb3e8d4f7cd8c5b7464b2107b3" title="comandos.Registro.ejecutar" alt="" coords="257,107,441,133"/>
+</map>

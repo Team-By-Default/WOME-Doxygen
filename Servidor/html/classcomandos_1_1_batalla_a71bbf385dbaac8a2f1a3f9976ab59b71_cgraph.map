@@ -1,0 +1,7 @@
+<map id="comandos.Batalla.ejecutar" name="comandos.Batalla.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#acc97ca35065c4457f0873d363fde9b1e" title="servidor.EscuchaCliente.set\lPaqueteBatalla" alt="" coords="239,5,422,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a42d46eb6f9579267b8645ed8154026b6" title="servidor.EscuchaCliente.get\lPaqueteBatalla" alt="" coords="239,71,422,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="229,136,432,177"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="239,201,422,243"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="238,267,423,308"/>
+</map>

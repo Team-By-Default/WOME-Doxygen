@@ -1,0 +1,9 @@
+<map id="cliente.Cliente.setAccion" name="cliente.Cliente.setAccion">
+<area shape="rect" id="node2" href="$classframes_1_1_menu_carga.html#ab5d81bc6c002c6fff4a95bf48bc6eb75" title="frames.MenuCarga.MenuCarga" alt="" coords="231,5,433,32"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_inicio_sesion.html#ae3dc57f7353f843e827961f29133f202" title="frames.MenuInicioSesion.\lMenuInicioSesion" alt="" coords="247,57,417,98"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_jugar.html#a4c3afc426b531c4d932b365422908ef5" title="frames.MenuJugar.MenuJugar" alt="" coords="235,123,429,149"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_mapas.html#a145190813a03a1c65cb8d1eba9c63c20" title="frames.MenuMapas.MenuMapas" alt="" coords="227,173,437,200"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_registro.html#acca303a7d881c17502ef2268347848d7" title="frames.MenuRegistro.Menu\lRegistro" alt="" coords="241,225,423,266"/>
+<area shape="rect" id="node7" href="$classframes_1_1_menu_registro.html#a4ae8949ab969fe874a5f0394954853c9" title="frames.MenuRegistro.setPassword\lField" alt="" coords="220,290,444,331"/>
+<area shape="rect" id="node8" href="$classjuego_1_1_cargar_recursos.html#a38d931ce32f6130536c77641975faa62" title="juego.CargarRecursos.run" alt="" coords="246,356,418,383"/>
+</map>

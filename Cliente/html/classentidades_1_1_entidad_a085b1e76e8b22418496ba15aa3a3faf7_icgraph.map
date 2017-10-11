@@ -1,0 +1,5 @@
+<map id="entidades.Entidad.getX" name="entidades.Entidad.getX">
+<area shape="rect" id="node2" href="$classjuego_1_1_camara.html#a3da79f144bc137c9a6822dd21373534e" title="juego.Camara.Centrar" alt="" coords="208,5,356,32"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="404,5,591,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="639,5,845,32"/>
+</map>

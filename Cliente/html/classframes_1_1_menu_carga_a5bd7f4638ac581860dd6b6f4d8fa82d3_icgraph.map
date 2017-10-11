@@ -1,0 +1,4 @@
+<map id="frames.MenuCarga.setBarraCargando" name="frames.MenuCarga.setBarraCargando">
+<area shape="rect" id="node2" href="$classrecursos_1_1_recursos.html#a8be3f0a8aae14f714c031474f98f06d7" title="recursos.Recursos.cargar" alt="" coords="237,13,408,39"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_cargar_recursos.html#a38d931ce32f6130536c77641975faa62" title="juego.CargarRecursos.run" alt="" coords="456,13,628,39"/>
+</map>

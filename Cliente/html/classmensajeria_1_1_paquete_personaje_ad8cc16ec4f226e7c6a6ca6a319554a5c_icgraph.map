@@ -1,0 +1,5 @@
+<map id="mensajeria.PaquetePersonaje.getSaludTope" name="mensajeria.PaquetePersonaje.getSaludTope">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="284,5,483,32"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="286,56,481,83"/>
+<area shape="rect" id="node4" href="$classinterfaz_1_1_estado_de_personaje.html#a98a91246d2112f8f56df20db5b191433" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="271,107,496,149"/>
+</map>

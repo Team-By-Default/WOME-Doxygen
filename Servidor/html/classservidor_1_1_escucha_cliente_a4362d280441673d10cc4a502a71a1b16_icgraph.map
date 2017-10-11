@@ -1,0 +1,4 @@
+<map id="servidor.EscuchaCliente.setIdPersonaje" name="servidor.EscuchaCliente.setIdPersonaje">
+<area shape="rect" id="node2" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="236,5,461,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="245,56,452,83"/>
+</map>

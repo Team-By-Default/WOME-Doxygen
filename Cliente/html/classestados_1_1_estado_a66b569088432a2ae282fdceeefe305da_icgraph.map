@@ -1,0 +1,11 @@
+<map id="estados.Estado.esEstadoDeJuego" name="estados.Estado.esEstadoDeJuego">
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="241,107,417,133"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_escape.html#a4e7effeeb9ef2c6609b6bd9102739f5f" title="frames.MenuEscape.MenuEscape" alt="" coords="465,5,687,32"/>
+<area shape="rect" id="node8" href="$classjuego_1_1_pantalla.html#a673116170ff232617ff058b7f94f8a83" title="juego.Pantalla.Pantalla" alt="" coords="499,224,653,251"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="479,158,673,199"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="511,56,641,83"/>
+<area shape="rect" id="node9" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="468,107,684,133"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="737,161,931,188"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="769,56,899,83"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="735,107,933,133"/>
+</map>

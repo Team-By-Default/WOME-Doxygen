@@ -1,0 +1,21 @@
+<map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
+<area shape="rect" id="node1" href="$classcomandos_1_1_atacar.html" title="comandos.Atacar" alt="" coords="5,411,129,437"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="177,411,361,437"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_comercio.html" title="comandos.ActualizarComercio" alt="" coords="419,5,617,32"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_inventario.html" title="comandos.ActualizarInventario" alt="" coords="419,56,617,83"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_personaje.html" title="comandos.ActualizarPersonaje" alt="" coords="417,107,619,133"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_personaje_lvl.html" title="comandos.ActualizarPersonajeLvl" alt="" coords="409,157,627,184"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_actualizar_trueque.html" title="comandos.ActualizarTrueque" alt="" coords="423,208,613,235"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_batalla.html" title="comandos.Batalla" alt="" coords="455,259,581,285"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_comercio.html" title="comandos.Comercio" alt="" coords="447,309,589,336"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_conexion.html" title="comandos.Conexion" alt="" coords="448,360,588,387"/>
+<area shape="rect" id="node11" href="$classcomandos_1_1_crear_personaje.html" title="comandos.CrearPersonaje" alt="" coords="431,411,605,437"/>
+<area shape="rect" id="node12" href="$classcomandos_1_1_finalizar_batalla.html" title="comandos.FinalizarBatalla" alt="" coords="431,461,605,488"/>
+<area shape="rect" id="node13" href="$classcomandos_1_1_inicio_sesion.html" title="comandos.InicioSesion" alt="" coords="440,512,596,539"/>
+<area shape="rect" id="node14" href="$classcomandos_1_1_mostrar_mapas.html" title="comandos.MostrarMapas" alt="" coords="433,563,603,589"/>
+<area shape="rect" id="node15" href="$classcomandos_1_1_movimiento.html" title="comandos.Movimiento" alt="" coords="443,613,593,640"/>
+<area shape="rect" id="node16" href="$classcomandos_1_1_registro.html" title="comandos.Registro" alt="" coords="451,664,585,691"/>
+<area shape="rect" id="node17" href="$classcomandos_1_1_salir.html" title="comandos.Salir" alt="" coords="462,715,574,741"/>
+<area shape="rect" id="node18" href="$classcomandos_1_1_talk.html" title="comandos.Talk" alt="" coords="463,765,573,792"/>
+<area shape="rect" id="node19" href="$classcomandos_1_1_trueque.html" title="comandos.Trueque" alt="" coords="452,816,584,843"/>
+</map>

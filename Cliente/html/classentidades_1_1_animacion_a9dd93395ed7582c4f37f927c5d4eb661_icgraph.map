@@ -1,0 +1,4 @@
+<map id="entidades.Animacion.reset" name="entidades.Animacion.reset">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="229,5,416,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="464,5,671,32"/>
+</map>
