@@ -1,5 +1,0 @@
-<map id="dominio.Alianza.añadirPersonaje" name="dominio.Alianza.añadirPersonaje">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#adbcbe46af494d6ba715d10fd8cd61c85" title="dominio.Personaje.setClan" alt="" coords="278,5,455,32"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a9e5f5c20756bc7444991bf5e1733f8fb" title="dominio.Personaje.crearAlianza" alt="" coords="264,56,469,83"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a1b1e2bc115b59ac22f51cb2d7ee8fe10" title="dominio.Personaje.aliar" alt="" coords="288,107,445,133"/>
-</map>

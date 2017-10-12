@@ -1,7 +1,0 @@
-<map id="dominio.Orco.habilidadRaza2" name="dominio.Orco.habilidadRaza2">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="253,5,448,32"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="265,57,437,98"/>
-<area shape="rect" id="node4" href="$interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc" title="dominio.Peleable.serAtacado" alt="" coords="255,123,446,149"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="244,173,457,200"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a01de08391228cde92fdb5c37c5379176" title="dominio.Personaje.serCurado" alt="" coords="255,224,447,251"/>
-</map>

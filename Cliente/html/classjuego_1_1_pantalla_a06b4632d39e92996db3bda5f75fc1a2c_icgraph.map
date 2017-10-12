@@ -1,9 +1,0 @@
-<map id="juego.Pantalla.centerString" name="juego.Pantalla.centerString">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="530,5,702,47"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="247,64,441,105"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="251,130,437,157"/>
-<area shape="rect" id="node7" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="504,181,728,207"/>
-<area shape="rect" id="node8" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="232,232,456,273"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="776,71,969,98"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="517,130,715,157"/>
-</map>

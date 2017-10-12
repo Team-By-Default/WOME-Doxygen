@@ -1,8 +1,0 @@
-<map id="juego.Camara.Centrar" name="juego.Camara.Centrar">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a085b1e76e8b22418496ba15aa3a3faf7" title="entidades.Entidad.getX" alt="" coords="217,5,371,32"/>
-<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#a1ba6f0f7a004016b01eb14dc3fe2f64a" title="juego.Juego.getAncho" alt="" coords="219,56,369,83"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#afb8bb93f246a547d0c3ba31dd4fae5ed" title="entidades.Entidad.getAncho" alt="" coords="201,107,387,133"/>
-<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#ab05fe5e5aff68ac2d35cc159a6559997" title="entidades.Entidad.getY" alt="" coords="215,157,373,184"/>
-<area shape="rect" id="node6" href="$classjuego_1_1_juego.html#a1829ad6cb4b9ce3f46794ea0c0190987" title="juego.Juego.getAlto" alt="" coords="226,208,362,235"/>
-<area shape="rect" id="node7" href="$classentidades_1_1_entidad.html#a5a063937180bd0fb22febe4d32272332" title="entidades.Entidad.getAlto" alt="" coords="209,259,379,285"/>
-</map>

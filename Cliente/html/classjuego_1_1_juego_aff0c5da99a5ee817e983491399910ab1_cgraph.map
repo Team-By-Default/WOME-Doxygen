@@ -1,7 +1,0 @@
-<map id="juego.Juego.iniciar" name="juego.Juego.iniciar">
-<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#ac19c2a00adfba66c18316f52ef6665f1" title="juego.Pantalla.getCanvas" alt="" coords="187,5,355,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="183,56,359,83"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="184,107,357,133"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado.html#aa6b81bd0ba547c9c6d96549c3dacc2bd" title="estados.Estado.graficar" alt="" coords="191,157,350,184"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="407,49,595,90"/>
-</map>

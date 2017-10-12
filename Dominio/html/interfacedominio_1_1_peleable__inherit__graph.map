@@ -1,7 +1,0 @@
-<map id="dominio.Peleable" name="dominio.Peleable">
-<area shape="rect" id="node2" href="$classdominio_1_1_non_playable_character.html" title="dominio.NonPlayableCharacter" alt="" coords="5,80,205,107"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html" title="dominio.Personaje" alt="" coords="230,80,359,107"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_elfo.html" title="dominio.Elfo" alt="" coords="117,155,211,181"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_humano.html" title="dominio.Humano" alt="" coords="235,155,354,181"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_orco.html" title="dominio.Orco" alt="" coords="379,155,477,181"/>
-</map>

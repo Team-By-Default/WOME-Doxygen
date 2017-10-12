@@ -1,5 +1,0 @@
-<map id="mensajeria.PaqueteComerciar.getItemsADar" name="mensajeria.PaqueteComerciar.getItemsADar">
-<area shape="rect" id="node2" href="$classcomandos_1_1_actualizar_comercio.html#a8f8408076e2076b56510ed0bd0df9787" title="comandos.ActualizarComercio.ejecutar" alt="" coords="272,5,521,32"/>
-<area shape="rect" id="node3" href="$classcomandos_1_1_trueque.html#a32cbaa4536d7b49316e3ffc5ba09a327" title="comandos.Trueque.ejecutar" alt="" coords="305,56,488,83"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_comerciar.html#a6704fe67c67ecfc07421e453645b73d1" title="frames.MenuComerciar.Menu\lComerciar" alt="" coords="301,107,493,149"/>
-</map>

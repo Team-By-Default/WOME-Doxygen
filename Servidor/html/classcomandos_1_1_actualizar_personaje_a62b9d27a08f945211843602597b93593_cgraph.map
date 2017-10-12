@@ -1,8 +1,0 @@
-<map id="comandos.ActualizarPersonaje.ejecutar" name="comandos.ActualizarPersonaje.ejecutar">
-<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6" title="servidor.EscuchaCliente.set\lPaquetePersonaje" alt="" coords="315,5,498,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="311,71,502,98"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="315,123,498,164"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="315,188,498,229"/>
-<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="305,253,508,295"/>
-<area shape="rect" id="node7" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="314,319,499,360"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="dominio.Humano.habilidadRaza2" name="dominio.Humano.habilidadRaza2">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="228,5,423,32"/>
-<area shape="rect" id="node3" href="$interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc" title="dominio.Peleable.serAtacado" alt="" coords="230,56,421,83"/>
-<area shape="rect" id="node4" href="$interfacedominio_1_1_peleable.html#af61a46d30be091cf89b74a0909dceb2a" title="dominio.Peleable.getSalud" alt="" coords="237,107,413,133"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="239,158,411,199"/>
-</map>

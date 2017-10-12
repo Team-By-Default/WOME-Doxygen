@@ -1,6 +1,0 @@
-<map id="servidor.Servidor.getUbicacionPersonajes" name="servidor.Servidor.getUbicacionPersonajes">
-<area shape="rect" id="node2" href="$classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="260,5,451,32"/>
-<area shape="rect" id="node3" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="255,56,456,83"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="248,107,463,133"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="264,157,447,184"/>
-</map>

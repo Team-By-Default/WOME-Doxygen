@@ -1,9 +1,0 @@
-<map id="comandos.Comercio.ejecutar" name="comandos.Comercio.ejecutar">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_comerciar.html#adc14b287f4d835fbf2946980d69204dc" title="mensajeria.PaqueteComerciar.set\lIdEnemigo" alt="" coords="249,5,467,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_comerciar.html#a87a3053e6c5347d35fad2310f48769fd" title="mensajeria.PaqueteComerciar.getId" alt="" coords="244,71,472,98"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_comerciar.html#a4a1622ce8d0b188d97ee9e61df86c20f" title="mensajeria.PaqueteComerciar.setId" alt="" coords="244,122,472,149"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_comerciar.html#afdaed9b8a067c4c2598fcb94d9e6d6bd" title="mensajeria.PaqueteComerciar.is\lSolicitudDeComercio" alt="" coords="253,173,463,215"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete.html#a1756d9752346d17f68386839b1e83b1e" title="mensajeria.Paquete.setMensaje" alt="" coords="254,239,462,266"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_comerciar.html#a40fdbeb88e14636b63d8bfd256990816" title="mensajeria.PaqueteComerciar.set\lSolicitudDeComercio" alt="" coords="249,291,467,332"/>
-<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a" title="mensajeria.Paquete.getMensaje" alt="" coords="254,357,462,383"/>
-</map>

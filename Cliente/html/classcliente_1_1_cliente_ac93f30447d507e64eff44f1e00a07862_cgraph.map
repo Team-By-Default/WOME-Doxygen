@@ -1,5 +1,0 @@
-<map id="cliente.Cliente.actualizarItems" name="cliente.Cliente.actualizarItems">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="238,5,455,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a0e95c0b233eebe3106025a2963d0faba" title="mensajeria.PaquetePersonaje.anadirItem" alt="" coords="217,71,476,98"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#aa4f5e7e7552628aef71168f7df3828ab" title="mensajeria.PaquetePersonaje.get\lItems" alt="" coords="238,123,455,164"/>
-</map>

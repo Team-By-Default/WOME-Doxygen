@@ -1,5 +1,0 @@
-<map id="comandos.ActualizarInventario" name="comandos.ActualizarInventario">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="13,171,197,197"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html" title="servidor.EscuchaCliente" alt="" coords="121,81,283,108"/>
-<area shape="rect" id="node5" href="$class_thread.html" title="Thread" alt="" coords="171,5,233,32"/>
-</map>

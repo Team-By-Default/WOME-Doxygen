@@ -1,6 +1,0 @@
-<map id="dominio.Guerrero.habilidad2" name="dominio.Guerrero.habilidad2">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="243,5,438,32"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="255,57,427,98"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="236,122,445,163"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a6de6f7c5ce7c54adbded2eaeeb42127b" title="dominio.Personaje.getMagia" alt="" coords="247,188,434,215"/>
-</map>

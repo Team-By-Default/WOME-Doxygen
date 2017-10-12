@@ -1,8 +1,0 @@
-<map id="mensajeria.PaquetePersonaje.getRaza" name="mensajeria.PaquetePersonaje.getRaza">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="313,5,511,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="316,57,508,98"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="315,123,509,149"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="572,203,796,229"/>
-<area shape="rect" id="node7" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="300,225,524,266"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="844,203,1037,229"/>
-</map>

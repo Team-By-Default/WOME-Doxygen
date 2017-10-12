@@ -1,9 +1,0 @@
-<map id="mensajeria.PaquetePersonaje.getNivel" name="mensajeria.PaquetePersonaje.getNivel">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="284,5,483,32"/>
-<area shape="rect" id="node3" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="295,57,472,98"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="286,123,481,149"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_estado_de_personaje.html#a98a91246d2112f8f56df20db5b191433" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="271,174,496,215"/>
-<area shape="rect" id="node6" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="544,269,768,296"/>
-<area shape="rect" id="node8" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="271,291,495,333"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="816,269,1009,296"/>
-</map>

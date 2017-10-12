@@ -1,5 +1,0 @@
-<map id="entidades.Entidad.getAncho" name="entidades.Entidad.getAncho">
-<area shape="rect" id="node2" href="$classjuego_1_1_camara.html#a3da79f144bc137c9a6822dd21373534e" title="juego.Camara.Centrar" alt="" coords="239,5,387,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="435,5,621,32"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="669,5,876,32"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="estados.Estado.setEstado" name="estados.Estado.setEstado">
-<area shape="rect" id="node2" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="254,5,430,32"/>
-<area shape="rect" id="node3" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="229,56,455,83"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="235,107,449,133"/>
-<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#ae3ec6c4178d0bd067b160b548d0d8ef3" title="juego.Juego.start" alt="" coords="281,157,403,184"/>
-<area shape="rect" id="node6" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="503,157,629,184"/>
-</map>

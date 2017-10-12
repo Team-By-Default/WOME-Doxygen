@@ -1,6 +1,0 @@
-<map id="frames.MenuRegistro.setPasswordField" name="frames.MenuRegistro.setPasswordField">
-<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#af4b53dce9409e07492676dcb38ca7199" title="cliente.Cliente.getPaquete\lUsuario" alt="" coords="291,5,466,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a" title="mensajeria.PaqueteUsuario.set\lUsername" alt="" coords="277,71,480,112"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b" title="mensajeria.PaqueteUsuario.set\lPassword" alt="" coords="277,136,480,177"/>
-<area shape="rect" id="node5" href="$classcliente_1_1_cliente.html#a9c1ead5cb28a360e32797c28d83d2f91" title="cliente.Cliente.setAccion" alt="" coords="295,202,462,229"/>
-</map>

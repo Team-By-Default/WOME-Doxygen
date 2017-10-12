@@ -1,5 +1,0 @@
-<map id="juego.Juego.getUbicacionPersonajes" name="juego.Juego.getUbicacionPersonajes">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="224,13,417,39"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="465,13,652,39"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="700,13,907,39"/>
-</map>

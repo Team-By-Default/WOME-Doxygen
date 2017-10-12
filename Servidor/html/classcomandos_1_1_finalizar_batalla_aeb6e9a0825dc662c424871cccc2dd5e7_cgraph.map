@@ -1,8 +1,0 @@
-<map id="comandos.FinalizarBatalla.ejecutar" name="comandos.FinalizarBatalla.ejecutar">
-<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a9ded6352d3eb37ae5724e54560ca4fd3" title="servidor.EscuchaCliente.set\lPaqueteFinalizarBatalla" alt="" coords="289,5,471,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="285,71,475,98"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="289,123,471,164"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="279,188,481,229"/>
-<area shape="rect" id="node6" href="$classservidor_1_1_escucha_cliente.html#aaf432d8a88a363d3ac247f84127ea228" title="servidor.EscuchaCliente.get\lPaqueteFinalizarBatalla" alt="" coords="289,253,471,295"/>
-<area shape="rect" id="node7" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="287,319,473,360"/>
-</map>

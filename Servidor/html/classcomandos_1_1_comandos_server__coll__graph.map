@@ -1,4 +1,0 @@
-<map id="comandos.ComandosServer" name="comandos.ComandosServer">
-<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html" title="servidor.EscuchaCliente" alt="" coords="114,81,275,108"/>
-<area shape="rect" id="node4" href="$class_thread.html" title="Thread" alt="" coords="164,5,225,32"/>
-</map>

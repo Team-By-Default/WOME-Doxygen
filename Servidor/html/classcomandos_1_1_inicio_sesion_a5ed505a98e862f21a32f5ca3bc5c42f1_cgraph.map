@@ -1,9 +1,0 @@
-<map id="comandos.InicioSesion.ejecutar" name="comandos.InicioSesion.ejecutar">
-<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a762e62a6df152c4990ed2ea742a9562f" title="servidor.EscuchaCliente.set\lPaqueteUsuario" alt="" coords="270,5,453,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="266,71,457,98"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#a48c421217783f9052f42fb4ad6874c05" title="servidor.Conector.loguear\lUsuario" alt="" coords="277,123,445,164"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_escucha_cliente.html#adf3ce49fa8e1f9ece4df0cb02b66d854" title="servidor.EscuchaCliente.get\lPaqueteUsuario" alt="" coords="270,188,453,229"/>
-<area shape="rect" id="node6" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="260,254,463,281"/>
-<area shape="rect" id="node7" href="$classservidor_1_1_escucha_cliente.html#a4362d280441673d10cc4a502a71a1b16" title="servidor.EscuchaCliente.set\lIdPersonaje" alt="" coords="270,305,453,347"/>
-<area shape="rect" id="node8" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="270,371,453,412"/>
-</map>

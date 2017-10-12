@@ -1,5 +1,0 @@
-<map id="comandos.ActualizarPersonaje" name="comandos.ActualizarPersonaje">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="15,171,199,197"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html" title="servidor.EscuchaCliente" alt="" coords="123,81,285,108"/>
-<area shape="rect" id="node5" href="$class_thread.html" title="Thread" alt="" coords="173,5,235,32"/>
-</map>

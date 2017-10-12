@@ -1,9 +1,0 @@
-<map id="interfaz.MenuInfoPersonaje.graficar" name="interfaz.MenuInfoPersonaje.graficar">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#a6bc0c44dbbeff613de5ea190af2d3fe9" title="mensajeria.PaquetePersonaje.getRaza" alt="" coords="549,5,796,32"/>
-<area shape="rect" id="node3" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="583,56,762,83"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="281,225,498,266"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="277,107,501,149"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a90e42f4407f11c6910e96028e4832bdf" title="mensajeria.PaquetePersonaje.get\lNivel" alt="" coords="564,238,781,279"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#ade7dcf71f3f6e9c8e692490d37aea944" title="mensajeria.PaquetePersonaje.get\lCasta" alt="" coords="564,173,781,214"/>
-<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#abe106124989ce91362e4b73c0f0876fe" title="mensajeria.PaquetePersonaje.get\lExperiencia" alt="" coords="564,107,781,149"/>
-</map>

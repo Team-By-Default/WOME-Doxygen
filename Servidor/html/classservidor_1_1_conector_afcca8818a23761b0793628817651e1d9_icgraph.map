@@ -1,5 +1,0 @@
-<map id="servidor.Conector.actualizarInventario" name="servidor.Conector.actualizarInventario">
-<area shape="rect" id="node2" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="236,5,484,32"/>
-<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="240,56,480,83"/>
-<area shape="rect" id="node4" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="247,107,473,133"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="dominio.MadreDeTodo.getRandom" name="dominio.MadreDeTodo.getRandom">
-<area shape="rect" id="node2" href="$classdominio_1_1_non_playable_character.html#a3832cae8ce151a029f81c862f1955e03" title="dominio.NonPlayableCharacter.\lNonPlayableCharacter" alt="" coords="293,5,497,47"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_non_playable_character.html#aa20249c341133705a21aa02976820567" title="dominio.NonPlayableCharacter.atacar" alt="" coords="275,71,515,98"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_non_playable_character.html#af8576a8ba27f2f1af244d2ebb296dc75" title="dominio.NonPlayableCharacter.ser\lAtacado" alt="" coords="283,123,506,164"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a9416b94498fb657093541e4588610608" title="dominio.Personaje.atacar" alt="" coords="310,189,479,215"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a33e279d64a50e79c98f01fcf53cc60e9" title="dominio.Personaje.serAtacado" alt="" coords="295,239,494,266"/>
-<area shape="rect" id="node7" href="$classdominio_1_1_guerrero.html#a28d33790715e18dcbe8b497155f16a13" title="dominio.Guerrero.habilidad3" alt="" coords="563,239,745,266"/>
-</map>

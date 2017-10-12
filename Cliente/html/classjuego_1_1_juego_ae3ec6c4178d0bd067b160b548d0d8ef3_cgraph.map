@@ -1,4 +1,0 @@
-<map id="juego.Juego.start" name="juego.Juego.start">
-<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a04c9c0a867d3cf7f943e5a97747dd9a4" title="estados.Estado.setEstado" alt="" coords="175,5,351,32"/>
-<area shape="rect" id="node3" href="$classjuego_1_1_pantalla.html#a2ba5f8945cc758dd03d79c14328e368a" title="juego.Pantalla.mostrar" alt="" coords="187,56,339,83"/>
-</map>

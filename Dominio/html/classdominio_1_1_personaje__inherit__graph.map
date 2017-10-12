@@ -1,7 +1,0 @@
-<map id="dominio.Personaje" name="dominio.Personaje">
-<area shape="rect" id="node5" href="$classdominio_1_1_elfo.html" title="dominio.Elfo" alt="" coords="63,155,157,181"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_humano.html" title="dominio.Humano" alt="" coords="181,155,300,181"/>
-<area shape="rect" id="node7" href="$classdominio_1_1_orco.html" title="dominio.Orco" alt="" coords="325,155,423,181"/>
-<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node3" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="180,5,301,32"/>
-</map>

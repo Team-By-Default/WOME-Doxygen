@@ -1,6 +1,0 @@
-<map id="mensajeria.PaquetePersonaje.useBonus" name="mensajeria.PaquetePersonaje.useBonus">
-<area shape="rect" id="node2" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="314,5,491,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a7dbe59c32d0382a15a02371f4f941dda" title="mensajeria.PaquetePersonaje.anadirItem" alt="" coords="273,71,532,98"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a5c42a7b37310c06d67226e1a7560af9f" title="mensajeria.PaquetePersonaje.poner\lBonus" alt="" coords="287,123,518,164"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a537ec411af26e5a56c70b0a57c02dd58" title="mensajeria.PaquetePersonaje.poner\lUltimoItem" alt="" coords="287,188,518,229"/>
-</map>

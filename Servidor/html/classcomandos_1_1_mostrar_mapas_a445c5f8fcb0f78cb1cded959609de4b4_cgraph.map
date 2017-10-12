@@ -1,5 +1,0 @@
-<map id="comandos.MostrarMapas.ejecutar" name="comandos.MostrarMapas.ejecutar">
-<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6" title="servidor.EscuchaCliente.set\lPaquetePersonaje" alt="" coords="272,5,455,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a45b07e29db6a7eba2919cb0f9df791aa" title="servidor.EscuchaCliente.get\lSocket" alt="" coords="272,71,455,112"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="272,136,455,177"/>
-</map>

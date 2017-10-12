@@ -1,6 +1,0 @@
-<map id="comandos.Trueque.ejecutar" name="comandos.Trueque.ejecutar">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_comerciar.html#a87a3053e6c5347d35fad2310f48769fd" title="mensajeria.PaqueteComerciar.getId" alt="" coords="236,5,464,32"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_comerciar.html#a1b21be5c27fe05ec0603c0f3e4a72aa3" title="mensajeria.PaqueteComerciar.get\lItemsADar" alt="" coords="241,57,459,98"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_comerciar.html#aef2a3a0cd1d749e6d4e75956d5e7113b" title="mensajeria.PaqueteComerciar.get\lIdEnemigo" alt="" coords="241,122,459,163"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="243,188,457,215"/>
-</map>

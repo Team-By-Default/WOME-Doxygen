@@ -1,5 +1,0 @@
-<map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
-<area shape="rect" id="node1" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="5,31,119,57"/>
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html" title="estados.EstadoBatalla" alt="" coords="167,5,320,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html" title="estados.EstadoJuego" alt="" coords="170,56,317,83"/>
-</map>

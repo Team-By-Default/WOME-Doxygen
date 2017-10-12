@@ -1,5 +1,0 @@
-<map id="estados.EstadoJuego.getTipoSolicitud" name="estados.EstadoJuego.getTipoSolicitud">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="247,13,440,39"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="488,13,675,39"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="723,13,929,39"/>
-</map>

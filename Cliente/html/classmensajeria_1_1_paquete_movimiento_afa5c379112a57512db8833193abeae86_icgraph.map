@@ -1,6 +1,0 @@
-<map id="mensajeria.PaqueteMovimiento.setDireccion" name="mensajeria.PaqueteMovimiento.setDireccion">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#abd9cd5d7c7a597d0041c096cc23b78b4" title="entidades.Entidad.Entidad" alt="" coords="277,5,452,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="279,57,451,98"/>
-<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="300,123,429,149"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="500,64,693,91"/>
-</map>

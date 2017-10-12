@@ -1,5 +1,0 @@
-<map id="servidor.Servidor" name="servidor.Servidor">
-<area shape="rect" id="node2" href="$class_thread.html" title="Thread" alt="" coords="87,5,149,32"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_atencion_conexiones.html" title="servidor.AtencionConexiones" alt="" coords="23,81,213,108"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_atencion_movimientos.html" title="servidor.AtencionMovimientos" alt="" coords="237,81,431,108"/>
-</map>

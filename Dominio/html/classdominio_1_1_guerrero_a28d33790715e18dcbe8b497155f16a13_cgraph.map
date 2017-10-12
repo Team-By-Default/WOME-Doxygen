@@ -1,9 +1,0 @@
-<map id="dominio.Guerrero.habilidad3" name="dominio.Guerrero.habilidad3">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="238,5,433,32"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="249,57,421,98"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a33e279d64a50e79c98f01fcf53cc60e9" title="dominio.Personaje.serAtacado" alt="" coords="236,123,435,149"/>
-<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#ac7ccacb3cf4cc9122780d6d0c1814fab" title="dominio.Personaje.getAtaque" alt="" coords="239,173,431,200"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="483,72,704,99"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#add459c0f13cbad7268d04a96242a264a" title="dominio.Personaje.getCasta" alt="" coords="501,123,686,149"/>
-<area shape="rect" id="node7" href="$classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8" title="dominio.MadreDeTodo.getDefensa" alt="" coords="483,173,703,200"/>
-</map>

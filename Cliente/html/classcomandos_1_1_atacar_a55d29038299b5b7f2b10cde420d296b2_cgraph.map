@@ -1,4 +1,0 @@
-<map id="comandos.Atacar.ejecutar" name="comandos.Atacar.ejecutar">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_atacar.html#a58905c7c57077f081ea8ffa17ac5dae0" title="mensajeria.PaqueteAtacar.get\lMapPersonaje" alt="" coords="228,5,425,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_atacar.html#af7e000148aaaad7cabdae40d7c185d28" title="mensajeria.PaqueteAtacar.get\lMapEnemigo" alt="" coords="228,71,425,112"/>
-</map>

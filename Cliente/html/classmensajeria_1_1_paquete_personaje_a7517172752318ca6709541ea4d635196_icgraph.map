@@ -1,5 +1,0 @@
-<map id="mensajeria.PaquetePersonaje.removerBonus" name="mensajeria.PaquetePersonaje.removerBonus">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="297,5,488,47"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="304,71,481,112"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="536,13,749,39"/>
-</map>

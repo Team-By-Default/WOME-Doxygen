@@ -1,6 +1,0 @@
-<map id="mensajeria.PaqueteComerciar.setIdEnemigo" name="mensajeria.PaqueteComerciar.setIdEnemigo">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comercio.html#a8ee004d25d5ec856613b42bdc65c40ca" title="comandos.Comercio.ejecutar" alt="" coords="273,5,464,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="272,56,465,83"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="513,56,700,83"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="748,56,955,83"/>
-</map>

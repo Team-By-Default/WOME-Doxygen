@@ -1,6 +1,0 @@
-<map id="servidor.EscuchaCliente.run" name="servidor.EscuchaCliente.run">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html#a62d91553b7cffa9c7afc1fc2fd206a74" title="comandos.ComandosServer.set\lEscuchaCliente" alt="" coords="236,5,443,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="238,71,441,112"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_servidor.html#a9161fbc0c0ed1fd63dd8a4242fec3616" title="servidor.Servidor.getUbicacion\lPersonajes" alt="" coords="242,136,437,177"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="247,201,432,243"/>
-</map>

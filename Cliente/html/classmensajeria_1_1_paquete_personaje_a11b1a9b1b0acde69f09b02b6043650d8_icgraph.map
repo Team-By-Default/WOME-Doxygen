@@ -1,5 +1,0 @@
-<map id="mensajeria.PaquetePersonaje.getInteligencia" name="mensajeria.PaquetePersonaje.getInteligencia">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="271,5,469,32"/>
-<area shape="rect" id="node3" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="281,57,459,98"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="273,123,467,149"/>
-</map>
