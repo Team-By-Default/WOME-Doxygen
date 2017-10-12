@@ -1,0 +1,12 @@
+<map id="dominio.Peleable.serAtacado" name="dominio.Peleable.serAtacado">
+<area shape="rect" id="node2" href="$classdominio_1_1_asesino.html#a58505b24eb19d6cdfa2b004d1d609409" title="dominio.Asesino.habilidad1" alt="" coords="274,5,454,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="271,56,457,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_elfo.html#aa63002415c7b7b3b6c75bd06bb5637b2" title="dominio.Elfo.habilidadRaza2" alt="" coords="271,107,457,133"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_guerrero.html#a0e592f5d904a46786968166ec7fa7c40" title="dominio.Guerrero.habilidad1" alt="" coords="273,157,455,184"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_hechicero.html#a70c39f0c45af6a349a73facc79f81a67" title="dominio.Hechicero.habilidad1" alt="" coords="269,208,459,235"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_humano.html#a4464fcd3adfcf884ae720d9b66cc21a6" title="dominio.Humano.habilidad\lRaza2" alt="" coords="277,259,451,301"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_non_playable_character.html#aa20249c341133705a21aa02976820567" title="dominio.NonPlayableCharacter.atacar" alt="" coords="244,325,484,352"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_orco.html#af1958ca87af04640b618643b6f3ff430" title="dominio.Orco.habilidadRaza1" alt="" coords="269,376,459,403"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_orco.html#ae19b0ca82efc943a984e0f8890db2949" title="dominio.Orco.habilidadRaza2" alt="" coords="269,427,459,453"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a9416b94498fb657093541e4588610608" title="dominio.Personaje.atacar" alt="" coords="279,477,449,504"/>
+</map>

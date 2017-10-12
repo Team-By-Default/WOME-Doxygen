@@ -1,0 +1,5 @@
+<map id="frames.MenuInventario.MenuInventario" name="frames.MenuInventario.MenuInventario">
+<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="260,5,435,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="240,71,455,98"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="266,122,429,149"/>
+</map>

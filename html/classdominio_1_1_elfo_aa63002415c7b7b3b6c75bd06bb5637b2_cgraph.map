@@ -1,0 +1,5 @@
+<map id="dominio.Elfo.habilidadRaza2" name="dominio.Elfo.habilidadRaza2">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="239,5,433,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="250,57,422,98"/>
+<area shape="rect" id="node4" href="$interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc" title="dominio.Peleable.serAtacado" alt="" coords="241,123,431,149"/>
+</map>

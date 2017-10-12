@@ -1,0 +1,9 @@
+<map id="dominio.Personaje.AsignarPuntosSkills" name="dominio.Personaje.AsignarPuntosSkills">
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="747,10,960,37"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="231,32,440,73"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="243,97,428,139"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="503,32,682,73"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="488,97,697,139"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#aae105c199c14172f5d80fa8886d0712f" title="dominio.Personaje.calcular\lPuntosDeMagia" alt="" coords="503,163,682,204"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="745,170,961,197"/>
+</map>

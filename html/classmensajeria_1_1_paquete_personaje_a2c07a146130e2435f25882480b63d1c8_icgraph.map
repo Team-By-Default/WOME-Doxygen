@@ -1,0 +1,7 @@
+<map id="mensajeria.PaquetePersonaje.setExperiencia" name="mensajeria.PaquetePersonaje.setExperiencia">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="277,5,467,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="271,71,473,98"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="527,13,741,39"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="521,67,747,94"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="531,118,737,145"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="servidor.Conector.getUsuario" name="servidor.Conector.getUsuario">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a" title="mensajeria.PaqueteUsuario.set\lUsername" alt="" coords="253,5,455,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b" title="mensajeria.PaqueteUsuario.set\lPassword" alt="" coords="253,71,455,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74" title="mensajeria.PaqueteUsuario.setIdPj" alt="" coords="241,137,467,163"/>
+</map>

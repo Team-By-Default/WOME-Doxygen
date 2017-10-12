@@ -1,0 +1,9 @@
+<map id="comandos.Talk.ejecutar" name="comandos.Talk.ejecutar">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431" title="mensajeria.PaqueteMensaje.get\lUserReceptor" alt="" coords="476,7,684,48"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39" title="servidor.Servidor.mensaje\lAUsuario" alt="" coords="236,52,405,94"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_mensaje.html#abdd407bf28c9b5c490758aa861271b2e" title="mensajeria.PaqueteMensaje.get\lUserEmisor" alt="" coords="476,86,684,127"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="213,169,428,196"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="219,220,422,262"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="228,286,413,327"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_servidor.html#ac88572870d8806b14d570b768bdb7d09" title="servidor.Servidor.mensajeAAll" alt="" coords="224,352,417,378"/>
+</map>

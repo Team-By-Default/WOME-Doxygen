@@ -1,0 +1,6 @@
+<map id="mensajeria.PaquetePersonaje.getItemID" name="mensajeria.PaquetePersonaje.getItemID">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="271,49,453,90"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="501,5,749,32"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="505,56,745,83"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="513,107,738,133"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="mundo.Mundo.graficarObstaculos" name="mundo.Mundo.graficarObstaculos">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="269,5,468,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="272,56,465,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="dominio.NonPlayableCharacter.atacar" name="dominio.NonPlayableCharacter.atacar">
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="294,5,515,32"/>
+<area shape="rect" id="node3" href="$interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc" title="dominio.Peleable.serAtacado" alt="" coords="309,56,500,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e" title="dominio.NonPlayableCharacter.get\lAtaque" alt="" coords="293,107,516,149"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="564,115,777,141"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="comandos.ActualizarPersonaje.ejecutar" name="comandos.ActualizarPersonaje.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6" title="servidor.EscuchaCliente.set\lPaquetePersonaje" alt="" coords="315,247,498,288"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="311,313,502,339"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="315,364,498,405"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="572,646,799,673"/>
+<area shape="rect" id="node16" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="315,481,498,523"/>
+<area shape="rect" id="node17" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="305,547,508,588"/>
+<area shape="rect" id="node18" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="314,612,499,653"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a3c8d5553e8eaa88c48239c505efafd3b" title="mensajeria.PaquetePersonaje.get\lFuerza" alt="" coords="577,5,794,47"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#ab4aead6b36e0c832de472f93a520b738" title="mensajeria.PaquetePersonaje.get\lDestreza" alt="" coords="577,71,794,112"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a11b1a9b1b0acde69f09b02b6043650d8" title="mensajeria.PaquetePersonaje.get\lInteligencia" alt="" coords="577,136,794,177"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#ad8cc16ec4f226e7c6a6ca6a319554a5c" title="mensajeria.PaquetePersonaje.get\lSaludTope" alt="" coords="577,201,794,243"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#a0c4c5225ca18aff265b4e4b342241ae4" title="mensajeria.PaquetePersonaje.get\lEnergiaTope" alt="" coords="577,267,794,308"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#abe106124989ce91362e4b73c0f0876fe" title="mensajeria.PaquetePersonaje.get\lExperiencia" alt="" coords="577,332,794,373"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_personaje.html#a90e42f4407f11c6910e96028e4832bdf" title="mensajeria.PaquetePersonaje.get\lNivel" alt="" coords="577,397,794,439"/>
+<area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_personaje.html#aff65385a04e5d1ecd0f041b156606df1" title="mensajeria.PaquetePersonaje.eliminar\lItems" alt="" coords="563,463,807,504"/>
+<area shape="rect" id="node14" href="$classmensajeria_1_1_paquete_personaje.html#a0e95c0b233eebe3106025a2963d0faba" title="mensajeria.PaquetePersonaje.anadirItem" alt="" coords="556,529,815,555"/>
+<area shape="rect" id="node15" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="577,580,794,621"/>
+</map>

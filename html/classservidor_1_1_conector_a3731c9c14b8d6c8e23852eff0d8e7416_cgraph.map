@@ -1,0 +1,11 @@
+<map id="servidor.Conector.actualizarPersonajeSubioNivel" name="servidor.Conector.actualizarPersonajeSubioNivel">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#a3c8d5553e8eaa88c48239c505efafd3b" title="mensajeria.PaquetePersonaje.get\lFuerza" alt="" coords="241,5,458,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#ab4aead6b36e0c832de472f93a520b738" title="mensajeria.PaquetePersonaje.get\lDestreza" alt="" coords="241,71,458,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a11b1a9b1b0acde69f09b02b6043650d8" title="mensajeria.PaquetePersonaje.get\lInteligencia" alt="" coords="241,136,458,177"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#ad8cc16ec4f226e7c6a6ca6a319554a5c" title="mensajeria.PaquetePersonaje.get\lSaludTope" alt="" coords="241,201,458,243"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a0c4c5225ca18aff265b4e4b342241ae4" title="mensajeria.PaquetePersonaje.get\lEnergiaTope" alt="" coords="241,267,458,308"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#abe106124989ce91362e4b73c0f0876fe" title="mensajeria.PaquetePersonaje.get\lExperiencia" alt="" coords="241,332,458,373"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a90e42f4407f11c6910e96028e4832bdf" title="mensajeria.PaquetePersonaje.get\lNivel" alt="" coords="241,397,458,439"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="236,463,463,490"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="241,515,458,556"/>
+</map>

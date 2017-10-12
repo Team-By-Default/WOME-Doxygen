@@ -1,0 +1,5 @@
+<map id="entidades.NodoDePila.establecerSiguiente" name="entidades.NodoDePila.establecerSiguiente">
+<area shape="rect" id="node2" href="$classentidades_1_1_pila_de_tiles.html#abdb17551b7d84f498570707cb4ac858c" title="entidades.PilaDeTiles.push" alt="" coords="268,13,447,39"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="495,5,667,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="715,13,908,39"/>
+</map>

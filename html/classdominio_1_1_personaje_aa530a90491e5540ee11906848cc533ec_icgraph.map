@@ -1,0 +1,13 @@
+<map id="dominio.Personaje.getTablaDeNiveles" name="dominio.Personaje.getTablaDeNiveles">
+<area shape="rect" id="node2" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="236,34,461,75"/>
+<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="237,99,461,141"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#a98c8ee00b897c6015dbc3aa89086623e" title="dominio.Personaje.cargar\lTablaNivel" alt="" coords="264,165,433,206"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="255,231,443,257"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="509,256,743,283"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="527,5,725,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="801,81,994,108"/>
+<area shape="rect" id="node6" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="514,107,738,133"/>
+<area shape="rect" id="node8" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="561,172,691,199"/>
+<area shape="rect" id="node9" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="833,172,962,199"/>
+<area shape="rect" id="node12" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="791,256,1004,283"/>
+</map>

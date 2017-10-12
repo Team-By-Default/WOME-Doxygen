@@ -1,0 +1,12 @@
+<map id="comandos.Batalla.ejecutar" name="comandos.Batalla.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#acc97ca35065c4457f0873d363fde9b1e" title="servidor.EscuchaCliente.set\lPaqueteBatalla" alt="" coords="243,5,425,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a42d46eb6f9579267b8645ed8154026b6" title="servidor.EscuchaCliente.get\lPaqueteBatalla" alt="" coords="243,71,425,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_batalla.html#a5e60822f13b858415083f376fa1abf11" title="mensajeria.PaqueteBatalla.getId" alt="" coords="229,137,439,163"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_batalla.html#a6edc8ac83316ee287b085718c3fbfc42" title="mensajeria.PaqueteBatalla.get\lIdEnemigo" alt="" coords="235,188,433,229"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="233,253,435,295"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_batalla.html#a8d7a755014336b139eadd8856c529373" title="mensajeria.PaqueteBatalla.set\lMiTurno" alt="" coords="235,319,433,360"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="243,384,425,425"/>
+<area shape="rect" id="node9" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="241,449,427,491"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_batalla.html#adeeb313c265b07c0c64dc744661f21c0" title="mensajeria.PaqueteBatalla.setId" alt="" coords="229,515,439,542"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_batalla.html#a4520301cafe7617b88c1fc834f0f876c" title="mensajeria.PaqueteBatalla.set\lIdEnemigo" alt="" coords="235,567,433,608"/>
+</map>

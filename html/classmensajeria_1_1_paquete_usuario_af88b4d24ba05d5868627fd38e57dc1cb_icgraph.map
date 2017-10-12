@@ -1,0 +1,8 @@
+<map id="mensajeria.PaqueteUsuario.getPassword" name="mensajeria.PaqueteUsuario.getPassword">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a1c56fd32fc557481849fed90a799e4d5" title="servidor.Conector.registrar\lUsuario" alt="" coords="256,5,429,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb" title="servidor.Conector.registrar\lPersonaje" alt="" coords="256,71,429,112"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_conector.html#a48c421217783f9052f42fb4ad6874c05" title="servidor.Conector.loguear\lUsuario" alt="" coords="259,136,427,177"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_registro.html#adff5fedb3e8d4f7cd8c5b7464b2107b3" title="comandos.Registro.ejecutar" alt="" coords="498,13,682,39"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="477,78,703,105"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="487,143,693,170"/>
+</map>

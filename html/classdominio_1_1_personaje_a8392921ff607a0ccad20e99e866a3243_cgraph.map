@@ -1,0 +1,10 @@
+<map id="dominio.Personaje.habilidadCasta3" name="dominio.Personaje.habilidadCasta3">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#add459c0f13cbad7268d04a96242a264a" title="dominio.Personaje.getCasta" alt="" coords="269,5,454,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_casta.html#af5108bb8a80702a620ff27deb596ad9b" title="dominio.Casta.habilidad3" alt="" coords="278,56,445,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a1004e54a093c5a4606523a011f8de061" title="dominio.Personaje.habilidad\lRaza1" alt="" coords="269,107,453,149"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#aba448490777d4c950c135d475bac2513" title="dominio.Personaje.habilidad\lRaza2" alt="" coords="269,173,453,214"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#aea6136907a5219ea9d80e6600b24b449" title="dominio.Personaje.getHabilidadesRaza" alt="" coords="237,239,485,265"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#a334d7b9abaabac2ca4be4e0ef8ea078e" title="dominio.Personaje.getSalud\lBonus" alt="" coords="269,290,453,331"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#ae01c454eff94935aa59cb9297a9ca27a" title="dominio.Personaje.getEnergia\lBonus" alt="" coords="264,355,459,397"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a9b4cdca001a7b0890d6e0d1c0de113fc" title="dominio.Personaje.getNombreRaza" alt="" coords="248,421,475,448"/>
+</map>

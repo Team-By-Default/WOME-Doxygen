@@ -1,0 +1,5 @@
+<map id="entidades.Entidad.graficar" name="entidades.Entidad.graficar">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#a60522dfa201e9112b67ebe3b2d5644d1" title="juego.Juego.getCamara" alt="" coords="229,5,387,32"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_camara.html#a79f81e953da2df2de1fdb106361840c3" title="juego.Camara.getxOffset" alt="" coords="225,56,391,83"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_camara.html#a2da1fac91b73364105be3b326c9182cf" title="juego.Camara.getyOffset" alt="" coords="225,107,391,133"/>
+</map>

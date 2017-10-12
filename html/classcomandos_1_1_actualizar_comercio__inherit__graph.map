@@ -1,0 +1,5 @@
+<map id="comandos.ActualizarComercio" name="comandos.ActualizarComercio">
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="133,5,277,32"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_comandos_escucha.html" title="comandos.ComandosEscucha" alt="" coords="214,80,413,107"/>
+</map>

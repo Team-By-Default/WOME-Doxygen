@@ -1,0 +1,5 @@
+<map id="mensajeria.PaqueteMovimiento.getDireccion" name="mensajeria.PaqueteMovimiento.getDireccion">
+<area shape="rect" id="node2" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="277,5,479,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="281,57,475,98"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="527,64,720,91"/>
+</map>

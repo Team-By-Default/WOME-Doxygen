@@ -1,0 +1,5 @@
+<map id="servidor.Conector.actualizarInventario" name="servidor.Conector.actualizarInventario">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="241,5,458,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="241,71,458,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="236,137,463,163"/>
+</map>

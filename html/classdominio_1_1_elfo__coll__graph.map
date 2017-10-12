@@ -1,0 +1,5 @@
+<map id="dominio.Elfo" name="dominio.Elfo">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html" title="dominio.Personaje" alt="" coords="251,171,380,197"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="80,95,231,121"/>
+<area shape="rect" id="node6" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="255,95,376,121"/>
+</map>

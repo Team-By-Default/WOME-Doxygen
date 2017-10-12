@@ -1,0 +1,4 @@
+<map id="servidor.Servidor.mensajeAUsuario" name="servidor.Servidor.mensajeAUsuario">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431" title="mensajeria.PaqueteMensaje.get\lUserReceptor" alt="" coords="223,5,431,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_mensaje.html#abdd407bf28c9b5c490758aa861271b2e" title="mensajeria.PaqueteMensaje.get\lUserEmisor" alt="" coords="223,71,431,112"/>
+</map>

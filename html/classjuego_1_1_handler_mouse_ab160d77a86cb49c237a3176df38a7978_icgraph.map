@@ -1,0 +1,5 @@
+<map id="juego.HandlerMouse.getNuevoRecorrido" name="juego.HandlerMouse.getNuevoRecorrido">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="251,13,444,39"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="492,13,679,39"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="727,13,933,39"/>
+</map>

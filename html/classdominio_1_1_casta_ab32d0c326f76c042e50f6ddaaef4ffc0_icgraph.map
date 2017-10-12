@@ -1,0 +1,7 @@
+<map id="dominio.Casta.getHabilidadesCasta" name="dominio.Casta.getHabilidadesCasta">
+<area shape="rect" id="node2" href="$classdominio_1_1_casta.html#a6b76cd6cd30d971ea24153e882fdbbf9" title="dominio.Casta.Casta" alt="" coords="286,5,429,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a290805b576b81f17aa4c4afba2da9d15" title="dominio.Personaje.getHabilidades\lCasta" alt="" coords="248,57,467,98"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="262,123,453,149"/>
+<area shape="rect" id="node4" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="515,64,701,91"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="749,64,948,91"/>
+</map>

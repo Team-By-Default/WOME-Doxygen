@@ -1,0 +1,22 @@
+<map id="mensajeria.PaquetePersonaje.getId" name="mensajeria.PaquetePersonaje.getId">
+<area shape="rect" id="node2" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="543,23,791,49"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="541,224,793,251"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="566,326,769,367"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="547,136,787,163"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="291,421,482,448"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="555,501,780,528"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="283,589,490,616"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="290,640,483,667"/>
+<area shape="rect" id="node12" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="280,691,493,717"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="287,741,486,768"/>
+<area shape="rect" id="node14" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="322,792,451,819"/>
+<area shape="rect" id="node15" href="$classjuego_1_1_juego.html#a28e4ed3003af0179d60843f37035cc42" title="juego.Juego.actualizarPersonaje" alt="" coords="282,843,491,869"/>
+<area shape="rect" id="node16" href="$classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb" title="servidor.Conector.registrar\lPersonaje" alt="" coords="300,523,473,565"/>
+<area shape="rect" id="node17" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="295,187,478,229"/>
+<area shape="rect" id="node18" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="295,70,478,111"/>
+<area shape="rect" id="node20" href="$classservidor_1_1_conector.html#a3731c9c14b8d6c8e23852eff0d8e7416" title="servidor.Conector.actualizar\lPersonajeSubioNivel" alt="" coords="295,355,478,397"/>
+<area shape="rect" id="node21" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="295,893,478,920"/>
+<area shape="rect" id="node10" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="574,640,761,667"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="841,640,1048,667"/>
+<area shape="rect" id="node19" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="555,77,780,104"/>
+</map>

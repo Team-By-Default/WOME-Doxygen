@@ -1,0 +1,10 @@
+<map id="comandos.Movimiento.ejecutar" name="comandos.Movimiento.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a9e45dce870e61e60b9389a2e93f18283" title="servidor.EscuchaCliente.set\lPaqueteMovimiento" alt="" coords="291,5,474,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a9161fbc0c0ed1fd63dd8a4242fec3616" title="servidor.Servidor.getUbicacion\lPersonajes" alt="" coords="285,71,480,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#af04d51048340f7d97f301f8a5d0c526e" title="servidor.EscuchaCliente.get\lPaqueteMovimiento" alt="" coords="291,136,474,177"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#aa7ef4fb93d4d746227bb04bfea21253e" title="mensajeria.PaqueteMovimiento.get\lIdPersonaje" alt="" coords="271,201,495,243"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_movimiento.html#a44a06daef3e83899fbe779603ff8c1d7" title="mensajeria.PaqueteMovimiento.getPosX" alt="" coords="255,267,510,294"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_movimiento.html#a3ba3a2ca9aa23715c37f4be17c5c6e61" title="mensajeria.PaqueteMovimiento.getPosY" alt="" coords="255,318,511,345"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_movimiento.html#a67afec43b88f0861925f3df483a8f95d" title="mensajeria.PaqueteMovimiento.get\lDireccion" alt="" coords="271,369,495,411"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_movimiento.html#a18295699c733e08ee14bab7fc472297e" title="mensajeria.PaqueteMovimiento.get\lFrame" alt="" coords="271,435,495,476"/>
+</map>

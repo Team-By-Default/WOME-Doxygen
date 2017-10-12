@@ -1,0 +1,4 @@
+<map id="juego.Pantalla.mostrar" name="juego.Pantalla.mostrar">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#ae3ec6c4178d0bd067b160b548d0d8ef3" title="juego.Juego.start" alt="" coords="205,5,327,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="375,5,501,32"/>
+</map>

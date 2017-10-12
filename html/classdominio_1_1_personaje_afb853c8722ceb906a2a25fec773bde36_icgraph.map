@@ -1,0 +1,7 @@
+<map id="dominio.Personaje.getSaludTope" name="dominio.Personaje.getSaludTope">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="283,5,473,47"/>
+<area shape="rect" id="node4" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="265,71,491,112"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="539,13,752,39"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="546,70,745,97"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="549,121,742,147"/>
+</map>

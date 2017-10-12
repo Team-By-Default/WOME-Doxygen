@@ -1,0 +1,14 @@
+<map id="frames.MenuComerciar.MenuComerciar" name="frames.MenuComerciar.MenuComerciar">
+<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#a60ac98128fc1e21f31e795d74c0f8317" title="cliente.Cliente.setM1" alt="" coords="301,5,445,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="285,57,460,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#aa4f5e7e7552628aef71168f7df3828ab" title="mensajeria.PaquetePersonaje.get\lItems" alt="" coords="264,122,481,163"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_item.html#af7d99502f79762f8e1d2c7a3f4fc4f08" title="dominio.Item.getNombre" alt="" coords="291,188,454,215"/>
+<area shape="rect" id="node6" href="$classcliente_1_1_cliente.html#ab3c6599cb9fb6984a3df440dc34abf69" title="cliente.Cliente.getPaquete\lComercio" alt="" coords="285,239,460,281"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_comerciar.html#a1b21be5c27fe05ec0603c0f3e4a72aa3" title="mensajeria.PaqueteComerciar.get\lItemsADar" alt="" coords="263,305,482,346"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="265,371,480,397"/>
+<area shape="rect" id="node9" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="291,421,454,448"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_comerciar.html#a1aad96b59e7336a9fcc92853b9860db8" title="mensajeria.PaqueteComerciar.get\lItemsAObtener" alt="" coords="263,473,482,514"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_comerciar.html#a185edc0cdbb4336d218d7c7aa6f4868a" title="mensajeria.PaqueteComerciar.aumentar\lListo" alt="" coords="245,538,500,579"/>
+<area shape="rect" id="node12" href="$classcliente_1_1_cliente.html#a4c2b02a94b41b678f6389effdc418fd2" title="cliente.Cliente.getM1" alt="" coords="301,604,445,631"/>
+<area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_comerciar.html#a4236d931516250ec0f51af4a72586be3" title="mensajeria.PaqueteComerciar.disminuir\lListo" alt="" coords="247,655,499,697"/>
+</map>

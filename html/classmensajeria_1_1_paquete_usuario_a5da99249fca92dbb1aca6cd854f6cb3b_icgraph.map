@@ -1,0 +1,5 @@
+<map id="mensajeria.PaqueteUsuario.setPassword" name="mensajeria.PaqueteUsuario.setPassword">
+<area shape="rect" id="node2" href="$classframes_1_1_menu_inicio_sesion.html#ae3dc57f7353f843e827961f29133f202" title="frames.MenuInicioSesion.\lMenuInicioSesion" alt="" coords="283,5,453,47"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_registro.html#a4ae8949ab969fe874a5f0394954853c9" title="frames.MenuRegistro.setPassword\lField" alt="" coords="256,71,480,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#aecc5680e13d3eb39dbc5fea42a376a5f" title="servidor.Conector.getUsuario" alt="" coords="274,137,462,163"/>
+</map>

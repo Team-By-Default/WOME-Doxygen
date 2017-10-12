@@ -1,0 +1,15 @@
+<map id="estados.EstadoBatalla.EstadoBatalla" name="estados.EstadoBatalla.EstadoBatalla">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_batalla.html#abcfba626a8d9b41804256cd4e5226232" title="mensajeria.PaqueteBatalla.is\lMiTurno" alt="" coords="270,5,461,47"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#a4814815fc75a15fc162f89e9db6340ff" title="juego.Juego.getPersonajes\lConectados" alt="" coords="276,71,455,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_batalla.html#a5e60822f13b858415083f376fa1abf11" title="mensajeria.PaqueteBatalla.getId" alt="" coords="261,137,470,163"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_batalla.html#a6edc8ac83316ee287b085718c3fbfc42" title="mensajeria.PaqueteBatalla.get\lIdEnemigo" alt="" coords="266,188,465,229"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a9b4cdca001a7b0890d6e0d1c0de113fc" title="dominio.Personaje.getNombreRaza" alt="" coords="252,254,479,281"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a01b3d05ee3c2fc22280de4353e8ff10d" title="mensajeria.PaqueteFinalizar\lBatalla.setId" alt="" coords="272,305,459,347"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a6c423486f03b05c11b78cdbf158eefc4" title="dominio.Personaje.getIdPersonaje" alt="" coords="256,371,475,398"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a17984d83e1056e6fe350a28b30e87c80" title="mensajeria.PaqueteFinalizar\lBatalla.setIdEnemigo" alt="" coords="272,423,459,464"/>
+<area shape="rect" id="node10" href="$classjuego_1_1_juego.html#a1966f79473cd94badd068f1e4cd241e7" title="juego.Juego.getEstadoJuego" alt="" coords="271,489,459,515"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#af9f5f9acaf049632b75c67f9c9f50281" title="estados.EstadoJuego.setHay\lSolicitud" alt="" coords="269,540,461,581"/>
+<area shape="rect" id="node12" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="280,606,451,633"/>
+<area shape="rect" id="node13" href="$classjuego_1_1_juego.html#ae0e1507070f5454c3e117e4c4a40c11d" title="juego.Juego.getHandlerMouse" alt="" coords="267,657,463,683"/>
+<area shape="rect" id="node14" href="$classjuego_1_1_handler_mouse.html#a978a24bc868e032185e3515fb79e593b" title="juego.HandlerMouse.setNuevo\lClick" alt="" coords="267,708,464,749"/>
+</map>

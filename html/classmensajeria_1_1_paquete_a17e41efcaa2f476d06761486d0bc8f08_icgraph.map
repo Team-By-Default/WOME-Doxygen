@@ -1,0 +1,5 @@
+<map id="mensajeria.Paquete.getObjeto" name="mensajeria.Paquete.getObjeto">
+<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="284,5,411,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_escucha_mensajes.html#a5085f53359994f9f4618c1a08d3e7e4d" title="cliente.EscuchaMensajes.run" alt="" coords="251,56,444,83"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="256,107,439,133"/>
+</map>

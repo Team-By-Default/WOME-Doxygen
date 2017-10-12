@@ -1,0 +1,5 @@
+<map id="comandos.ComandosEscucha" name="comandos.ComandosEscucha">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="141,241,285,268"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="368,241,459,268"/>
+<area shape="rect" id="node7" href="$class_runnable.html" title="Runnable" alt="" coords="406,5,482,32"/>
+</map>

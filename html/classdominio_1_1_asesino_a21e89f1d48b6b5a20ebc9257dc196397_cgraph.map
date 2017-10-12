@@ -1,0 +1,7 @@
+<map id="dominio.Asesino.habilidad2" name="dominio.Asesino.habilidad2">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="235,5,430,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="247,57,419,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_casta.html#ac786543aab19a03a2458b5e37befb59b" title="dominio.Casta.getProbabilidad\lEvitarDaño" alt="" coords="233,122,432,163"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_casta.html#ab73cc3c6349b41ee4cec326fd2aeca45" title="dominio.Casta.aumentarEvitar\lDaño" alt="" coords="235,187,430,229"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_casta.html#a51aef23675f3efeac50aa4d41ebc8c82" title="dominio.Casta.setProbabilidad\lEvitarDaño" alt="" coords="233,253,432,294"/>
+</map>

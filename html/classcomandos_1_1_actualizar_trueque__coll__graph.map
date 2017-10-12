@@ -1,0 +1,8 @@
+<map id="comandos.ActualizarTrueque" name="comandos.ActualizarTrueque">
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="266,331,450,357"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="213,241,357,268"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_comandos_escucha.html" title="comandos.ComandosEscucha" alt="" coords="43,331,241,357"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_escucha_cliente.html" title="servidor.EscuchaCliente" alt="" coords="423,241,584,268"/>
+<area shape="rect" id="node10" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="30,241,121,268"/>
+<area shape="rect" id="node11" href="$class_runnable.html" title="Runnable" alt="" coords="5,5,81,32"/>
+</map>

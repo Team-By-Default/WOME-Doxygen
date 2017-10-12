@@ -1,0 +1,10 @@
+<map id="mensajeria.PaquetePersonaje.getRaza" name="mensajeria.PaquetePersonaje.getRaza">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="313,5,511,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="316,57,508,98"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="315,123,509,149"/>
+<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="573,203,797,229"/>
+<area shape="rect" id="node7" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="300,225,524,266"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb" title="servidor.Conector.registrar\lPersonaje" alt="" coords="325,290,499,331"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="845,203,1039,229"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="572,297,797,324"/>
+</map>

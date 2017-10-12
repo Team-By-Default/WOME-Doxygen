@@ -1,0 +1,6 @@
+<map id="interfaz.MenuBatalla.graficar" name="interfaz.MenuBatalla.graficar">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#aea6136907a5219ea9d80e6600b24b449" title="dominio.Personaje.getHabilidadesRaza" alt="" coords="240,5,488,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a290805b576b81f17aa4c4afba2da9d15" title="dominio.Personaje.getHabilidades\lCasta" alt="" coords="255,57,473,98"/>
+<area shape="rect" id="node5" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="275,123,453,149"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_casta.html#ab32d0c326f76c042e50f6ddaaef4ffc0" title="dominio.Casta.getHabilidades\lCasta" alt="" coords="536,57,731,98"/>
+</map>

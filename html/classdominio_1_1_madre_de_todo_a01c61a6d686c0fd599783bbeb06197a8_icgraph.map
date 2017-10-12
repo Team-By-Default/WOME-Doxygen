@@ -1,0 +1,8 @@
+<map id="dominio.MadreDeTodo.getDefensa" name="dominio.MadreDeTodo.getDefensa">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="285,5,499,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_non_playable_character.html#af8576a8ba27f2f1af244d2ebb296dc75" title="dominio.NonPlayableCharacter.ser\lAtacado" alt="" coords="281,57,503,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a33e279d64a50e79c98f01fcf53cc60e9" title="dominio.Personaje.serAtacado" alt="" coords="293,123,491,149"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#ab46bcefd2eed16f2ee05442021c2c13f" title="dominio.Personaje.serRobado\lSalud" alt="" coords="295,174,489,215"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#a46eb5c723cad13298ff67a11e9b9774f" title="dominio.Personaje.serDesernegizado" alt="" coords="273,240,511,267"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_guerrero.html#a28d33790715e18dcbe8b497155f16a13" title="dominio.Guerrero.habilidad3" alt="" coords="559,123,741,149"/>
+</map>

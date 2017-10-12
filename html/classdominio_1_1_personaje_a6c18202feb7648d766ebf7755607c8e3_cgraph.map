@@ -1,0 +1,11 @@
+<map id="dominio.Personaje.subirNivel" name="dominio.Personaje.subirNivel">
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b" title="dominio.MadreDeTodo.getNivel" alt="" coords="246,5,446,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#aa530a90491e5540ee11906848cc533ec" title="dominio.Personaje.getTabla\lDeNiveles" alt="" coords="255,57,437,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_madre_de_todo.html#a2fe50161559959f0e2173db44edef9f6" title="dominio.MadreDeTodo.aumentar\lNivel" alt="" coords="241,122,451,163"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="253,187,439,229"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="514,122,693,163"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="499,187,708,229"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#aae105c199c14172f5d80fa8886d0712f" title="dominio.Personaje.calcular\lPuntosDeMagia" alt="" coords="514,253,693,294"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="757,129,971,156"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="756,260,972,287"/>
+</map>

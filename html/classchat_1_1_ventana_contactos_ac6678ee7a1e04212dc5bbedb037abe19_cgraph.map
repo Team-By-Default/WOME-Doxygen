@@ -1,0 +1,7 @@
+<map id="chat.VentanaContactos.VentanaContactos" name="chat.VentanaContactos.VentanaContactos">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#ab583bc1ae76f40f87246eaf39c4f7e0c" title="juego.Juego.getChatsActivos" alt="" coords="278,5,467,32"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="296,56,449,83"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#a4814815fc75a15fc162f89e9db6340ff" title="juego.Juego.getPersonajes\lConectados" alt="" coords="283,107,462,149"/>
+<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="287,173,458,200"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="264,225,481,266"/>
+</map>

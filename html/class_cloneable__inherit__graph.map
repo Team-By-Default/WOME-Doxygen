@@ -1,0 +1,13 @@
+<map id="Cloneable" name="Cloneable">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="132,257,269,284"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_atacar.html" title="mensajeria.PaqueteAtacar" alt="" coords="343,5,517,32"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_batalla.html" title="mensajeria.PaqueteBatalla" alt="" coords="341,56,519,83"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_comerciar.html" title="mensajeria.PaqueteComerciar" alt="" coords="332,108,528,135"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_de_movimientos.html" title="mensajeria.PaqueteDeMovimientos" alt="" coords="317,161,543,188"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_de_personajes.html" title="mensajeria.PaqueteDePersonajes" alt="" coords="321,216,539,243"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_finalizar_batalla.html" title="mensajeria.PaqueteFinalizar\lBatalla" alt="" coords="337,275,523,317"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_mensaje.html" title="mensajeria.PaqueteMensaje" alt="" coords="337,359,523,385"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="329,409,531,436"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="333,460,527,487"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="339,511,521,537"/>
+</map>

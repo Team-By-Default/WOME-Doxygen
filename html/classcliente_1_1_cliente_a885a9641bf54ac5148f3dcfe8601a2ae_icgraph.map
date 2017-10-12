@@ -1,0 +1,9 @@
+<map id="cliente.Cliente.getPaquetePersonaje" name="cliente.Cliente.getPaquetePersonaje">
+<area shape="rect" id="node2" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="245,5,422,47"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_comerciar.html#a6704fe67c67ecfc07421e453645b73d1" title="frames.MenuComerciar.Menu\lComerciar" alt="" coords="237,71,429,112"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="231,137,436,163"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_inventario.html#a49103911adf05a2e0ac6cd3e07e77206" title="frames.MenuInventario.Menu\lInventario" alt="" coords="240,188,427,229"/>
+<area shape="rect" id="node7" href="$classframes_1_1_menu_mapas.html#a145190813a03a1c65cb8d1eba9c63c20" title="frames.MenuMapas.MenuMapas" alt="" coords="228,254,439,281"/>
+<area shape="rect" id="node8" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="236,305,431,331"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="487,129,683,171"/>
+</map>

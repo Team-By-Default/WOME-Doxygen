@@ -1,0 +1,11 @@
+<map id="inventario.Celda.getLabel" name="inventario.Celda.getLabel">
+<area shape="rect" id="node2" href="$classdominio_1_1_item.html#af7d99502f79762f8e1d2c7a3f4fc4f08" title="dominio.Item.getNombre" alt="" coords="254,5,417,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a17d03ce06321895c0f82ce9e2dbd37dc" title="mensajeria.PaquetePersonaje.sacar\lBonus" alt="" coords="220,57,451,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_item.html#aa663574cee556b330a5fbf0e6a05c39c" title="dominio.Item.getBonusSalud" alt="" coords="241,123,429,149"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_item.html#a587f3c57f42d94959d3fbc0c58f367d6" title="dominio.Item.getBonusEnergia" alt="" coords="236,173,435,200"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_item.html#a7b6b823dd3c88a7334b7a4770729f405" title="dominio.Item.getBonusFuerza" alt="" coords="238,224,433,251"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_item.html#a1ff41b721e2477d575b4a947566dfec7" title="dominio.Item.getBonusDestreza" alt="" coords="232,275,439,301"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_item.html#a8d41a92822f87db0ccef9ef20705bbd9" title="dominio.Item.getBonusInteligencia" alt="" coords="225,325,445,352"/>
+<area shape="rect" id="node9" href="$classinventario_1_1_celda.html#ace81ec8e95ff65fcabd5060440a79d89" title="inventario.Celda.resetLabel" alt="" coords="247,376,424,403"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#ae4c68a2dc6cc6e54246e4838fa402431" title="mensajeria.PaquetePersonaje.removerItem" alt="" coords="499,376,768,403"/>
+</map>

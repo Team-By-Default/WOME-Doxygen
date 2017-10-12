@@ -1,0 +1,26 @@
+var classservidor_1_1_escucha_cliente =
+[
+    [ "EscuchaCliente", "classservidor_1_1_escucha_cliente.html#af5bd460fd54c9ec35ef5e7894e7a483f", null ],
+    [ "getEntrada", "classservidor_1_1_escucha_cliente.html#a81e983da1a2b2bd2c44eec5c64ab237f", null ],
+    [ "getIdPersonaje", "classservidor_1_1_escucha_cliente.html#afc00f0c87edfcec654fc11a290d516df", null ],
+    [ "getPaqueteAtacar", "classservidor_1_1_escucha_cliente.html#ac8500eb15120fc55f8d8ed802ad604c8", null ],
+    [ "getPaqueteBatalla", "classservidor_1_1_escucha_cliente.html#a42d46eb6f9579267b8645ed8154026b6", null ],
+    [ "getPaqueteDeMovimiento", "classservidor_1_1_escucha_cliente.html#ad86dfccb08dd61d03a226d18962258e9", null ],
+    [ "getPaqueteDePersonajes", "classservidor_1_1_escucha_cliente.html#a0bec00a661adc9f280fef51f77a0a965", null ],
+    [ "getPaqueteFinalizarBatalla", "classservidor_1_1_escucha_cliente.html#aaf432d8a88a363d3ac247f84127ea228", null ],
+    [ "getPaqueteMovimiento", "classservidor_1_1_escucha_cliente.html#af04d51048340f7d97f301f8a5d0c526e", null ],
+    [ "getPaquetePersonaje", "classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2", null ],
+    [ "getPaqueteUsuario", "classservidor_1_1_escucha_cliente.html#adf3ce49fa8e1f9ece4df0cb02b66d854", null ],
+    [ "getSalida", "classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada", null ],
+    [ "getSocket", "classservidor_1_1_escucha_cliente.html#a45b07e29db6a7eba2919cb0f9df791aa", null ],
+    [ "run", "classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490", null ],
+    [ "setIdPersonaje", "classservidor_1_1_escucha_cliente.html#a4362d280441673d10cc4a502a71a1b16", null ],
+    [ "setPaqueteAtacar", "classservidor_1_1_escucha_cliente.html#a1f19d2fbba5f2d78a356db8c61aea30f", null ],
+    [ "setPaqueteBatalla", "classservidor_1_1_escucha_cliente.html#acc97ca35065c4457f0873d363fde9b1e", null ],
+    [ "setPaqueteDeMovimiento", "classservidor_1_1_escucha_cliente.html#a5653088370659dbbb8541dc3b0f2f3b2", null ],
+    [ "setPaqueteDePersonajes", "classservidor_1_1_escucha_cliente.html#a7fe1d614d281cc4b97dbb962d6f46723", null ],
+    [ "setPaqueteFinalizarBatalla", "classservidor_1_1_escucha_cliente.html#a9ded6352d3eb37ae5724e54560ca4fd3", null ],
+    [ "setPaqueteMovimiento", "classservidor_1_1_escucha_cliente.html#a9e45dce870e61e60b9389a2e93f18283", null ],
+    [ "setPaquetePersonaje", "classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6", null ],
+    [ "setPaqueteUsuario", "classservidor_1_1_escucha_cliente.html#a762e62a6df152c4990ed2ea742a9562f", null ]
+];

@@ -1,0 +1,9 @@
+<map id="mensajeria.PaquetePersonaje.setSaludTope" name="mensajeria.PaquetePersonaje.setSaludTope">
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="278,5,469,47"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="539,85,735,127"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="271,122,476,149"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="272,173,475,199"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="530,13,743,39"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="524,162,749,189"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="533,213,740,239"/>
+</map>

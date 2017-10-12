@@ -1,0 +1,9 @@
+<map id="juego.Juego.iniciar" name="juego.Juego.iniciar">
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#ac19c2a00adfba66c18316f52ef6665f1" title="juego.Pantalla.getCanvas" alt="" coords="187,5,355,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a98c8ee00b897c6015dbc3aa89086623e" title="dominio.Personaje.cargar\lTablaNivel" alt="" coords="186,57,355,98"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="183,123,359,149"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="184,173,357,200"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado.html#aa6b81bd0ba547c9c6d96549c3dacc2bd" title="estados.Estado.graficar" alt="" coords="191,224,350,251"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#aa530a90491e5540ee11906848cc533ec" title="dominio.Personaje.getTabla\lDeNiveles" alt="" coords="409,54,592,95"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="407,119,595,161"/>
+</map>

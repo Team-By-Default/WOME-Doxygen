@@ -1,0 +1,7 @@
+<map id="juego.Pantalla" name="juego.Pantalla">
+<area shape="rect" id="node2" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="136,5,277,32"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="143,56,271,83"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="131,107,282,133"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="120,157,293,184"/>
+<area shape="rect" id="node7" href="$classchat_1_1_ventana_contactos.html" title="chat.VentanaContactos" alt="" coords="127,208,286,235"/>
+</map>

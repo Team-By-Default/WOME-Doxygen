@@ -1,0 +1,9 @@
+<map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
+<area shape="rect" id="node2" href="$classcliente_1_1_cliente.html" title="cliente.Cliente" alt="" coords="159,5,263,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_escucha_mensajes.html" title="cliente.EscuchaMensajes" alt="" coords="126,56,297,83"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_cargar_recursos.html" title="juego.CargarRecursos" alt="" coords="136,107,287,133"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_atencion_conexiones.html" title="servidor.AtencionConexiones" alt="" coords="117,157,306,184"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_atencion_movimientos.html" title="servidor.AtencionMovimientos" alt="" coords="115,208,308,235"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_escucha_cliente.html" title="servidor.EscuchaCliente" alt="" coords="131,259,292,285"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_servidor.html" title="servidor.Servidor" alt="" coords="153,309,269,336"/>
+</map>

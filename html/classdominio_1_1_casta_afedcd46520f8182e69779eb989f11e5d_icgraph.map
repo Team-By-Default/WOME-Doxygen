@@ -1,0 +1,5 @@
+<map id="dominio.Casta.getDañoCritico" name="dominio.Casta.getDañoCritico">
+<area shape="rect" id="node2" href="$classdominio_1_1_asesino.html#a58505b24eb19d6cdfa2b004d1d609409" title="dominio.Asesino.habilidad1" alt="" coords="248,5,428,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#aaa28d04831cb32076623c50c80230868" title="dominio.Personaje.golpe\l_critico" alt="" coords="256,57,420,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a9416b94498fb657093541e4588610608" title="dominio.Personaje.atacar" alt="" coords="476,64,645,91"/>
+</map>

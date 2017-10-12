@@ -1,0 +1,6 @@
+<map id="comandos.Atacar.ejecutar" name="comandos.Atacar.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a1f19d2fbba5f2d78a356db8c61aea30f" title="servidor.EscuchaCliente.set\lPaqueteAtacar" alt="" coords="235,5,418,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="234,71,419,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#ac8500eb15120fc55f8d8ed802ad604c8" title="servidor.EscuchaCliente.get\lPaqueteAtacar" alt="" coords="235,136,418,177"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_atacar.html#a866bf7cfb738bf4b3991a32be5bb4371" title="mensajeria.PaqueteAtacar.get\lIdEnemigo" alt="" coords="228,201,425,243"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="dominio.Personaje.calcularPuntosDeAtaque" name="dominio.Personaje.calcularPuntosDeAtaque">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="232,5,423,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="235,57,420,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="476,27,653,69"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="471,93,659,120"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="707,93,940,120"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="988,93,1201,120"/>
+</map>

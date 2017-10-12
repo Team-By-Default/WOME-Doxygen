@@ -1,0 +1,17 @@
+<map id="servidor.Servidor.getClientesConectados" name="servidor.Servidor.getClientesConectados">
+<area shape="rect" id="node2" href="$classcomandos_1_1_actualizar_comercio.html#a8f8408076e2076b56510ed0bd0df9787" title="comandos.ActualizarComercio.ejecutar" alt="" coords="240,5,489,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="241,56,489,83"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="239,107,491,133"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="263,158,466,199"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="245,224,485,251"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_atacar.html#a55d29038299b5b7f2b10cde420d296b2" title="comandos.Atacar.ejecutar" alt="" coords="277,275,452,301"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="277,325,453,352"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_comercio.html#a8ee004d25d5ec856613b42bdc65c40ca" title="comandos.Comercio.ejecutar" alt="" coords="269,376,460,403"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="252,427,477,453"/>
+<area shape="rect" id="node11" href="$classcomandos_1_1_salir.html#a8c2e803414d534403a653e9834294b46" title="comandos.Salir.ejecutar" alt="" coords="283,477,446,504"/>
+<area shape="rect" id="node12" href="$classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="285,528,445,555"/>
+<area shape="rect" id="node13" href="$classcomandos_1_1_trueque.html#a32cbaa4536d7b49316e3ffc5ba09a327" title="comandos.Trueque.ejecutar" alt="" coords="273,579,456,605"/>
+<area shape="rect" id="node14" href="$classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="259,629,470,656"/>
+<area shape="rect" id="node15" href="$classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="257,680,472,707"/>
+<area shape="rect" id="node16" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="273,731,456,757"/>
+</map>

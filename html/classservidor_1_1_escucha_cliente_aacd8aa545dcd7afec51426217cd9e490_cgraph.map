@@ -1,0 +1,12 @@
+<map id="servidor.EscuchaCliente.run" name="servidor.EscuchaCliente.run">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08" title="mensajeria.Paquete.getObjeto" alt="" coords="251,5,448,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html#a773ab86774e1cfd1333870859779405c" title="mensajeria.Comando.setCadena" alt="" coords="244,56,455,83"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_comando.html#ab55e973dc9b657693ee9df2afc005141" title="mensajeria.Comando.ejecutar" alt="" coords="511,81,705,108"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_comandos_server.html#a62d91553b7cffa9c7afc1fc2fd206a74" title="comandos.ComandosServer.set\lEscuchaCliente" alt="" coords="246,158,453,199"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="248,223,451,265"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="236,289,463,316"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_servidor.html#a9161fbc0c0ed1fd63dd8a4242fec3616" title="servidor.Servidor.getUbicacion\lPersonajes" alt="" coords="252,341,447,382"/>
+<area shape="rect" id="node9" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="257,406,442,447"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="242,472,457,499"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete.html#a36e34051be8350261d030b1604d8db57" title="mensajeria.Paquete.getIp" alt="" coords="265,523,434,549"/>
+</map>

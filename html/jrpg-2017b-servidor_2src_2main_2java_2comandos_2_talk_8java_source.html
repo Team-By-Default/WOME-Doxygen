@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>WOME Servidor: Fichero Fuente E:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/comandos/Talk.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">WOME Servidor
+   </div>
+   <div id="projectbrief">Documentación del servidor del WOME, juego del taller de progra avanzada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('jrpg-2017b-servidor_2src_2main_2java_2comandos_2_talk_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Talk.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="jrpg-2017b-servidor_2src_2main_2java_2comandos_2_talk_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>comandos;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.io.IOException;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> java.util.Map;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacemensajeria.html">mensajeria</a>.<a class="code" href="classmensajeria_1_1_comando.html">Comando</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacemensajeria.html">mensajeria</a>.<a class="code" href="classmensajeria_1_1_paquete_mensaje.html">PaqueteMensaje</a>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacemensajeria.html">mensajeria</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">import</span> <a class="code" href="namespaceservidor.html">servidor</a>.<a class="code" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">import</span> <a class="code" href="namespaceservidor.html">servidor</a>.<a class="code" href="classservidor_1_1_servidor.html">Servidor</a>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span> <span class="keyword">class </span>Talk <span class="keyword">extends</span> ComandosServer {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    @Override</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875">ejecutar</a>() {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">int</span> idUser = 0;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">int</span> contador = 0;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_mensaje.html">PaqueteMensaje</a> paqueteMensaje = (<a class="code" href="classmensajeria_1_1_paquete_mensaje.html">PaqueteMensaje</a>) (<a class="code" href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">gson</a>.fromJson(<a class="code" href="classmensajeria_1_1_comando.html#ae3071aff9f0620f2f58f152b71934929">cadenaLeida</a>, <a class="code" href="classmensajeria_1_1_paquete_mensaje.html">PaqueteMensaje</a>.class));</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">if</span> (!(paqueteMensaje.<a class="code" href="classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431">getUserReceptor</a>() == null)) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39">mensajeAUsuario</a>(paqueteMensaje)) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                paqueteMensaje.<a class="code" href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">setComando</a>(<a class="code" href="classmensajeria_1_1_comando.html">Comando</a>.<a class="code" href="classmensajeria_1_1_comando.html#a95529e298e7397aa2c526fa17fea28c0">TALK</a>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                </div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">for</span> (Map.Entry&lt;Integer, <a class="code" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>&gt; personaje : <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030">getPersonajesConectados</a>().entrySet()) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    <span class="keywordflow">if</span>(personaje.getValue().getNombre().equals(paqueteMensaje.<a class="code" href="classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431">getUserReceptor</a>())) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        idUser = personaje.getValue().getId();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                </div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a> conectado : <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358">getClientesConectados</a>()) {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                    <span class="keywordflow">if</span>(conectado.getIdPersonaje() == idUser) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                            conectado.getSalida().writeObject(<a class="code" href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">gson</a>.toJson(paqueteMensaje));</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                        } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                            <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Falló al intentar enviar mensaje a:&quot;</span> + conectado.getPaquetePersonaje().getId() + <span class="stringliteral">&quot;\n&quot;</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                }           </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;No se envió el mensaje \n&quot;</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        } <span class="keywordflow">else</span> {                </div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">for</span> (Map.Entry&lt;Integer, <a class="code" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>&gt; personaje : <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030">getPersonajesConectados</a>().entrySet()) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">if</span>(personaje.getValue().getNombre().equals(paqueteMensaje.<a class="code" href="classmensajeria_1_1_paquete_mensaje.html#abdd407bf28c9b5c490758aa861271b2e">getUserEmisor</a>())) {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                    idUser = personaje.getValue().getId();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a> conectado : <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358">getClientesConectados</a>()) {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="keywordflow">if</span>(conectado.getIdPersonaje() != idUser) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                    <span class="keywordflow">try</span> {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        conectado.getSalida().writeObject(<a class="code" href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">gson</a>.toJson(paqueteMensaje));</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Falló al intentar enviar mensaje a:&quot;</span> + conectado.getPaquetePersonaje().getId() + <span class="stringliteral">&quot;\n&quot;</span>);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                }</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }       </div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html">Servidor</a>.<a class="code" href="classservidor_1_1_servidor.html#ac88572870d8806b14d570b768bdb7d09">mensajeAAll</a>(contador); </div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div><div class="ttc" id="classmensajeria_1_1_paquete_personaje_html"><div class="ttname"><a href="classmensajeria_1_1_paquete_personaje.html">mensajeria.PaquetePersonaje</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_personaje_8java_source.html#l00013">PaquetePersonaje.java:13</a></div></div>
+<div class="ttc" id="namespacemensajeria_html"><div class="ttname"><a href="namespacemensajeria.html">mensajeria</a></div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00001">Comando.java:1</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_mensaje_html_a83bcacd97ece613019f44353faf1f431"><div class="ttname"><a href="classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431">mensajeria.PaqueteMensaje.getUserReceptor</a></div><div class="ttdeci">String getUserReceptor()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_mensaje_8java_source.html#l00030">PaqueteMensaje.java:30</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html">servidor.EscuchaCliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00022">EscuchaCliente.java:22</a></div></div>
+<div class="ttc" id="classcomandos_1_1_talk_html_a461e909b9c12ff2b8ece6022d2ecb875"><div class="ttname"><a href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875">comandos.Talk.ejecutar</a></div><div class="ttdeci">void ejecutar()</div><div class="ttdef"><b>Definition:</b> <a href="jrpg-2017b-servidor_2src_2main_2java_2comandos_2_talk_8java_source.html#l00015">Talk.java:15</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_html_a9b0025715a81ff38f861dbbcbbd548c3"><div class="ttname"><a href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">mensajeria.Paquete.setComando</a></div><div class="ttdeci">void setComando(int comando)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00042">Paquete.java:42</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_mensaje_html_abdd407bf28c9b5c490758aa861271b2e"><div class="ttname"><a href="classmensajeria_1_1_paquete_mensaje.html#abdd407bf28c9b5c490758aa861271b2e">mensajeria.PaqueteMensaje.getUserEmisor</a></div><div class="ttdeci">String getUserEmisor()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_mensaje_8java_source.html#l00022">PaqueteMensaje.java:22</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a71f2620ab646220839d1e30cf71d2e39"><div class="ttname"><a href="classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39">servidor.Servidor.mensajeAUsuario</a></div><div class="ttdeci">static boolean mensajeAUsuario(PaqueteMensaje pqm)</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00180">Servidor.java:180</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a077d69c0a8984c2f5c79d94ee435b358"><div class="ttname"><a href="classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358">servidor.Servidor.getClientesConectados</a></div><div class="ttdeci">static ArrayList&lt; EscuchaCliente &gt; getClientesConectados()</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00218">Servidor.java:218</a></div></div>
+<div class="ttc" id="namespaceservidor_html"><div class="ttname"><a href="namespaceservidor.html">servidor</a></div><div class="ttdef"><b>Definition:</b> <a href="_atencion_conexiones_8java_source.html#l00001">AtencionConexiones.java:1</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a90af46bb8c857cd0c4098a88da8a554a"><div class="ttname"><a href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">servidor.Servidor.log</a></div><div class="ttdeci">static JTextArea log</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00046">Servidor.java:46</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html_a95529e298e7397aa2c526fa17fea28c0"><div class="ttname"><a href="classmensajeria_1_1_comando.html#a95529e298e7397aa2c526fa17fea28c0">mensajeria.Comando.TALK</a></div><div class="ttdeci">static final int TALK</div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00031">Comando.java:31</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html_ae3071aff9f0620f2f58f152b71934929"><div class="ttname"><a href="classmensajeria_1_1_comando.html#ae3071aff9f0620f2f58f152b71934929">mensajeria.Comando.cadenaLeida</a></div><div class="ttdeci">String cadenaLeida</div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00034">Comando.java:34</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html"><div class="ttname"><a href="classservidor_1_1_servidor.html">servidor.Servidor</a></div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00028">Servidor.java:28</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html"><div class="ttname"><a href="classmensajeria_1_1_comando.html">mensajeria.Comando</a></div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00005">Comando.java:5</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_comando_html_aad9149662af67c46000257cc2026a8ea"><div class="ttname"><a href="classmensajeria_1_1_comando.html#aad9149662af67c46000257cc2026a8ea">mensajeria.Comando.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_comando_8java_source.html#l00033">Comando.java:33</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_aafac84ea3e8c4cccafd9324e3eeab030"><div class="ttname"><a href="classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030">servidor.Servidor.getPersonajesConectados</a></div><div class="ttdeci">static Map&lt; Integer, PaquetePersonaje &gt; getPersonajesConectados()</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00226">Servidor.java:226</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_ac88572870d8806b14d570b768bdb7d09"><div class="ttname"><a href="classservidor_1_1_servidor.html#ac88572870d8806b14d570b768bdb7d09">servidor.Servidor.mensajeAAll</a></div><div class="ttdeci">static boolean mensajeAAll(int contador)</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00202">Servidor.java:202</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_mensaje_html"><div class="ttname"><a href="classmensajeria_1_1_paquete_mensaje.html">mensajeria.PaqueteMensaje</a></div><div class="ttdef"><b>Definition:</b> <a href="_paquete_mensaje_8java_source.html#l00005">PaqueteMensaje.java:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_ab5817865cc88ad86e141b26e9f08c28.html">jrpg-2017b-servidor</a></li><li class="navelem"><a class="el" href="dir_a1802e745b55779350c3742cd13880fe.html">src</a></li><li class="navelem"><a class="el" href="dir_de671624ef1a9b945220205229a15694.html">main</a></li><li class="navelem"><a class="el" href="dir_1938319af58e5a52b358d220d95ab3a3.html">java</a></li><li class="navelem"><a class="el" href="dir_016a4f9fc3ebf1cbbae5e083fedf0231.html">comandos</a></li><li class="navelem"><a class="el" href="jrpg-2017b-servidor_2src_2main_2java_2comandos_2_talk_8java.html">Talk.java</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>
