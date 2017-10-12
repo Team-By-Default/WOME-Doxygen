@@ -1,3 +1,4 @@
-WOME Doxygen
+#Documentaci贸n de World Of Middle Earth
+Bienvenidos a la documentaci贸n de WOME. Esta documentaci贸n en HTML es autogenerada por Doxygen con ayuda de GraphViz Dot para los gr谩ficos. 
 
-Cada carpeta se corresponde con un proyecto de WOME. Buscar el archivo ./html/index.html de cada una para abrir la documentaci髇 en HTML de ese proyecto.
+Para ver la documentaci贸n en un navegador, buscar el archivo ./html/index.html
