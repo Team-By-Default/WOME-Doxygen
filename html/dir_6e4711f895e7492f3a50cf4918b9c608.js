@@ -6,6 +6,9 @@ var dir_6e4711f895e7492f3a50cf4918b9c608 =
     [ "ActualizarInventario.java", "jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_inventario_8java.html", [
       [ "ActualizarInventario", "classcomandos_1_1_actualizar_inventario.html", "classcomandos_1_1_actualizar_inventario" ]
     ] ],
+    [ "ActualizarNPCs.java", "_actualizar_n_p_cs_8java.html", [
+      [ "ActualizarNPCs", "classcomandos_1_1_actualizar_n_p_cs.html", "classcomandos_1_1_actualizar_n_p_cs" ]
+    ] ],
     [ "ActualizarPersonaje.java", "jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_personaje_8java.html", [
       [ "ActualizarPersonaje", "classcomandos_1_1_actualizar_personaje.html", "classcomandos_1_1_actualizar_personaje" ]
     ] ],
@@ -47,6 +50,9 @@ var dir_6e4711f895e7492f3a50cf4918b9c608 =
     ] ],
     [ "Movimiento.java", "jrpg-2017b-cliente_2src_2main_2java_2comandos_2_movimiento_8java.html", [
       [ "Movimiento", "classcomandos_1_1_movimiento.html", "classcomandos_1_1_movimiento" ]
+    ] ],
+    [ "MovimientoNPC.java", "_movimiento_n_p_c_8java.html", [
+      [ "MovimientoNPC", "classcomandos_1_1_movimiento_n_p_c.html", "classcomandos_1_1_movimiento_n_p_c" ]
     ] ],
     [ "Registro.java", "jrpg-2017b-cliente_2src_2main_2java_2comandos_2_registro_8java.html", [
       [ "Registro", "classcomandos_1_1_registro.html", "classcomandos_1_1_registro" ]

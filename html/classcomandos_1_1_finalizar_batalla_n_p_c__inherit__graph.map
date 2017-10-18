@@ -1,0 +1,4 @@
+<map id="comandos.FinalizarBatallaNPC" name="comandos.FinalizarBatallaNPC">
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="comandos.ComandosServer" alt="" coords="15,80,199,107"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="35,5,179,32"/>
+</map>

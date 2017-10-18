@@ -11,5 +11,9 @@ var classjuego_1_1_handler_mouse =
     [ "mousePressed", "classjuego_1_1_handler_mouse.html#a0a2296c65b06df426a171d62620d7948", null ],
     [ "mouseReleased", "classjuego_1_1_handler_mouse.html#af0fc4c9933e01b93f1464193b7a67050", null ],
     [ "setNuevoClick", "classjuego_1_1_handler_mouse.html#a978a24bc868e032185e3515fb79e593b", null ],
-    [ "setNuevoRecorrido", "classjuego_1_1_handler_mouse.html#a00676c1d31e09db4a0c3d7b6497d0f13", null ]
+    [ "setNuevoRecorrido", "classjuego_1_1_handler_mouse.html#a00676c1d31e09db4a0c3d7b6497d0f13", null ],
+    [ "nuevoClick", "classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62", null ],
+    [ "nuevoRecorrido", "classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83", null ],
+    [ "posMouse", "classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb", null ],
+    [ "posMouseRecorrido", "classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1", null ]
 ];

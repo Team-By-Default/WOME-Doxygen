@@ -11,5 +11,8 @@ var classmensajeria_1_1_paquete =
     [ "getObjeto", "classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08", null ],
     [ "setComando", "classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3", null ],
     [ "setIp", "classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba", null ],
-    [ "setMensaje", "classmensajeria_1_1_paquete.html#a1756d9752346d17f68386839b1e83b1e", null ]
+    [ "setMensaje", "classmensajeria_1_1_paquete.html#a1756d9752346d17f68386839b1e83b1e", null ],
+    [ "comando", "classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0", null ],
+    [ "ip", "classmensajeria_1_1_paquete.html#abd68eac15ea1aaaaed7bdd973a09cf70", null ],
+    [ "mensaje", "classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f", null ]
 ];

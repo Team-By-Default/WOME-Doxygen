@@ -2,6 +2,7 @@ var searchData=
 [
   ['actualizarcomercio_2ejava',['ActualizarComercio.java',['../jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_comercio_8java.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_comercio_8java.html',1,'(Namespace global)']]],
   ['actualizarinventario_2ejava',['ActualizarInventario.java',['../jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_inventario_8java.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_inventario_8java.html',1,'(Namespace global)']]],
+  ['actualizarnpcs_2ejava',['ActualizarNPCs.java',['../_actualizar_n_p_cs_8java.html',1,'']]],
   ['actualizarpersonaje_2ejava',['ActualizarPersonaje.java',['../jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_personaje_8java.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_personaje_8java.html',1,'(Namespace global)']]],
   ['actualizarpersonajelvl_2ejava',['ActualizarPersonajeLvl.java',['../jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_personaje_lvl_8java.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_personaje_lvl_8java.html',1,'(Namespace global)']]],
   ['actualizartrueque_2ejava',['ActualizarTrueque.java',['../jrpg-2017b-cliente_2src_2main_2java_2comandos_2_actualizar_trueque_8java.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_trueque_8java.html',1,'(Namespace global)']]],

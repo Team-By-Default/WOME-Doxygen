@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WOME Servidor: Referencia de la Clase servidor.Servidor</title>
+<title>World of Middle Earth: Referencia de la Clase servidor.Servidor</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">WOME Servidor
+   <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del servidor del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -84,6 +84,9 @@ $(document).ready(function(){initNavTree('classservidor_1_1_servidor.html','');}
 <a href="#pub-methods">Métodos públicos</a> &#124;
 <a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
 <a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pri-static-methods">Métodos privados estáticos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="#pri-static-attribs">Atributos privados estáticos</a> &#124;
 <a href="classservidor_1_1_servidor-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
 <div class="title">Referencia de la Clase servidor.Servidor</div>  </div>
@@ -93,16 +96,15 @@ $(document).ready(function(){initNavTree('classservidor_1_1_servidor.html','');}
 Diagrama de herencias de servidor.Servidor</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor__inherit__graph.png" border="0" usemap="#servidor_8_servidor_inherit__map" alt="Inheritance graph"/></div>
-<map name="servidor_8_servidor_inherit__map" id="servidor_8_servidor_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de colaboración para servidor.Servidor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor__coll__graph.png" border="0" usemap="#servidor_8_servidor_coll__map" alt="Collaboration graph"/></div>
 <map name="servidor_8_servidor_coll__map" id="servidor_8_servidor_coll__map">
-<area shape="rect" id="node3" href="classservidor_1_1_atencion_conexiones.html" title="servidor.AtencionConexiones" alt="" coords="23,81,213,108"/>
-<area shape="rect" id="node4" href="classservidor_1_1_atencion_movimientos.html" title="servidor.AtencionMovimientos" alt="" coords="237,81,431,108"/>
+<area shape="rect" id="node3" href="classservidor_1_1_atencion_conexiones.html" title="servidor.AtencionConexiones" alt="" coords="193,136,382,163"/>
+<area shape="rect" id="node5" href="classservidor_1_1_atencion_movimientos.html" title="servidor.AtencionMovimientos" alt="" coords="191,187,384,213"/>
+<area shape="rect" id="node13" href="classservidor_1_1_conector.html" title="servidor.Conector" alt="" coords="226,673,349,700"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
 <table class="memberdecls">
@@ -121,12 +123,22 @@ Métodos públicos estáticos</h2></td></tr>
 <tr class="separator:ac88572870d8806b14d570b768bdb7d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077d69c0a8984c2f5c79d94ee435b358"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358">getClientesConectados</a> ()</td></tr>
 <tr class="separator:a077d69c0a8984c2f5c79d94ee435b358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc32c4d9ac676d5818d5514fc8bb6da5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#adc32c4d9ac676d5818d5514fc8bb6da5">setUbicacionPersonajes</a> (Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt; <a class="el" href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">ubicacionPersonajes</a>)</td></tr>
+<tr class="separator:adc32c4d9ac676d5818d5514fc8bb6da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9161fbc0c0ed1fd63dd8a4242fec3616"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a9161fbc0c0ed1fd63dd8a4242fec3616">getUbicacionPersonajes</a> ()</td></tr>
 <tr class="separator:a9161fbc0c0ed1fd63dd8a4242fec3616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafac84ea3e8c4cccafd9324e3eeab030"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030">getPersonajesConectados</a> ()</td></tr>
 <tr class="separator:aafac84ea3e8c4cccafd9324e3eeab030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a142ca477d7b7dd91f5511f8bd49b0443"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classservidor_1_1_conector.html">Conector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443">getConector</a> ()</td></tr>
 <tr class="separator:a142ca477d7b7dd91f5511f8bd49b0443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92fafcabd39a2c66661036add35392d"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#aa92fafcabd39a2c66661036add35392d">getUbicacionNPCs</a> ()</td></tr>
+<tr class="separator:aa92fafcabd39a2c66661036add35392d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00adfe5116904e85aed40940e44cf1b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a00adfe5116904e85aed40940e44cf1b9">setUbicacionNPCs</a> (Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt; <a class="el" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a>)</td></tr>
+<tr class="separator:a00adfe5116904e85aed40940e44cf1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b799586e7d1eb02b3b2a5adb41579c6"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a7b799586e7d1eb02b3b2a5adb41579c6">getNPCs</a> ()</td></tr>
+<tr class="separator:a7b799586e7d1eb02b3b2a5adb41579c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f06920c90f205a4d5dfef469a830cb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#ac2f06920c90f205a4d5dfef469a830cb">setNPCs</a> (Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a> &gt; <a class="el" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a>)</td></tr>
+<tr class="separator:ac2f06920c90f205a4d5dfef469a830cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Atributos públicos estáticos</h2></td></tr>
@@ -136,11 +148,104 @@ Atributos públicos estáticos</h2></td></tr>
 <tr class="separator:a691bc7d4f19aa377c703b2dd416cb301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa992c5e3c9d3161fc48e52130d993172"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classservidor_1_1_atencion_movimientos.html">AtencionMovimientos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a></td></tr>
 <tr class="separator:aa992c5e3c9d3161fc48e52130d993172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Métodos privados estáticos</h2></td></tr>
+<tr class="memitem:a953d543a29f1ff877db80f44f57929b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a953d543a29f1ff877db80f44f57929b6">cargarInterfaz</a> ()</td></tr>
+<tr class="separator:a953d543a29f1ff877db80f44f57929b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a73035013f59e7da853aa28239c4acbdb"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a73035013f59e7da853aa28239c4acbdb">PUERTO</a> = 55050</td></tr>
+<tr class="separator:a73035013f59e7da853aa28239c4acbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Atributos privados estáticos</h2></td></tr>
+<tr class="memitem:a5d4fbb4fe473d7715e65b2940bea7292"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">clientesConectados</a> = new ArrayList&lt;&gt;()</td></tr>
+<tr class="separator:a5d4fbb4fe473d7715e65b2940bea7292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a4a5776b672ec1a1a0c04cc6a95e7e"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">ubicacionPersonajes</a> = new HashMap&lt;&gt;()</td></tr>
+<tr class="separator:a53a4a5776b672ec1a1a0c04cc6a95e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf91ca60fd97d8b48746f9c901db6de"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">personajesConectados</a> = new HashMap&lt;&gt;()</td></tr>
+<tr class="separator:aacf91ca60fd97d8b48746f9c901db6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae760453632a2968001d4c6f2236b0454"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a> = new HashMap&lt;&gt;()</td></tr>
+<tr class="separator:ae760453632a2968001d4c6f2236b0454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f04f02f3b99f0a9c2cd98ca23ae357"><td class="memItemLeft" align="right" valign="top">static Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a> = new HashMap&lt;&gt;()</td></tr>
+<tr class="separator:a42f04f02f3b99f0a9c2cd98ca23ae357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6aca05f3afd70b917be13b72e91d4e"><td class="memItemLeft" align="right" valign="top">static Thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">server</a></td></tr>
+<tr class="separator:aea6aca05f3afd70b917be13b72e91d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7994469f629886404b1e23c58a5be2f1"><td class="memItemLeft" align="right" valign="top">static ServerSocket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a></td></tr>
+<tr class="separator:a7994469f629886404b1e23c58a5be2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993ad2e4b1a3f51aee18957a278c007d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classservidor_1_1_conector.html">Conector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a></td></tr>
+<tr class="separator:a993ad2e4b1a3f51aee18957a278c007d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1109084a39c09be15e7c40ae35fe147"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#ac1109084a39c09be15e7c40ae35fe147">ANCHO</a> = 700</td></tr>
+<tr class="separator:ac1109084a39c09be15e7c40ae35fe147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c0d5217e6fac6f4c56ff8ddc4d44ac"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">ALTO</a> = 640</td></tr>
+<tr class="separator:ad0c0d5217e6fac6f4c56ff8ddc4d44ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e04ac35258852757296ffaae77788af"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#a8e04ac35258852757296ffaae77788af">ALTO_LOG</a> = 520</td></tr>
+<tr class="separator:a8e04ac35258852757296ffaae77788af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb65d9527a5f878338a05f0e8c4f30b4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_servidor.html#acb65d9527a5f878338a05f0e8c4f30b4">ANCHO_LOG</a> = <a class="el" href="classservidor_1_1_servidor.html#ac1109084a39c09be15e7c40ae35fe147">ANCHO</a> - 25</td></tr>
+<tr class="separator:acb65d9527a5f878338a05f0e8c4f30b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00028">28</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00029">29</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
 </div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a953d543a29f1ff877db80f44f57929b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953d543a29f1ff877db80f44f57929b6">&#9670;&nbsp;</a></span>cargarInterfaz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void servidor.Servidor.cargarInterfaz </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00059">59</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                         {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        JFrame ventana = <span class="keyword">new</span> JFrame(<span class="stringliteral">&quot;Servidor WOME&quot;</span>);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        ventana.setSize(<a class="code" href="classservidor_1_1_servidor.html#ac1109084a39c09be15e7c40ae35fe147">ANCHO</a>, <a class="code" href="classservidor_1_1_servidor.html#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">ALTO</a>);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        ventana.setResizable(<span class="keyword">false</span>);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        ventana.setLocationRelativeTo(null);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        ventana.setLayout(null);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        ventana.setIconImage(Toolkit.getDefaultToolkit().getImage(<span class="stringliteral">&quot;src/main/java/servidor/server.png&quot;</span>));</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        JLabel titulo = <span class="keyword">new</span> JLabel(<span class="stringliteral">&quot;Log del servidor...&quot;</span>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        titulo.setFont(<span class="keyword">new</span> Font(<span class="stringliteral">&quot;Courier New&quot;</span>, Font.BOLD, 16));</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        titulo.setBounds(10, 0, 200, 30);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        ventana.add(titulo);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a> = <span class="keyword">new</span> JTextArea();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.setEditable(<span class="keyword">false</span>);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.setFont(<span class="keyword">new</span> Font(<span class="stringliteral">&quot;Times New Roman&quot;</span>, Font.PLAIN, 13));</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        JScrollPane scroll = <span class="keyword">new</span> JScrollPane(<a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        scroll.setBounds(10, 40, <a class="code" href="classservidor_1_1_servidor.html#acb65d9527a5f878338a05f0e8c4f30b4">ANCHO_LOG</a>, <a class="code" href="classservidor_1_1_servidor.html#a8e04ac35258852757296ffaae77788af">ALTO_LOG</a>);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        ventana.add(scroll);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keyword">final</span> JButton botonIniciar = <span class="keyword">new</span> JButton();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keyword">final</span> JButton botonDetener = <span class="keyword">new</span> JButton();</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        botonIniciar.setText(<span class="stringliteral">&quot;Iniciar&quot;</span>);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        botonIniciar.setBounds(220, <a class="code" href="classservidor_1_1_servidor.html#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">ALTO</a> - 70, 100, 30);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        botonIniciar.addActionListener(<span class="keyword">new</span> ActionListener() {</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> actionPerformed(ActionEvent e) {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">server</a> = <span class="keyword">new</span> Thread(<span class="keyword">new</span> Servidor());</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">server</a>.start();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                botonIniciar.setEnabled(<span class="keyword">false</span>);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                botonDetener.setEnabled(<span class="keyword">true</span>);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        });</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        ventana.add(botonIniciar);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        botonDetener.setText(<span class="stringliteral">&quot;Detener&quot;</span>);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        botonDetener.setBounds(360, <a class="code" href="classservidor_1_1_servidor.html#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">ALTO</a> - 70, 100, 30);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        botonDetener.addActionListener(<span class="keyword">new</span> ActionListener() {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> actionPerformed(ActionEvent e) {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">server</a>.stop();</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a>.stop();</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a>.stop();</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    <span class="keywordflow">for</span> (EscuchaCliente <a class="code" href="namespacecliente.html">cliente</a> : <a class="code" href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">clientesConectados</a>) {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        <a class="code" href="namespacecliente.html">cliente</a>.getSalida().close();</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                        <a class="code" href="namespacecliente.html">cliente</a>.getEntrada().close();</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                        <a class="code" href="namespacecliente.html">cliente</a>.getSocket().close();</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                    }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a>.close();</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;El servidor se ha detenido.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                } <span class="keywordflow">catch</span> (IOException e1) {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Fallo al intentar detener el servidor.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                }</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a> != null)</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a>.<a class="code" href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c">close</a>();</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                botonDetener.setEnabled(<span class="keyword">false</span>);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                botonIniciar.setEnabled(<span class="keyword">true</span>);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            }</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        });</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        botonDetener.setEnabled(<span class="keyword">false</span>);</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        ventana.add(botonDetener);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        ventana.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        ventana.addWindowListener(<span class="keyword">new</span> WindowAdapter() {</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> windowClosing(WindowEvent evt) {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a> != null) {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                    <span class="keywordflow">try</span> {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">server</a>.stop();</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a>.stop();</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a>.stop();</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                        <span class="keywordflow">for</span> (EscuchaCliente <a class="code" href="namespacecliente.html">cliente</a> : clientesConectados) {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                            <a class="code" href="namespacecliente.html">cliente</a>.getSalida().close();</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                            <a class="code" href="namespacecliente.html">cliente</a>.getEntrada().close();</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                            <a class="code" href="namespacecliente.html">cliente</a>.getSocket().close();</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                        }</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a>.close();</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;El servidor se ha detenido.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                    } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                        <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Fallo al intentar detener el servidor.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                        System.exit(1);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    }</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                }</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a> != null)</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                    <a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a>.<a class="code" href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c">close</a>();</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                System.exit(0);</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            }</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        });</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        ventana.setVisible(<span class="keyword">true</span>);</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_conector_html_a3d9d5874d25f32323edf09177017da7c"><div class="ttname"><a href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c">servidor.Conector.close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> <a href="_conector_8java_source.html#l00032">Conector.java:32</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a691bc7d4f19aa377c703b2dd416cb301"><div class="ttname"><a href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">servidor.Servidor.atencionConexiones</a></div><div class="ttdeci">static AtencionConexiones atencionConexiones</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00052">Servidor.java:52</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a5d4fbb4fe473d7715e65b2940bea7292"><div class="ttname"><a href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">servidor.Servidor.clientesConectados</a></div><div class="ttdeci">static ArrayList&lt; EscuchaCliente &gt; clientesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00032">Servidor.java:32</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a8e04ac35258852757296ffaae77788af"><div class="ttname"><a href="classservidor_1_1_servidor.html#a8e04ac35258852757296ffaae77788af">servidor.Servidor.ALTO_LOG</a></div><div class="ttdeci">static final int ALTO_LOG</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00047">Servidor.java:47</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_acb65d9527a5f878338a05f0e8c4f30b4"><div class="ttname"><a href="classservidor_1_1_servidor.html#acb65d9527a5f878338a05f0e8c4f30b4">servidor.Servidor.ANCHO_LOG</a></div><div class="ttdeci">static final int ANCHO_LOG</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00048">Servidor.java:48</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_aa992c5e3c9d3161fc48e52130d993172"><div class="ttname"><a href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">servidor.Servidor.atencionMovimientos</a></div><div class="ttdeci">static AtencionMovimientos atencionMovimientos</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00053">Servidor.java:53</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a90af46bb8c857cd0c4098a88da8a554a"><div class="ttname"><a href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">servidor.Servidor.log</a></div><div class="ttdeci">static JTextArea log</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00050">Servidor.java:50</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a993ad2e4b1a3f51aee18957a278c007d"><div class="ttname"><a href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">servidor.Servidor.conexionDB</a></div><div class="ttdeci">static Conector conexionDB</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00042">Servidor.java:42</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a7994469f629886404b1e23c58a5be2f1"><div class="ttname"><a href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">servidor.Servidor.serverSocket</a></div><div class="ttdeci">static ServerSocket serverSocket</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00041">Servidor.java:41</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_ad0c0d5217e6fac6f4c56ff8ddc4d44ac"><div class="ttname"><a href="classservidor_1_1_servidor.html#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">servidor.Servidor.ALTO</a></div><div class="ttdeci">static final int ALTO</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00046">Servidor.java:46</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_ac1109084a39c09be15e7c40ae35fe147"><div class="ttname"><a href="classservidor_1_1_servidor.html#ac1109084a39c09be15e7c40ae35fe147">servidor.Servidor.ANCHO</a></div><div class="ttdeci">static final int ANCHO</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00045">Servidor.java:45</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_aea6aca05f3afd70b917be13b72e91d4e"><div class="ttname"><a href="classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e">servidor.Servidor.server</a></div><div class="ttdeci">static Thread server</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00039">Servidor.java:39</a></div></div>
+<div class="ttc" id="namespacecliente_html"><div class="ttname"><a href="namespacecliente.html">cliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_cliente_8java_source.html#l00001">Cliente.java:1</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_cgraph.png" border="0" usemap="#classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_cgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_cgraph" id="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_cgraph">
+<area shape="rect" id="node2" href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c" title="servidor.Conector.close" alt="" coords="209,13,367,39"/>
+</map>
+</div>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_icgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_icgraph" id="classservidor_1_1_servidor_a953d543a29f1ff877db80f44f57929b6_icgraph">
+<area shape="rect" id="node2" href="classservidor_1_1_servidor.html#aaac7317e0e052a4cce9aadd2c231773d" title="servidor.Servidor.main" alt="" coords="209,13,357,39"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a077d69c0a8984c2f5c79d94ee435b358"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a077d69c0a8984c2f5c79d94ee435b358">&#9670;&nbsp;</a></span>getClientesConectados()</h2>
 
@@ -164,8 +269,9 @@ Atributos públicos estáticos</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00218">218</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                                                    {</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">return</span> clientesConectados;</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00287">287</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                                                                    {</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">clientesConectados</a>;</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a5d4fbb4fe473d7715e65b2940bea7292"><div class="ttname"><a href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">servidor.Servidor.clientesConectados</a></div><div class="ttdeci">static ArrayList&lt; EscuchaCliente &gt; clientesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00032">Servidor.java:32</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_a077d69c0a8984c2f5c79d94ee435b358_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a077d69c0a8984c2f5c79d94ee435b358_icgraph" alt=""/></div>
@@ -182,9 +288,10 @@ Gráfico de llamadas a esta función:</div>
 <area shape="rect" id="node11" href="classcomandos_1_1_salir.html#a8c2e803414d534403a653e9834294b46" title="comandos.Salir.ejecutar" alt="" coords="283,477,446,504"/>
 <area shape="rect" id="node12" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="285,528,445,555"/>
 <area shape="rect" id="node13" href="classcomandos_1_1_trueque.html#a32cbaa4536d7b49316e3ffc5ba09a327" title="comandos.Trueque.ejecutar" alt="" coords="273,579,456,605"/>
-<area shape="rect" id="node14" href="classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="259,629,470,656"/>
-<area shape="rect" id="node15" href="classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="257,680,472,707"/>
-<area shape="rect" id="node16" href="classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="273,731,456,757"/>
+<area shape="rect" id="node14" href="classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="277,630,452,671"/>
+<area shape="rect" id="node15" href="classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="259,696,470,723"/>
+<area shape="rect" id="node16" href="classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="257,747,472,773"/>
+<area shape="rect" id="node17" href="classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="273,797,456,824"/>
 </map>
 </div>
 
@@ -213,8 +320,9 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00230">230</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                         {</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> conexionDB;</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00303">303</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                         {</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a>;</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a993ad2e4b1a3f51aee18957a278c007d"><div class="ttname"><a href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">servidor.Servidor.conexionDB</a></div><div class="ttdeci">static Conector conexionDB</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00042">Servidor.java:42</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_a142ca477d7b7dd91f5511f8bd49b0443_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a142ca477d7b7dd91f5511f8bd49b0443_icgraph" alt=""/></div>
@@ -227,6 +335,43 @@ Gráfico de llamadas a esta función:</div>
 <area shape="rect" id="node7" href="classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="257,275,483,301"/>
 <area shape="rect" id="node8" href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="267,325,473,352"/>
 <area shape="rect" id="node9" href="classcomandos_1_1_registro.html#adff5fedb3e8d4f7cd8c5b7464b2107b3" title="comandos.Registro.ejecutar" alt="" coords="278,376,462,403"/>
+<area shape="rect" id="node10" href="classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="283,427,457,469"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7b799586e7d1eb02b3b2a5adb41579c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b799586e7d1eb02b3b2a5adb41579c6">&#9670;&nbsp;</a></span>getNPCs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a>&gt; servidor.Servidor.getNPCs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00315">315</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                                     {</div><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a>;</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a42f04f02f3b99f0a9c2cd98ca23ae357"><div class="ttname"><a href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">servidor.Servidor.NPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteNPC &gt; NPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00037">Servidor.java:37</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_a7b799586e7d1eb02b3b2a5adb41579c6_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a7b799586e7d1eb02b3b2a5adb41579c6_icgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_a7b799586e7d1eb02b3b2a5adb41579c6_icgraph" id="classservidor_1_1_servidor_a7b799586e7d1eb02b3b2a5adb41579c6_icgraph">
+<area shape="rect" id="node2" href="classcomandos_1_1_mostrar_mapas.html#a445c5f8fcb0f78cb1cded959609de4b4" title="comandos.MostrarMapas.ejecutar" alt="" coords="225,5,444,32"/>
 </map>
 </div>
 
@@ -255,8 +400,9 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00226">226</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                                                           {</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> personajesConectados;</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00299">299</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                                                                           {</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">personajesConectados</a>;</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_aacf91ca60fd97d8b48746f9c901db6de"><div class="ttname"><a href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">servidor.Servidor.personajesConectados</a></div><div class="ttdeci">static Map&lt; Integer, PaquetePersonaje &gt; personajesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00035">Servidor.java:35</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_aafac84ea3e8c4cccafd9324e3eeab030_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_aafac84ea3e8c4cccafd9324e3eeab030_icgraph" alt=""/></div>
@@ -269,9 +415,47 @@ Gráfico de llamadas a esta función:</div>
 <area shape="rect" id="node7" href="classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="287,275,477,301"/>
 <area shape="rect" id="node8" href="classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="269,325,495,352"/>
 <area shape="rect" id="node9" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="302,376,462,403"/>
-<area shape="rect" id="node10" href="classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="277,427,487,453"/>
-<area shape="rect" id="node11" href="classservidor_1_1_conector.html#a22f46862a359fbdf6d1813ff1cdd5096" title="servidor.Conector.actualizar\lInventario" alt="" coords="291,478,473,519"/>
-<area shape="rect" id="node12" href="classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="291,544,473,571"/>
+<area shape="rect" id="node10" href="classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="295,427,469,469"/>
+<area shape="rect" id="node11" href="classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="277,493,487,520"/>
+<area shape="rect" id="node12" href="classservidor_1_1_conector.html#a22f46862a359fbdf6d1813ff1cdd5096" title="servidor.Conector.actualizar\lInventario" alt="" coords="291,545,473,586"/>
+<area shape="rect" id="node13" href="classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="291,611,473,637"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa92fafcabd39a2c66661036add35392d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92fafcabd39a2c66661036add35392d">&#9670;&nbsp;</a></span>getUbicacionNPCs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a>&gt; servidor.Servidor.getUbicacionNPCs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00307">307</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                                     {</div><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a>;</div><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_ae760453632a2968001d4c6f2236b0454"><div class="ttname"><a href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">servidor.Servidor.ubicacionNPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteMovimiento &gt; ubicacionNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00036">Servidor.java:36</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_aa92fafcabd39a2c66661036add35392d_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_aa92fafcabd39a2c66661036add35392d_icgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_aa92fafcabd39a2c66661036add35392d_icgraph" id="classservidor_1_1_servidor_aa92fafcabd39a2c66661036add35392d_icgraph">
+<area shape="rect" id="node2" href="classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="303,5,477,47"/>
+<area shape="rect" id="node3" href="classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="283,71,497,98"/>
 </map>
 </div>
 
@@ -300,8 +484,9 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00222">222</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                                                           {</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> ubicacionPersonajes;</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00295">295</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                                                                           {</div><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">ubicacionPersonajes</a>;</div><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a53a4a5776b672ec1a1a0c04cc6a95e7e"><div class="ttname"><a href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">servidor.Servidor.ubicacionPersonajes</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteMovimiento &gt; ubicacionPersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00034">Servidor.java:34</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_a9161fbc0c0ed1fd63dd8a4242fec3616_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a9161fbc0c0ed1fd63dd8a4242fec3616_icgraph" alt=""/></div>
@@ -339,13 +524,15 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00051">51</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                           {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        cargarInterfaz();   </div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00055">55</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                           {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classservidor_1_1_servidor.html#a953d543a29f1ff877db80f44f57929b6">cargarInterfaz</a>();   </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a953d543a29f1ff877db80f44f57929b6"><div class="ttname"><a href="classservidor_1_1_servidor.html#a953d543a29f1ff877db80f44f57929b6">servidor.Servidor.cargarInterfaz</a></div><div class="ttdeci">static void cargarInterfaz()</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00059">Servidor.java:59</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_aaac7317e0e052a4cce9aadd2c231773d_cgraph.png" border="0" usemap="#classservidor_1_1_servidor_aaac7317e0e052a4cce9aadd2c231773d_cgraph" alt=""/></div>
 <map name="classservidor_1_1_servidor_aaac7317e0e052a4cce9aadd2c231773d_cgraph" id="classservidor_1_1_servidor_aaac7317e0e052a4cce9aadd2c231773d_cgraph">
-<area shape="rect" id="node2" href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c" title="servidor.Conector.close" alt="" coords="201,5,359,32"/>
+<area shape="rect" id="node2" href="classservidor_1_1_servidor.html#a953d543a29f1ff877db80f44f57929b6" title="servidor.Servidor.cargar\lInterfaz" alt="" coords="201,5,357,47"/>
+<area shape="rect" id="node3" href="classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c" title="servidor.Conector.close" alt="" coords="405,13,563,39"/>
 </map>
 </div>
 
@@ -374,17 +561,18 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Método obsoleto.</p>
+<p>En el contexto donde un usuario intenta enviar un mensaje a todos, chequea que la cantidad de conectados sea igual a la esperada. Si lo es, informa en el log del servidor que el mensaje se envió a todos y retorna true. Si la cantidad no es igual, informa que algunos usuarios se han desconectado y retorna false. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">contador</td><td>es la cantidad esperada de usuarios conectados </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>si se envió el mensaje a todos o no </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00202">202</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                                                    {</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordtype">boolean</span> result = <span class="keyword">true</span>;</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">if</span>(personajesConectados.size() != contador+1) {</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            result = <span class="keyword">false</span>;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="comment">// Si existe inicio sesion</span></div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">if</span> (result) {</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;Se ha enviado un mensaje a todos los usuarios&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">// Si no existe informo y devuelvo false</span></div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;Uno o más de todos los usuarios se ha desconectado, se ha mandado el mensaje a los demas.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        }</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><img src="classservidor_1_1_servidor_ac88572870d8806b14d570b768bdb7d09_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_ac88572870d8806b14d570b768bdb7d09_icgraph" alt=""/></div>
-<map name="classservidor_1_1_servidor_ac88572870d8806b14d570b768bdb7d09_icgraph" id="classservidor_1_1_servidor_ac88572870d8806b14d570b768bdb7d09_icgraph">
-<area shape="rect" id="node2" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="247,5,407,32"/>
-</map>
-</div>
-
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00260">260</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                                                    {</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="comment">//Refactoreando el desastre anterior (Lucas, sabemos que fuiste vos)</span></div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">personajesConectados</a>.size() == contador+1) {</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;Se ha enviado un mensaje a todos los usuarios&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        Servidor.log.append(<span class="stringliteral">&quot;Uno o más de todos los usuarios se ha desconectado, se ha mandado el mensaje a los demas.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            </div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="comment">/* Desastre anterior:</span></div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment">        </span></div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment">        boolean result = true;</span></div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment">        if(personajesConectados.size() != contador+1) {</span></div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment">            result = false;</span></div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment">        }</span></div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="comment">        // Si existe inicio sesion</span></div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="comment">        if (result) {</span></div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="comment">            Servidor.log.append(&quot;Se ha enviado un mensaje a todos los usuarios&quot; + System.lineSeparator());</span></div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment">                return true;</span></div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment">        } else {</span></div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment">            // Si no existe informo y devuelvo false</span></div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment">            Servidor.log.append(&quot;Uno o más de todos los usuarios se ha desconectado, se ha mandado el mensaje a los demas.&quot; + System.lineSeparator());</span></div><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment">            return false;</span></div><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">        }</span></div><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">        */</span></div><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_aacf91ca60fd97d8b48746f9c901db6de"><div class="ttname"><a href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">servidor.Servidor.personajesConectados</a></div><div class="ttdeci">static Map&lt; Integer, PaquetePersonaje &gt; personajesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00035">Servidor.java:35</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a71f2620ab646220839d1e30cf71d2e39"></a>
@@ -410,23 +598,24 @@ Gráfico de llamadas a esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Método obsoleto.</p>
+<p>En el contexto donde un usuario intenta enviar un mensaje a otro, chequea que el receptor esté conectado. Si lo está, informa en el log del servidor que el mensaje se envió y retorna true. Si no está conectado, informa que no se pudo enviar el mensaje y retorna false. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pqm</td><td>es el paquete de mensaje que se intenta enviar </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>si el receptor está conectado o no </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00180">180</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                                                              {</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordtype">boolean</span> result = <span class="keyword">true</span>;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordtype">boolean</span> noEncontro = <span class="keyword">true</span>;</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">for</span> (Map.Entry&lt;Integer, PaquetePersonaje&gt; personaje : personajesConectados.entrySet()) {</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <span class="keywordflow">if</span>(noEncontro &amp;&amp; (!personaje.getValue().getNombre().equals(pqm.getUserReceptor()))) {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                result = <span class="keyword">false</span>;</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                result = <span class="keyword">true</span>;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                noEncontro = <span class="keyword">false</span>;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            }</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="comment">// Si existe inicio sesion</span></div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (result) {</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            Servidor.log.append(pqm.getUserEmisor() + <span class="stringliteral">&quot; envió mensaje a &quot;</span> + pqm.getUserReceptor() + System.lineSeparator());</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="comment">// Si no existe informo y devuelvo false</span></div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;El mensaje para &quot;</span> + pqm.getUserReceptor() + <span class="stringliteral">&quot; no se envió, ya que se encuentra desconectado.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        }</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00212">212</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                                              {</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="comment">//Refactoreando (Lucas, sabemos que fuiste vos)</span></div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        </div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">for</span> (Map.Entry&lt;Integer, PaquetePersonaje&gt; personaje : <a class="code" href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">personajesConectados</a>.entrySet()) {</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keywordflow">if</span>(personaje.getValue().getNombre().equals(pqm.getUserReceptor())) {</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                Servidor.log.append(pqm.getUserEmisor() + <span class="stringliteral">&quot; envió mensaje a &quot;</span> + pqm.getUserReceptor() + System.lineSeparator());</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            }</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        }</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        Servidor.log.append(<span class="stringliteral">&quot;El mensaje para &quot;</span> + pqm.getUserReceptor() + <span class="stringliteral">&quot; no se envió, ya que se encuentra desconectado.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        </div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="comment">/*Desastre anterior:</span></div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">        </span></div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="comment">        boolean result = true;</span></div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="comment">        boolean noEncontro = true;</span></div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="comment">        for (Map.Entry&lt;Integer, PaquetePersonaje&gt; personaje : personajesConectados.entrySet()) {</span></div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="comment">            if(noEncontro &amp;&amp; (!personaje.getValue().getNombre().equals(pqm.getUserReceptor()))) {</span></div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">                result = false;</span></div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment">            } else {</span></div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment">                result = true;</span></div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">                noEncontro = false;</span></div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">            }</span></div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">        }</span></div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment">        // Si existe inicio sesion</span></div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment">        if (result) {</span></div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment">            Servidor.log.append(pqm.getUserEmisor() + &quot; envió mensaje a &quot; + pqm.getUserReceptor() + System.lineSeparator());</span></div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment">                return true;</span></div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">        } else {</span></div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">            // Si no existe informo y devuelvo false</span></div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">            Servidor.log.append(&quot;El mensaje para &quot; + pqm.getUserReceptor() + &quot; no se envió, ya que se encuentra desconectado.&quot; + System.lineSeparator());</span></div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">            return false;</span></div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment">        }</span></div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment">        */</span></div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_aacf91ca60fd97d8b48746f9c901db6de"><div class="ttname"><a href="classservidor_1_1_servidor.html#aacf91ca60fd97d8b48746f9c901db6de">servidor.Servidor.personajesConectados</a></div><div class="ttdeci">static Map&lt; Integer, PaquetePersonaje &gt; personajesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00035">Servidor.java:35</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_cgraph.png" border="0" usemap="#classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_cgraph" alt=""/></div>
 <map name="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_cgraph" id="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_cgraph">
 <area shape="rect" id="node2" href="classmensajeria_1_1_paquete_mensaje.html#a83bcacd97ece613019f44353faf1f431" title="mensajeria.PaqueteMensaje.get\lUserReceptor" alt="" coords="223,5,431,47"/>
 <area shape="rect" id="node3" href="classmensajeria_1_1_paquete_mensaje.html#abdd407bf28c9b5c490758aa861271b2e" title="mensajeria.PaqueteMensaje.get\lUserEmisor" alt="" coords="223,71,431,112"/>
-</map>
-</div>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><img src="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_icgraph" alt=""/></div>
-<map name="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_icgraph" id="classservidor_1_1_servidor_a71f2620ab646220839d1e30cf71d2e39_icgraph">
-<area shape="rect" id="node2" href="classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="223,13,383,39"/>
 </map>
 </div>
 
@@ -447,15 +636,231 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00146">146</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                      {</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            </div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            conexionDB = <span class="keyword">new</span> Conector();</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            conexionDB.connect();</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            </div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Iniciando el servidor...&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            serverSocket = <span class="keyword">new</span> ServerSocket(PUERTO);</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Servidor esperando conexiones...&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            String ipRemota;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            </div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a> = <span class="keyword">new</span> AtencionConexiones();</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a> = <span class="keyword">new</span> AtencionMovimientos();</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            </div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a>.start();</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a>.start();</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                Socket <a class="code" href="namespacecliente.html">cliente</a> = serverSocket.accept();</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                ipRemota = cliente.getInetAddress().getHostAddress();</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(ipRemota + <span class="stringliteral">&quot; se ha conectado&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                ObjectOutputStream salida = <span class="keyword">new</span> ObjectOutputStream(cliente.getOutputStream());</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                ObjectInputStream entrada = <span class="keyword">new</span> ObjectInputStream(cliente.getInputStream());</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                EscuchaCliente atencion = <span class="keyword">new</span> EscuchaCliente(ipRemota, cliente, entrada, salida);</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                atencion.start();</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                clientesConectados.add(atencion);</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            }</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        } <span class="keywordflow">catch</span> (Exception e) {</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Fallo la conexión.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        }</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a691bc7d4f19aa377c703b2dd416cb301"><div class="ttname"><a href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">servidor.Servidor.atencionConexiones</a></div><div class="ttdeci">static AtencionConexiones atencionConexiones</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00048">Servidor.java:48</a></div></div>
-<div class="ttc" id="classservidor_1_1_servidor_html_aa992c5e3c9d3161fc48e52130d993172"><div class="ttname"><a href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">servidor.Servidor.atencionMovimientos</a></div><div class="ttdeci">static AtencionMovimientos atencionMovimientos</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00049">Servidor.java:49</a></div></div>
-<div class="ttc" id="classservidor_1_1_servidor_html_a90af46bb8c857cd0c4098a88da8a554a"><div class="ttname"><a href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">servidor.Servidor.log</a></div><div class="ttdeci">static JTextArea log</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00046">Servidor.java:46</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00150">150</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                      {</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            </div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a> = <span class="keyword">new</span> Conector();</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">conexionDB</a>.connect();</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            </div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Iniciando el servidor...&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a> = <span class="keyword">new</span> ServerSocket(<a class="code" href="classservidor_1_1_servidor.html#a73035013f59e7da853aa28239c4acbdb">PUERTO</a>);</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Servidor esperando conexiones...&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            String ipRemota;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            </div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a> = <span class="keyword">new</span> AtencionConexiones();</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a> = <span class="keyword">new</span> AtencionMovimientos();</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            </div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">atencionConexiones</a>.start();</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">atencionMovimientos</a>.start();</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="comment">//Donde pongo a los 10 npc</span></div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 10; i++) { <span class="comment">// crea 10 NPCs en posiciones randoms</span></div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                PaqueteNPC paqueteNPC = <span class="keyword">new</span> PaqueteNPC(i);</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="keywordtype">float</span> x = (float) Math.random() * 500;</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <span class="keywordtype">float</span> y = (float)Math.random() * 500;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                </div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                PaqueteMovimiento paqueteMovimiento = <span class="keyword">new</span> PaqueteMovimiento(i, (<span class="keywordtype">float</span>)(10 + (x * 0.707) - (y * 0.707 )), (<span class="keywordtype">float</span>)(10 + (x * 0.707) + (y * 0.707 )) );</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                </div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                </div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a>.put( i, paqueteNPC);</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a>.put( i, paqueteMovimiento);</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                </div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#ac2f06920c90f205a4d5dfef469a830cb">setNPCs</a>( <a class="code" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a> );</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#a00adfe5116904e85aed40940e44cf1b9">setUbicacionNPCs</a>( <a class="code" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a> );</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            }</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            </div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            </div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                Socket <a class="code" href="namespacecliente.html">cliente</a> = <a class="code" href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">serverSocket</a>.accept();</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                ipRemota = cliente.getInetAddress().getHostAddress();</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(ipRemota + <span class="stringliteral">&quot; se ha conectado&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                ObjectOutputStream salida = <span class="keyword">new</span> ObjectOutputStream(cliente.getOutputStream());</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                ObjectInputStream entrada = <span class="keyword">new</span> ObjectInputStream(cliente.getInputStream());</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                EscuchaCliente atencion = <span class="keyword">new</span> EscuchaCliente(ipRemota, cliente, entrada, salida);</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                atencion.start();</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <a class="code" href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">clientesConectados</a>.add(atencion);</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            }</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        } <span class="keywordflow">catch</span> (Exception e) {</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <a class="code" href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">log</a>.append(<span class="stringliteral">&quot;Fallo la conexión.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a00adfe5116904e85aed40940e44cf1b9"><div class="ttname"><a href="classservidor_1_1_servidor.html#a00adfe5116904e85aed40940e44cf1b9">servidor.Servidor.setUbicacionNPCs</a></div><div class="ttdeci">static void setUbicacionNPCs(Map&lt; Integer, PaqueteMovimiento &gt; ubicacionNPCs)</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00311">Servidor.java:311</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a691bc7d4f19aa377c703b2dd416cb301"><div class="ttname"><a href="classservidor_1_1_servidor.html#a691bc7d4f19aa377c703b2dd416cb301">servidor.Servidor.atencionConexiones</a></div><div class="ttdeci">static AtencionConexiones atencionConexiones</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00052">Servidor.java:52</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_ae760453632a2968001d4c6f2236b0454"><div class="ttname"><a href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">servidor.Servidor.ubicacionNPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteMovimiento &gt; ubicacionNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00036">Servidor.java:36</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a5d4fbb4fe473d7715e65b2940bea7292"><div class="ttname"><a href="classservidor_1_1_servidor.html#a5d4fbb4fe473d7715e65b2940bea7292">servidor.Servidor.clientesConectados</a></div><div class="ttdeci">static ArrayList&lt; EscuchaCliente &gt; clientesConectados</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00032">Servidor.java:32</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_aa992c5e3c9d3161fc48e52130d993172"><div class="ttname"><a href="classservidor_1_1_servidor.html#aa992c5e3c9d3161fc48e52130d993172">servidor.Servidor.atencionMovimientos</a></div><div class="ttdeci">static AtencionMovimientos atencionMovimientos</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00053">Servidor.java:53</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a90af46bb8c857cd0c4098a88da8a554a"><div class="ttname"><a href="classservidor_1_1_servidor.html#a90af46bb8c857cd0c4098a88da8a554a">servidor.Servidor.log</a></div><div class="ttdeci">static JTextArea log</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00050">Servidor.java:50</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a42f04f02f3b99f0a9c2cd98ca23ae357"><div class="ttname"><a href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">servidor.Servidor.NPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteNPC &gt; NPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00037">Servidor.java:37</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_ac2f06920c90f205a4d5dfef469a830cb"><div class="ttname"><a href="classservidor_1_1_servidor.html#ac2f06920c90f205a4d5dfef469a830cb">servidor.Servidor.setNPCs</a></div><div class="ttdeci">static void setNPCs(Map&lt; Integer, PaqueteNPC &gt; NPCs)</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00319">Servidor.java:319</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a993ad2e4b1a3f51aee18957a278c007d"><div class="ttname"><a href="classservidor_1_1_servidor.html#a993ad2e4b1a3f51aee18957a278c007d">servidor.Servidor.conexionDB</a></div><div class="ttdeci">static Conector conexionDB</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00042">Servidor.java:42</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a7994469f629886404b1e23c58a5be2f1"><div class="ttname"><a href="classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1">servidor.Servidor.serverSocket</a></div><div class="ttdeci">static ServerSocket serverSocket</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00041">Servidor.java:41</a></div></div>
+<div class="ttc" id="classservidor_1_1_servidor_html_a73035013f59e7da853aa28239c4acbdb"><div class="ttname"><a href="classservidor_1_1_servidor.html#a73035013f59e7da853aa28239c4acbdb">servidor.Servidor.PUERTO</a></div><div class="ttdeci">final int PUERTO</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00043">Servidor.java:43</a></div></div>
 <div class="ttc" id="namespacecliente_html"><div class="ttname"><a href="namespacecliente.html">cliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_cliente_8java_source.html#l00001">Cliente.java:1</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_a77fbb0fe903fb0c1298678a1ea84aab8_cgraph.png" border="0" usemap="#classservidor_1_1_servidor_a77fbb0fe903fb0c1298678a1ea84aab8_cgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_a77fbb0fe903fb0c1298678a1ea84aab8_cgraph" id="classservidor_1_1_servidor_a77fbb0fe903fb0c1298678a1ea84aab8_cgraph">
+<area shape="rect" id="node2" href="classservidor_1_1_servidor.html#ac2f06920c90f205a4d5dfef469a830cb" title="servidor.Servidor.setNPCs" alt="" coords="221,5,393,32"/>
+<area shape="rect" id="node3" href="classservidor_1_1_servidor.html#a00adfe5116904e85aed40940e44cf1b9" title="servidor.Servidor.setUbicacionNPCs" alt="" coords="192,56,421,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2f06920c90f205a4d5dfef469a830cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f06920c90f205a4d5dfef469a830cb">&#9670;&nbsp;</a></span>setNPCs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void servidor.Servidor.setNPCs </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a> &gt;&#160;</td>
+          <td class="paramname"><em>NPCs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00319">319</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                                                              {</div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        Servidor.NPCs = <a class="code" href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">NPCs</a>;</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a42f04f02f3b99f0a9c2cd98ca23ae357"><div class="ttname"><a href="classservidor_1_1_servidor.html#a42f04f02f3b99f0a9c2cd98ca23ae357">servidor.Servidor.NPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteNPC &gt; NPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00037">Servidor.java:37</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_ac2f06920c90f205a4d5dfef469a830cb_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_ac2f06920c90f205a4d5dfef469a830cb_icgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_ac2f06920c90f205a4d5dfef469a830cb_icgraph" id="classservidor_1_1_servidor_ac2f06920c90f205a4d5dfef469a830cb_icgraph">
+<area shape="rect" id="node2" href="classservidor_1_1_servidor.html#a77fbb0fe903fb0c1298678a1ea84aab8" title="servidor.Servidor.run" alt="" coords="225,5,364,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a00adfe5116904e85aed40940e44cf1b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00adfe5116904e85aed40940e44cf1b9">&#9670;&nbsp;</a></span>setUbicacionNPCs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void servidor.Servidor.setUbicacionNPCs </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td>
+          <td class="paramname"><em>ubicacionNPCs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00311">311</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                                                                                       {</div><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        Servidor.ubicacionNPCs = <a class="code" href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">ubicacionNPCs</a>;</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_ae760453632a2968001d4c6f2236b0454"><div class="ttname"><a href="classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454">servidor.Servidor.ubicacionNPCs</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteMovimiento &gt; ubicacionNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00036">Servidor.java:36</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_servidor_a00adfe5116904e85aed40940e44cf1b9_icgraph.png" border="0" usemap="#classservidor_1_1_servidor_a00adfe5116904e85aed40940e44cf1b9_icgraph" alt=""/></div>
+<map name="classservidor_1_1_servidor_a00adfe5116904e85aed40940e44cf1b9_icgraph" id="classservidor_1_1_servidor_a00adfe5116904e85aed40940e44cf1b9_icgraph">
+<area shape="rect" id="node2" href="classservidor_1_1_servidor.html#a77fbb0fe903fb0c1298678a1ea84aab8" title="servidor.Servidor.run" alt="" coords="283,5,421,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc32c4d9ac676d5818d5514fc8bb6da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc32c4d9ac676d5818d5514fc8bb6da5">&#9670;&nbsp;</a></span>setUbicacionPersonajes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void servidor.Servidor.setUbicacionPersonajes </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a> &gt;&#160;</td>
+          <td class="paramname"><em>ubicacionPersonajes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00291">291</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                                                                                                   {</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        Servidor.ubicacionPersonajes = <a class="code" href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">ubicacionPersonajes</a>;</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_servidor_html_a53a4a5776b672ec1a1a0c04cc6a95e7e"><div class="ttname"><a href="classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e">servidor.Servidor.ubicacionPersonajes</a></div><div class="ttdeci">static Map&lt; Integer, PaqueteMovimiento &gt; ubicacionPersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_servidor_8java_source.html#l00034">Servidor.java:34</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="ad0c0d5217e6fac6f4c56ff8ddc4d44ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c0d5217e6fac6f4c56ff8ddc4d44ac">&#9670;&nbsp;</a></span>ALTO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int servidor.Servidor.ALTO = 640</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00046">46</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a8e04ac35258852757296ffaae77788af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e04ac35258852757296ffaae77788af">&#9670;&nbsp;</a></span>ALTO_LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int servidor.Servidor.ALTO_LOG = 520</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00047">47</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="ac1109084a39c09be15e7c40ae35fe147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1109084a39c09be15e7c40ae35fe147">&#9670;&nbsp;</a></span>ANCHO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int servidor.Servidor.ANCHO = 700</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00045">45</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="acb65d9527a5f878338a05f0e8c4f30b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb65d9527a5f878338a05f0e8c4f30b4">&#9670;&nbsp;</a></span>ANCHO_LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int servidor.Servidor.ANCHO_LOG = <a class="el" href="classservidor_1_1_servidor.html#ac1109084a39c09be15e7c40ae35fe147">ANCHO</a> - 25</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00048">48</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
 <a id="a691bc7d4f19aa377c703b2dd416cb301"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a691bc7d4f19aa377c703b2dd416cb301">&#9670;&nbsp;</a></span>atencionConexiones</h2>
 
@@ -476,7 +881,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00048">48</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00052">52</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
 
 </div>
 </div>
@@ -500,7 +905,55 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00049">49</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00053">53</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a5d4fbb4fe473d7715e65b2940bea7292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4fbb4fe473d7715e65b2940bea7292">&#9670;&nbsp;</a></span>clientesConectados</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;<a class="el" href="classservidor_1_1_escucha_cliente.html">EscuchaCliente</a>&gt; servidor.Servidor.clientesConectados = new ArrayList&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00032">32</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a993ad2e4b1a3f51aee18957a278c007d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993ad2e4b1a3f51aee18957a278c007d">&#9670;&nbsp;</a></span>conexionDB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classservidor_1_1_conector.html">Conector</a> servidor.Servidor.conexionDB</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00042">42</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
 
 </div>
 </div>
@@ -524,12 +977,180 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00046">46</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00050">50</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a42f04f02f3b99f0a9c2cd98ca23ae357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f04f02f3b99f0a9c2cd98ca23ae357">&#9670;&nbsp;</a></span>NPCs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a>&gt; servidor.Servidor.NPCs = new HashMap&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00037">37</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="aacf91ca60fd97d8b48746f9c901db6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf91ca60fd97d8b48746f9c901db6de">&#9670;&nbsp;</a></span>personajesConectados</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_personaje.html">PaquetePersonaje</a>&gt; servidor.Servidor.personajesConectados = new HashMap&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00035">35</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a73035013f59e7da853aa28239c4acbdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73035013f59e7da853aa28239c4acbdb">&#9670;&nbsp;</a></span>PUERTO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int servidor.Servidor.PUERTO = 55050</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00043">43</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="aea6aca05f3afd70b917be13b72e91d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea6aca05f3afd70b917be13b72e91d4e">&#9670;&nbsp;</a></span>server</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Thread servidor.Servidor.server</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00039">39</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a7994469f629886404b1e23c58a5be2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7994469f629886404b1e23c58a5be2f1">&#9670;&nbsp;</a></span>serverSocket</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServerSocket servidor.Servidor.serverSocket</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00041">41</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="ae760453632a2968001d4c6f2236b0454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae760453632a2968001d4c6f2236b0454">&#9670;&nbsp;</a></span>ubicacionNPCs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a>&gt; servidor.Servidor.ubicacionNPCs = new HashMap&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00036">36</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
+
+</div>
+</div>
+<a id="a53a4a5776b672ec1a1a0c04cc6a95e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a4a5776b672ec1a1a0c04cc6a95e7e">&#9670;&nbsp;</a></span>ubicacionPersonajes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;Integer, <a class="el" href="classmensajeria_1_1_paquete_movimiento.html">PaqueteMovimiento</a>&gt; servidor.Servidor.ubicacionPersonajes = new HashMap&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_servidor_8java_source.html#l00034">34</a> del archivo <a class="el" href="_servidor_8java_source.html">Servidor.java</a>.</p>
 
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>E:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_servidor_8java_source.html">Servidor.java</a></li>
+<li>F:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_servidor_8java_source.html">Servidor.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

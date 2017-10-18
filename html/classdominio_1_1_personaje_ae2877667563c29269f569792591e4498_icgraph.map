@@ -1,5 +1,7 @@
 <map id="dominio.Personaje.getDestreza" name="dominio.Personaje.getDestreza">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="256,5,447,47"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a0bd78bde8cb435a42e54a7c06ff7d0b3" title="dominio.Personaje.calcular\lPuntosDeDefensa" alt="" coords="262,71,441,112"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="495,13,708,39"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="269,5,471,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="256,71,484,112"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a0bd78bde8cb435a42e54a7c06ff7d0b3" title="dominio.Personaje.calcular\lPuntosDeDefensa" alt="" coords="281,136,459,177"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="545,13,759,39"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="532,78,772,105"/>
 </map>

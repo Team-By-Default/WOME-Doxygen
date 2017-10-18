@@ -18,6 +18,7 @@ var searchData=
   ['michat',['MiChat',['../classchat_1_1_mi_chat.html',1,'chat']]],
   ['mostrarmapas',['MostrarMapas',['../classcomandos_1_1_mostrar_mapas.html',1,'comandos']]],
   ['movimiento',['Movimiento',['../classcomandos_1_1_movimiento.html',1,'comandos']]],
+  ['movimientonpc',['MovimientoNPC',['../classcomandos_1_1_movimiento_n_p_c.html',1,'comandos']]],
   ['mundo',['Mundo',['../classmundo_1_1_mundo.html',1,'mundo']]],
   ['myrandom',['MyRandom',['../classdominio_1_1_my_random.html',1,'dominio']]],
   ['myrandomstub',['MyRandomStub',['../classdominio_1_1_my_random_stub.html',1,'dominio']]]

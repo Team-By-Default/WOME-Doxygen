@@ -10,6 +10,8 @@ var namespacemensajeria =
     [ "PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", "classmensajeria_1_1_paquete_finalizar_batalla" ],
     [ "PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", "classmensajeria_1_1_paquete_mensaje" ],
     [ "PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", "classmensajeria_1_1_paquete_movimiento" ],
+    [ "PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html", "classmensajeria_1_1_paquete_n_p_c" ],
+    [ "PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", "classmensajeria_1_1_paquete_n_p_cs" ],
     [ "PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", "classmensajeria_1_1_paquete_personaje" ],
     [ "PaqueteUsuario", "classmensajeria_1_1_paquete_usuario.html", "classmensajeria_1_1_paquete_usuario" ]
 ];

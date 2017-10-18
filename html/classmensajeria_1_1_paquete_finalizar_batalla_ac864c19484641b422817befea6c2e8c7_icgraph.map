@@ -1,3 +1,4 @@
 <map id="mensajeria.PaqueteFinalizarBatalla.getIdEnemigo" name="mensajeria.PaqueteFinalizarBatalla.getIdEnemigo">
-<area shape="rect" id="node2" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="240,13,465,39"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="240,5,465,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="265,57,440,98"/>
 </map>

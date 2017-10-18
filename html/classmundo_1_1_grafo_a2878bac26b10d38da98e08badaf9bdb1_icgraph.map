@@ -1,4 +1,6 @@
 <map id="mundo.Grafo.obtenerCantidadDeNodosTotal" name="mundo.Grafo.obtenerCantidadDeNodosTotal">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="248,5,420,47"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="468,13,661,39"/>
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#acbab4324ab29f9ebf0a0d0d8467025cc" title="entidades.Entidad.camino\lMasCorto" alt="" coords="248,5,420,47"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="468,13,661,39"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="709,13,896,39"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="944,13,1151,39"/>
 </map>

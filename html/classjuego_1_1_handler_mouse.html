@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WOME Servidor: Referencia de la Clase juego.HandlerMouse</title>
+<title>World of Middle Earth: Referencia de la Clase juego.HandlerMouse</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">WOME Servidor
+   <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del servidor del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classjuego_1_1_handler_mouse.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
 <a href="classjuego_1_1_handler_mouse-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
 <div class="title">Referencia de la Clase juego.HandlerMouse</div>  </div>
@@ -91,8 +92,6 @@ $(document).ready(function(){initNavTree('classjuego_1_1_handler_mouse.html','')
 Diagrama de herencias de juego.HandlerMouse</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse__inherit__graph.png" border="0" usemap="#juego_8_handler_mouse_inherit__map" alt="Inheritance graph"/></div>
-<map name="juego_8_handler_mouse_inherit__map" id="juego_8_handler_mouse_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de colaboración para juego.HandlerMouse:</div>
@@ -128,6 +127,17 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a86a58264ccf00ffb8afebff51c941129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978a24bc868e032185e3515fb79e593b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuego_1_1_handler_mouse.html#a978a24bc868e032185e3515fb79e593b">setNuevoClick</a> (boolean b)</td></tr>
 <tr class="separator:a978a24bc868e032185e3515fb79e593b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a4d3f2d3dbd19324e5717401a95aa84cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">posMouse</a> []</td></tr>
+<tr class="separator:a4d3f2d3dbd19324e5717401a95aa84cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5097b26eb43afbca9351f74f4389e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">posMouseRecorrido</a> []</td></tr>
+<tr class="separator:a5b5097b26eb43afbca9351f74f4389e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a89004d6a0cf2f4d8b03eecad02e83"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">nuevoRecorrido</a></td></tr>
+<tr class="separator:af9a89004d6a0cf2f4d8b03eecad02e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa66b60bfd8d40107f9f8e58fc40dc62"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">nuevoClick</a></td></tr>
+<tr class="separator:afa66b60bfd8d40107f9f8e58fc40dc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
@@ -149,7 +159,9 @@ Métodos públicos</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00014">14</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                          {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        posMouse = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        posMouseRecorrido = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                          {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">posMouse</a> = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">posMouseRecorrido</a> = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_a4d3f2d3dbd19324e5717401a95aa84cb"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">juego.HandlerMouse.posMouse</a></div><div class="ttdeci">int posMouse[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00008">HandlerMouse.java:8</a></div></div>
+<div class="ttc" id="classjuego_1_1_handler_mouse_html_a5b5097b26eb43afbca9351f74f4389e1"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">juego.HandlerMouse.posMouseRecorrido</a></div><div class="ttdeci">int posMouseRecorrido[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00009">HandlerMouse.java:9</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentación de las funciones miembro</h2>
@@ -169,7 +181,8 @@ Métodos públicos</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00068">68</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                   {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> nuevoClick;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                   {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">nuevoClick</a>;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_afa66b60bfd8d40107f9f8e58fc40dc62"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">juego.HandlerMouse.nuevoClick</a></div><div class="ttdeci">boolean nuevoClick</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00011">HandlerMouse.java:11</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_a86a58264ccf00ffb8afebff51c941129_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_a86a58264ccf00ffb8afebff51c941129_icgraph" alt=""/></div>
@@ -198,7 +211,8 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00060">60</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                       {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> nuevoRecorrido;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                       {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">nuevoRecorrido</a>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_af9a89004d6a0cf2f4d8b03eecad02e83"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">juego.HandlerMouse.nuevoRecorrido</a></div><div class="ttdeci">boolean nuevoRecorrido</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00010">HandlerMouse.java:10</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_ab160d77a86cb49c237a3176df38a7978_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_ab160d77a86cb49c237a3176df38a7978_icgraph" alt=""/></div>
@@ -227,7 +241,8 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00052">52</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                               {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> posMouse;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                               {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">posMouse</a>;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_a4d3f2d3dbd19324e5717401a95aa84cb"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">juego.HandlerMouse.posMouse</a></div><div class="ttdeci">int posMouse[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00008">HandlerMouse.java:8</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_a8f71fbce4575ebb1415c626dbd763181_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_a8f71fbce4575ebb1415c626dbd763181_icgraph" alt=""/></div>
@@ -256,7 +271,8 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00056">56</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                        {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> posMouseRecorrido;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                        {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">posMouseRecorrido</a>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_a5b5097b26eb43afbca9351f74f4389e1"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">juego.HandlerMouse.posMouseRecorrido</a></div><div class="ttdeci">int posMouseRecorrido[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00009">HandlerMouse.java:9</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_aa1893385a95f90d0b44dc92bee98610b_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_aa1893385a95f90d0b44dc92bee98610b_icgraph" alt=""/></div>
@@ -286,7 +302,11 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00020">20</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                           {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(e.getButton() == MouseEvent.BUTTON1) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            posMouse[0] = e.getX();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            posMouse[1] = e.getY();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            nuevoClick = <span class="keyword">true</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(e.getButton() == MouseEvent.BUTTON3) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            posMouseRecorrido[0] = e.getX();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            posMouseRecorrido[1] = e.getY();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            nuevoRecorrido = <span class="keyword">true</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                           {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(e.getButton() == MouseEvent.BUTTON1) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">posMouse</a>[0] = e.getX();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">posMouse</a>[1] = e.getY();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">nuevoClick</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(e.getButton() == MouseEvent.BUTTON3) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">posMouseRecorrido</a>[0] = e.getX();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">posMouseRecorrido</a>[1] = e.getY();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">nuevoRecorrido</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_a4d3f2d3dbd19324e5717401a95aa84cb"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a4d3f2d3dbd19324e5717401a95aa84cb">juego.HandlerMouse.posMouse</a></div><div class="ttdeci">int posMouse[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00008">HandlerMouse.java:8</a></div></div>
+<div class="ttc" id="classjuego_1_1_handler_mouse_html_af9a89004d6a0cf2f4d8b03eecad02e83"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">juego.HandlerMouse.nuevoRecorrido</a></div><div class="ttdeci">boolean nuevoRecorrido</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00010">HandlerMouse.java:10</a></div></div>
+<div class="ttc" id="classjuego_1_1_handler_mouse_html_afa66b60bfd8d40107f9f8e58fc40dc62"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">juego.HandlerMouse.nuevoClick</a></div><div class="ttdeci">boolean nuevoClick</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00011">HandlerMouse.java:11</a></div></div>
+<div class="ttc" id="classjuego_1_1_handler_mouse_html_a5b5097b26eb43afbca9351f74f4389e1"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#a5b5097b26eb43afbca9351f74f4389e1">juego.HandlerMouse.posMouseRecorrido</a></div><div class="ttdeci">int posMouseRecorrido[]</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00009">HandlerMouse.java:9</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d20ec5afa8a8f2186a6c38a83197c23"></a>
@@ -386,13 +406,15 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00072">72</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                         {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        nuevoClick = b;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                         {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">nuevoClick</a> = b;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_afa66b60bfd8d40107f9f8e58fc40dc62"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#afa66b60bfd8d40107f9f8e58fc40dc62">juego.HandlerMouse.nuevoClick</a></div><div class="ttdeci">boolean nuevoClick</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00011">HandlerMouse.java:11</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_a978a24bc868e032185e3515fb79e593b_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_a978a24bc868e032185e3515fb79e593b_icgraph" alt=""/></div>
 <map name="classjuego_1_1_handler_mouse_a978a24bc868e032185e3515fb79e593b_icgraph" id="classjuego_1_1_handler_mouse_a978a24bc868e032185e3515fb79e593b_icgraph">
 <area shape="rect" id="node2" href="classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="253,5,447,32"/>
 <area shape="rect" id="node5" href="classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="251,57,449,98"/>
+<area shape="rect" id="node6" href="classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="258,122,442,163"/>
 <area shape="rect" id="node3" href="classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="497,5,684,32"/>
 <area shape="rect" id="node4" href="classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="732,5,939,32"/>
 </map>
@@ -417,7 +439,8 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00064">64</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                             {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        nuevoRecorrido = b;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                             {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">nuevoRecorrido</a> = b;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div><div class="ttc" id="classjuego_1_1_handler_mouse_html_af9a89004d6a0cf2f4d8b03eecad02e83"><div class="ttname"><a href="classjuego_1_1_handler_mouse.html#af9a89004d6a0cf2f4d8b03eecad02e83">juego.HandlerMouse.nuevoRecorrido</a></div><div class="ttdeci">boolean nuevoRecorrido</div><div class="ttdef"><b>Definition:</b> <a href="_handler_mouse_8java_source.html#l00010">HandlerMouse.java:10</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classjuego_1_1_handler_mouse_a00676c1d31e09db4a0c3d7b6497d0f13_icgraph.png" border="0" usemap="#classjuego_1_1_handler_mouse_a00676c1d31e09db4a0c3d7b6497d0f13_icgraph" alt=""/></div>
@@ -430,8 +453,105 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="afa66b60bfd8d40107f9f8e58fc40dc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa66b60bfd8d40107f9f8e58fc40dc62">&#9670;&nbsp;</a></span>nuevoClick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean juego.HandlerMouse.nuevoClick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00011">11</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
+
+</div>
+</div>
+<a id="af9a89004d6a0cf2f4d8b03eecad02e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a89004d6a0cf2f4d8b03eecad02e83">&#9670;&nbsp;</a></span>nuevoRecorrido</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean juego.HandlerMouse.nuevoRecorrido</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00010">10</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
+
+</div>
+</div>
+<a id="a4d3f2d3dbd19324e5717401a95aa84cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3f2d3dbd19324e5717401a95aa84cb">&#9670;&nbsp;</a></span>posMouse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int juego.HandlerMouse.posMouse[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00008">8</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
+
+</div>
+</div>
+<a id="a5b5097b26eb43afbca9351f74f4389e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5097b26eb43afbca9351f74f4389e1">&#9670;&nbsp;</a></span>posMouseRecorrido</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int juego.HandlerMouse.posMouseRecorrido[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_handler_mouse_8java_source.html#l00009">9</a> del archivo <a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a>.</p>
+
+</div>
+</div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/juego/<a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a></li>
+<li>F:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/juego/<a class="el" href="_handler_mouse_8java_source.html">HandlerMouse.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

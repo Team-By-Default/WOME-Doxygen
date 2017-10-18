@@ -10,5 +10,9 @@ var classmensajeria_1_1_paquete_usuario =
     [ "setIdPj", "classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74", null ],
     [ "setInicioSesion", "classmensajeria_1_1_paquete_usuario.html#a7b1c73efe76425c7cec4e64344955699", null ],
     [ "setPassword", "classmensajeria_1_1_paquete_usuario.html#a5da99249fca92dbb1aca6cd854f6cb3b", null ],
-    [ "setUsername", "classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a", null ]
+    [ "setUsername", "classmensajeria_1_1_paquete_usuario.html#af9cb1f9ba5ecd20387278f5ceead724a", null ],
+    [ "idPj", "classmensajeria_1_1_paquete_usuario.html#a619728ec272a2e225ebd5ae211407315", null ],
+    [ "inicioSesion", "classmensajeria_1_1_paquete_usuario.html#aa752bf12113fc0711e0247c3e6d953f4", null ],
+    [ "password", "classmensajeria_1_1_paquete_usuario.html#ae698889348200527e15f59ba46ac0177", null ],
+    [ "username", "classmensajeria_1_1_paquete_usuario.html#ae21b93a29d5737174113aa30b58b09d2", null ]
 ];

@@ -1,7 +1,11 @@
 <map id="dominio.Personaje.getEnergiaTope" name="dominio.Personaje.getEnergiaTope">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="293,5,484,47"/>
-<area shape="rect" id="node4" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="276,71,501,112"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="549,13,763,39"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="557,70,755,97"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="559,121,753,147"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="289,5,491,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="276,71,504,112"/>
+<area shape="rect" id="node6" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="277,137,503,179"/>
+<area shape="rect" id="node10" href="$classinterfaz_1_1_estado_n_p_c.html#a7dd8287cbdc898e53bcd1a18fc51502c" title="interfaz.EstadoNPC.dibujar\lEstadoDeNPC" alt="" coords="301,204,479,245"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="565,11,779,38"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="552,62,792,89"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="573,113,771,139"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="559,214,785,241"/>
+<area shape="rect" id="node9" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="575,163,769,190"/>
 </map>

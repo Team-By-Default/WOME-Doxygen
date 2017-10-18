@@ -1,4 +1,6 @@
 <map id="juego.Pantalla.getCanvas" name="juego.Pantalla.getCanvas">
-<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="221,5,351,32"/>
-<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="399,5,528,32"/>
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="225,5,355,32"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#a82d7dac8155988dff22b39a888dac643" title="juego.Juego.graficar" alt="" coords="221,56,359,83"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="407,5,536,32"/>
+<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a8008fc52463566e69f79a1026e3d9da8" title="juego.Juego.run" alt="" coords="415,56,528,83"/>
 </map>

@@ -47,5 +47,19 @@ var classmensajeria_1_1_paquete_personaje =
     [ "setNombre", "classmensajeria_1_1_paquete_personaje.html#ae326b84c9f43745a60d8787ad06c4206", null ],
     [ "setRaza", "classmensajeria_1_1_paquete_personaje.html#ab2ca340c24003c9c616d4c58abd2d1d8", null ],
     [ "setSaludTope", "classmensajeria_1_1_paquete_personaje.html#adc8160df85a708236ffb6c4cb792e700", null ],
-    [ "useBonus", "classmensajeria_1_1_paquete_personaje.html#a899d62688d452f49be92605fe2f7ef8d", null ]
+    [ "useBonus", "classmensajeria_1_1_paquete_personaje.html#a899d62688d452f49be92605fe2f7ef8d", null ],
+    [ "casta", "classmensajeria_1_1_paquete_personaje.html#a581d351d383e5340a407ca2cdf7c2ff2", null ],
+    [ "destreza", "classmensajeria_1_1_paquete_personaje.html#acb4d69214b535e20cc4e7ffcf36eea37", null ],
+    [ "energiaTope", "classmensajeria_1_1_paquete_personaje.html#a7c6ca77cde3050d01ef68c69415e546c", null ],
+    [ "estado", "classmensajeria_1_1_paquete_personaje.html#aa4404acc2b3bba627535985591150f69", null ],
+    [ "experiencia", "classmensajeria_1_1_paquete_personaje.html#afc9e899e2c23ccf792f781b06b494e94", null ],
+    [ "fuerza", "classmensajeria_1_1_paquete_personaje.html#a8ad05826062c910b7fe06d63e2ae3d2b", null ],
+    [ "id", "classmensajeria_1_1_paquete_personaje.html#a608cf5f12599994e49eb945c9c1cf436", null ],
+    [ "idMapa", "classmensajeria_1_1_paquete_personaje.html#a69b2dc03d81ebc6c05135a03d1058752", null ],
+    [ "inteligencia", "classmensajeria_1_1_paquete_personaje.html#ad5dbd847183fd3db517576be5741c304", null ],
+    [ "items", "classmensajeria_1_1_paquete_personaje.html#a1975fdac06d26653147c8c2e01f453d9", null ],
+    [ "nivel", "classmensajeria_1_1_paquete_personaje.html#a31575e5f3061573ce8d3a35691033e24", null ],
+    [ "nombre", "classmensajeria_1_1_paquete_personaje.html#a168d10448cb9bda5ca8d08135b421bc1", null ],
+    [ "raza", "classmensajeria_1_1_paquete_personaje.html#af653d7cbe2ce5618ba77f9e327ce384c", null ],
+    [ "saludTope", "classmensajeria_1_1_paquete_personaje.html#a5f2557f5aa9d089d8508501b4dd2c656", null ]
 ];

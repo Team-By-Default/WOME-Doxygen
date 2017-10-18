@@ -61,5 +61,21 @@ var classdominio_1_1_personaje =
     [ "setClan", "classdominio_1_1_personaje.html#adbcbe46af494d6ba715d10fd8cd61c85", null ],
     [ "setMagia", "classdominio_1_1_personaje.html#a663c32eaddc653928c6a199691d2e762", null ],
     [ "subirNivel", "classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3", null ],
-    [ "trueque", "classdominio_1_1_personaje.html#ab88a113f8243c6df9f4a35e4ba6651b7", null ]
+    [ "trueque", "classdominio_1_1_personaje.html#ab88a113f8243c6df9f4a35e4ba6651b7", null ],
+    [ "ataque", "classdominio_1_1_personaje.html#a763e1c0a7970167d3d2b7c1bfddb8c22", null ],
+    [ "casta", "classdominio_1_1_personaje.html#a062240ebebc2291109d293f81c53a1e0", null ],
+    [ "clan", "classdominio_1_1_personaje.html#a39739c6594a6224522d7dff12da24a6f", null ],
+    [ "destreza", "classdominio_1_1_personaje.html#a014a0f64df1f363e387d53a447210a69", null ],
+    [ "energia", "classdominio_1_1_personaje.html#aa468d756756d9ab041203515f12a80ff", null ],
+    [ "energiaTope", "classdominio_1_1_personaje.html#a540d6d0f9e9daa1c2958ebbb9658ff5f", null ],
+    [ "experiencia", "classdominio_1_1_personaje.html#ac7891f84f2a798a0ae8b6ac7a9e2d8a8", null ],
+    [ "habilidadesCasta", "classdominio_1_1_personaje.html#a74a49ff689b7ea6ae4fc3fe9c9738a6b", null ],
+    [ "habilidadesRaza", "classdominio_1_1_personaje.html#aa59d9e4b39d4b2b61bbe78333a14be74", null ],
+    [ "idPersonaje", "classdominio_1_1_personaje.html#ad3efe62c67ba045ed15e97a1dcb6afb9", null ],
+    [ "inteligencia", "classdominio_1_1_personaje.html#a5dba5681c39a20ec31fa04dbd7609015", null ],
+    [ "magia", "classdominio_1_1_personaje.html#a882b6fec5cddd5f16b4b5b51ddb922d0", null ],
+    [ "nombreCasta", "classdominio_1_1_personaje.html#a7637ac4c193192e12c74683714f48105", null ],
+    [ "nombreRaza", "classdominio_1_1_personaje.html#a6cda912a6d481fdc9da29c209f96bb24", null ],
+    [ "salud", "classdominio_1_1_personaje.html#a8faaccbe932ebc8efe5ab0979a196fee", null ],
+    [ "saludTope", "classdominio_1_1_personaje.html#abefa88fea5fc7105d38f317a16e8582d", null ]
 ];

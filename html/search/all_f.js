@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['readme',['README',['../md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente__r_e_a_d_m_e.html',1,'']]],
-  ['readme',['README',['../md__e_1__programacion_avanzada__mordor_jrpg-2017b-dominio__r_e_a_d_m_e.html',1,'']]],
-  ['readme',['README',['../md__e_1__programacion_avanzada__mordor_jrpg-2017b-servidor__r_e_a_d_m_e.html',1,'']]],
+  ['readme',['README',['../md__f_1__programacion_avanzada__mordor_jrpg-2017b-cliente__r_e_a_d_m_e.html',1,'']]],
+  ['readme',['README',['../md__f_1__programacion_avanzada__mordor_jrpg-2017b-dominio__r_e_a_d_m_e.html',1,'']]],
+  ['readme',['README',['../md__f_1__programacion_avanzada__mordor_jrpg-2017b-servidor__r_e_a_d_m_e.html',1,'']]],
+  ['random',['random',['../classdominio_1_1_madre_de_todo.html#af1f66ddc502f02ae97b50e5f36edc2d2',1,'dominio::MadreDeTodo']]],
   ['randomgenerator',['RandomGenerator',['../classdominio_1_1_random_generator.html',1,'dominio.RandomGenerator'],['../classdominio_1_1_random_generator.html#afae87bb62880d10ff22f6fac5438a7c7',1,'dominio.RandomGenerator.RandomGenerator()']]],
   ['randomgenerator_2ejava',['RandomGenerator.java',['../_random_generator_8java.html',1,'']]],
+  ['raza',['raza',['../classmensajeria_1_1_paquete_personaje.html#af653d7cbe2ce5618ba77f9e327ce384c',1,'mensajeria::PaquetePersonaje']]],
   ['readme_2emd',['README.md',['../jrpg-2017b-cliente_2_r_e_a_d_m_e_8md.html',1,'(Namespace global)'],['../jrpg-2017b-dominio_2_r_e_a_d_m_e_8md.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2_r_e_a_d_m_e_8md.html',1,'(Namespace global)']]],
   ['recibirdestrezabonus',['recibirDestrezaBonus',['../classdominio_1_1_asesino.html#af623f45cbd077bcb6f69e184ea05834b',1,'dominio.Asesino.recibirDestrezaBonus()'],['../classdominio_1_1_casta.html#a7c9c1daf1dbbe9522ec3b0907d8f94ed',1,'dominio.Casta.recibirDestrezaBonus()'],['../classdominio_1_1_guerrero.html#ab1fa9f9291145f292820999e3eb2e57d',1,'dominio.Guerrero.recibirDestrezaBonus()'],['../classdominio_1_1_hechicero.html#a9839b75d9a67f69c9383b47d701aeca2',1,'dominio.Hechicero.recibirDestrezaBonus()']]],
   ['recibirfuerzabonus',['recibirFuerzaBonus',['../classdominio_1_1_asesino.html#a689aa7ea9dabd4d0dcd6c1b410c4aa47',1,'dominio.Asesino.recibirFuerzaBonus()'],['../classdominio_1_1_casta.html#a3f6753b6085b23099b4a2933f56dc0d1',1,'dominio.Casta.recibirFuerzaBonus()'],['../classdominio_1_1_guerrero.html#ac8c98eec4f1deff28efcbe5afddb2c99',1,'dominio.Guerrero.recibirFuerzaBonus()'],['../classdominio_1_1_hechicero.html#a2c0e791d3fc3026d579371dea09e10a5',1,'dominio.Hechicero.recibirFuerzaBonus()']]],

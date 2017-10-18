@@ -11,4 +11,6 @@
 <area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_personaje.html#a90e42f4407f11c6910e96028e4832bdf" title="mensajeria.PaquetePersonaje.get\lNivel" alt="" coords="263,580,480,621"/>
 <area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html#abe106124989ce91362e4b73c0f0876fe" title="mensajeria.PaquetePersonaje.get\lExperiencia" alt="" coords="263,645,480,687"/>
 <area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_personaje.html#a0c4c5225ca18aff265b4e4b342241ae4" title="mensajeria.PaquetePersonaje.get\lEnergiaTope" alt="" coords="263,711,480,752"/>
+<area shape="rect" id="node14" href="$classframes_1_1_menu_stats.html#ae4c11f9492c63ffef37146f876e51092" title="frames.MenuStats.calcular\lAtaque" alt="" coords="283,776,460,817"/>
+<area shape="rect" id="node15" href="$classframes_1_1_menu_stats.html#a07fae225a95ac51652bb9dd43f623e8b" title="frames.MenuStats.calcular\lMagia" alt="" coords="283,841,460,883"/>
 </map>

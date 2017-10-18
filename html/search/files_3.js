@@ -6,6 +6,8 @@ var searchData=
   ['escuchamensajes_2ejava',['EscuchaMensajes.java',['../_escucha_mensajes_8java.html',1,'']]],
   ['estado_2ejava',['Estado.java',['../_estado_8java.html',1,'']]],
   ['estadobatalla_2ejava',['EstadoBatalla.java',['../_estado_batalla_8java.html',1,'']]],
+  ['estadobatallanpc_2ejava',['EstadoBatallaNPC.java',['../_estado_batalla_n_p_c_8java.html',1,'']]],
   ['estadodepersonaje_2ejava',['EstadoDePersonaje.java',['../_estado_de_personaje_8java.html',1,'']]],
-  ['estadojuego_2ejava',['EstadoJuego.java',['../_estado_juego_8java.html',1,'']]]
+  ['estadojuego_2ejava',['EstadoJuego.java',['../_estado_juego_8java.html',1,'']]],
+  ['estadonpc_2ejava',['EstadoNPC.java',['../_estado_n_p_c_8java.html',1,'']]]
 ];

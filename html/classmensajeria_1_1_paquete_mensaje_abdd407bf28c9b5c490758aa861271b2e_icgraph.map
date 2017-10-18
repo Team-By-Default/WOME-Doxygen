@@ -1,4 +1,4 @@
 <map id="mensajeria.PaqueteMensaje.getUserEmisor" name="mensajeria.PaqueteMensaje.getUserEmisor">
-<area shape="rect" id="node2" href="$classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="479,13,639,39"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39" title="servidor.Servidor.mensaje\lAUsuario" alt="" coords="261,35,431,76"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="266,5,426,32"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a71f2620ab646220839d1e30cf71d2e39" title="servidor.Servidor.mensaje\lAUsuario" alt="" coords="261,57,431,98"/>
 </map>

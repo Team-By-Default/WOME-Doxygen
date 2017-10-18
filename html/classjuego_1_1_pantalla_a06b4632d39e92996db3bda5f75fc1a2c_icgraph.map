@@ -1,9 +1,16 @@
 <map id="juego.Pantalla.centerString" name="juego.Pantalla.centerString">
-<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="530,5,702,47"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="247,64,441,105"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="251,130,437,157"/>
-<area shape="rect" id="node7" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="504,181,728,207"/>
-<area shape="rect" id="node8" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="232,232,456,273"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="776,71,969,98"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="517,130,715,157"/>
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="531,5,703,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="521,71,714,112"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a1fad70feaba8366e6d9fce69b93613c7" title="estados.EstadoJuego.graficarNPCs" alt="" coords="504,137,731,163"/>
+<area shape="rect" id="node6" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="251,185,437,211"/>
+<area shape="rect" id="node9" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="505,391,729,418"/>
+<area shape="rect" id="node10" href="$classinterfaz_1_1_menu_info_personaje.html#a7f5cc6fb0a6a480ca646b58e0a27a32e" title="interfaz.MenuInfoPersonaje.graficar\lMenuPerderBatalla" alt="" coords="232,287,456,328"/>
+<area shape="rect" id="node11" href="$classinterfaz_1_1_menu_info_personaje.html#a73eb3c6bf1933164b5b0d48c9e86ae86" title="interfaz.MenuInfoPersonaje.graficar\lMenuGanarBatalla" alt="" coords="232,352,456,393"/>
+<area shape="rect" id="node12" href="$classinterfaz_1_1_menu_info_personaje.html#a201b27006b2adf669c829b052b433797" title="interfaz.MenuInfoPersonaje.graficar\lMenuSubirNivel" alt="" coords="232,417,456,459"/>
+<area shape="rect" id="node13" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="232,483,456,524"/>
+<area shape="rect" id="node14" href="$classinterfaz_1_1_menu_info_personaje.html#aa4946e4d3d21d8291b2f38eedef635c5" title="interfaz.MenuInfoPersonaje.graficar\lMenuItem" alt="" coords="232,548,456,589"/>
+<area shape="rect" id="node15" href="$classinterfaz_1_1_menu_info_personaje.html#aaf629513d4d1d19a950e245be692186b" title="interfaz.MenuInfoPersonaje.graficar\lMenuComerciar" alt="" coords="232,613,456,655"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="779,107,972,134"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="518,187,717,214"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="504,238,731,265"/>
 </map>

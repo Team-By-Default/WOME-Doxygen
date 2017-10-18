@@ -1,0 +1,12 @@
+<map id="entidades.Entidad.enviarPosicion" name="entidades.Entidad.enviarPosicion">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#abda6647a92cf3f206ea5be88decf68de" title="juego.Juego.getUbicacion\lPersonaje" alt="" coords="259,5,429,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_movimiento.html#a5a0760af416c770132e538533ad5fe5b" title="mensajeria.PaqueteMovimiento.setPosX" alt="" coords="217,71,471,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a459d8fb3e367a3f46dac0dcda26b2a7c" title="mensajeria.PaqueteMovimiento.setPosY" alt="" coords="216,122,472,149"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#afa5c379112a57512db8833193abeae86" title="mensajeria.PaqueteMovimiento.set\lDireccion" alt="" coords="232,173,456,215"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a690422f13720818bdc30c6dbd5845548" title="entidades.Entidad.getDireccion" alt="" coords="243,239,445,266"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="232,291,456,332"/>
+<area shape="rect" id="node8" href="$classentidades_1_1_entidad.html#a7b4a0e7116842da4d089f6899707e841" title="entidades.Entidad.getFrame" alt="" coords="251,357,437,383"/>
+<area shape="rect" id="node10" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="267,407,421,434"/>
+<area shape="rect" id="node11" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="263,458,425,485"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_animacion.html#a8c7d553c3251d594f2a96a9cf7c10976" title="entidades.Animacion.getFrame" alt="" coords="520,357,723,383"/>
+</map>

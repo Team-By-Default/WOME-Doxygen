@@ -1,6 +1,8 @@
 <map id="mensajeria.PaqueteMovimiento.setFrame" name="mensajeria.PaqueteMovimiento.setFrame">
 <area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#abd9cd5d7c7a597d0041c096cc23b78b4" title="entidades.Entidad.Entidad" alt="" coords="277,5,452,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="279,57,451,98"/>
-<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="300,123,429,149"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="500,64,693,91"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#ad15c5b9425c1db9a7a8d93603d006ba5" title="entidades.Entidad.enviar\lPosicion" alt="" coords="283,57,446,98"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91" title="juego.Juego.Juego" alt="" coords="300,123,429,149"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="500,64,664,91"/>
+<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="712,64,899,91"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="947,64,1153,91"/>
 </map>

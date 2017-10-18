@@ -1,3 +1,4 @@
 <map id="dominio.Personaje.habilidadCasta2" name="dominio.Personaje.habilidadCasta2">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="237,13,451,39"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="251,5,464,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="237,56,477,83"/>
 </map>

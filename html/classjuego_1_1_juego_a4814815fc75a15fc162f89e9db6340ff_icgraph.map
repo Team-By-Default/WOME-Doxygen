@@ -1,7 +1,9 @@
 <map id="juego.Juego.getPersonajesConectados" name="juego.Juego.getPersonajesConectados">
-<area shape="rect" id="node2" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="232,5,443,47"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="241,71,434,98"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="238,123,437,164"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="491,71,677,98"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="725,71,932,98"/>
+<area shape="rect" id="node2" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="232,5,451,47"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="245,71,438,98"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="242,123,441,164"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="249,188,433,229"/>
+<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="499,5,709,47"/>
+<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="511,71,697,98"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="757,71,964,98"/>
 </map>

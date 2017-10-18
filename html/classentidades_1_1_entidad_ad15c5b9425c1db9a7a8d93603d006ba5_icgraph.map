@@ -1,0 +1,5 @@
+<map id="entidades.Entidad.enviarPosicion" name="entidades.Entidad.enviarPosicion">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="216,13,380,39"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="428,13,615,39"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="663,13,869,39"/>
+</map>

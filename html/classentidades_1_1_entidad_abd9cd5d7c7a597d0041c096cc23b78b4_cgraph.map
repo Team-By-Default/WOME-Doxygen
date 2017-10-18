@@ -3,5 +3,8 @@
 <area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_movimiento.html#a5a0760af416c770132e538533ad5fe5b" title="mensajeria.PaqueteMovimiento.setPosX" alt="" coords="229,71,483,98"/>
 <area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a459d8fb3e367a3f46dac0dcda26b2a7c" title="mensajeria.PaqueteMovimiento.setPosY" alt="" coords="228,122,484,149"/>
 <area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#afa5c379112a57512db8833193abeae86" title="mensajeria.PaqueteMovimiento.set\lDireccion" alt="" coords="244,173,468,215"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="244,239,468,280"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a690422f13720818bdc30c6dbd5845548" title="entidades.Entidad.getDireccion" alt="" coords="255,239,457,266"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="244,291,468,332"/>
+<area shape="rect" id="node8" href="$classentidades_1_1_entidad.html#a7b4a0e7116842da4d089f6899707e841" title="entidades.Entidad.getFrame" alt="" coords="263,357,449,383"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_animacion.html#a8c7d553c3251d594f2a96a9cf7c10976" title="entidades.Animacion.getFrame" alt="" coords="532,357,735,383"/>
 </map>

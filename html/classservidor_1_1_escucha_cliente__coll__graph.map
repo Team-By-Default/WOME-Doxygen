@@ -1,2 +1,14 @@
 <map id="servidor.EscuchaCliente" name="servidor.EscuchaCliente">
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="642,1555,823,1582"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="325,999,463,1026"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_finalizar_batalla.html" title="mensajeria.PaqueteFinalizar\lBatalla" alt="" coords="639,1185,826,1227"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="635,1733,830,1759"/>
+<area shape="rect" id="node14" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="631,950,834,977"/>
+<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_n_p_cs.html" title="mensajeria.PaqueteNPCs" alt="" coords="647,181,818,207"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete_batalla.html" title="mensajeria.PaqueteBatalla" alt="" coords="644,1351,821,1378"/>
+<area shape="rect" id="node19" href="$classmensajeria_1_1_paquete_de_movimientos.html" title="mensajeria.PaqueteDeMovimientos" alt="" coords="620,290,845,317"/>
+<area shape="rect" id="node24" href="$classmensajeria_1_1_paquete_de_personajes.html" title="mensajeria.PaqueteDePersonajes" alt="" coords="623,447,842,474"/>
+<area shape="rect" id="node26" href="$classmensajeria_1_1_paquete_atacar.html" title="mensajeria.PaqueteAtacar" alt="" coords="645,643,820,670"/>
+<area shape="rect" id="node6" href="$class_cloneable.html" title="Cloneable" alt="" coords="52,609,131,635"/>
+<area shape="rect" id="node22" href="$classmensajeria_1_1_paquete_n_p_c.html" title="mensajeria.PaqueteNPC" alt="" coords="312,2229,476,2255"/>
 </map>

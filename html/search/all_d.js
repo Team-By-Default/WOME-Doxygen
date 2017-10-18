@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['obtener',['obtener',['../classframes_1_1_menu_comerciar.html#ae80a373ca7728ed52710e8da661f8667',1,'frames::MenuComerciar']]],
   ['obteneralto',['obtenerAlto',['../classmundo_1_1_mundo.html#ace1bacac0e07b1f7da019442f30d7bec',1,'mundo::Mundo']]],
   ['obtenerancho',['obtenerAncho',['../classmundo_1_1_mundo.html#ab78380375598dd0d91057b3f6c76e046',1,'mundo::Mundo']]],
   ['obtenercantidaddeadyacentes',['obtenerCantidadDeAdyacentes',['../classmundo_1_1_nodo.html#a4b2a48454e4d2b0c9193bdac7e76d38f',1,'mundo::Nodo']]],
@@ -15,5 +16,13 @@ var searchData=
   ['obtenery',['obtenerY',['../classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876',1,'entidades.NodoDePila.obtenerY()'],['../classmundo_1_1_nodo.html#a532baa42416a537294014c2c50cffce2',1,'mundo.Nodo.obtenerY()']]],
   ['orco',['Orco',['../classdominio_1_1_orco.html',1,'dominio.Orco'],['../classrecursos_1_1_recursos.html#a9e793a8e3d986f1a1f35ba4f34d80a81',1,'recursos.Recursos.orco()'],['../classdominio_1_1_orco.html#a4dd3910f2b3c6f5e1050e11cca99428b',1,'dominio.Orco.Orco(final String nombre, final Casta casta, final int id)'],['../classdominio_1_1_orco.html#a058bc07d372565c8bc04800badb87a6e',1,'dominio.Orco.Orco(final String nombre, final int salud, final int energia, final int fuerza, final int destreza, final int inteligencia, final Casta casta, final int experiencia, final int nivel, final int idPersonaje)']]],
   ['orco_2ejava',['Orco.java',['../_orco_8java.html',1,'']]],
+  ['orcoabajo',['orcoAbajo',['../classrecursos_1_1_recursos.html#aed05038f261528ec4ef11e614a28bad6',1,'recursos::Recursos']]],
+  ['orcoabajoder',['orcoAbajoDer',['../classrecursos_1_1_recursos.html#ae6251c5e55a6a3e5fedf31c2a7d4a46e',1,'recursos::Recursos']]],
+  ['orcoabajoizq',['orcoAbajoIzq',['../classrecursos_1_1_recursos.html#a0599108754fcec54a6bbbdac2c52dfa2',1,'recursos::Recursos']]],
+  ['orcoarriba',['orcoArriba',['../classrecursos_1_1_recursos.html#ae8b69f5f5356f616d9c561e2592c2c2d',1,'recursos::Recursos']]],
+  ['orcoarribader',['orcoArribaDer',['../classrecursos_1_1_recursos.html#a54951a10d1ad9f17f952455622fd79ce',1,'recursos::Recursos']]],
+  ['orcoarribaizq',['orcoArribaIzq',['../classrecursos_1_1_recursos.html#a91011340d5f6016151a70c11788099b8',1,'recursos::Recursos']]],
+  ['orcoder',['orcoDer',['../classrecursos_1_1_recursos.html#ae38c0b3fe051f837bd837ca5a76e0b3c',1,'recursos::Recursos']]],
+  ['orcoizq',['orcoIzq',['../classrecursos_1_1_recursos.html#aab237ff79d4d05b1f341229aea187b3d',1,'recursos::Recursos']]],
   ['otorgarexp',['otorgarExp',['../classdominio_1_1_non_playable_character.html#a4d22acf35e0765c229b68872ee2e42f3',1,'dominio.NonPlayableCharacter.otorgarExp()'],['../interfacedominio_1_1_peleable.html#a948a8c7e8a36d0754566861e9b37c8dd',1,'dominio.Peleable.otorgarExp()'],['../classdominio_1_1_personaje.html#a479e22db38b9f3582164084c55df0fcc',1,'dominio.Personaje.otorgarExp()']]]
 ];

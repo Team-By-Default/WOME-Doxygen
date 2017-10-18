@@ -1,4 +1,5 @@
 <map id="dominio.Personaje.getHabilidadesCasta" name="dominio.Personaje.getHabilidadesCasta">
-<area shape="rect" id="node2" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="272,13,459,39"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="507,13,705,39"/>
+<area shape="rect" id="node2" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="272,31,459,57"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="521,5,719,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="507,56,733,83"/>
 </map>

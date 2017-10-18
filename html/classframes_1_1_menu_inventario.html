@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WOME Servidor: Referencia de la Clase frames.MenuInventario</title>
+<title>World of Middle Earth: Referencia de la Clase frames.MenuInventario</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">WOME Servidor
+   <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del servidor del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classframes_1_1_menu_inventario.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
 <a href="classframes_1_1_menu_inventario-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
 <div class="title">Referencia de la Clase frames.MenuInventario</div>  </div>
@@ -91,8 +92,6 @@ $(document).ready(function(){initNavTree('classframes_1_1_menu_inventario.html',
 Diagrama de herencias de frames.MenuInventario</div>
 <div class="dyncontent">
 <div class="center"><img src="classframes_1_1_menu_inventario__inherit__graph.png" border="0" usemap="#frames_8_menu_inventario_inherit__map" alt="Inheritance graph"/></div>
-<map name="frames_8_menu_inventario_inherit__map" id="frames_8_menu_inventario_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de colaboración para frames.MenuInventario:</div>
@@ -106,6 +105,11 @@ Diagrama de colaboración para frames.MenuInventario:</div>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:a49103911adf05a2e0ac6cd3e07e77206"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframes_1_1_menu_inventario.html#a49103911adf05a2e0ac6cd3e07e77206">MenuInventario</a> (final <a class="el" href="classcliente_1_1_cliente.html">Cliente</a> cliente)</td></tr>
 <tr class="separator:a49103911adf05a2e0ac6cd3e07e77206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:adc4110a8592266d3c6dc9b3890d0067b"><td class="memItemLeft" align="right" valign="top">JButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframes_1_1_menu_inventario.html#adc4110a8592266d3c6dc9b3890d0067b">cancelar</a> = new JButton(&quot;Exit&quot;)</td></tr>
+<tr class="separator:adc4110a8592266d3c6dc9b3890d0067b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
@@ -128,7 +132,8 @@ Métodos públicos</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_menu_inventario_8java_source.html#l00022">22</a> del archivo <a class="el" href="_menu_inventario_8java_source.html">MenuInventario.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                 {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        cancelar.addActionListener(<span class="keyword">new</span> ActionListener() {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            @Override</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> actionPerformed(ActionEvent e) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    Gson gson = <span class="keyword">new</span> Gson();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    <a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje().setComando(Comando.ACTUALIZARINVENTARIO);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    <a class="code" href="namespacecliente.html">cliente</a>.getSalida().writeObject(gson.toJson(<a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje()));</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                } <span class="keywordflow">catch</span> (IOException e1) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                    JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Error al actualizar inventario&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                Pantalla.menuInventario = null;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                dispose();  </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        });</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this.setTitle(<span class="stringliteral">&quot;Inventario&quot;</span>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        this.setUndecorated(<span class="keyword">true</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            this.setLayout(<span class="keyword">new</span> BorderLayout());</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            this.add(<span class="keyword">new</span> Inventario(<a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje()));</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            this.add(cancelar,BorderLayout.AFTER_LAST_LINE);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Falló al iniciar el inventario&quot;</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.setBounds(600, 600, 600, 600);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.pack();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.setLocationRelativeTo(null);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        this.setLocation(900,140);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        this.setResizable(<span class="keyword">false</span>);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        this.setVisible(<span class="keyword">true</span>);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }     </div><div class="ttc" id="namespacecliente_html"><div class="ttname"><a href="namespacecliente.html">cliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_cliente_8java_source.html#l00001">Cliente.java:1</a></div></div>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                 {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classframes_1_1_menu_inventario.html#adc4110a8592266d3c6dc9b3890d0067b">cancelar</a>.addActionListener(<span class="keyword">new</span> ActionListener() {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            @Override</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> actionPerformed(ActionEvent e) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    Gson gson = <span class="keyword">new</span> Gson();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    <a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje().setComando(Comando.ACTUALIZARINVENTARIO);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    <a class="code" href="namespacecliente.html">cliente</a>.getSalida().writeObject(gson.toJson(<a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje()));</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                } <span class="keywordflow">catch</span> (IOException e1) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                    JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Error al actualizar inventario&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                Pantalla.menuInventario = null;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                dispose();  </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        });</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this.setTitle(<span class="stringliteral">&quot;Inventario&quot;</span>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        this.setUndecorated(<span class="keyword">true</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            this.setLayout(<span class="keyword">new</span> BorderLayout());</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            this.add(<span class="keyword">new</span> Inventario(<a class="code" href="namespacecliente.html">cliente</a>.getPaquetePersonaje()));</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            this.add(<a class="code" href="classframes_1_1_menu_inventario.html#adc4110a8592266d3c6dc9b3890d0067b">cancelar</a>,BorderLayout.AFTER_LAST_LINE);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Falló al iniciar el inventario&quot;</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.setBounds(600, 600, 600, 600);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.pack();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.setLocationRelativeTo(null);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        this.setLocation(900,140);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        this.setResizable(<span class="keyword">false</span>);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        this.setVisible(<span class="keyword">true</span>);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }     </div><div class="ttc" id="classframes_1_1_menu_inventario_html_adc4110a8592266d3c6dc9b3890d0067b"><div class="ttname"><a href="classframes_1_1_menu_inventario.html#adc4110a8592266d3c6dc9b3890d0067b">frames.MenuInventario.cancelar</a></div><div class="ttdeci">JButton cancelar</div><div class="ttdef"><b>Definition:</b> <a href="_menu_inventario_8java_source.html#l00020">MenuInventario.java:20</a></div></div>
+<div class="ttc" id="namespacecliente_html"><div class="ttname"><a href="namespacecliente.html">cliente</a></div><div class="ttdef"><b>Definition:</b> <a href="_cliente_8java_source.html#l00001">Cliente.java:1</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -142,8 +147,33 @@ Gráfico de llamadas para esta función:</div>
 
 </div>
 </div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="adc4110a8592266d3c6dc9b3890d0067b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4110a8592266d3c6dc9b3890d0067b">&#9670;&nbsp;</a></span>cancelar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JButton frames.MenuInventario.cancelar = new JButton(&quot;Exit&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_menu_inventario_8java_source.html#l00020">20</a> del archivo <a class="el" href="_menu_inventario_8java_source.html">MenuInventario.java</a>.</p>
+
+</div>
+</div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/frames/<a class="el" href="_menu_inventario_8java_source.html">MenuInventario.java</a></li>
+<li>F:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/frames/<a class="el" href="_menu_inventario_8java_source.html">MenuInventario.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

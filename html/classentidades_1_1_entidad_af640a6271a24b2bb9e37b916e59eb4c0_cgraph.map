@@ -1,0 +1,14 @@
+<map id="entidades.Entidad.verSiNoEstaCercaDeUnNPC" name="entidades.Entidad.verSiNoEstaCercaDeUnNPC">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#a4a8ce6d75ae9c1d12f871bc46c9814b9" title="juego.Juego.getNPCs" alt="" coords="283,5,429,32"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#affa3eb30f123e419f20e14e96039f6a2" title="juego.Juego.getUbicacionNPCs" alt="" coords="254,56,458,83"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a44a06daef3e83899fbe779603ff8c1d7" title="mensajeria.PaqueteMovimiento.getPosX" alt="" coords="229,107,483,133"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#a3ba3a2ca9aa23715c37f4be17c5c6e61" title="mensajeria.PaqueteMovimiento.getPosY" alt="" coords="228,157,484,184"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_batalla.html#adeeb313c265b07c0c64dc744661f21c0" title="mensajeria.PaqueteBatalla.setId" alt="" coords="251,208,461,235"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="271,259,441,285"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="243,309,469,336"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_batalla.html#a4520301cafe7617b88c1fc834f0f876c" title="mensajeria.PaqueteBatalla.set\lIdEnemigo" alt="" coords="257,361,455,402"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#ad10d166354178c09593f6a1703d69689" title="mensajeria.PaquetePersonaje.set\lEstado" alt="" coords="247,426,465,467"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado.html#a04c9c0a867d3cf7f943e5a97747dd9a4" title="estados.Estado.setEstado" alt="" coords="268,492,444,519"/>
+<area shape="rect" id="node12" href="$classjuego_1_1_juego.html#a2f8972dad4bdba1f9af1747a65db5dbf" title="juego.Juego.setEstadoBatallaNPC" alt="" coords="245,543,467,569"/>
+<area shape="rect" id="node13" href="$classjuego_1_1_juego.html#a10146efb687ea73ebde3ec10ccc1111c" title="juego.Juego.getEstadoBatallaNPC" alt="" coords="245,593,467,620"/>
+</map>

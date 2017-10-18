@@ -4,11 +4,8 @@
 <area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732" title="mensajeria.PaqueteMovimiento.set\lFrame" alt="" coords="184,123,408,164"/>
 <area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#afa5c379112a57512db8833193abeae86" title="mensajeria.PaqueteMovimiento.set\lDireccion" alt="" coords="184,188,408,229"/>
 <area shape="rect" id="node6" href="$classjuego_1_1_juego.html#aff0c5da99a5ee817e983491399910ab1" title="juego.Juego.iniciar" alt="" coords="231,254,361,281"/>
-<area shape="rect" id="node7" href="$classjuego_1_1_pantalla.html#ac19c2a00adfba66c18316f52ef6665f1" title="juego.Pantalla.getCanvas" alt="" coords="461,137,629,163"/>
-<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a98c8ee00b897c6015dbc3aa89086623e" title="dominio.Personaje.cargar\lTablaNivel" alt="" coords="461,188,630,229"/>
-<area shape="rect" id="node10" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="457,254,633,281"/>
-<area shape="rect" id="node12" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="459,305,632,331"/>
-<area shape="rect" id="node13" href="$classestados_1_1_estado.html#aa6b81bd0ba547c9c6d96549c3dacc2bd" title="estados.Estado.graficar" alt="" coords="466,355,625,382"/>
-<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#aa530a90491e5540ee11906848cc533ec" title="dominio.Personaje.getTabla\lDeNiveles" alt="" coords="684,185,867,227"/>
-<area shape="rect" id="node11" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="681,251,869,292"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_pantalla.html#ac19c2a00adfba66c18316f52ef6665f1" title="juego.Pantalla.getCanvas" alt="" coords="458,225,626,251"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a98c8ee00b897c6015dbc3aa89086623e" title="dominio.Personaje.cargar\lTablaNivel" alt="" coords="457,276,627,317"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a0888067e0ab5114102447f2f48bd5d23" title="dominio.Personaje.setTabla\lDeNiveles" alt="" coords="675,243,857,284"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#aa530a90491e5540ee11906848cc533ec" title="dominio.Personaje.getTabla\lDeNiveles" alt="" coords="675,308,857,349"/>
 </map>

@@ -1,6 +1,8 @@
 <map id="mensajeria.PaqueteBatalla.setId" name="mensajeria.PaqueteBatalla.setId">
-<area shape="rect" id="node2" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="271,5,447,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="263,56,456,83"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="504,56,691,83"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="739,56,945,83"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="263,5,439,32"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="487,59,680,85"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="263,107,438,149"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="728,85,915,112"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="963,85,1169,112"/>
+<area shape="rect" id="node7" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="501,111,665,137"/>
 </map>

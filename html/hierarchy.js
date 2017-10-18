@@ -14,6 +14,7 @@ var hierarchy =
         [ "mensajeria.PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", null ],
         [ "mensajeria.PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", null ],
         [ "mensajeria.PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", null ],
+        [ "mensajeria.PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", null ],
         [ "mensajeria.PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", null ],
         [ "mensajeria.PaqueteUsuario", "classmensajeria_1_1_paquete_usuario.html", null ]
       ] ],
@@ -25,6 +26,7 @@ var hierarchy =
       [ "mensajeria.PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", null ],
       [ "mensajeria.PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", null ],
       [ "mensajeria.PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", null ],
+      [ "mensajeria.PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", null ],
       [ "mensajeria.PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", null ],
       [ "mensajeria.PaqueteUsuario", "classmensajeria_1_1_paquete_usuario.html", null ]
     ] ],
@@ -41,6 +43,7 @@ var hierarchy =
       [ "comandos.ComandosEscucha", "classcomandos_1_1_comandos_escucha.html", [
         [ "comandos.ActualizarComercio", "classcomandos_1_1_actualizar_comercio.html", null ],
         [ "comandos.ActualizarInventario", "classcomandos_1_1_actualizar_inventario.html", null ],
+        [ "comandos.ActualizarNPCs", "classcomandos_1_1_actualizar_n_p_cs.html", null ],
         [ "comandos.ActualizarPersonaje", "classcomandos_1_1_actualizar_personaje.html", null ],
         [ "comandos.ActualizarPersonajeLvl", "classcomandos_1_1_actualizar_personaje_lvl.html", null ],
         [ "comandos.ActualizarTrueque", "classcomandos_1_1_actualizar_trueque.html", null ],
@@ -50,6 +53,7 @@ var hierarchy =
         [ "comandos.Conexion", "classcomandos_1_1_conexion.html", null ],
         [ "comandos.FinalizarBatalla", "classcomandos_1_1_finalizar_batalla.html", null ],
         [ "comandos.Movimiento", "classcomandos_1_1_movimiento.html", null ],
+        [ "comandos.MovimientoNPC", "classcomandos_1_1_movimiento_n_p_c.html", null ],
         [ "comandos.Talk", "classcomandos_1_1_talk.html", null ],
         [ "comandos.Trueque", "classcomandos_1_1_trueque.html", null ]
       ] ],
@@ -65,6 +69,7 @@ var hierarchy =
         [ "comandos.Conexion", "classcomandos_1_1_conexion.html", null ],
         [ "comandos.CrearPersonaje", "classcomandos_1_1_crear_personaje.html", null ],
         [ "comandos.FinalizarBatalla", "classcomandos_1_1_finalizar_batalla.html", null ],
+        [ "comandos.FinalizarBatallaNPC", "classcomandos_1_1_finalizar_batalla_n_p_c.html", null ],
         [ "comandos.InicioSesion", "classcomandos_1_1_inicio_sesion.html", null ],
         [ "comandos.MostrarMapas", "classcomandos_1_1_mostrar_mapas.html", null ],
         [ "comandos.Movimiento", "classcomandos_1_1_movimiento.html", null ],
@@ -78,9 +83,11 @@ var hierarchy =
     [ "entidades.Entidad", "classentidades_1_1_entidad.html", null ],
     [ "estados.Estado", "classestados_1_1_estado.html", [
       [ "estados.EstadoBatalla", "classestados_1_1_estado_batalla.html", null ],
+      [ "estados.EstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html", null ],
       [ "estados.EstadoJuego", "classestados_1_1_estado_juego.html", null ]
     ] ],
     [ "interfaz.EstadoDePersonaje", "classinterfaz_1_1_estado_de_personaje.html", null ],
+    [ "interfaz.EstadoNPC", "classinterfaz_1_1_estado_n_p_c.html", null ],
     [ "mundo.Grafo", "classmundo_1_1_grafo.html", null ],
     [ "dominio.MadreDeTodo", "classdominio_1_1_madre_de_todo.html", [
       [ "dominio.NonPlayableCharacter", "classdominio_1_1_non_playable_character.html", null ],
@@ -96,6 +103,7 @@ var hierarchy =
     [ "mundo.Nodo", "classmundo_1_1_nodo.html", null ],
     [ "entidades.NodoDePila", "classentidades_1_1_nodo_de_pila.html", null ],
     [ "juego.Pantalla", "classjuego_1_1_pantalla.html", null ],
+    [ "mensajeria.PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html", null ],
     [ "dominio.Peleable", "interfacedominio_1_1_peleable.html", [
       [ "dominio.NonPlayableCharacter", "classdominio_1_1_non_playable_character.html", null ],
       [ "dominio.Personaje", "classdominio_1_1_personaje.html", null ]
@@ -152,6 +160,7 @@ var hierarchy =
       [ "mensajeria.PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", null ],
       [ "mensajeria.PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", null ],
       [ "mensajeria.PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", null ],
+      [ "mensajeria.PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", null ],
       [ "mensajeria.PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", null ],
       [ "mensajeria.PaqueteUsuario", "classmensajeria_1_1_paquete_usuario.html", null ]
     ] ],

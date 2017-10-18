@@ -1,5 +1,22 @@
 var searchData=
 [
   ['habilidades',['habilidades',['../classrecursos_1_1_recursos.html#a5142fff2e3a7ab0ea40e25e066a2c837',1,'recursos::Recursos']]],
-  ['humano',['humano',['../classrecursos_1_1_recursos.html#a094d24d80fa7e667443c52bcc9ffc6e6',1,'recursos::Recursos']]]
+  ['habilidadescasta',['habilidadesCasta',['../classdominio_1_1_personaje.html#a74a49ff689b7ea6ae4fc3fe9c9738a6b',1,'dominio::Personaje']]],
+  ['habilidadesraza',['habilidadesRaza',['../classdominio_1_1_personaje.html#aa59d9e4b39d4b2b61bbe78333a14be74',1,'dominio::Personaje']]],
+  ['habilitado',['habilitado',['../classinterfaz_1_1_menu_batalla.html#afb946792a764beaf6721c1bf74e54f7a',1,'interfaz::MenuBatalla']]],
+  ['handlermouse',['handlerMouse',['../classjuego_1_1_juego.html#a83b13fdf32baa2aba6d895c682f4cce3',1,'juego::Juego']]],
+  ['haysolicitud',['haySolicitud',['../classestados_1_1_estado_juego.html#a9cfcaeedbf2f1df79845289cce661021',1,'estados::EstadoJuego']]],
+  ['hayspellseleccionada',['haySpellSeleccionada',['../classestados_1_1_estado_batalla.html#a2d6a13430e04b775b2d37294b800e998',1,'estados.EstadoBatalla.haySpellSeleccionada()'],['../classestados_1_1_estado_batalla_n_p_c.html#ac8b42f97cbafa680c165c34cf6d6ed2c',1,'estados.EstadoBatallaNPC.haySpellSeleccionada()']]],
+  ['hilo',['hilo',['../classjuego_1_1_juego.html#a4643c2c764613d25455690f3d5c68848',1,'juego::Juego']]],
+  ['horizontalder',['horizontalDer',['../classentidades_1_1_entidad.html#a4c1c5361adb9bed8494e124bf8b3e68b',1,'entidades::Entidad']]],
+  ['horizontalizq',['horizontalIzq',['../classentidades_1_1_entidad.html#a98ec69837659bb7901ebd5fa8b96a737',1,'entidades::Entidad']]],
+  ['humano',['humano',['../classrecursos_1_1_recursos.html#a094d24d80fa7e667443c52bcc9ffc6e6',1,'recursos::Recursos']]],
+  ['humanoabajo',['humanoAbajo',['../classrecursos_1_1_recursos.html#af51b68f473b28ac07a422dbd3c551231',1,'recursos::Recursos']]],
+  ['humanoabajoder',['humanoAbajoDer',['../classrecursos_1_1_recursos.html#a0cda290d20a75bff33d8d5b9f695e043',1,'recursos::Recursos']]],
+  ['humanoabajoizq',['humanoAbajoIzq',['../classrecursos_1_1_recursos.html#a2abade1c9051fbe3d0df19f6f13f256e',1,'recursos::Recursos']]],
+  ['humanoarriba',['humanoArriba',['../classrecursos_1_1_recursos.html#ae4fccc53de173f9251ae0df580fb4703',1,'recursos::Recursos']]],
+  ['humanoarribader',['humanoArribaDer',['../classrecursos_1_1_recursos.html#ada908c77d3eaf256223e68a6b2239458',1,'recursos::Recursos']]],
+  ['humanoarribaizq',['humanoArribaIzq',['../classrecursos_1_1_recursos.html#a5d46e730564bdb6affe0b0b81f133a2f',1,'recursos::Recursos']]],
+  ['humanoder',['humanoDer',['../classrecursos_1_1_recursos.html#a64ef452c2f99b09bdadc1524e0e0304d',1,'recursos::Recursos']]],
+  ['humanoizq',['humanoIzq',['../classrecursos_1_1_recursos.html#a26139a1c4eb5f61b025e8265d889f303',1,'recursos::Recursos']]]
 ];

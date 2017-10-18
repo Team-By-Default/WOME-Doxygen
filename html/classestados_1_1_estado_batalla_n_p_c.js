@@ -1,0 +1,28 @@
+var classestados_1_1_estado_batalla_n_p_c =
+[
+    [ "EstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e", null ],
+    [ "actualizar", "classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3", null ],
+    [ "crearPersonajes", "classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a", null ],
+    [ "esEstadoDeJuego", "classestados_1_1_estado_batalla_n_p_c.html#aef95461d36ca0828c8522ce005cd2013", null ],
+    [ "finalizarBatalla", "classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93", null ],
+    [ "getEnemigo", "classestados_1_1_estado_batalla_n_p_c.html#a7a419e88507b195779c74a502b315676", null ],
+    [ "getPaqueteEnemigo", "classestados_1_1_estado_batalla_n_p_c.html#ad533b2ef78566f04cefc65fc830014cd", null ],
+    [ "getPaquetePersonaje", "classestados_1_1_estado_batalla_n_p_c.html#ad42c87d305f0ae5c4138cb4904244893", null ],
+    [ "getPersonaje", "classestados_1_1_estado_batalla_n_p_c.html#a34678bf9de27750d25bf45570f3e71b0", null ],
+    [ "graficar", "classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e", null ],
+    [ "setMiTurno", "classestados_1_1_estado_batalla_n_p_c.html#aa09361c44f08a1db4716c9b92e65f477", null ],
+    [ "enemigo", "classestados_1_1_estado_batalla_n_p_c.html#a52e97ed11751da51bc9e95e300dbf32a", null ],
+    [ "gson", "classestados_1_1_estado_batalla_n_p_c.html#a34f19da8c425aa1b60ae7da103bdb605", null ],
+    [ "haySpellSeleccionada", "classestados_1_1_estado_batalla_n_p_c.html#ac8b42f97cbafa680c165c34cf6d6ed2c", null ],
+    [ "menuBatalla", "classestados_1_1_estado_batalla_n_p_c.html#a7be756f6f90ed36bd6e8c2b7013a1b0a", null ],
+    [ "miniaturaNPC", "classestados_1_1_estado_batalla_n_p_c.html#a2b863d5988625b3e71501c79c8dc811b", null ],
+    [ "miniaturaPersonaje", "classestados_1_1_estado_batalla_n_p_c.html#a2b32e5b7d498f4c572cde28fb431bbf6", null ],
+    [ "miTurno", "classestados_1_1_estado_batalla_n_p_c.html#a05772c2ec826feb0a0d08fa90a2a58dc", null ],
+    [ "mundo", "classestados_1_1_estado_batalla_n_p_c.html#aac4dae96fcea3453751d741bd860165e", null ],
+    [ "paqueteEnemigo", "classestados_1_1_estado_batalla_n_p_c.html#a16a44efa488a7580bdbd7d768ed66c30", null ],
+    [ "paqueteFinalizarBatalla", "classestados_1_1_estado_batalla_n_p_c.html#a7e7ad37330b0ab2e28475e77387e4a6f", null ],
+    [ "paquetePersonaje", "classestados_1_1_estado_batalla_n_p_c.html#a25f63471526b09c20765827b6aa9e1f6", null ],
+    [ "personaje", "classestados_1_1_estado_batalla_n_p_c.html#a3179a6201670b57d274fba8a1c7e0588", null ],
+    [ "posMouse", "classestados_1_1_estado_batalla_n_p_c.html#aeec7351d694c2d3f6525c3e73076e59d", null ],
+    [ "seRealizoAccion", "classestados_1_1_estado_batalla_n_p_c.html#a997911b5bd2260ecdac49aa3f39fee90", null ]
+];

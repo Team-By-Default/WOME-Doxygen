@@ -6,9 +6,22 @@ var classestados_1_1_estado_juego =
     [ "esEstadoDeJuego", "classestados_1_1_estado_juego.html#a27db213573e003e9e88bd87f4e682241", null ],
     [ "getHaySolicitud", "classestados_1_1_estado_juego.html#ae7404592ab496df252a772eaf94cdb96", null ],
     [ "getMenuEnemigo", "classestados_1_1_estado_juego.html#a534322ff41d820a8b000caedb9243352", null ],
+    [ "getMundo", "classestados_1_1_estado_juego.html#a8545118845681baf6bbb5e4a2a746ddd", null ],
     [ "getPersonaje", "classestados_1_1_estado_juego.html#a7a62b872f0a5428313c6572c0cee5613", null ],
     [ "getTipoSolicitud", "classestados_1_1_estado_juego.html#a4472613452c50fb3bb00cadb369bf152", null ],
     [ "graficar", "classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689", null ],
+    [ "graficarNPCs", "classestados_1_1_estado_juego.html#a1fad70feaba8366e6d9fce69b93613c7", null ],
     [ "graficarPersonajes", "classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0", null ],
-    [ "setHaySolicitud", "classestados_1_1_estado_juego.html#af9f5f9acaf049632b75c67f9c9f50281", null ]
+    [ "setHaySolicitud", "classestados_1_1_estado_juego.html#af9f5f9acaf049632b75c67f9c9f50281", null ],
+    [ "entidadPersonaje", "classestados_1_1_estado_juego.html#a203c74b117a3aaaffa94dbac21d1a9bc", null ],
+    [ "gson", "classestados_1_1_estado_juego.html#a09216040fb8b684ac53782bf456a9aaf", null ],
+    [ "haySolicitud", "classestados_1_1_estado_juego.html#a9cfcaeedbf2f1df79845289cce661021", null ],
+    [ "miniaturaPersonaje", "classestados_1_1_estado_juego.html#a6eec8d7a7d862cacbd5d09480f4f327d", null ],
+    [ "mundo", "classestados_1_1_estado_juego.html#a67144a4b99dba30695eaa919a8bde66b", null ],
+    [ "NPCs", "classestados_1_1_estado_juego.html#aaae232ae10045b0b148b9608a2a4b1f9", null ],
+    [ "paquetePersonaje", "classestados_1_1_estado_juego.html#af6a024b16902681c49e8ec42af92c2e5", null ],
+    [ "personajesConectados", "classestados_1_1_estado_juego.html#af5c543422ecf87eacf2efbd5f0c8852a", null ],
+    [ "tipoSolicitud", "classestados_1_1_estado_juego.html#a53288ed26ccb35da656927c7cf2c7518", null ],
+    [ "ubicacionNPCs", "classestados_1_1_estado_juego.html#ac3a8791a6b4bf88854a51487b308e76b", null ],
+    [ "ubicacionPersonajes", "classestados_1_1_estado_juego.html#a2c74a6388fde0c89c7da67553f8b4fb1", null ]
 ];

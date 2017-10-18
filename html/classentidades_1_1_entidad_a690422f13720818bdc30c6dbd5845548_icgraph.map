@@ -1,0 +1,7 @@
+<map id="entidades.Entidad.getDireccion" name="entidades.Entidad.getDireccion">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#abd9cd5d7c7a597d0041c096cc23b78b4" title="entidades.Entidad.Entidad" alt="" coords="256,5,431,32"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#ad15c5b9425c1db9a7a8d93603d006ba5" title="entidades.Entidad.enviar\lPosicion" alt="" coords="262,57,425,98"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="479,64,643,91"/>
+<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="691,64,877,91"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="925,64,1132,91"/>
+</map>

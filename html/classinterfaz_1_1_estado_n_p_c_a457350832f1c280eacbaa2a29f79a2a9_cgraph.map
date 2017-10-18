@@ -1,0 +1,5 @@
+<map id="interfaz.EstadoNPC.dibujarEstadoDeNPC" name="interfaz.EstadoNPC.dibujarEstadoDeNPC">
+<area shape="rect" id="node2" href="$classdominio_1_1_non_playable_character.html#aa0eef73a9ad8df77738b1e1679316e15" title="dominio.NonPlayableCharacter.get\lSalud" alt="" coords="232,5,455,47"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_non_playable_character.html#ac67ebe1f5cc5ba1575061a42b319026e" title="dominio.NonPlayableCharacter.get\lSaludTope" alt="" coords="232,71,455,112"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b" title="dominio.MadreDeTodo.getNivel" alt="" coords="243,137,443,163"/>
+</map>

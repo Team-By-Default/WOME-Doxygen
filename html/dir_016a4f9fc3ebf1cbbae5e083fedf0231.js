@@ -36,6 +36,9 @@ var dir_016a4f9fc3ebf1cbbae5e083fedf0231 =
     [ "FinalizarBatalla.java", "jrpg-2017b-servidor_2src_2main_2java_2comandos_2_finalizar_batalla_8java.html", [
       [ "FinalizarBatalla", "classcomandos_1_1_finalizar_batalla.html", "classcomandos_1_1_finalizar_batalla" ]
     ] ],
+    [ "FinalizarBatallaNPC.java", "_finalizar_batalla_n_p_c_8java.html", [
+      [ "FinalizarBatallaNPC", "classcomandos_1_1_finalizar_batalla_n_p_c.html", "classcomandos_1_1_finalizar_batalla_n_p_c" ]
+    ] ],
     [ "InicioSesion.java", "jrpg-2017b-servidor_2src_2main_2java_2comandos_2_inicio_sesion_8java.html", [
       [ "InicioSesion", "classcomandos_1_1_inicio_sesion.html", "classcomandos_1_1_inicio_sesion" ]
     ] ],

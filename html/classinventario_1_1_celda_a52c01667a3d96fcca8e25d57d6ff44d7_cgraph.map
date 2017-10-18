@@ -1,0 +1,8 @@
+<map id="inventario.Celda.actionListenersYLabel" name="inventario.Celda.actionListenersYLabel">
+<area shape="rect" id="node2" href="$classdominio_1_1_item.html#af7d99502f79762f8e1d2c7a3f4fc4f08" title="dominio.Item.getNombre" alt="" coords="287,5,450,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_item.html#aa663574cee556b330a5fbf0e6a05c39c" title="dominio.Item.getBonusSalud" alt="" coords="275,56,463,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_item.html#a587f3c57f42d94959d3fbc0c58f367d6" title="dominio.Item.getBonusEnergia" alt="" coords="269,107,468,133"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_item.html#a7b6b823dd3c88a7334b7a4770729f405" title="dominio.Item.getBonusFuerza" alt="" coords="271,157,466,184"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_item.html#a1ff41b721e2477d575b4a947566dfec7" title="dominio.Item.getBonusDestreza" alt="" coords="265,208,472,235"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_item.html#a8d41a92822f87db0ccef9ef20705bbd9" title="dominio.Item.getBonusInteligencia" alt="" coords="259,259,479,285"/>
+</map>

@@ -1,4 +1,5 @@
 <map id="dominio.NonPlayableCharacter" name="dominio.NonPlayableCharacter">
-<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="80,95,231,121"/>
-<area shape="rect" id="node5" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="255,95,376,121"/>
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="291,221,441,247"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_random_generator.html" title="dominio.RandomGenerator" alt="" coords="282,5,458,32"/>
+<area shape="rect" id="node7" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="680,221,801,247"/>
 </map>

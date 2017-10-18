@@ -1,3 +1,7 @@
 <map id="mensajeria.PaquetePersonaje.setEstado" name="mensajeria.PaquetePersonaje.setEstado">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="271,5,463,47"/>
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="279,5,454,47"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="271,71,463,112"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="511,13,675,39"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="723,13,909,39"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="957,13,1164,39"/>
 </map>

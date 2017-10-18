@@ -1,6 +1,7 @@
 <map id="servidor.Conector.actualizarInventario" name="servidor.Conector.actualizarInventario">
-<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="248,5,451,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="241,71,458,112"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="241,136,458,177"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="236,202,463,229"/>
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="236,5,439,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="246,71,429,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="491,5,709,47"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="491,71,709,112"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="487,137,713,163"/>
 </map>

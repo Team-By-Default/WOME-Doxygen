@@ -1,2 +1,6 @@
 <map id="inventario.Celda" name="inventario.Celda">
+<area shape="rect" id="node3" href="$classdominio_1_1_item.html" title="dominio.Item" alt="" coords="113,250,209,277"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="207,407,401,433"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="553,250,690,277"/>
+<area shape="rect" id="node9" href="$class_cloneable.html" title="Cloneable" alt="" coords="714,5,793,32"/>
 </map>

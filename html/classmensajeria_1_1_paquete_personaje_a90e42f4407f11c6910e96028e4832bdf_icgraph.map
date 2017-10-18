@@ -1,14 +1,20 @@
 <map id="mensajeria.PaquetePersonaje.getNivel" name="mensajeria.PaquetePersonaje.getNivel">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="284,5,483,32"/>
-<area shape="rect" id="node3" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="295,57,472,98"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="286,123,481,149"/>
-<area shape="rect" id="node5" href="$classinterfaz_1_1_estado_de_personaje.html#a98a91246d2112f8f56df20db5b191433" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="271,174,496,215"/>
-<area shape="rect" id="node6" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="558,253,782,280"/>
-<area shape="rect" id="node8" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="271,291,495,333"/>
-<area shape="rect" id="node9" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="292,357,475,398"/>
-<area shape="rect" id="node12" href="$classservidor_1_1_conector.html#a3731c9c14b8d6c8e23852eff0d8e7416" title="servidor.Conector.actualizar\lPersonajeSubioNivel" alt="" coords="292,422,475,463"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="844,253,1037,280"/>
-<area shape="rect" id="node10" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="544,317,796,344"/>
-<area shape="rect" id="node11" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="550,368,790,395"/>
-<area shape="rect" id="node13" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="569,422,771,463"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a1e2d3196c9b11e3b6eb34626a557d3b4" title="estados.EstadoBatalla.crear\lPersonajes" alt="" coords="290,5,477,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="277,71,490,112"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="295,136,472,177"/>
+<area shape="rect" id="node7" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="286,202,481,229"/>
+<area shape="rect" id="node8" href="$classinterfaz_1_1_estado_de_personaje.html#a98a91246d2112f8f56df20db5b191433" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="271,253,496,295"/>
+<area shape="rect" id="node9" href="$classinterfaz_1_1_menu_info_personaje.html#a201b27006b2adf669c829b052b433797" title="interfaz.MenuInfoPersonaje.graficar\lMenuSubirNivel" alt="" coords="271,319,495,360"/>
+<area shape="rect" id="node12" href="$classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc" title="interfaz.MenuInfoPersonaje.graficar\lMenuInformacion" alt="" coords="271,384,495,425"/>
+<area shape="rect" id="node13" href="$classinterfaz_1_1_menu_info_personaje.html#aa4946e4d3d21d8291b2f38eedef635c5" title="interfaz.MenuInfoPersonaje.graficar\lMenuItem" alt="" coords="271,449,495,491"/>
+<area shape="rect" id="node14" href="$classinterfaz_1_1_menu_info_personaje.html#aaf629513d4d1d19a950e245be692186b" title="interfaz.MenuInfoPersonaje.graficar\lMenuComerciar" alt="" coords="271,515,495,556"/>
+<area shape="rect" id="node15" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="292,580,475,621"/>
+<area shape="rect" id="node18" href="$classservidor_1_1_conector.html#a3731c9c14b8d6c8e23852eff0d8e7416" title="servidor.Conector.actualizar\lPersonajeSubioNivel" alt="" coords="292,645,475,687"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="571,5,769,47"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="578,71,762,112"/>
+<area shape="rect" id="node10" href="$classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d" title="interfaz.MenuInfoPersonaje.graficar" alt="" coords="558,425,782,451"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="844,425,1037,451"/>
+<area shape="rect" id="node16" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="544,539,796,566"/>
+<area shape="rect" id="node17" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="550,590,790,617"/>
+<area shape="rect" id="node19" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="569,645,771,687"/>
 </map>

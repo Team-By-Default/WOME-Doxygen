@@ -30,6 +30,12 @@ var dir_96019ca267b8387142330b4ca78af274 =
     [ "PaqueteMovimiento.java", "_paquete_movimiento_8java.html", [
       [ "PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", "classmensajeria_1_1_paquete_movimiento" ]
     ] ],
+    [ "PaqueteNPC.java", "_paquete_n_p_c_8java.html", [
+      [ "PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html", "classmensajeria_1_1_paquete_n_p_c" ]
+    ] ],
+    [ "PaqueteNPCs.java", "_paquete_n_p_cs_8java.html", [
+      [ "PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", "classmensajeria_1_1_paquete_n_p_cs" ]
+    ] ],
     [ "PaquetePersonaje.java", "_paquete_personaje_8java.html", [
       [ "PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", "classmensajeria_1_1_paquete_personaje" ]
     ] ],

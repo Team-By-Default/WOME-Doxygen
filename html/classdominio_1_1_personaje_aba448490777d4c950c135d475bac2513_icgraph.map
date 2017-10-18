@@ -1,4 +1,5 @@
 <map id="dominio.Personaje.habilidadRaza2" name="dominio.Personaje.habilidadRaza2">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="469,13,683,39"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a8392921ff607a0ccad20e99e866a3243" title="dominio.Personaje.habilidad\lCasta3" alt="" coords="237,35,421,76"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="483,5,696,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="469,60,709,87"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a8392921ff607a0ccad20e99e866a3243" title="dominio.Personaje.habilidad\lCasta3" alt="" coords="237,25,421,66"/>
 </map>

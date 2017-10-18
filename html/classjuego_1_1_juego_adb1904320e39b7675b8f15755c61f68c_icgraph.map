@@ -1,11 +1,12 @@
 <map id="juego.Juego.getCliente" name="juego.Juego.getCliente">
-<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="243,5,381,32"/>
-<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="207,57,417,98"/>
-<area shape="rect" id="node4" href="$classcliente_1_1_escucha_mensajes.html#af54ea9f775547ca6910f657e9f42137c" title="cliente.EscuchaMensajes.\lEscuchaMensajes" alt="" coords="225,122,399,163"/>
-<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="215,188,409,215"/>
-<area shape="rect" id="node8" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="226,239,398,281"/>
-<area shape="rect" id="node10" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="216,305,408,346"/>
-<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="469,188,655,215"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="707,188,913,215"/>
-<area shape="rect" id="node9" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="465,247,659,273"/>
+<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="247,5,385,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="473,78,684,119"/>
+<area shape="rect" id="node4" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="207,107,425,149"/>
+<area shape="rect" id="node5" href="$classcliente_1_1_escucha_mensajes.html#af54ea9f775547ca6910f657e9f42137c" title="cliente.EscuchaMensajes.\lEscuchaMensajes" alt="" coords="229,173,403,214"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="482,243,675,269"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_entidad.html#ad15c5b9425c1db9a7a8d93603d006ba5" title="entidades.Entidad.enviar\lPosicion" alt="" coords="235,290,397,331"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="220,355,412,397"/>
+<area shape="rect" id="node7" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="732,269,919,296"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="967,269,1173,296"/>
+<area shape="rect" id="node10" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="497,295,661,321"/>
 </map>

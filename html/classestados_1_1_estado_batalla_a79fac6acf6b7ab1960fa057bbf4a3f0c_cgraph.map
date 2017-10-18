@@ -1,0 +1,19 @@
+<map id="estados.EstadoBatalla.finalizarBatalla" name="estados.EstadoBatalla.finalizarBatalla">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#adc8160df85a708236ffb6c4cb792e700" title="mensajeria.PaquetePersonaje.set\lSaludTope" alt="" coords="268,5,485,47"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#afb853c8722ceb906a2a25fec773bde36" title="dominio.Personaje.getSaludTope" alt="" coords="271,71,483,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#ab3052a3fc2d26bb1cc250c0801118ec9" title="mensajeria.PaquetePersonaje.set\lEnergiaTope" alt="" coords="268,123,485,164"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a057957d67164a83e4b89b620c59bc67b" title="dominio.Personaje.getEnergiaTope" alt="" coords="265,189,488,215"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a58a7f0acfe1f33d434410a4cc9e86033" title="mensajeria.PaquetePersonaje.set\lNivel" alt="" coords="268,240,485,281"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b" title="dominio.MadreDeTodo.getNivel" alt="" coords="277,306,477,333"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a2c07a146130e2435f25882480b63d1c8" title="mensajeria.PaquetePersonaje.set\lExperiencia" alt="" coords="268,357,485,399"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#ac5c8bdb3778b108e39f22a45318c1d63" title="dominio.Personaje.getExperiencia" alt="" coords="267,423,486,450"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#a6dbc2dff08ba663f1ccb84449e8fd1ce" title="mensajeria.PaquetePersonaje.set\lDestreza" alt="" coords="268,475,485,516"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#ae2877667563c29269f569792591e4498" title="dominio.Personaje.getDestreza" alt="" coords="275,541,478,567"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html#a61496fd7e8b1b8eacf461704c315ec28" title="mensajeria.PaquetePersonaje.set\lFuerza" alt="" coords="268,592,485,633"/>
+<area shape="rect" id="node13" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="270,658,483,685"/>
+<area shape="rect" id="node14" href="$classmensajeria_1_1_paquete_personaje.html#afa24dc4557eb6e78f82f5fefaf2467aa" title="mensajeria.PaquetePersonaje.set\lInteligencia" alt="" coords="268,709,485,751"/>
+<area shape="rect" id="node15" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="269,775,485,802"/>
+<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_personaje.html#a7517172752318ca6709541ea4d635196" title="mensajeria.PaquetePersonaje.remover\lBonus" alt="" coords="255,827,499,868"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="269,893,484,919"/>
+<area shape="rect" id="node17" href="$classmensajeria_1_1_paquete_personaje.html#a17d03ce06321895c0f82ce9e2dbd37dc" title="mensajeria.PaquetePersonaje.sacar\lBonus" alt="" coords="547,827,777,868"/>
+</map>

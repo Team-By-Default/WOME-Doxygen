@@ -7,5 +7,6 @@
 <area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="476,179,653,221"/>
 <area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="471,245,659,272"/>
 <area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="707,245,940,272"/>
-<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="988,245,1201,272"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="1001,220,1215,247"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="988,271,1228,297"/>
 </map>

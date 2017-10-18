@@ -1,0 +1,4 @@
+<map id="interfaz.MenuInfoPersonaje.graficarMenuItem" name="interfaz.MenuInfoPersonaje.graficarMenuItem">
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="297,5,475,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a90e42f4407f11c6910e96028e4832bdf" title="mensajeria.PaquetePersonaje.get\lNivel" alt="" coords="277,57,495,98"/>
+</map>

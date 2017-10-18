@@ -1,0 +1,4 @@
+<map id="servidor.Servidor.getUbicacionNPCs" name="servidor.Servidor.getUbicacionNPCs">
+<area shape="rect" id="node2" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="303,5,477,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="283,71,497,98"/>
+</map>

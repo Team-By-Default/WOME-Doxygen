@@ -1,11 +1,5 @@
 <map id="mundo.Nodo.agregarAdyacente" name="mundo.Nodo.agregarAdyacente">
 <area shape="rect" id="node2" href="$classmundo_1_1_grafo.html#a2ed1d1484a06eeae9b3c4bdf247bdb8b" title="mundo.Grafo.agregarAdyacentes" alt="" coords="257,5,469,32"/>
-<area shape="rect" id="node3" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="290,56,437,83"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="529,5,722,32"/>
-<area shape="rect" id="node7" href="$classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773" title="mundo.Mundo.graficar" alt="" coords="550,107,701,133"/>
-<area shape="rect" id="node10" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="517,56,733,83"/>
-<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="787,5,974,32"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="1028,5,1235,32"/>
-<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="781,107,980,133"/>
-<area shape="rect" id="node9" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="784,56,977,83"/>
+<area shape="rect" id="node3" href="$classmundo_1_1_mundo.html#ac7612aa49bb024e548c40bb0d208680f" title="mundo.Mundo.mundoAGrafo" alt="" coords="270,56,457,83"/>
+<area shape="rect" id="node4" href="$classmundo_1_1_mundo.html#ad69bba527b9eafc3746c7bcf17a1d27d" title="mundo.Mundo.Mundo" alt="" coords="517,56,664,83"/>
 </map>

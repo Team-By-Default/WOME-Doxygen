@@ -1,4 +1,5 @@
 <map id="dominio.Item.getBonusFuerza" name="dominio.Item.getBonusFuerza">
-<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a278929db11019f5f24c3b336ba6d9dfa" title="inventario.Celda.Celda" alt="" coords="256,5,407,32"/>
-<area shape="rect" id="node3" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="248,56,415,83"/>
+<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a52c01667a3d96fcca8e25d57d6ff44d7" title="inventario.Celda.actionListeners\lYLabel" alt="" coords="248,5,453,47"/>
+<area shape="rect" id="node4" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="267,71,434,98"/>
+<area shape="rect" id="node3" href="$classinventario_1_1_celda.html#a46fe511de9bd89316d3e73f7ed18453c" title="inventario.Celda.Celda" alt="" coords="501,13,652,39"/>
 </map>

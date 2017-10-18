@@ -1,8 +1,10 @@
 <map id="mensajeria.PaquetePersonaje.sacarBonus" name="mensajeria.PaquetePersonaje.sacarBonus">
-<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="323,5,489,32"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a7517172752318ca6709541ea4d635196" title="mensajeria.PaquetePersonaje.remover\lBonus" alt="" coords="284,57,528,98"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a56411ae4980da469c929c16dfb9170ab" title="mensajeria.PaquetePersonaje.sacar\lUltimoItem" alt="" coords="291,122,521,163"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="576,23,767,65"/>
-<area shape="rect" id="node6" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="583,89,760,130"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="815,31,1028,57"/>
+<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="323,19,489,46"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a7517172752318ca6709541ea4d635196" title="mensajeria.PaquetePersonaje.remover\lBonus" alt="" coords="284,71,528,112"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#a56411ae4980da469c929c16dfb9170ab" title="mensajeria.PaquetePersonaje.sacar\lUltimoItem" alt="" coords="291,136,521,177"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="589,5,791,47"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="576,71,804,112"/>
+<area shape="rect" id="node8" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="601,136,779,177"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="865,13,1079,39"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="852,78,1092,105"/>
 </map>

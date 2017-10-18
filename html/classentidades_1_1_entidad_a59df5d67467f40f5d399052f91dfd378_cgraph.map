@@ -15,7 +15,7 @@
 <area shape="rect" id="node15" href="$classmundo_1_1_mundo.html#aaff39dfd526261ebde9f513536b99b5a" title="mundo.Mundo.isoA2D" alt="" coords="299,815,450,841"/>
 <area shape="rect" id="node16" href="$classestados_1_1_estado_juego.html#af9f5f9acaf049632b75c67f9c9f50281" title="estados.EstadoJuego.setHay\lSolicitud" alt="" coords="279,866,471,907"/>
 <area shape="rect" id="node17" href="$classmensajeria_1_1_paquete_batalla.html#adeeb313c265b07c0c64dc744661f21c0" title="mensajeria.PaqueteBatalla.setId" alt="" coords="270,932,479,959"/>
-<area shape="rect" id="node18" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="590,1500,761,1527"/>
+<area shape="rect" id="node18" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="590,1555,761,1581"/>
 <area shape="rect" id="node19" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="261,1033,488,1060"/>
 <area shape="rect" id="node20" href="$classmensajeria_1_1_paquete_batalla.html#a4520301cafe7617b88c1fc834f0f876c" title="mensajeria.PaqueteBatalla.set\lIdEnemigo" alt="" coords="275,1085,474,1126"/>
 <area shape="rect" id="node21" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="293,1151,456,1177"/>
@@ -38,14 +38,14 @@
 <area shape="rect" id="node38" href="$classmundo_1_1_mundo.html#ab78380375598dd0d91057b3f6c76e046" title="mundo.Mundo.obtenerAncho" alt="" coords="281,2133,469,2160"/>
 <area shape="rect" id="node39" href="$classmundo_1_1_mundo.html#ace1bacac0e07b1f7da019442f30d7bec" title="mundo.Mundo.obtenerAlto" alt="" coords="287,2184,462,2211"/>
 <area shape="rect" id="node40" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="301,2235,448,2261"/>
-<area shape="rect" id="node46" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="289,2285,461,2312"/>
-<area shape="rect" id="node48" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="273,2336,477,2363"/>
-<area shape="rect" id="node49" href="$classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876" title="entidades.NodoDePila.obtenerY" alt="" coords="271,2387,478,2413"/>
-<area shape="rect" id="node50" href="$classmundo_1_1_mundo.html#a9cfa073afa161501c2360af823ee6214" title="mundo.Mundo.dosDaIso" alt="" coords="293,2437,456,2464"/>
-<area shape="rect" id="node41" href="$classmensajeria_1_1_paquete_personaje.html#a340c1c0b71c260ecfb80d20963abaf5e" title="mensajeria.PaquetePersonaje.getMapa" alt="" coords="551,2092,800,2119"/>
-<area shape="rect" id="node42" href="$classmundo_1_1_utilitarias.html#af39ea99df542530a9003f40c159eacc1" title="mundo.Utilitarias.archivo\lAString" alt="" coords="594,2143,757,2185"/>
-<area shape="rect" id="node43" href="$classmundo_1_1_utilitarias.html#a60ebe6783e3e63918761854c12f7e144" title="mundo.Utilitarias.parseInt" alt="" coords="591,2209,760,2236"/>
-<area shape="rect" id="node44" href="$classmundo_1_1_nodo.html#a198bcd1fabdc56d844cac8a65c6f2c93" title="mundo.Nodo.agregarAdyacente" alt="" coords="573,2260,777,2287"/>
-<area shape="rect" id="node45" href="$classmundo_1_1_grafo.html#a5681bd9e2ce0036166f8a3a6878ecb07" title="mundo.Grafo.agregarNodo" alt="" coords="589,2311,762,2337"/>
-<area shape="rect" id="node47" href="$classentidades_1_1_nodo_de_pila.html#a645ef2391cf2c6290204475e5cce6ad3" title="entidades.NodoDePila.obtener\lSiguiente" alt="" coords="577,2362,774,2403"/>
+<area shape="rect" id="node42" href="$classentidades_1_1_entidad.html#acbab4324ab29f9ebf0a0d0d8467025cc" title="entidades.Entidad.camino\lMasCorto" alt="" coords="289,2286,461,2327"/>
+<area shape="rect" id="node47" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="289,2352,461,2379"/>
+<area shape="rect" id="node48" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="273,2403,477,2429"/>
+<area shape="rect" id="node49" href="$classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876" title="entidades.NodoDePila.obtenerY" alt="" coords="271,2453,478,2480"/>
+<area shape="rect" id="node50" href="$classmundo_1_1_mundo.html#a9cfa073afa161501c2360af823ee6214" title="mundo.Mundo.dosDaIso" alt="" coords="293,2504,456,2531"/>
+<area shape="rect" id="node41" href="$classmensajeria_1_1_paquete_personaje.html#a340c1c0b71c260ecfb80d20963abaf5e" title="mensajeria.PaquetePersonaje.getMapa" alt="" coords="551,2176,800,2203"/>
+<area shape="rect" id="node43" href="$classmundo_1_1_mundo.html#a491ffd1cd0371434f97824bbaf8be63e" title="mundo.Mundo.obtenerGrafo\lDeTilesNoSolidos" alt="" coords="584,2227,767,2269"/>
+<area shape="rect" id="node44" href="$classmundo_1_1_grafo.html#a7fa6f37285d556d1286ac26bc91a9456" title="mundo.Grafo.obtenerNodos" alt="" coords="585,2293,765,2320"/>
+<area shape="rect" id="node45" href="$classmundo_1_1_nodo.html#a532baa42416a537294014c2c50cffce2" title="mundo.Nodo.obtenerY" alt="" coords="600,2344,751,2371"/>
+<area shape="rect" id="node46" href="$classmundo_1_1_grafo.html#a2878bac26b10d38da98e08badaf9bdb1" title="mundo.Grafo.obtenerCantidad\lDeNodosTotal" alt="" coords="578,2395,773,2437"/>
 </map>

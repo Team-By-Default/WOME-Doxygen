@@ -12,6 +12,7 @@ var classmundo_1_1_tile =
     [ "setSolido", "classmundo_1_1_tile.html#a90175dfcdbf5bae6455d77fa443648fe", null ],
     [ "alto", "classmundo_1_1_tile.html#a5df902d8ef0c3be0959d21dba994670c", null ],
     [ "ancho", "classmundo_1_1_tile.html#a7c43f435650e2ea23e9b3a1d55517f6c", null ],
+    [ "esSolido", "classmundo_1_1_tile.html#a335c3641d370ae491e591e48562be4c8", null ],
     [ "id", "classmundo_1_1_tile.html#ab84d9b57f6ad9b6ec15c0eecf277d61d", null ],
     [ "textura", "classmundo_1_1_tile.html#abfb54fb1e7b3577cf429d7f735e1c31c", null ]
 ];

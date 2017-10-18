@@ -13,5 +13,11 @@ var classmensajeria_1_1_paquete_comerciar =
     [ "setIdEnemigo", "classmensajeria_1_1_paquete_comerciar.html#adc14b287f4d835fbf2946980d69204dc", null ],
     [ "setItemsADar", "classmensajeria_1_1_paquete_comerciar.html#abc59f22823bd1b4ff0bbafd746030ee0", null ],
     [ "setItemsAObtener", "classmensajeria_1_1_paquete_comerciar.html#a10277098fe94f612a55245d48194470b", null ],
-    [ "setSolicitudDeComercio", "classmensajeria_1_1_paquete_comerciar.html#a40fdbeb88e14636b63d8bfd256990816", null ]
+    [ "setSolicitudDeComercio", "classmensajeria_1_1_paquete_comerciar.html#a40fdbeb88e14636b63d8bfd256990816", null ],
+    [ "id", "classmensajeria_1_1_paquete_comerciar.html#a77202c9a9cde613e82ee242040c727e2", null ],
+    [ "idEnemigo", "classmensajeria_1_1_paquete_comerciar.html#ad94979548e3ed2b03b4794bfd75cbca0", null ],
+    [ "itemsADar", "classmensajeria_1_1_paquete_comerciar.html#a00a151a4d421b91b8afea6aef9612671", null ],
+    [ "itemsAObtener", "classmensajeria_1_1_paquete_comerciar.html#a8ad868a76bcbad349838cd08e270c287", null ],
+    [ "listo", "classmensajeria_1_1_paquete_comerciar.html#a9f917b94c4e0740eecbe0caa1019e624", null ],
+    [ "solicitudDeComercio", "classmensajeria_1_1_paquete_comerciar.html#a947ddc09e6846156e5a0a60953ed1852", null ]
 ];

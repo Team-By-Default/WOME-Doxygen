@@ -16,5 +16,8 @@ var classdominio_1_1_casta =
     [ "recibirInteligenciaBonus", "classdominio_1_1_casta.html#abdac2558fab6264232c0018345fd154c", null ],
     [ "setDañoCritico", "classdominio_1_1_casta.html#a0e831942960c9990893c19baf5cb2837", null ],
     [ "setProbabilidadEvitarDaño", "classdominio_1_1_casta.html#a51aef23675f3efeac50aa4d41ebc8c82", null ],
-    [ "setProbabilidadGolpeCritico", "classdominio_1_1_casta.html#a94c71fc0a29ffdac7e5b299d0d38679b", null ]
+    [ "setProbabilidadGolpeCritico", "classdominio_1_1_casta.html#a94c71fc0a29ffdac7e5b299d0d38679b", null ],
+    [ "dañoCritico", "classdominio_1_1_casta.html#a772302eefa6b66deddd4420bc163831e", null ],
+    [ "probabilidadEvitarDaño", "classdominio_1_1_casta.html#acbe184370f96b9df0975c6ae7ef4fac0", null ],
+    [ "probabilidadGolpeCritico", "classdominio_1_1_casta.html#ada5931901a4e8e65baccb2ee3c05ad5d", null ]
 ];

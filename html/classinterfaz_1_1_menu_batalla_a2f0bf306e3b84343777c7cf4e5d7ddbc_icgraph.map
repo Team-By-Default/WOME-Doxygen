@@ -1,3 +1,4 @@
 <map id="interfaz.MenuBatalla.graficar" name="interfaz.MenuBatalla.graficar">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="240,5,439,32"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="254,5,453,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="240,56,467,83"/>
 </map>

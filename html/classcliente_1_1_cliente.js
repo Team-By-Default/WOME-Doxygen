@@ -32,5 +32,20 @@ var classcliente_1_1_cliente =
     [ "setPaqueteUsuario", "classcliente_1_1_cliente.html#ad1e307f89e9d71a599f5dc9389bde1b9", null ],
     [ "setSalida", "classcliente_1_1_cliente.html#ae51f682e18e837bc2a6d88fcdbed028b", null ],
     [ "setSocket", "classcliente_1_1_cliente.html#ae636d6a6ee35e2925d03bb8975bc39c1", null ],
-    [ "setWome", "classcliente_1_1_cliente.html#a9c6d8579e72c124fcc99d23c2fa2c32b", null ]
+    [ "setWome", "classcliente_1_1_cliente.html#a9c6d8579e72c124fcc99d23c2fa2c32b", null ],
+    [ "accion", "classcliente_1_1_cliente.html#acf5bf306be173cb81940eabf2a7fe0c3", null ],
+    [ "cliente", "classcliente_1_1_cliente.html#ab7a2f3a88569008f2eb9b967264ae62f", null ],
+    [ "entrada", "classcliente_1_1_cliente.html#a91347ad69b5e208a89b79577dcbfe49d", null ],
+    [ "gson", "classcliente_1_1_cliente.html#a622081df6acf6e339d0a05ff15834a8a", null ],
+    [ "ip", "classcliente_1_1_cliente.html#a4a6ad8098bc6eb24e3517cda8afe2872", null ],
+    [ "m1", "classcliente_1_1_cliente.html#a1fbfcd72157c13e10718652db981a905", null ],
+    [ "menuCarga", "classcliente_1_1_cliente.html#a09f329be4e22eeb853c1b84830fb2499", null ],
+    [ "miIp", "classcliente_1_1_cliente.html#a05dec0123720b2e72340587cbd01e214", null ],
+    [ "paqueteComercio", "classcliente_1_1_cliente.html#a581c71a6db5ee935239016b71ac09901", null ],
+    [ "paqueteMensaje", "classcliente_1_1_cliente.html#a84249817dd77e409f2a9fcf142bb9050", null ],
+    [ "paquetePersonaje", "classcliente_1_1_cliente.html#a8d9fad221295b61ff035665c112397f6", null ],
+    [ "paqueteUsuario", "classcliente_1_1_cliente.html#a83f2e97fe2fb12876f3d49148ab43bf8", null ],
+    [ "puerto", "classcliente_1_1_cliente.html#ad6b02f2bfa09a4eb9ca419410fa719a7", null ],
+    [ "salida", "classcliente_1_1_cliente.html#af52a208a7fd9f9b0dd47a1bd18f8034d", null ],
+    [ "wome", "classcliente_1_1_cliente.html#a48690075af043c105722fa12a90c6c55", null ]
 ];

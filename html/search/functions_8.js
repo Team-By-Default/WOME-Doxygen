@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loguearusuario',['loguearUsuario',['../classservidor_1_1_conector.html#a48c421217783f9052f42fb4ad6874c05',1,'servidor::Conector']]]
+  ['juego',['Juego',['../classjuego_1_1_juego.html#a8313a07b0abac6d730b667a043de6d91',1,'juego::Juego']]]
 ];

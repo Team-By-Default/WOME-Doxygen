@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ventanacontactos',['VentanaContactos',['../classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19',1,'chat::VentanaContactos']]]
+  ['usebonus',['useBonus',['../classmensajeria_1_1_paquete_personaje.html#a899d62688d452f49be92605fe2f7ef8d',1,'mensajeria::PaquetePersonaje']]]
 ];

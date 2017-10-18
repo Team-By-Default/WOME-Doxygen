@@ -10,6 +10,8 @@ var searchData=
   ['paquetefinalizarbatalla_2ejava',['PaqueteFinalizarBatalla.java',['../_paquete_finalizar_batalla_8java.html',1,'']]],
   ['paquetemensaje_2ejava',['PaqueteMensaje.java',['../_paquete_mensaje_8java.html',1,'']]],
   ['paquetemovimiento_2ejava',['PaqueteMovimiento.java',['../_paquete_movimiento_8java.html',1,'']]],
+  ['paquetenpc_2ejava',['PaqueteNPC.java',['../_paquete_n_p_c_8java.html',1,'']]],
+  ['paquetenpcs_2ejava',['PaqueteNPCs.java',['../_paquete_n_p_cs_8java.html',1,'']]],
   ['paquetepersonaje_2ejava',['PaquetePersonaje.java',['../_paquete_personaje_8java.html',1,'']]],
   ['paqueteusuario_2ejava',['PaqueteUsuario.java',['../_paquete_usuario_8java.html',1,'']]],
   ['peleable_2ejava',['Peleable.java',['../_peleable_8java.html',1,'']]],

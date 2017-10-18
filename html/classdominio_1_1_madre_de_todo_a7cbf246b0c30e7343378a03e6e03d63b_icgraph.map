@@ -1,12 +1,16 @@
 <map id="dominio.MadreDeTodo.getNivel" name="dominio.MadreDeTodo.getNivel">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="849,60,1063,87"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="589,53,780,94"/>
-<area shape="rect" id="node4" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="274,112,499,153"/>
-<area shape="rect" id="node7" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="294,178,479,204"/>
-<area shape="rect" id="node8" href="$classdominio_1_1_non_playable_character.html#a4d22acf35e0765c229b68872ee2e42f3" title="dominio.NonPlayableCharacter.otorgarExp" alt="" coords="253,228,520,255"/>
-<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="293,279,481,306"/>
-<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="568,279,801,306"/>
-<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a479e22db38b9f3582164084c55df0fcc" title="dominio.Personaje.otorgarExp" alt="" coords="289,380,485,407"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="585,119,784,146"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="588,170,781,196"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="863,69,1076,95"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="584,61,785,103"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="849,213,1089,239"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="571,205,799,247"/>
+<area shape="rect" id="node6" href="$classinterfaz_1_1_estado_de_personaje.html#a841099ec984b3fb2b75cbfea8be5aca4" title="interfaz.EstadoDePersonaje.dibujar\lEstadoDePersonaje" alt="" coords="274,264,499,305"/>
+<area shape="rect" id="node10" href="$classinterfaz_1_1_estado_n_p_c.html#a7dd8287cbdc898e53bcd1a18fc51502c" title="interfaz.EstadoNPC.dibujar\lEstadoDeNPC" alt="" coords="297,432,476,473"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="294,330,479,357"/>
+<area shape="rect" id="node12" href="$classdominio_1_1_non_playable_character.html#a4d22acf35e0765c229b68872ee2e42f3" title="dominio.NonPlayableCharacter.otorgarExp" alt="" coords="253,381,520,407"/>
+<area shape="rect" id="node13" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="293,162,481,189"/>
+<area shape="rect" id="node14" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="568,141,801,167"/>
+<area shape="rect" id="node15" href="$classdominio_1_1_personaje.html#a479e22db38b9f3582164084c55df0fcc" title="dominio.Personaje.otorgarExp" alt="" coords="289,549,485,575"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="585,271,784,298"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="571,406,798,433"/>
+<area shape="rect" id="node9" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="588,322,781,349"/>
 </map>

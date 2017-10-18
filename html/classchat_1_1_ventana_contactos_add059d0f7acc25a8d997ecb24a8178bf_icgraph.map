@@ -1,3 +1,4 @@
 <map id="chat.VentanaContactos.getList" name="chat.VentanaContactos.getList">
-<area shape="rect" id="node2" href="$classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="255,5,445,32"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_conexion.html#a2d6107a49ae1629a41819c3ee3b41cf8" title="comandos.Conexion.actualizar\lLista" alt="" coords="255,5,455,47"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38" title="comandos.Conexion.ejecutar" alt="" coords="503,13,693,39"/>
 </map>

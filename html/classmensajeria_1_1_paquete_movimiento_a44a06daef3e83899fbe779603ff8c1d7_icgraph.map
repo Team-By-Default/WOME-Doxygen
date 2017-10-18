@@ -1,10 +1,14 @@
 <map id="mensajeria.PaqueteMovimiento.getPosX" name="mensajeria.PaqueteMovimiento.getPosX">
-<area shape="rect" id="node2" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="315,5,517,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="319,56,513,83"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="319,107,513,149"/>
-<area shape="rect" id="node8" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="308,173,524,200"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="578,56,765,83"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="819,56,1025,83"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="575,119,768,145"/>
-<area shape="rect" id="node9" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="572,173,771,200"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="321,5,522,32"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="599,59,793,85"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="334,107,509,149"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_juego.html#afba41e263d1a13cbce876650829351a0" title="estados.EstadoJuego.graficar\lPersonajes" alt="" coords="325,173,518,214"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado_juego.html#a1fad70feaba8366e6d9fce69b93613c7" title="estados.EstadoJuego.graficarNPCs" alt="" coords="308,239,535,265"/>
+<area shape="rect" id="node11" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="313,289,529,316"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="857,87,1044,113"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="1092,87,1299,113"/>
+<area shape="rect" id="node7" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="614,113,778,140"/>
+<area shape="rect" id="node9" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="599,239,793,265"/>
+<area shape="rect" id="node12" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="597,289,795,316"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="583,340,809,367"/>
 </map>

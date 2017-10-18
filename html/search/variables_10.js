@@ -1,4 +1,21 @@
 var searchData=
 [
-  ['salir',['SALIR',['../classmensajeria_1_1_comando.html#a94e8bcd601e882df8f4eb004cc90a66c',1,'mensajeria::Comando']]]
+  ['salida',['salida',['../classcliente_1_1_cliente.html#af52a208a7fd9f9b0dd47a1bd18f8034d',1,'cliente.Cliente.salida()'],['../classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8',1,'servidor.EscuchaCliente.salida()']]],
+  ['salir',['SALIR',['../classmensajeria_1_1_comando.html#a94e8bcd601e882df8f4eb004cc90a66c',1,'mensajeria::Comando']]],
+  ['salud',['salud',['../classframes_1_1_menu_creacion_pj.html#afd0542e42e7ef647016ba1ceb3870706',1,'frames.MenuCreacionPj.salud()'],['../classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091',1,'dominio.NonPlayableCharacter.salud()'],['../classdominio_1_1_personaje.html#a8faaccbe932ebc8efe5ab0979a196fee',1,'dominio.Personaje.salud()']]],
+  ['saludtope',['saludTope',['../classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af',1,'mensajeria.PaqueteNPC.saludTope()'],['../classmensajeria_1_1_paquete_personaje.html#a5f2557f5aa9d089d8508501b4dd2c656',1,'mensajeria.PaquetePersonaje.saludTope()'],['../classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b',1,'dominio.NonPlayableCharacter.saludTope()'],['../classdominio_1_1_personaje.html#abefa88fea5fc7105d38f317a16e8582d',1,'dominio.Personaje.saludTope()']]],
+  ['saludtopeinicial',['SALUDTOPEINICIAL',['../classdominio_1_1_non_playable_character.html#a5ddd9e5da6e2587deda4e2aa37b16dce',1,'dominio.NonPlayableCharacter.SALUDTOPEINICIAL()'],['../classdominio_1_1_personaje.html#aa77555732d4fab0aab5e2fe5359896c6',1,'dominio.Personaje.SALUDTOPEINICIAL()']]],
+  ['saludtopesubirn',['SALUDTOPESUBIRN',['../classdominio_1_1_personaje.html#ad896695e81f69318647c5b619ea11ed0',1,'dominio::Personaje']]],
+  ['serealizoaccion',['seRealizoAccion',['../classestados_1_1_estado_batalla.html#a2644e475c2e5220d1df92ff45d8d812b',1,'estados.EstadoBatalla.seRealizoAccion()'],['../classestados_1_1_estado_batalla_n_p_c.html#a997911b5bd2260ecdac49aa3f39fee90',1,'estados.EstadoBatallaNPC.seRealizoAccion()']]],
+  ['server',['server',['../classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e',1,'servidor::Servidor']]],
+  ['serversocket',['serverSocket',['../classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1',1,'servidor::Servidor']]],
+  ['sizeitems',['sizeItems',['../classframes_1_1_menu_comerciar.html#af76f14d87b4b459a8d53fcc92aee870e',1,'frames::MenuComerciar']]],
+  ['socket',['socket',['../classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6',1,'servidor::EscuchaCliente']]],
+  ['solicituddecomercio',['solicitudDeComercio',['../classmensajeria_1_1_paquete_comerciar.html#a947ddc09e6846156e5a0a60953ed1852',1,'mensajeria::PaqueteComerciar']]],
+  ['spawnx',['spawnX',['../classmundo_1_1_mundo.html#a2d3d199d3c5e07bd73f316e7d2279ee2',1,'mundo::Mundo']]],
+  ['spawny',['spawnY',['../classmundo_1_1_mundo.html#a825a6e70a2d86e30323d0ed768d9dcc0',1,'mundo::Mundo']]],
+  ['sprite',['sprite',['../classrecursos_1_1_sprite_sheet.html#aacba0000d76f6c02213bd0a51c2fd93b',1,'recursos::SpriteSheet']]],
+  ['spriteelfo',['spriteElfo',['../classrecursos_1_1_recursos.html#aceec73f26114fc150641298f8c82e360',1,'recursos::Recursos']]],
+  ['spritehumano',['spriteHumano',['../classrecursos_1_1_recursos.html#a6629adca4f1f7801aa9d79ee3525e868',1,'recursos::Recursos']]],
+  ['spriteogro',['spriteOgro',['../classrecursos_1_1_recursos.html#abead679a0096f2c428902d7cbc41df72',1,'recursos::Recursos']]]
 ];

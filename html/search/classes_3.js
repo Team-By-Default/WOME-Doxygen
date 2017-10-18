@@ -6,6 +6,8 @@ var searchData=
   ['escuchamensajes',['EscuchaMensajes',['../classcliente_1_1_escucha_mensajes.html',1,'cliente']]],
   ['estado',['Estado',['../classestados_1_1_estado.html',1,'estados']]],
   ['estadobatalla',['EstadoBatalla',['../classestados_1_1_estado_batalla.html',1,'estados']]],
+  ['estadobatallanpc',['EstadoBatallaNPC',['../classestados_1_1_estado_batalla_n_p_c.html',1,'estados']]],
   ['estadodepersonaje',['EstadoDePersonaje',['../classinterfaz_1_1_estado_de_personaje.html',1,'interfaz']]],
-  ['estadojuego',['EstadoJuego',['../classestados_1_1_estado_juego.html',1,'estados']]]
+  ['estadojuego',['EstadoJuego',['../classestados_1_1_estado_juego.html',1,'estados']]],
+  ['estadonpc',['EstadoNPC',['../classinterfaz_1_1_estado_n_p_c.html',1,'interfaz']]]
 ];

@@ -1,0 +1,28 @@
+var classmensajeria_1_1_paquete_n_p_c =
+[
+    [ "PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html#a19b8b8b1a5de8dc5e0d51fe4a464fddf", null ],
+    [ "getEnergiaTope", "classmensajeria_1_1_paquete_n_p_c.html#aed5f891bbc442a396a12f8812f0bddd1", null ],
+    [ "getFuerza", "classmensajeria_1_1_paquete_n_p_c.html#a222ae6214f93cfc1bb80958cbc1cc9b1", null ],
+    [ "getId", "classmensajeria_1_1_paquete_n_p_c.html#a659d20b11955edd1b0dfb130d6513d99", null ],
+    [ "getIdMapa", "classmensajeria_1_1_paquete_n_p_c.html#a76a3fc2c63bab0613f1bdf42bc5a62ff", null ],
+    [ "getItems", "classmensajeria_1_1_paquete_n_p_c.html#ab3fffd27adfa560cad4786374c3ef6fb", null ],
+    [ "getNivel", "classmensajeria_1_1_paquete_n_p_c.html#ab3777ea3d42d36a8636d7556704d714b", null ],
+    [ "getNombre", "classmensajeria_1_1_paquete_n_p_c.html#ac3dcdfd01d4d18c7d9c4cfc93221afd9", null ],
+    [ "getSaludTope", "classmensajeria_1_1_paquete_n_p_c.html#abff3d73c5d428b82196043cf2c954005", null ],
+    [ "setEnergiaTope", "classmensajeria_1_1_paquete_n_p_c.html#a91ef420c893dbdf95d89e9e6d2aaf04c", null ],
+    [ "setFuerza", "classmensajeria_1_1_paquete_n_p_c.html#a59c3dce0fa95d743107a9358fcb6e21b", null ],
+    [ "setId", "classmensajeria_1_1_paquete_n_p_c.html#abf466f8760d701d0bbce2820d21c8a00", null ],
+    [ "setIdMapa", "classmensajeria_1_1_paquete_n_p_c.html#af118fa343c5e85f8b20ba09af48bf67c", null ],
+    [ "setItems", "classmensajeria_1_1_paquete_n_p_c.html#a76420eecb31b9f26f04c14dfa92c41fc", null ],
+    [ "setNivel", "classmensajeria_1_1_paquete_n_p_c.html#af7e917138f233d16cb10f7ec3bff79b3", null ],
+    [ "setNombre", "classmensajeria_1_1_paquete_n_p_c.html#a2e48ce006b5a94af9325f6b878ba27a7", null ],
+    [ "setSaludTope", "classmensajeria_1_1_paquete_n_p_c.html#a3da026f3619084efc7edb9add2258190", null ],
+    [ "energiaTope", "classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a", null ],
+    [ "fuerza", "classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b", null ],
+    [ "id", "classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f", null ],
+    [ "idMapa", "classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f", null ],
+    [ "items", "classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1", null ],
+    [ "nivel", "classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90", null ],
+    [ "nombre", "classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b", null ],
+    [ "saludTope", "classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af", null ]
+];

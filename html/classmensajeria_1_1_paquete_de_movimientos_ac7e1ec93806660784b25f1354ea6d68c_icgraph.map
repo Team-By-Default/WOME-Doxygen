@@ -1,3 +1,4 @@
 <map id="mensajeria.PaqueteDeMovimientos.getPersonajes" name="mensajeria.PaqueteDeMovimientos.getPersonajes">
-<area shape="rect" id="node2" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="300,13,501,39"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_movimiento.html#af9db79fe1f87b5ee1e643c61f04d1890" title="comandos.Movimiento.ejecutar" alt="" coords="313,5,515,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_movimiento_n_p_c.html#adac6dbdbe76bfeafe0c136fc9dbce3ca" title="comandos.MovimientoNPC.ejecutar" alt="" coords="300,56,528,83"/>
 </map>

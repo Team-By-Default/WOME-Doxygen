@@ -1,0 +1,6 @@
+<map id="estados.EstadoJuego.graficarNPCs" name="estados.EstadoJuego.graficarNPCs">
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="319,5,497,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_movimiento.html#a44a06daef3e83899fbe779603ff8c1d7" title="mensajeria.PaqueteMovimiento.getPosX" alt="" coords="281,56,535,83"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_movimiento.html#a3ba3a2ca9aa23715c37f4be17c5c6e61" title="mensajeria.PaqueteMovimiento.getPosY" alt="" coords="280,107,536,133"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_movimiento.html#aa7ef4fb93d4d746227bb04bfea21253e" title="mensajeria.PaqueteMovimiento.get\lIdPersonaje" alt="" coords="296,158,520,199"/>
+</map>

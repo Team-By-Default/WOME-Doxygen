@@ -9,5 +9,17 @@ var classframes_1_1_menu_comerciar =
     [ "getObtener", "classframes_1_1_menu_comerciar.html#aa4541de16551eb988b79b1d69a7a8fe3", null ],
     [ "getSizeItems", "classframes_1_1_menu_comerciar.html#aa9142263e5ff1da20d28ff1a78c2f280", null ],
     [ "setCantListos", "classframes_1_1_menu_comerciar.html#aa60a6f906819ce8775b604df3d134738", null ],
-    [ "setObtener", "classframes_1_1_menu_comerciar.html#a6fecd83261681acf255143f661e97d73", null ]
+    [ "setObtener", "classframes_1_1_menu_comerciar.html#a6fecd83261681acf255143f661e97d73", null ],
+    [ "cantListo", "classframes_1_1_menu_comerciar.html#a537af49d352bbb4d56398f356e782d3a", null ],
+    [ "cantListos", "classframes_1_1_menu_comerciar.html#a474dd8bcbb4dd2e99c6fac973598ea3c", null ],
+    [ "chckbxListo", "classframes_1_1_menu_comerciar.html#a5741d4b48d520b6e278e80342b0f7592", null ],
+    [ "contentPane", "classframes_1_1_menu_comerciar.html#ac51ab9f8c510812cf812511c0b0099af", null ],
+    [ "count", "classframes_1_1_menu_comerciar.html#ae8c6919b559f3fbab2e5253f286e72e7", null ],
+    [ "dar", "classframes_1_1_menu_comerciar.html#aa5a8831ae46e170fc15288cc762e28b2", null ],
+    [ "gson", "classframes_1_1_menu_comerciar.html#a37b3226e310fbcbf55cbd4f17e72af8c", null ],
+    [ "item1", "classframes_1_1_menu_comerciar.html#a0b983b1c039cbfbc57ee53138f0200c9", null ],
+    [ "leyenda", "classframes_1_1_menu_comerciar.html#a0face6b5a3b11ef0e85aff305fb3e00c", null ],
+    [ "misItems", "classframes_1_1_menu_comerciar.html#ab8a3d6d72d201998139268c39f568b07", null ],
+    [ "obtener", "classframes_1_1_menu_comerciar.html#ae80a373ca7728ed52710e8da661f8667", null ],
+    [ "sizeItems", "classframes_1_1_menu_comerciar.html#af76f14d87b4b459a8d53fcc92aee870e", null ]
 ];

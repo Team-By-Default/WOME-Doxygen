@@ -1,0 +1,9 @@
+<map id="interfaz.EstadoNPC.dibujarEstadoDeNPC" name="interfaz.EstadoNPC.dibujarEstadoDeNPC">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a32ee307aa9958cd2ffaa9bfeed409875" title="dominio.Personaje.getSalud" alt="" coords="251,5,435,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#afb853c8722ceb906a2a25fec773bde36" title="dominio.Personaje.getSaludTope" alt="" coords="237,56,449,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="246,107,441,133"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a057957d67164a83e4b89b620c59bc67b" title="dominio.Personaje.getEnergiaTope" alt="" coords="232,157,455,184"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#ac5c8bdb3778b108e39f22a45318c1d63" title="dominio.Personaje.getExperiencia" alt="" coords="234,208,453,235"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_personaje.html#aa530a90491e5540ee11906848cc533ec" title="dominio.Personaje.getTabla\lDeNiveles" alt="" coords="252,259,435,301"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b" title="dominio.MadreDeTodo.getNivel" alt="" coords="243,325,443,352"/>
+</map>

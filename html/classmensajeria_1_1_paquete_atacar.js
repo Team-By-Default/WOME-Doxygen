@@ -14,5 +14,13 @@ var classmensajeria_1_1_paquete_atacar =
     [ "setNuevaEnergiaEnemigo", "classmensajeria_1_1_paquete_atacar.html#a95603dbed76d87a0c60362ddd19b61d5", null ],
     [ "setNuevaEnergiaPersonaje", "classmensajeria_1_1_paquete_atacar.html#a7f3bf71d58ec73f7ba424a6f8c90bbc3", null ],
     [ "setNuevaSaludEnemigo", "classmensajeria_1_1_paquete_atacar.html#a2e9dca0de8de23cd9b6b1b744850d18d", null ],
-    [ "setNuevaSaludPersonaje", "classmensajeria_1_1_paquete_atacar.html#a24a2b24ba3c9946bc329b3fe48c1bd5c", null ]
+    [ "setNuevaSaludPersonaje", "classmensajeria_1_1_paquete_atacar.html#a24a2b24ba3c9946bc329b3fe48c1bd5c", null ],
+    [ "id", "classmensajeria_1_1_paquete_atacar.html#a7349d87694b6171bcb54b1fbaacfbb22", null ],
+    [ "idEnemigo", "classmensajeria_1_1_paquete_atacar.html#a738b3d293a81beeb4e2837b6e6cd2750", null ],
+    [ "mapEnemigo", "classmensajeria_1_1_paquete_atacar.html#ac88814aef94a21566d971c7b89616d0f", null ],
+    [ "mapPersonaje", "classmensajeria_1_1_paquete_atacar.html#a200f7d932c30f87a284365531b0df7a9", null ],
+    [ "nuevaEnergiaEnemigo", "classmensajeria_1_1_paquete_atacar.html#acd13a845d33ae4a096454f636194e14c", null ],
+    [ "nuevaEnergiaPersonaje", "classmensajeria_1_1_paquete_atacar.html#aebb67b00e73b5bde4771f128fea96c60", null ],
+    [ "nuevaSaludEnemigo", "classmensajeria_1_1_paquete_atacar.html#ac587f170c6edf2ee7bc3a5da498d23d5", null ],
+    [ "nuevaSaludPersonaje", "classmensajeria_1_1_paquete_atacar.html#a411d037cce1b8034d8e20e31ba3fa996", null ]
 ];

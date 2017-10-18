@@ -1,7 +1,9 @@
 <map id="dominio.Personaje.getHabilidadesRaza" name="dominio.Personaje.getHabilidadesRaza">
-<area shape="rect" id="node2" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="303,5,490,32"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="301,56,492,83"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a8392921ff607a0ccad20e99e866a3243" title="dominio.Personaje.habilidad\lCasta3" alt="" coords="305,107,489,149"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="547,5,746,32"/>
-<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="540,115,753,141"/>
+<area shape="rect" id="node2" href="$classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc" title="interfaz.MenuBatalla.graficar" alt="" coords="303,41,490,68"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="301,92,492,119"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a8392921ff607a0ccad20e99e866a3243" title="dominio.Personaje.habilidad\lCasta3" alt="" coords="305,143,489,185"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="561,5,759,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="547,56,773,83"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="553,121,767,148"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="540,172,780,199"/>
 </map>

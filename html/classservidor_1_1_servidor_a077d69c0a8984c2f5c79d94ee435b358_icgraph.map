@@ -11,7 +11,8 @@
 <area shape="rect" id="node11" href="$classcomandos_1_1_salir.html#a8c2e803414d534403a653e9834294b46" title="comandos.Salir.ejecutar" alt="" coords="283,477,446,504"/>
 <area shape="rect" id="node12" href="$classcomandos_1_1_talk.html#a461e909b9c12ff2b8ece6022d2ecb875" title="comandos.Talk.ejecutar" alt="" coords="285,528,445,555"/>
 <area shape="rect" id="node13" href="$classcomandos_1_1_trueque.html#a32cbaa4536d7b49316e3ffc5ba09a327" title="comandos.Trueque.ejecutar" alt="" coords="273,579,456,605"/>
-<area shape="rect" id="node14" href="$classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="259,629,470,656"/>
-<area shape="rect" id="node15" href="$classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="257,680,472,707"/>
-<area shape="rect" id="node16" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="273,731,456,757"/>
+<area shape="rect" id="node14" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="277,630,452,671"/>
+<area shape="rect" id="node15" href="$classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79" title="servidor.AtencionConexiones.run" alt="" coords="259,696,470,723"/>
+<area shape="rect" id="node16" href="$classservidor_1_1_atencion_movimientos.html#ab30832f4e93fcba7af9461a4ccdcd8bf" title="servidor.AtencionMovimientos.run" alt="" coords="257,747,472,773"/>
+<area shape="rect" id="node17" href="$classservidor_1_1_escucha_cliente.html#aacd8aa545dcd7afec51426217cd9e490" title="servidor.EscuchaCliente.run" alt="" coords="273,797,456,824"/>
 </map>

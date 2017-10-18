@@ -1,8 +1,12 @@
 <map id="juego.Juego.getUbicacionPersonaje" name="juego.Juego.getUbicacionPersonaje">
 <area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#abd9cd5d7c7a597d0041c096cc23b78b4" title="entidades.Entidad.Entidad" alt="" coords="245,5,419,32"/>
-<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a60a48a5ee808a6360bbb80e44fc22e98" title="entidades.Entidad.graficar\lNombre" alt="" coords="246,57,418,98"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="236,122,428,163"/>
-<area shape="rect" id="node6" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="224,188,440,215"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="491,101,684,128"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="488,188,687,215"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#ad15c5b9425c1db9a7a8d93603d006ba5" title="entidades.Entidad.enviar\lPosicion" alt="" coords="251,57,413,98"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="236,122,428,163"/>
+<area shape="rect" id="node8" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="224,188,440,215"/>
+<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="519,64,683,91"/>
+<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="763,64,949,91"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="997,64,1204,91"/>
+<area shape="rect" id="node9" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="502,137,701,164"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="488,188,715,215"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="505,239,698,265"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="interfaz.EstadoDePersonaje.dibujarEstadoDePersonaje" name="interfaz.EstadoDePersonaje.dibujarEstadoDePersonaje">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="279,5,477,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="281,56,475,83"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="293,5,491,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="279,56,505,83"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="295,107,489,133"/>
 </map>

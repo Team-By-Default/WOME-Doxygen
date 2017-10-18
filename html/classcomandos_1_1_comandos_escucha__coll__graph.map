@@ -1,5 +1,26 @@
 <map id="comandos.ComandosEscucha" name="comandos.ComandosEscucha">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="141,241,285,268"/>
-<area shape="rect" id="node6" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="368,241,459,268"/>
-<area shape="rect" id="node7" href="$class_runnable.html" title="Runnable" alt="" coords="406,5,482,32"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="980,1597,1124,1624"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="1697,1076,1788,1103"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="609,1519,804,1545"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="229,1836,367,1863"/>
+<area shape="rect" id="node37" href="$classcliente_1_1_cliente.html" title="cliente.Cliente" alt="" coords="2015,1773,2119,1800"/>
+<area shape="rect" id="node39" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="616,1888,797,1915"/>
+<area shape="rect" id="node40" href="$classmensajeria_1_1_paquete_mensaje.html" title="mensajeria.PaqueteMensaje" alt="" coords="613,2069,800,2096"/>
+<area shape="rect" id="node24" href="$classjuego_1_1_pantalla.html" title="juego.Pantalla" alt="" coords="1343,1048,1447,1075"/>
+<area shape="rect" id="node25" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="981,911,1123,937"/>
+<area shape="rect" id="node32" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="965,599,1139,625"/>
+<area shape="rect" id="node38" href="$classframes_1_1_menu_comerciar.html" title="frames.MenuComerciar" alt="" coords="974,1193,1130,1220"/>
+<area shape="rect" id="node46" href="$classcliente_1_1_escucha_mensajes.html" title="cliente.EscuchaMensajes" alt="" coords="2257,1384,2428,1411"/>
+<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="605,985,808,1012"/>
+<area shape="rect" id="node20" href="$classjuego_1_1_handler_mouse.html" title="juego.HandlerMouse" alt="" coords="637,127,777,153"/>
+<area shape="rect" id="node44" href="$classmensajeria_1_1_paquete_comerciar.html" title="mensajeria.PaqueteComerciar" alt="" coords="609,1769,805,1796"/>
+<area shape="rect" id="node50" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="2011,940,2124,967"/>
+<area shape="rect" id="node14" href="$classjuego_1_1_camara.html" title="juego.Camara" alt="" coords="2016,1031,2119,1057"/>
+<area shape="rect" id="node7" href="$class_runnable.html" title="Runnable" alt="" coords="1357,880,1433,907"/>
+<area shape="rect" id="node28" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="988,801,1116,828"/>
+<area shape="rect" id="node11" href="$class_cloneable.html" title="Cloneable" alt="" coords="11,1725,89,1752"/>
+<area shape="rect" id="node48" href="$classjuego_1_1_cargar_recursos.html" title="juego.CargarRecursos" alt="" coords="2267,2200,2418,2227"/>
+<area shape="rect" id="node30" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="977,295,1127,321"/>
+<area shape="rect" id="node33" href="$classchat_1_1_ventana_contactos.html" title="chat.VentanaContactos" alt="" coords="973,400,1131,427"/>
+<area shape="rect" id="node43" href="$classframes_1_1_menu_carga.html" title="frames.MenuCarga" alt="" coords="987,1045,1117,1072"/>
 </map>

@@ -4,7 +4,7 @@
 <area shape="rect" id="node4" href="$classentidades_1_1_animacion.html#af9415306eac5d9f0fdefda795e89fa43" title="entidades.Animacion.actualizar" alt="" coords="495,1159,697,1185"/>
 <area shape="rect" id="node5" href="$classentidades_1_1_animacion.html#a9dd93395ed7582c4f37f927c5d4eb661" title="entidades.Animacion.reset" alt="" coords="508,1209,684,1236"/>
 <area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="499,1260,693,1287"/>
-<area shape="rect" id="node34" href="$classjuego_1_1_juego.html#a60522dfa201e9112b67ebe3b2d5644d1" title="juego.Juego.getCamara" alt="" coords="794,2387,953,2413"/>
+<area shape="rect" id="node34" href="$classjuego_1_1_juego.html#a60522dfa201e9112b67ebe3b2d5644d1" title="juego.Juego.getCamara" alt="" coords="794,2403,953,2429"/>
 <area shape="rect" id="node49" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="514,1361,678,1388"/>
 <area shape="rect" id="node50" href="$classjuego_1_1_camara.html#a3da79f144bc137c9a6822dd21373534e" title="juego.Camara.Centrar" alt="" coords="522,1412,670,1439"/>
 <area shape="rect" id="node7" href="$classjuego_1_1_juego.html#ae0e1507070f5454c3e117e4c4a40c11d" title="juego.Juego.getHandlerMouse" alt="" coords="775,5,971,32"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node43" href="$classmundo_1_1_mundo.html#ab78380375598dd0d91057b3f6c76e046" title="mundo.Mundo.obtenerAncho" alt="" coords="779,2083,967,2109"/>
 <area shape="rect" id="node44" href="$classmundo_1_1_mundo.html#ace1bacac0e07b1f7da019442f30d7bec" title="mundo.Mundo.obtenerAlto" alt="" coords="786,2133,961,2160"/>
 <area shape="rect" id="node45" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="800,2184,947,2211"/>
-<area shape="rect" id="node46" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="787,2235,959,2261"/>
-<area shape="rect" id="node47" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="771,2285,975,2312"/>
-<area shape="rect" id="node48" href="$classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876" title="entidades.NodoDePila.obtenerY" alt="" coords="770,2336,977,2363"/>
+<area shape="rect" id="node46" href="$classentidades_1_1_entidad.html#acbab4324ab29f9ebf0a0d0d8467025cc" title="entidades.Entidad.camino\lMasCorto" alt="" coords="787,2235,959,2277"/>
+<area shape="rect" id="node47" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="787,2301,959,2328"/>
+<area shape="rect" id="node48" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="771,2352,975,2379"/>
 </map>

@@ -13,5 +13,10 @@ var classmensajeria_1_1_paquete_movimiento =
     [ "setFrame", "classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732", null ],
     [ "setIdPersonaje", "classmensajeria_1_1_paquete_movimiento.html#a78235c85874aa7a6a069cfb22afd2b66", null ],
     [ "setPosX", "classmensajeria_1_1_paquete_movimiento.html#a5a0760af416c770132e538533ad5fe5b", null ],
-    [ "setPosY", "classmensajeria_1_1_paquete_movimiento.html#a459d8fb3e367a3f46dac0dcda26b2a7c", null ]
+    [ "setPosY", "classmensajeria_1_1_paquete_movimiento.html#a459d8fb3e367a3f46dac0dcda26b2a7c", null ],
+    [ "direccion", "classmensajeria_1_1_paquete_movimiento.html#a19c7d9cf3e025cd8f427d0ce9ff8bf16", null ],
+    [ "frame", "classmensajeria_1_1_paquete_movimiento.html#a12d1c3da920727506411472c159b7489", null ],
+    [ "id", "classmensajeria_1_1_paquete_movimiento.html#a641999a6b2d95e3aaf5d029644ab19cd", null ],
+    [ "posX", "classmensajeria_1_1_paquete_movimiento.html#a53c78aac4b1f6c77c68337e0a9376318", null ],
+    [ "posY", "classmensajeria_1_1_paquete_movimiento.html#ae35d42901ffd83ceeba11c1bab265b8c", null ]
 ];

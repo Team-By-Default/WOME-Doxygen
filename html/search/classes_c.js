@@ -10,6 +10,8 @@ var searchData=
   ['paquetefinalizarbatalla',['PaqueteFinalizarBatalla',['../classmensajeria_1_1_paquete_finalizar_batalla.html',1,'mensajeria']]],
   ['paquetemensaje',['PaqueteMensaje',['../classmensajeria_1_1_paquete_mensaje.html',1,'mensajeria']]],
   ['paquetemovimiento',['PaqueteMovimiento',['../classmensajeria_1_1_paquete_movimiento.html',1,'mensajeria']]],
+  ['paquetenpc',['PaqueteNPC',['../classmensajeria_1_1_paquete_n_p_c.html',1,'mensajeria']]],
+  ['paquetenpcs',['PaqueteNPCs',['../classmensajeria_1_1_paquete_n_p_cs.html',1,'mensajeria']]],
   ['paquetepersonaje',['PaquetePersonaje',['../classmensajeria_1_1_paquete_personaje.html',1,'mensajeria']]],
   ['paqueteusuario',['PaqueteUsuario',['../classmensajeria_1_1_paquete_usuario.html',1,'mensajeria']]],
   ['peleable',['Peleable',['../interfacedominio_1_1_peleable.html',1,'dominio']]],

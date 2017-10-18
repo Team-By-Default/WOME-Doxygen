@@ -2,9 +2,9 @@
 <area shape="rect" id="node2" href="$classentidades_1_1_animacion.html#af9415306eac5d9f0fdefda795e89fa43" title="entidades.Animacion.actualizar" alt="" coords="240,1224,443,1251"/>
 <area shape="rect" id="node3" href="$classentidades_1_1_animacion.html#a9dd93395ed7582c4f37f927c5d4eb661" title="entidades.Animacion.reset" alt="" coords="253,1275,429,1301"/>
 <area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="245,1325,438,1352"/>
-<area shape="rect" id="node32" href="$classjuego_1_1_juego.html#a60522dfa201e9112b67ebe3b2d5644d1" title="juego.Juego.getCamara" alt="" coords="539,2437,698,2464"/>
-<area shape="rect" id="node48" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="259,1427,423,1453"/>
-<area shape="rect" id="node49" href="$classjuego_1_1_camara.html#a3da79f144bc137c9a6822dd21373534e" title="juego.Camara.Centrar" alt="" coords="267,1983,415,2009"/>
+<area shape="rect" id="node32" href="$classjuego_1_1_juego.html#a60522dfa201e9112b67ebe3b2d5644d1" title="juego.Juego.getCamara" alt="" coords="539,2504,698,2531"/>
+<area shape="rect" id="node49" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="259,1427,423,1453"/>
+<area shape="rect" id="node50" href="$classjuego_1_1_camara.html#a3da79f144bc137c9a6822dd21373534e" title="juego.Camara.Centrar" alt="" coords="267,1477,415,1504"/>
 <area shape="rect" id="node5" href="$classjuego_1_1_juego.html#ae0e1507070f5454c3e117e4c4a40c11d" title="juego.Juego.getHandlerMouse" alt="" coords="521,5,717,32"/>
 <area shape="rect" id="node6" href="$classjuego_1_1_handler_mouse.html#aa1893385a95f90d0b44dc92bee98610b" title="juego.HandlerMouse.getPos\lMouseRecorrido" alt="" coords="526,57,711,98"/>
 <area shape="rect" id="node7" href="$classjuego_1_1_handler_mouse.html#a8f71fbce4575ebb1415c626dbd763181" title="juego.HandlerMouse.getPos\lMouse" alt="" coords="526,122,711,163"/>
@@ -43,9 +43,9 @@
 <area shape="rect" id="node41" href="$classmundo_1_1_mundo.html#ab78380375598dd0d91057b3f6c76e046" title="mundo.Mundo.obtenerAncho" alt="" coords="525,2083,713,2109"/>
 <area shape="rect" id="node42" href="$classmundo_1_1_mundo.html#ace1bacac0e07b1f7da019442f30d7bec" title="mundo.Mundo.obtenerAlto" alt="" coords="531,2133,706,2160"/>
 <area shape="rect" id="node43" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="545,2184,692,2211"/>
-<area shape="rect" id="node44" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="533,2235,705,2261"/>
-<area shape="rect" id="node45" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="517,2285,721,2312"/>
-<area shape="rect" id="node46" href="$classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876" title="entidades.NodoDePila.obtenerY" alt="" coords="515,2336,722,2363"/>
-<area shape="rect" id="node47" href="$classmundo_1_1_mundo.html#a9cfa073afa161501c2360af823ee6214" title="mundo.Mundo.dosDaIso" alt="" coords="537,2387,700,2413"/>
-<area shape="rect" id="node50" href="$classentidades_1_1_entidad.html#a085b1e76e8b22418496ba15aa3a3faf7" title="entidades.Entidad.getX" alt="" coords="541,2488,696,2515"/>
+<area shape="rect" id="node44" href="$classentidades_1_1_entidad.html#acbab4324ab29f9ebf0a0d0d8467025cc" title="entidades.Entidad.camino\lMasCorto" alt="" coords="533,2235,705,2277"/>
+<area shape="rect" id="node45" href="$classentidades_1_1_pila_de_tiles.html#a75611afd2a3e65652e26338d7275fc0d" title="entidades.PilaDeTiles.pop" alt="" coords="533,2301,705,2328"/>
+<area shape="rect" id="node46" href="$classentidades_1_1_nodo_de_pila.html#a7138c4e57937e28d361e5cecb2e78b87" title="entidades.NodoDePila.obtenerX" alt="" coords="517,2352,721,2379"/>
+<area shape="rect" id="node47" href="$classentidades_1_1_nodo_de_pila.html#a4cec56fc9b118f121be820575d2a0876" title="entidades.NodoDePila.obtenerY" alt="" coords="515,2403,722,2429"/>
+<area shape="rect" id="node48" href="$classmundo_1_1_mundo.html#a9cfa073afa161501c2360af823ee6214" title="mundo.Mundo.dosDaIso" alt="" coords="537,2453,700,2480"/>
 </map>

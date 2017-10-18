@@ -1,9 +1,11 @@
 <map id="mensajeria.PaquetePersonaje.setDestreza" name="mensajeria.PaquetePersonaje.setDestreza">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c" title="estados.EstadoBatalla.enviar\lAtaque" alt="" coords="278,5,469,47"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="539,85,735,127"/>
-<area shape="rect" id="node5" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="271,122,476,149"/>
-<area shape="rect" id="node6" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="272,173,475,199"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="530,13,743,39"/>
-<area shape="rect" id="node7" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="524,162,749,189"/>
-<area shape="rect" id="node8" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="533,213,740,239"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="284,5,485,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="271,71,499,112"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="569,151,765,192"/>
+<area shape="rect" id="node7" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="282,187,487,214"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="283,238,486,265"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="560,13,773,39"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="547,78,787,105"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="554,227,779,254"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="563,278,770,305"/>
 </map>

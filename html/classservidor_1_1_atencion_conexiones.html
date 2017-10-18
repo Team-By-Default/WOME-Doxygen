@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WOME Servidor: Referencia de la Clase servidor.AtencionConexiones</title>
+<title>World of Middle Earth: Referencia de la Clase servidor.AtencionConexiones</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">WOME Servidor
+   <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del servidor del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classservidor_1_1_atencion_conexiones.
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
 <a href="classservidor_1_1_atencion_conexiones-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
 <div class="title">Referencia de la Clase servidor.AtencionConexiones</div>  </div>
@@ -91,8 +92,6 @@ $(document).ready(function(){initNavTree('classservidor_1_1_atencion_conexiones.
 Diagrama de herencias de servidor.AtencionConexiones</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_atencion_conexiones__inherit__graph.png" border="0" usemap="#servidor_8_atencion_conexiones_inherit__map" alt="Inheritance graph"/></div>
-<map name="servidor_8_atencion_conexiones_inherit__map" id="servidor_8_atencion_conexiones_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de colaboración para servidor.AtencionConexiones:</div>
@@ -108,6 +107,11 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:ab8c938cfa53e2de43493940969980b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af02f14908d320b9cc30e337c342f3e79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_atencion_conexiones.html#af02f14908d320b9cc30e337c342f3e79">run</a> ()</td></tr>
 <tr class="separator:af02f14908d320b9cc30e337c342f3e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a8e8a27f846b52ebca5a54bdad3ba38ea"><td class="memItemLeft" align="right" valign="top">final Gson&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_atencion_conexiones.html#a8e8a27f846b52ebca5a54bdad3ba38ea">gson</a> = new Gson()</td></tr>
+<tr class="separator:a8e8a27f846b52ebca5a54bdad3ba38ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
@@ -149,7 +153,8 @@ Métodos públicos</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definición en la línea <a class="el" href="_atencion_conexiones_8java_source.html#l00017">17</a> del archivo <a class="el" href="_atencion_conexiones_8java_source.html">AtencionConexiones.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                      {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">synchronized</span>(<span class="keyword">this</span>){</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">try</span> {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                    <span class="comment">// Espero a que se conecte alguien</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    wait();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    <span class="comment">// Le reenvio la conexion a todos</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    <span class="keywordflow">for</span> (EscuchaCliente conectado : Servidor.getClientesConectados()) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        <span class="keywordflow">if</span>(conectado.getPaquetePersonaje().getEstado() != Estado.estadoOffline){</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                            </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                            PaqueteDePersonajes pdp = (PaqueteDePersonajes) <span class="keyword">new</span> PaqueteDePersonajes(Servidor.getPersonajesConectados()).clone();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                            pdp.setComando(Comando.CONEXION);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                            <span class="keyword">synchronized</span> (conectado) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                conectado.getSalida().writeObject(gson.toJson(pdp));                                    </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                            }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        }   </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            } <span class="keywordflow">catch</span> (Exception e){</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                Servidor.log.append(<span class="stringliteral">&quot;Falló al intentar enviar paqueteDePersonajes\n&quot;</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                      {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">synchronized</span>(<span class="keyword">this</span>){</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">try</span> {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                    <span class="comment">// Espero a que se conecte alguien</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    wait();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    <span class="comment">// Le reenvio la conexion a todos</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    <span class="keywordflow">for</span> (EscuchaCliente conectado : Servidor.getClientesConectados()) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        <span class="keywordflow">if</span>(conectado.getPaquetePersonaje().getEstado() != Estado.estadoOffline){</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                            </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                            PaqueteDePersonajes pdp = (PaqueteDePersonajes) <span class="keyword">new</span> PaqueteDePersonajes(Servidor.getPersonajesConectados()).clone();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                            pdp.setComando(Comando.CONEXION);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                            <span class="keyword">synchronized</span> (conectado) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                conectado.getSalida().writeObject(<a class="code" href="classservidor_1_1_atencion_conexiones.html#a8e8a27f846b52ebca5a54bdad3ba38ea">gson</a>.toJson(pdp));                                    </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                            }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        }   </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            } <span class="keywordflow">catch</span> (Exception e){</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                Servidor.log.append(<span class="stringliteral">&quot;Falló al intentar enviar paqueteDePersonajes\n&quot;</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_atencion_conexiones_html_a8e8a27f846b52ebca5a54bdad3ba38ea"><div class="ttname"><a href="classservidor_1_1_atencion_conexiones.html#a8e8a27f846b52ebca5a54bdad3ba38ea">servidor.AtencionConexiones.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_atencion_conexiones_8java_source.html#l00011">AtencionConexiones.java:11</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_atencion_conexiones_af02f14908d320b9cc30e337c342f3e79_cgraph.png" border="0" usemap="#classservidor_1_1_atencion_conexiones_af02f14908d320b9cc30e337c342f3e79_cgraph" alt=""/></div>
@@ -162,8 +167,33 @@ Gráfico de llamadas para esta función:</div>
 
 </div>
 </div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a8e8a27f846b52ebca5a54bdad3ba38ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8a27f846b52ebca5a54bdad3ba38ea">&#9670;&nbsp;</a></span>gson</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Gson servidor.AtencionConexiones.gson = new Gson()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_atencion_conexiones_8java_source.html#l00011">11</a> del archivo <a class="el" href="_atencion_conexiones_8java_source.html">AtencionConexiones.java</a>.</p>
+
+</div>
+</div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>E:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_atencion_conexiones_8java_source.html">AtencionConexiones.java</a></li>
+<li>F:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_atencion_conexiones_8java_source.html">AtencionConexiones.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

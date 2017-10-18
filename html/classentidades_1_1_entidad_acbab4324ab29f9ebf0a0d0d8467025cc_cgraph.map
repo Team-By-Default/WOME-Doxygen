@@ -1,0 +1,13 @@
+<map id="entidades.Entidad.caminoMasCorto" name="entidades.Entidad.caminoMasCorto">
+<area shape="rect" id="node2" href="$classmundo_1_1_mundo.html#a491ffd1cd0371434f97824bbaf8be63e" title="mundo.Mundo.obtenerGrafo\lDeTilesNoSolidos" alt="" coords="258,5,441,47"/>
+<area shape="rect" id="node3" href="$classmundo_1_1_grafo.html#a7fa6f37285d556d1286ac26bc91a9456" title="mundo.Grafo.obtenerNodos" alt="" coords="259,71,439,98"/>
+<area shape="rect" id="node4" href="$classmundo_1_1_nodo.html#a532baa42416a537294014c2c50cffce2" title="mundo.Nodo.obtenerY" alt="" coords="553,185,704,211"/>
+<area shape="rect" id="node5" href="$classmundo_1_1_grafo.html#a2878bac26b10d38da98e08badaf9bdb1" title="mundo.Grafo.obtenerCantidad\lDeNodosTotal" alt="" coords="252,173,447,215"/>
+<area shape="rect" id="node6" href="$classmundo_1_1_nodo.html#a340443c6fbc56eaffdeb5c500c8c889a" title="mundo.Nodo.obtenerX" alt="" coords="554,334,703,361"/>
+<area shape="rect" id="node7" href="$classmundo_1_1_nodo.html#a1e4d7a36064723d06d7986e8fe9e0fc5" title="mundo.Nodo.obtenerNodosAdyacentes" alt="" coords="225,305,473,331"/>
+<area shape="rect" id="node8" href="$classmundo_1_1_nodo.html#a4b2a48454e4d2b0c9193bdac7e76d38f" title="mundo.Nodo.obtenerCantidad\lDeAdyacentes" alt="" coords="253,356,446,397"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_entidad.html#ae24e3219d3925ce84405ca772e82b451" title="entidades.Entidad.estanEn\lDiagonal" alt="" coords="260,239,439,280"/>
+<area shape="rect" id="node10" href="$classmundo_1_1_nodo.html#a6e57f76bded16442c127f1ab4f8a8d5c" title="mundo.Nodo.obtenerIndice" alt="" coords="261,473,437,499"/>
+<area shape="rect" id="node11" href="$classentidades_1_1_pila_de_tiles.html#abdb17551b7d84f498570707cb4ac858c" title="entidades.PilaDeTiles.push" alt="" coords="260,523,439,550"/>
+<area shape="rect" id="node12" href="$classentidades_1_1_nodo_de_pila.html#a4f1273467e2fe190a2626875b7235f27" title="entidades.NodoDePila.establecer\lSiguiente" alt="" coords="521,516,736,557"/>
+</map>

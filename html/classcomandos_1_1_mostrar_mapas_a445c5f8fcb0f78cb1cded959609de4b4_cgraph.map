@@ -3,4 +3,7 @@
 <area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a45b07e29db6a7eba2919cb0f9df791aa" title="servidor.EscuchaCliente.get\lSocket" alt="" coords="305,71,488,112"/>
 <area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="305,136,488,177"/>
 <area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a340c1c0b71c260ecfb80d20963abaf5e" title="mensajeria.PaquetePersonaje.getMapa" alt="" coords="272,202,521,229"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#a7b799586e7d1eb02b3b2a5adb41579c6" title="servidor.Servidor.getNPCs" alt="" coords="311,253,483,279"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="289,303,504,330"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="305,355,488,396"/>
 </map>

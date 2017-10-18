@@ -1,0 +1,32 @@
+<map id="estados.EstadoBatallaNPC" name="estados.EstadoBatallaNPC">
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="1539,2320,1652,2347"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="1896,2095,1987,2121"/>
+<area shape="rect" id="node13" href="$classjuego_1_1_camara.html" title="juego.Camara" alt="" coords="2137,2121,2239,2148"/>
+<area shape="rect" id="node29" href="$classcliente_1_1_cliente.html" title="cliente.Cliente" alt="" coords="2136,2336,2240,2363"/>
+<area shape="rect" id="node30" href="$classcliente_1_1_escucha_mensajes.html" title="cliente.EscuchaMensajes" alt="" coords="2411,2465,2582,2492"/>
+<area shape="rect" id="node48" href="$classmundo_1_1_mundo.html" title="mundo.Mundo" alt="" coords="2136,1285,2240,1312"/>
+<area shape="rect" id="node4" href="$class_runnable.html" title="Runnable" alt="" coords="1557,1931,1633,1957"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="809,1332,1004,1359"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="420,1569,557,1596"/>
+<area shape="rect" id="node35" href="$classdominio_1_1_personaje.html" title="dominio.Personaje" alt="" coords="842,361,971,388"/>
+<area shape="rect" id="node36" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="413,240,564,267"/>
+<area shape="rect" id="node41" href="$classdominio_1_1_alianza.html" title="dominio.Alianza" alt="" coords="431,189,546,216"/>
+<area shape="rect" id="node45" href="$classmensajeria_1_1_paquete_n_p_c.html" title="mensajeria.PaqueteNPC" alt="" coords="407,612,571,639"/>
+<area shape="rect" id="node26" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="1188,2224,1316,2251"/>
+<area shape="rect" id="node15" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="805,1797,1008,1824"/>
+<area shape="rect" id="node34" href="$classmensajeria_1_1_paquete_finalizar_batalla.html" title="mensajeria.PaqueteFinalizar\lBatalla" alt="" coords="813,1585,1000,1626"/>
+<area shape="rect" id="node39" href="$classdominio_1_1_casta.html" title="dominio.Casta" alt="" coords="436,88,541,115"/>
+<area shape="rect" id="node9" href="$class_cloneable.html" title="Cloneable" alt="" coords="72,2491,151,2517"/>
+<area shape="rect" id="node19" href="$classjuego_1_1_handler_mouse.html" title="juego.HandlerMouse" alt="" coords="1525,1829,1665,1856"/>
+<area shape="rect" id="node28" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="1165,2641,1339,2668"/>
+<area shape="rect" id="node44" href="$classdominio_1_1_non_playable_character.html" title="dominio.NonPlayableCharacter" alt="" coords="807,571,1007,597"/>
+<area shape="rect" id="node47" href="$classinterfaz_1_1_menu_batalla.html" title="interfaz.MenuBatalla" alt="" coords="1525,984,1665,1011"/>
+<area shape="rect" id="node49" href="$classmundo_1_1_grafo.html" title="mundo.Grafo" alt="" coords="859,1988,955,2015"/>
+<area shape="rect" id="node50" href="$classmundo_1_1_nodo.html" title="mundo.Nodo" alt="" coords="441,2088,536,2115"/>
+<area shape="rect" id="node32" href="$classjuego_1_1_cargar_recursos.html" title="juego.CargarRecursos" alt="" coords="2421,2336,2572,2363"/>
+<area shape="rect" id="node23" href="$classjuego_1_1_pantalla.html" title="juego.Pantalla" alt="" coords="1543,2429,1647,2456"/>
+<area shape="rect" id="node24" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="1181,2427,1323,2453"/>
+<area shape="rect" id="node27" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="1177,2376,1327,2403"/>
+<area shape="rect" id="node37" href="$classdominio_1_1_random_generator.html" title="dominio.RandomGenerator" alt="" coords="23,176,199,203"/>
+<area shape="rect" id="node38" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="428,448,549,475"/>
+</map>
