@@ -32,10 +32,10 @@ var NAVTREEINDEX =
 "_actualizar_n_p_cs_8java.html",
 "classcliente_1_1_escucha_mensajes.html#aeb189e0ba827e68148f4f3ff9f680e08",
 "classdominio_1_1_personaje.html#a0bd78bde8cb435a42e54a7c06ff7d0b3",
-"classframes_1_1_menu_asignar_skills.html",
-"classmensajeria_1_1_paquete_atacar.html#a0bcf262c05cdbc10b101a8a0cb6b52e9",
-"classmundo_1_1_mundo.html#ac7612aa49bb024e548c40bb0d208680f",
-"jrpg-2017b-cliente_2src_2main_2java_2comandos_2_salir_8java_source.html"
+"classframes_1_1_menu_asignar_skills.html#a4c6cc89235f80e641fca93742b0abdd6",
+"classmensajeria_1_1_paquete_atacar.html#a658a3383f7583e46349e6c23d5cda2d9",
+"classmundo_1_1_nodo.html",
+"jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_comercio_8java_source.html"
 ];
 
 var SYNCONMSG = 'click en deshabilitar sincronización';

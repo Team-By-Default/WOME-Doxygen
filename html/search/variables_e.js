@@ -31,7 +31,7 @@ var searchData=
   ['probevitardanio',['PROBEVITARDANIO',['../classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd',1,'dominio.Asesino.PROBEVITARDANIO()'],['../classdominio_1_1_casta.html#a73b374fc3cb667f8bacd58f6666c902e',1,'dominio.Casta.PROBEVITARDANIO()']]],
   ['probevitargolpc',['PROBEVITARGOLPC',['../classdominio_1_1_casta.html#acce40fafc8f293bde18218e362ca97c6',1,'dominio::Casta']]],
   ['ptrsiguiente',['ptrSiguiente',['../classentidades_1_1_nodo_de_pila.html#a725269093e72ddc180e7de48cc2dc019',1,'entidades::NodoDePila']]],
-  ['puerto',['puerto',['../classcliente_1_1_cliente.html#ad6b02f2bfa09a4eb9ca419410fa719a7',1,'cliente.Cliente.puerto()'],['../classservidor_1_1_servidor.html#a73035013f59e7da853aa28239c4acbdb',1,'servidor.Servidor.PUERTO()']]],
+  ['puerto',['puerto',['../classcliente_1_1_cliente.html#a85658dcdeb6327ace6b8e4f9fcd99e5c',1,'cliente.Cliente.puerto()'],['../classservidor_1_1_servidor.html#ab32ac450216e7a5db976434147e95897',1,'servidor.Servidor.puerto()']]],
   ['puntosasignar',['puntosAsignar',['../classframes_1_1_menu_asignar_skills.html#a4c6cc89235f80e641fca93742b0abdd6',1,'frames::MenuAsignarSkills']]],
   ['puntosasignarbase',['puntosAsignarBase',['../classframes_1_1_menu_asignar_skills.html#ade03b2007bcb9f7f2bd04b377e9d0180',1,'frames::MenuAsignarSkills']]],
   ['puntosasignarinicial',['puntosAsignarInicial',['../classframes_1_1_menu_asignar_skills.html#aef59193b14d6ee6273a4b2b81c95b22b',1,'frames::MenuAsignarSkills']]],

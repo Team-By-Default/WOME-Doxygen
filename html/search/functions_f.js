@@ -8,6 +8,7 @@ var searchData=
   ['serdesernegizado',['serDesernegizado',['../classdominio_1_1_personaje.html#a46eb5c723cad13298ff67a11e9b9774f',1,'dominio::Personaje']]],
   ['serenergizado',['serEnergizado',['../classdominio_1_1_personaje.html#a8642fca122573ee305ab1d8209bd5b77',1,'dominio::Personaje']]],
   ['serrobadosalud',['serRobadoSalud',['../classdominio_1_1_personaje.html#ab46bcefd2eed16f2ee05442021c2c13f',1,'dominio::Personaje']]],
+  ['servidor',['Servidor',['../classservidor_1_1_servidor.html#a210f57e75bca0944e87a811d6b69da20',1,'servidor::Servidor']]],
   ['setaccion',['setAccion',['../classcliente_1_1_cliente.html#a9c1ead5cb28a360e32797c28d83d2f91',1,'cliente::Cliente']]],
   ['setalto',['setAlto',['../classentidades_1_1_entidad.html#aca617f17640bee4648b65e770911cb59',1,'entidades::Entidad']]],
   ['setancho',['setAncho',['../classentidades_1_1_entidad.html#a13febb3e8190293682f0967a135c82f9',1,'entidades::Entidad']]],

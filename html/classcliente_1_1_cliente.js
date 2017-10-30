@@ -45,7 +45,7 @@ var classcliente_1_1_cliente =
     [ "paqueteMensaje", "classcliente_1_1_cliente.html#a84249817dd77e409f2a9fcf142bb9050", null ],
     [ "paquetePersonaje", "classcliente_1_1_cliente.html#a8d9fad221295b61ff035665c112397f6", null ],
     [ "paqueteUsuario", "classcliente_1_1_cliente.html#a83f2e97fe2fb12876f3d49148ab43bf8", null ],
-    [ "puerto", "classcliente_1_1_cliente.html#ad6b02f2bfa09a4eb9ca419410fa719a7", null ],
+    [ "puerto", "classcliente_1_1_cliente.html#a85658dcdeb6327ace6b8e4f9fcd99e5c", null ],
     [ "salida", "classcliente_1_1_cliente.html#af52a208a7fd9f9b0dd47a1bd18f8034d", null ],
     [ "wome", "classcliente_1_1_cliente.html#a48690075af043c105722fa12a90c6c55", null ]
 ];

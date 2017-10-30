@@ -20,7 +20,7 @@ var searchData=
   ['serrobadosalud',['serRobadoSalud',['../classdominio_1_1_personaje.html#ab46bcefd2eed16f2ee05442021c2c13f',1,'dominio::Personaje']]],
   ['server',['server',['../classservidor_1_1_servidor.html#aea6aca05f3afd70b917be13b72e91d4e',1,'servidor::Servidor']]],
   ['serversocket',['serverSocket',['../classservidor_1_1_servidor.html#a7994469f629886404b1e23c58a5be2f1',1,'servidor::Servidor']]],
-  ['servidor',['Servidor',['../classservidor_1_1_servidor.html',1,'servidor.Servidor'],['../namespaceservidor.html',1,'servidor']]],
+  ['servidor',['Servidor',['../classservidor_1_1_servidor.html',1,'servidor.Servidor'],['../namespaceservidor.html',1,'servidor'],['../classservidor_1_1_servidor.html#a210f57e75bca0944e87a811d6b69da20',1,'servidor.Servidor.Servidor()']]],
   ['servidor_2ejava',['Servidor.java',['../_servidor_8java.html',1,'']]],
   ['setaccion',['setAccion',['../classcliente_1_1_cliente.html#a9c1ead5cb28a360e32797c28d83d2f91',1,'cliente::Cliente']]],
   ['setalto',['setAlto',['../classentidades_1_1_entidad.html#aca617f17640bee4648b65e770911cb59',1,'entidades::Entidad']]],

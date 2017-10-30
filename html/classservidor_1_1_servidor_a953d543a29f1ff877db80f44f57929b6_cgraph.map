@@ -1,3 +1,4 @@
 <map id="servidor.Servidor.cargarInterfaz" name="servidor.Servidor.cargarInterfaz">
-<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c" title="servidor.Conector.close" alt="" coords="209,13,367,39"/>
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#a210f57e75bca0944e87a811d6b69da20" title="servidor.Servidor.Servidor" alt="" coords="209,5,376,32"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c" title="servidor.Conector.close" alt="" coords="214,56,371,83"/>
 </map>

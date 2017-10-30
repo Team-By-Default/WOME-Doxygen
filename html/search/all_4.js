@@ -45,7 +45,7 @@ var searchData=
   ['estadobatallanpc_2ejava',['EstadoBatallaNPC.java',['../_estado_batalla_n_p_c_8java.html',1,'']]],
   ['estadodepersonaje',['EstadoDePersonaje',['../classinterfaz_1_1_estado_de_personaje.html',1,'interfaz']]],
   ['estadodepersonaje_2ejava',['EstadoDePersonaje.java',['../_estado_de_personaje_8java.html',1,'']]],
-  ['estadojuego',['EstadoJuego',['../classestados_1_1_estado_juego.html',1,'estados.EstadoJuego'],['../classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9',1,'estados.EstadoJuego.EstadoJuego()'],['../classestados_1_1_estado.html#a6757fb33b81860d86f01e93a39a041e5',1,'estados.Estado.estadoJuego()'],['../classjuego_1_1_juego.html#a89a62481704c6ef4ceb8d02f65f898c2',1,'juego.Juego.estadoJuego()']]],
+  ['estadojuego',['EstadoJuego',['../classestados_1_1_estado_juego.html',1,'estados.EstadoJuego'],['../classestados_1_1_estado.html#a6757fb33b81860d86f01e93a39a041e5',1,'estados.Estado.estadoJuego()'],['../classjuego_1_1_juego.html#a89a62481704c6ef4ceb8d02f65f898c2',1,'juego.Juego.estadoJuego()'],['../classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9',1,'estados.EstadoJuego.EstadoJuego()']]],
   ['estadojuego_2ejava',['EstadoJuego.java',['../_estado_juego_8java.html',1,'']]],
   ['estadonpc',['EstadoNPC',['../classinterfaz_1_1_estado_n_p_c.html',1,'interfaz']]],
   ['estadonpc_2ejava',['EstadoNPC.java',['../_estado_n_p_c_8java.html',1,'']]],

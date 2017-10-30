@@ -1,12 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classframes_1_1_menu_asignar_skills.html":[8,0,6,0],
-"classframes_1_1_menu_asignar_skills.html#a022bd43ac044435dab47e8001bacf58c":[8,0,6,0,11],
-"classframes_1_1_menu_asignar_skills.html#a125c54ff2eb62ffe50c0bba5204c81e4":[8,0,6,0,12],
-"classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e":[8,0,6,0,0],
-"classframes_1_1_menu_asignar_skills.html#a21ae5b63176312d9e1ccd07143e2b76f":[8,0,6,0,13],
-"classframes_1_1_menu_asignar_skills.html#a330c270ccee2b8a4b12cbc15ad954e17":[8,0,6,0,8],
-"classframes_1_1_menu_asignar_skills.html#a3d14adc0fd742477bc7549526ce5bbe3":[8,0,6,0,7],
 "classframes_1_1_menu_asignar_skills.html#a4c6cc89235f80e641fca93742b0abdd6":[8,0,6,0,3],
 "classframes_1_1_menu_asignar_skills.html#a67c8089ab585c3eb6b639a592a3ab144":[8,0,6,0,9],
 "classframes_1_1_menu_asignar_skills.html#a9253657a14b69a6efed253d1e4ce4590":[8,0,6,0,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX3 =
 "classmensajeria_1_1_paquete.html#aef332bd718915ecaeb0703185f7ff126":[8,0,10,1,4],
 "classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0":[8,0,10,1,12],
 "classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba":[8,0,10,1,10],
-"classmensajeria_1_1_paquete_atacar.html":[8,0,10,2]
+"classmensajeria_1_1_paquete_atacar.html":[8,0,10,2],
+"classmensajeria_1_1_paquete_atacar.html#a0bcf262c05cdbc10b101a8a0cb6b52e9":[8,0,10,2,8],
+"classmensajeria_1_1_paquete_atacar.html#a200f7d932c30f87a284365531b0df7a9":[8,0,10,2,18],
+"classmensajeria_1_1_paquete_atacar.html#a24a2b24ba3c9946bc329b3fe48c1bd5c":[8,0,10,2,14],
+"classmensajeria_1_1_paquete_atacar.html#a2e9dca0de8de23cd9b6b1b744850d18d":[8,0,10,2,13],
+"classmensajeria_1_1_paquete_atacar.html#a411d037cce1b8034d8e20e31ba3fa996":[8,0,10,2,22],
+"classmensajeria_1_1_paquete_atacar.html#a43141be00d9eda50c931c3f2d4c13746":[8,0,10,2,0],
+"classmensajeria_1_1_paquete_atacar.html#a58905c7c57077f081ea8ffa17ac5dae0":[8,0,10,2,4]
 };
