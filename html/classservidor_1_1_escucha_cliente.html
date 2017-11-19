@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -92,26 +93,27 @@ $(document).ready(function(){initNavTree('classservidor_1_1_escucha_cliente.html
 Diagrama de herencias de servidor.EscuchaCliente</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_escucha_cliente__inherit__graph.png" border="0" usemap="#servidor_8_escucha_cliente_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <div class="dynheader">
 Diagrama de colaboración para servidor.EscuchaCliente:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_escucha_cliente__coll__graph.png" border="0" usemap="#servidor_8_escucha_cliente_coll__map" alt="Collaboration graph"/></div>
 <map name="servidor_8_escucha_cliente_coll__map" id="servidor_8_escucha_cliente_coll__map">
-<area shape="rect" id="node3" href="classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="642,1555,823,1582"/>
-<area shape="rect" id="node4" href="classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="325,999,463,1026"/>
-<area shape="rect" id="node10" href="classmensajeria_1_1_paquete_finalizar_batalla.html" title="mensajeria.PaqueteFinalizar\lBatalla" alt="" coords="639,1185,826,1227"/>
-<area shape="rect" id="node12" href="classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="635,1733,830,1759"/>
-<area shape="rect" id="node14" href="classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="631,950,834,977"/>
-<area shape="rect" id="node16" href="classmensajeria_1_1_paquete_n_p_cs.html" title="mensajeria.PaqueteNPCs" alt="" coords="647,181,818,207"/>
-<area shape="rect" id="node18" href="classmensajeria_1_1_paquete_batalla.html" title="mensajeria.PaqueteBatalla" alt="" coords="644,1351,821,1378"/>
-<area shape="rect" id="node19" href="classmensajeria_1_1_paquete_de_movimientos.html" title="mensajeria.PaqueteDeMovimientos" alt="" coords="620,290,845,317"/>
-<area shape="rect" id="node24" href="classmensajeria_1_1_paquete_de_personajes.html" title="mensajeria.PaqueteDePersonajes" alt="" coords="623,447,842,474"/>
-<area shape="rect" id="node26" href="classmensajeria_1_1_paquete_atacar.html" title="mensajeria.PaqueteAtacar" alt="" coords="645,643,820,670"/>
-<area shape="rect" id="node6" href="class_cloneable.html" title="Cloneable" alt="" coords="52,609,131,635"/>
-<area shape="rect" id="node22" href="classmensajeria_1_1_paquete_n_p_c.html" title="mensajeria.PaqueteNPC" alt="" coords="312,2229,476,2255"/>
+<area shape="rect" id="node3" href="classmensajeria_1_1_paquete_usuario.html" title="{mensajeria.PaqueteUsuario\n||+ PaqueteUsuario()\l+ PaqueteUsuario()\l+ getIdPj()\l+ setIdPj()\l+ getUsername()\l+ setUsername()\l+ getPassword()\l+ setPassword()\l+ isInicioSesion()\l+ setInicioSesion()\l+ clone()\l}" alt="" coords="2527,549,2708,773"/>
+<area shape="rect" id="node4" href="classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="1817,189,1954,443"/>
+<area shape="rect" id="node10" href="classmensajeria_1_1_paquete_finalizar_batalla.html" title="{mensajeria.PaqueteFinalizar\lBatalla\n||+ PaqueteFinalizarBatalla()\l+ getId()\l+ setId()\l+ getIdEnemigo()\l+ setIdEnemigo()\l+ getGanadorBatalla()\l+ setGanadorBatalla()\l}" alt="" coords="1749,571,1936,751"/>
+<area shape="rect" id="node11" href="classmensajeria_1_1_paquete_batalla_n_p_c.html" title="{mensajeria.PaqueteBatallaNPC\n||+ PaqueteBatallaNPC()\l+ getId()\l+ setId()\l+ getIdEnemigo()\l+ setIdEnemigo()\l+ isMiTurno()\l+ setMiTurno()\l}" alt="" coords="1961,579,2165,744"/>
+<area shape="rect" id="node13" href="classmensajeria_1_1_paquete_personaje.html" title="{mensajeria.PaquetePersonaje\n|&#45; idMapa\l&#45; energiaTope\l&#45; fuerza\l|+ PaquetePersonaje()\l+ getInventario()\l+ setInventario()\l+ getMochila()\l+ setMochila()\l+ getAlianza()\l+ setAlianza()\l+ setBackPack()\l+ getBackPack()\l+ getEstado()\ly 46 más...\l}" alt="" coords="2809,535,3004,788"/>
+<area shape="rect" id="node17" href="classmensajeria_1_1_paquete_movimiento.html" title="{mensajeria.PaqueteMovimiento\n||+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ getIdPersonaje()\l+ setIdPersonaje()\l+ getPosX()\l+ setPosX()\l+ getPosY()\l+ setPosY()\l+ getDireccion()\l+ setDireccion()\l+ getFrame()\l+ setFrame()\l+ clone()\l}" alt="" coords="1121,527,1324,795"/>
+<area shape="rect" id="node19" href="classmensajeria_1_1_paquete_n_p_cs.html" title="{mensajeria.PaqueteNPCs\n||+ PaqueteNPCs()\l+ PaqueteNPCs()\l+ getNPCs()\l+ clone()\l}" alt="" coords="920,601,1091,722"/>
+<area shape="rect" id="node22" href="classmensajeria_1_1_paquete_batalla.html" title="{mensajeria.PaqueteBatalla\n||+ PaqueteBatalla()\l+ getId()\l+ setId()\l+ getIdEnemigo()\l+ setIdEnemigo()\l+ isMiTurno()\l+ setMiTurno()\l}" alt="" coords="2189,579,2366,744"/>
+<area shape="rect" id="node23" href="classmensajeria_1_1_paquete_de_movimientos.html" title="{mensajeria.PaqueteDeMovimientos\n||+ PaqueteDeMovimientos()\l+ PaqueteDeMovimientos()\l+ getPersonajes()\l+ clone()\l}" alt="" coords="670,601,895,722"/>
+<area shape="rect" id="node26" href="classmensajeria_1_1_paquete_n_p_c.html" title="{mensajeria.PaqueteNPC\n||+ PaqueteNPC()\l+ getId()\l+ setId()\l+ getIdMapa()\l+ setIdMapa()\l+ getNombre()\l+ setNombre()\l+ getSaludTope()\l+ setSaludTope()\l+ getEnergiaTope()\ly 9 más...\l}" alt="" coords="3105,549,3269,773"/>
+<area shape="rect" id="node28" href="classmensajeria_1_1_paquete_de_personajes.html" title="{mensajeria.PaqueteDePersonajes\n||+ PaqueteDePersonajes()\l+ PaqueteDePersonajes()\l+ getPersonajes()\l+ clone()\l}" alt="" coords="409,601,628,722"/>
+<area shape="rect" id="node30" href="classmensajeria_1_1_paquete_atacar.html" title="{mensajeria.PaqueteAtacar\n||+ PaqueteAtacar()\l+ getId()\l+ setId()\l+ getIdEnemigo()\l+ setIdEnemigo()\l+ getNuevaSaludPersonaje()\l+ setNuevaSaludPersonaje()\l+ getNuevaEnergiaPersonaje()\l+ setNuevaEnergiaPersonaje()\l+ getNuevaSaludEnemigo()\l+ setNuevaSaludEnemigo()\l+ getNuevaEnergiaEnemigo()\l+ setNuevaEnergiaEnemigo()\l+ getMapPersonaje()\l+ getMapEnemigo()\l}" alt="" coords="1445,520,1643,803"/>
+<area shape="rect" id="node6" href="class_cloneable.html" title="{Cloneable\n||}" alt="" coords="1459,5,1538,83"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -169,6 +171,10 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a1127d8d758e21c62245c2fec9333d956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bf973fa7c390b47b1f4e6466037e0c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a5bf973fa7c390b47b1f4e6466037e0c4">setPaqueteNPC</a> (<a class="el" href="classmensajeria_1_1_paquete_n_p_c.html">PaqueteNPC</a> <a class="el" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a>)</td></tr>
 <tr class="separator:a5bf973fa7c390b47b1f4e6466037e0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add05004367a22d0967ac8e7c7d9a4040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#add05004367a22d0967ac8e7c7d9a4040">getPaqueteBatallaNPC</a> ()</td></tr>
+<tr class="separator:add05004367a22d0967ac8e7c7d9a4040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8d9c06a41620a9e2924975b16b5d15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a2e8d9c06a41620a9e2924975b16b5d15">setPaqueteBatallaNPC</a> (<a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a> <a class="el" href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">paqueteBatallaNPC</a>)</td></tr>
+<tr class="separator:a2e8d9c06a41620a9e2924975b16b5d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributos privados</h2></td></tr>
@@ -190,6 +196,8 @@ Atributos privados</h2></td></tr>
 <tr class="separator:ad6ee25f1657679323def3688f053241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ea3d4a60ab5fce525edc4431672fce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_paquete_batalla.html">PaqueteBatalla</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a></td></tr>
 <tr class="separator:a14ea3d4a60ab5fce525edc4431672fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c27946f8a5b62d4754a0348b1f1482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">paqueteBatallaNPC</a></td></tr>
+<tr class="separator:a28c27946f8a5b62d4754a0348b1f1482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c8988e49922c5e6a7be5e51810ed3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_paquete_atacar.html">PaqueteAtacar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a></td></tr>
 <tr class="separator:a55c8988e49922c5e6a7be5e51810ed3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0316c45c5a2aaaa3b66f8b9a3575cade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html">PaqueteFinalizarBatalla</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a></td></tr>
@@ -205,7 +213,7 @@ Atributos privados</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00024">24</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00025">25</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 </div><h2 class="groupheader">Documentación del constructor y destructor</h2>
 <a id="af5bd460fd54c9ec35ef5e7894e7a483f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5bd460fd54c9ec35ef5e7894e7a483f">&#9670;&nbsp;</a></span>EscuchaCliente()</h2>
@@ -245,11 +253,11 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00043">43</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                                                                                                             {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a> = <span class="keyword">new</span> PaquetePersonaje();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00032">EscuchaCliente.java:32</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00026">EscuchaCliente.java:26</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00045">45</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                                                                                             {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a> = <span class="keyword">new</span> PaquetePersonaje();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00029">EscuchaCliente.java:29</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -269,8 +277,8 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00093">93</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                          {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00095">95</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                          {</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -297,8 +305,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00105">105</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a>;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a1de209cc60f085b1d601b98ddb5293f2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">servidor.EscuchaCliente.idPersonaje</a></div><div class="ttdeci">int idPersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00029">EscuchaCliente.java:29</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00107">107</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a>;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a1de209cc60f085b1d601b98ddb5293f2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">servidor.EscuchaCliente.idPersonaje</a></div><div class="ttdeci">int idPersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00030">EscuchaCliente.java:30</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -317,8 +325,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00125">125</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                            {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a>;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a55c8988e49922c5e6a7be5e51810ed3e"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">servidor.EscuchaCliente.paqueteAtacar</a></div><div class="ttdeci">PaqueteAtacar paqueteAtacar</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00036">EscuchaCliente.java:36</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00127">127</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                            {</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a>;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a55c8988e49922c5e6a7be5e51810ed3e"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">servidor.EscuchaCliente.paqueteAtacar</a></div><div class="ttdeci">PaqueteAtacar paqueteAtacar</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00038">EscuchaCliente.java:38</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -345,14 +353,43 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00117">117</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                              {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a14ea3d4a60ab5fce525edc4431672fce"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">servidor.EscuchaCliente.paqueteBatalla</a></div><div class="ttdeci">PaqueteBatalla paqueteBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00035">EscuchaCliente.java:35</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00119">119</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                              {</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a>;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a14ea3d4a60ab5fce525edc4431672fce"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">servidor.EscuchaCliente.paqueteBatalla</a></div><div class="ttdeci">PaqueteBatalla paqueteBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00036">EscuchaCliente.java:36</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_escucha_cliente_a42d46eb6f9579267b8645ed8154026b6_icgraph.png" border="0" usemap="#classservidor_1_1_escucha_cliente_a42d46eb6f9579267b8645ed8154026b6_icgraph" alt=""/></div>
 <map name="classservidor_1_1_escucha_cliente_a42d46eb6f9579267b8645ed8154026b6_icgraph" id="classservidor_1_1_escucha_cliente_a42d46eb6f9579267b8645ed8154026b6_icgraph">
 <area shape="rect" id="node2" href="classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="236,13,412,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="add05004367a22d0967ac8e7c7d9a4040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add05004367a22d0967ac8e7c7d9a4040">&#9670;&nbsp;</a></span>getPaqueteBatallaNPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a> servidor.EscuchaCliente.getPaqueteBatallaNPC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the paqueteBatallaNPC </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00200">200</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                    {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">paqueteBatallaNPC</a>;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a28c27946f8a5b62d4754a0348b1f1482"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">servidor.EscuchaCliente.paqueteBatallaNPC</a></div><div class="ttdeci">PaqueteBatallaNPC paqueteBatallaNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00037">EscuchaCliente.java:37</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_escucha_cliente_add05004367a22d0967ac8e7c7d9a4040_icgraph.png" border="0" usemap="#classservidor_1_1_escucha_cliente_add05004367a22d0967ac8e7c7d9a4040_icgraph" alt=""/></div>
+<map name="classservidor_1_1_escucha_cliente_add05004367a22d0967ac8e7c7d9a4040_icgraph" id="classservidor_1_1_escucha_cliente_add05004367a22d0967ac8e7c7d9a4040_icgraph">
+<area shape="rect" id="node2" href="classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769" title="comandos.BatallaNPC.ejecutar" alt="" coords="236,13,439,39"/>
 </map>
 </div>
 
@@ -373,8 +410,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00141">141</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                         {</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a>;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2114f82c5f6d6592c19496bf742c80f8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">servidor.EscuchaCliente.paqueteDeMovimiento</a></div><div class="ttdeci">PaqueteDeMovimientos paqueteDeMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00039">EscuchaCliente.java:39</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00143">143</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                                         {</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a>;</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2114f82c5f6d6592c19496bf742c80f8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">servidor.EscuchaCliente.paqueteDeMovimiento</a></div><div class="ttdeci">PaqueteDeMovimientos paqueteDeMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00041">EscuchaCliente.java:41</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -393,8 +430,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00173">173</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                          {</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a>;</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ac9a2cc3820d46ad639e427470e412f41"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">servidor.EscuchaCliente.paqueteDeNPCs</a></div><div class="ttdeci">PaqueteNPCs paqueteDeNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00041">EscuchaCliente.java:41</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00175">175</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                                          {</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a>;</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ac9a2cc3820d46ad639e427470e412f41"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">servidor.EscuchaCliente.paqueteDeNPCs</a></div><div class="ttdeci">PaqueteNPCs paqueteDeNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00043">EscuchaCliente.java:43</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -413,8 +450,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00149">149</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                                                        {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00151">151</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                                                        {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>;</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00042">EscuchaCliente.java:42</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -433,8 +470,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00133">133</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                                                {</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a>;</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a0316c45c5a2aaaa3b66f8b9a3575cade"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">servidor.EscuchaCliente.paqueteFinalizarBatalla</a></div><div class="ttdeci">PaqueteFinalizarBatalla paqueteFinalizarBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00037">EscuchaCliente.java:37</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00135">135</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                                {</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a>;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a0316c45c5a2aaaa3b66f8b9a3575cade"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">servidor.EscuchaCliente.paqueteFinalizarBatalla</a></div><div class="ttdeci">PaqueteFinalizarBatalla paqueteFinalizarBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00039">EscuchaCliente.java:39</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -462,8 +499,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00109">109</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                                    {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a>;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ad6ee25f1657679323def3688f053241d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">servidor.EscuchaCliente.paqueteMovimiento</a></div><div class="ttdeci">PaqueteMovimiento paqueteMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00034">EscuchaCliente.java:34</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00111">111</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                    {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a>;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ad6ee25f1657679323def3688f053241d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">servidor.EscuchaCliente.paqueteMovimiento</a></div><div class="ttdeci">PaqueteMovimiento paqueteMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00035">EscuchaCliente.java:35</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -491,8 +528,8 @@ Gráfico de llamadas a esta función:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Devuelve</dt><dd>the paqueteNPC </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00184">184</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                      {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a>;</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67142d84e624b9e3020edc189feda6d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">servidor.EscuchaCliente.paqueteNPC</a></div><div class="ttdeci">PaqueteNPC paqueteNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00186">186</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                                      {</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a>;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67142d84e624b9e3020edc189feda6d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">servidor.EscuchaCliente.paqueteNPC</a></div><div class="ttdeci">PaqueteNPC paqueteNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00034">EscuchaCliente.java:34</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -511,8 +548,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00101">101</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                 {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00032">EscuchaCliente.java:32</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00103">103</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                 {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -545,8 +582,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00165">165</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                              {</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a>;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00038">EscuchaCliente.java:38</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00167">167</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                              {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a>;</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -575,19 +612,20 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00097">97</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                          {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00099">99</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                          {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00029">EscuchaCliente.java:29</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_escucha_cliente_a5ffa10f28a017a543443cfdc3ae63ada_icgraph.png" border="0" usemap="#classservidor_1_1_escucha_cliente_a5ffa10f28a017a543443cfdc3ae63ada_icgraph" alt=""/></div>
 <map name="classservidor_1_1_escucha_cliente_a5ffa10f28a017a543443cfdc3ae63ada_icgraph" id="classservidor_1_1_escucha_cliente_a5ffa10f28a017a543443cfdc3ae63ada_icgraph">
 <area shape="rect" id="node2" href="classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="261,5,437,32"/>
-<area shape="rect" id="node3" href="classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="236,56,461,83"/>
-<area shape="rect" id="node4" href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="245,107,452,133"/>
-<area shape="rect" id="node5" href="classcomandos_1_1_registro.html#adff5fedb3e8d4f7cd8c5b7464b2107b3" title="comandos.Registro.ejecutar" alt="" coords="257,157,441,184"/>
-<area shape="rect" id="node6" href="classcomandos_1_1_salir.html#a8c2e803414d534403a653e9834294b46" title="comandos.Salir.ejecutar" alt="" coords="267,208,430,235"/>
-<area shape="rect" id="node7" href="classcomandos_1_1_mostrar_mapas.html#a445c5f8fcb0f78cb1cded959609de4b4" title="comandos.MostrarMapas.ejecutar" alt="" coords="239,259,458,285"/>
+<area shape="rect" id="node3" href="classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769" title="comandos.BatallaNPC.ejecutar" alt="" coords="247,56,450,83"/>
+<area shape="rect" id="node4" href="classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="236,107,461,133"/>
+<area shape="rect" id="node5" href="classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="245,157,452,184"/>
+<area shape="rect" id="node6" href="classcomandos_1_1_registro.html#adff5fedb3e8d4f7cd8c5b7464b2107b3" title="comandos.Registro.ejecutar" alt="" coords="257,208,441,235"/>
+<area shape="rect" id="node7" href="classcomandos_1_1_salir.html#a8c2e803414d534403a653e9834294b46" title="comandos.Salir.ejecutar" alt="" coords="267,259,430,285"/>
+<area shape="rect" id="node8" href="classcomandos_1_1_mostrar_mapas.html#a445c5f8fcb0f78cb1cded959609de4b4" title="comandos.MostrarMapas.ejecutar" alt="" coords="239,309,458,336"/>
 </map>
 </div>
 
@@ -608,8 +646,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00089">89</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                              {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00026">EscuchaCliente.java:26</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00091">91</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                              {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -637,17 +675,17 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00050">50</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                      {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            ComandosServer comand;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            Paquete paquete;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a> = <span class="keyword">new</span> PaqueteUsuario();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            String cadenaLeida = (String) <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.readObject();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        </div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">while</span> (!((paquete = <a class="code" href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">gson</a>.fromJson(cadenaLeida, Paquete.class)).getComando() == Comando.DESCONECTAR)){</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                </div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                comand = (ComandosServer) paquete.getObjeto(Comando.NOMBREPAQUETE);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                comand.setCadena(cadenaLeida);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                comand.setEscuchaCliente(<span class="keyword">this</span>);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                comand.ejecutar();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                cadenaLeida = (String) <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.readObject();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.close();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>.close();</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>.close();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            Servidor.getPersonajesConectados().remove(<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">getId</a>());</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            Servidor.getUbicacionPersonajes().remove(<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">getId</a>());</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            Servidor.getClientesConectados().remove(<span class="keyword">this</span>);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classservidor_1_1_escucha_cliente.html#af5bd460fd54c9ec35ef5e7894e7a483f">EscuchaCliente</a> conectado : Servidor.getClientesConectados()) {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a> = <span class="keyword">new</span> PaqueteDePersonajes(Servidor.getPersonajesConectados());</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>.<a class="code" href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">setComando</a>(Comando.CONEXION);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                conectado.salida.writeObject(<a class="code" href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">gson</a>.toJson(<a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>, PaqueteDePersonajes.class));</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            Servidor.log.append(paquete.getIp() + <span class="stringliteral">&quot; se ha desconectado.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        } <span class="keywordflow">catch</span> (IOException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;Error de conexion: &quot;</span> + e.getMessage() + System.lineSeparator());</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
-<div class="ttc" id="classmensajeria_1_1_paquete_personaje_html_a3aa3eb11924fe62aed864db5fa26988d"><div class="ttname"><a href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">mensajeria.PaquetePersonaje.getId</a></div><div class="ttdeci">int getId()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_personaje_8java_source.html#l00066">PaquetePersonaje.java:66</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00052">52</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                      {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            ComandosServer comand;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            Paquete paquete;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a> = <span class="keyword">new</span> PaqueteUsuario();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            String cadenaLeida = (String) <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.readObject();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        </div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">while</span> (!((paquete = <a class="code" href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">gson</a>.fromJson(cadenaLeida, Paquete.class)).getComando() == Comando.DESCONECTAR)){</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                </div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                comand = (ComandosServer) paquete.getObjeto(Comando.NOMBREPAQUETE);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                comand.setCadena(cadenaLeida);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                comand.setEscuchaCliente(<span class="keyword">this</span>);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                comand.ejecutar();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                cadenaLeida = (String) <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.readObject();</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            }</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">entrada</a>.close();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">salida</a>.close();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">socket</a>.close();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            Servidor.getPersonajesConectados().remove(<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">getId</a>());</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            Servidor.getUbicacionPersonajes().remove(<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>.<a class="code" href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">getId</a>());</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            Servidor.getClientesConectados().remove(<span class="keyword">this</span>);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classservidor_1_1_escucha_cliente.html#af5bd460fd54c9ec35ef5e7894e7a483f">EscuchaCliente</a> conectado : Servidor.getClientesConectados()) {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a> = <span class="keyword">new</span> PaqueteDePersonajes(Servidor.getPersonajesConectados());</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>.<a class="code" href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">setComando</a>(Comando.CONEXION);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                conectado.salida.writeObject(<a class="code" href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">gson</a>.toJson(<a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>, PaqueteDePersonajes.class));</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            Servidor.log.append(paquete.getIp() + <span class="stringliteral">&quot; se ha desconectado.&quot;</span> + System.lineSeparator());</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        } <span class="keywordflow">catch</span> (IOException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            Servidor.log.append(<span class="stringliteral">&quot;Error de conexion: &quot;</span> + e.getMessage() + System.lineSeparator());</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2511084e6a03381ad4eaef605083cdc8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2511084e6a03381ad4eaef605083cdc8">servidor.EscuchaCliente.salida</a></div><div class="ttdeci">final ObjectOutputStream salida</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00029">EscuchaCliente.java:29</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_personaje_html_a3aa3eb11924fe62aed864db5fa26988d"><div class="ttname"><a href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d">mensajeria.PaquetePersonaje.getId</a></div><div class="ttdeci">int getId()</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_personaje_8java_source.html#l00134">PaquetePersonaje.java:134</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_html_a9b0025715a81ff38f861dbbcbbd548c3"><div class="ttname"><a href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">mensajeria.Paquete.setComando</a></div><div class="ttdeci">void setComando(int comando)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_8java_source.html#l00042">Paquete.java:42</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_af5bd460fd54c9ec35ef5e7894e7a483f"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#af5bd460fd54c9ec35ef5e7894e7a483f">servidor.EscuchaCliente.EscuchaCliente</a></div><div class="ttdeci">EscuchaCliente(String ip, Socket socket, ObjectInputStream entrada, ObjectOutputStream salida)</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00043">EscuchaCliente.java:43</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00032">EscuchaCliente.java:32</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a3a32567584a637e1016f0354e1db8399"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">servidor.EscuchaCliente.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00030">EscuchaCliente.java:30</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00026">EscuchaCliente.java:26</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00038">EscuchaCliente.java:38</a></div></div>
-<div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_af5bd460fd54c9ec35ef5e7894e7a483f"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#af5bd460fd54c9ec35ef5e7894e7a483f">servidor.EscuchaCliente.EscuchaCliente</a></div><div class="ttdeci">EscuchaCliente(String ip, Socket socket, ObjectInputStream entrada, ObjectOutputStream salida)</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00045">EscuchaCliente.java:45</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00042">EscuchaCliente.java:42</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a3a32567584a637e1016f0354e1db8399"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a3a32567584a637e1016f0354e1db8399">servidor.EscuchaCliente.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00031">EscuchaCliente.java:31</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67929150fca2d209d890e8e442e10f6"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67929150fca2d209d890e8e442e10f6">servidor.EscuchaCliente.socket</a></div><div class="ttdeci">final Socket socket</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00027">EscuchaCliente.java:27</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
+<div class="ttc" id="classservidor_1_1_escucha_cliente_html_aa20478f6a9eebbecd2042470548f068c"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#aa20478f6a9eebbecd2042470548f068c">servidor.EscuchaCliente.entrada</a></div><div class="ttdeci">final ObjectInputStream entrada</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00028">EscuchaCliente.java:28</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -684,8 +722,8 @@ Gráfico de llamadas para esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00157">157</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a>;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a1de209cc60f085b1d601b98ddb5293f2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">servidor.EscuchaCliente.idPersonaje</a></div><div class="ttdeci">int idPersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00029">EscuchaCliente.java:29</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00159">159</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">idPersonaje</a>;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a1de209cc60f085b1d601b98ddb5293f2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a1de209cc60f085b1d601b98ddb5293f2">servidor.EscuchaCliente.idPersonaje</a></div><div class="ttdeci">int idPersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00030">EscuchaCliente.java:30</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -714,8 +752,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00129">129</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                                                              {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a>;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a55c8988e49922c5e6a7be5e51810ed3e"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">servidor.EscuchaCliente.paqueteAtacar</a></div><div class="ttdeci">PaqueteAtacar paqueteAtacar</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00036">EscuchaCliente.java:36</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00131">131</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                              {</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">paqueteAtacar</a>;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a55c8988e49922c5e6a7be5e51810ed3e"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a55c8988e49922c5e6a7be5e51810ed3e">servidor.EscuchaCliente.paqueteAtacar</a></div><div class="ttdeci">PaqueteAtacar paqueteAtacar</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00038">EscuchaCliente.java:38</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -743,14 +781,49 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00121">121</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                                                 {</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a>;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a14ea3d4a60ab5fce525edc4431672fce"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">servidor.EscuchaCliente.paqueteBatalla</a></div><div class="ttdeci">PaqueteBatalla paqueteBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00035">EscuchaCliente.java:35</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00123">123</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                 {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">paqueteBatalla</a>;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a14ea3d4a60ab5fce525edc4431672fce"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a14ea3d4a60ab5fce525edc4431672fce">servidor.EscuchaCliente.paqueteBatalla</a></div><div class="ttdeci">PaqueteBatalla paqueteBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00036">EscuchaCliente.java:36</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classservidor_1_1_escucha_cliente_acc97ca35065c4457f0873d363fde9b1e_icgraph.png" border="0" usemap="#classservidor_1_1_escucha_cliente_acc97ca35065c4457f0873d363fde9b1e_icgraph" alt=""/></div>
 <map name="classservidor_1_1_escucha_cliente_acc97ca35065c4457f0873d363fde9b1e_icgraph" id="classservidor_1_1_escucha_cliente_acc97ca35065c4457f0873d363fde9b1e_icgraph">
 <area shape="rect" id="node2" href="classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="236,13,412,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2e8d9c06a41620a9e2924975b16b5d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e8d9c06a41620a9e2924975b16b5d15">&#9670;&nbsp;</a></span>setPaqueteBatallaNPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void servidor.EscuchaCliente.setPaqueteBatallaNPC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a>&#160;</td>
+          <td class="paramname"><em>paqueteBatallaNPC</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">paqueteBatallaNPC</td><td>the paqueteBatallaNPC to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00207">207</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                                                          {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">paqueteBatallaNPC</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">paqueteBatallaNPC</a>;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a28c27946f8a5b62d4754a0348b1f1482"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a28c27946f8a5b62d4754a0348b1f1482">servidor.EscuchaCliente.paqueteBatallaNPC</a></div><div class="ttdeci">PaqueteBatallaNPC paqueteBatallaNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00037">EscuchaCliente.java:37</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classservidor_1_1_escucha_cliente_a2e8d9c06a41620a9e2924975b16b5d15_icgraph.png" border="0" usemap="#classservidor_1_1_escucha_cliente_a2e8d9c06a41620a9e2924975b16b5d15_icgraph" alt=""/></div>
+<map name="classservidor_1_1_escucha_cliente_a2e8d9c06a41620a9e2924975b16b5d15_icgraph" id="classservidor_1_1_escucha_cliente_a2e8d9c06a41620a9e2924975b16b5d15_icgraph">
+<area shape="rect" id="node2" href="classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769" title="comandos.BatallaNPC.ejecutar" alt="" coords="236,13,439,39"/>
 </map>
 </div>
 
@@ -772,8 +845,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00145">145</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                                                 {</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a>;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2114f82c5f6d6592c19496bf742c80f8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">servidor.EscuchaCliente.paqueteDeMovimiento</a></div><div class="ttdeci">PaqueteDeMovimientos paqueteDeMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00039">EscuchaCliente.java:39</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00147">147</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                                                                 {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">paqueteDeMovimiento</a>;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a2114f82c5f6d6592c19496bf742c80f8"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a2114f82c5f6d6592c19496bf742c80f8">servidor.EscuchaCliente.paqueteDeMovimiento</a></div><div class="ttdeci">PaqueteDeMovimientos paqueteDeMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00041">EscuchaCliente.java:41</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -793,8 +866,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00153">153</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                                                {</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00155">155</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                                                                {</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">paqueteDePersonajes</a>;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a288757ba0126a89b6cbc0fce57fc6c56"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a288757ba0126a89b6cbc0fce57fc6c56">servidor.EscuchaCliente.paqueteDePersonajes</a></div><div class="ttdeci">PaqueteDePersonajes paqueteDePersonajes</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00042">EscuchaCliente.java:42</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -814,8 +887,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00137">137</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                                            {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a>;</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a0316c45c5a2aaaa3b66f8b9a3575cade"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">servidor.EscuchaCliente.paqueteFinalizarBatalla</a></div><div class="ttdeci">PaqueteFinalizarBatalla paqueteFinalizarBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00037">EscuchaCliente.java:37</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00139">139</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                                                                            {</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">paqueteFinalizarBatalla</a>;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a0316c45c5a2aaaa3b66f8b9a3575cade"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a0316c45c5a2aaaa3b66f8b9a3575cade">servidor.EscuchaCliente.paqueteFinalizarBatalla</a></div><div class="ttdeci">PaqueteFinalizarBatalla paqueteFinalizarBatalla</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00039">EscuchaCliente.java:39</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -844,8 +917,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00113">113</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                                                          {</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a>;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ad6ee25f1657679323def3688f053241d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">servidor.EscuchaCliente.paqueteMovimiento</a></div><div class="ttdeci">PaqueteMovimiento paqueteMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00034">EscuchaCliente.java:34</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00115">115</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                                                                          {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">paqueteMovimiento</a>;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ad6ee25f1657679323def3688f053241d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ad6ee25f1657679323def3688f053241d">servidor.EscuchaCliente.paqueteMovimiento</a></div><div class="ttdeci">PaqueteMovimiento paqueteMovimiento</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00035">EscuchaCliente.java:35</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -879,8 +952,8 @@ Gráfico de llamadas a esta función:</div>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00191">191</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                     {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a>;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67142d84e624b9e3020edc189feda6d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">servidor.EscuchaCliente.paqueteNPC</a></div><div class="ttdeci">PaqueteNPC paqueteNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00193">193</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                                                     {</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">paqueteNPC</a>;</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae67142d84e624b9e3020edc189feda6d"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae67142d84e624b9e3020edc189feda6d">servidor.EscuchaCliente.paqueteNPC</a></div><div class="ttdeci">PaqueteNPC paqueteNPC</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00034">EscuchaCliente.java:34</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -900,8 +973,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00177">177</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                                          {</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a>;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ac9a2cc3820d46ad639e427470e412f41"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">servidor.EscuchaCliente.paqueteDeNPCs</a></div><div class="ttdeci">PaqueteNPCs paqueteDeNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00041">EscuchaCliente.java:41</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00179">179</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                          {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">paqueteDeNPCs</a>;</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ac9a2cc3820d46ad639e427470e412f41"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ac9a2cc3820d46ad639e427470e412f41">servidor.EscuchaCliente.paqueteDeNPCs</a></div><div class="ttdeci">PaqueteNPCs paqueteDeNPCs</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00043">EscuchaCliente.java:43</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -921,8 +994,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00161">161</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                                                       {</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00032">EscuchaCliente.java:32</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00163">163</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                                                       {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">paquetePersonaje</a>;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_ae950f2ca4d12781e343beea13a818610"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#ae950f2ca4d12781e343beea13a818610">servidor.EscuchaCliente.paquetePersonaje</a></div><div class="ttdeci">PaquetePersonaje paquetePersonaje</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00033">EscuchaCliente.java:33</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -956,8 +1029,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00169">169</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                                                 {</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a>;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00038">EscuchaCliente.java:38</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00171">171</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                                 {</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        this.<a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a> = <a class="code" href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">paqueteUsuario</a>;</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div><div class="ttc" id="classservidor_1_1_escucha_cliente_html_a27542aa379b62bf64dca2956cb271cb2"><div class="ttname"><a href="classservidor_1_1_escucha_cliente.html#a27542aa379b62bf64dca2956cb271cb2">servidor.EscuchaCliente.paqueteUsuario</a></div><div class="ttdeci">PaqueteUsuario paqueteUsuario</div><div class="ttdef"><b>Definition:</b> <a href="_escucha_cliente_8java_source.html#l00040">EscuchaCliente.java:40</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -991,7 +1064,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00027">27</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00028">28</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1015,7 +1088,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00030">30</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00031">31</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1112,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00029">29</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00030">30</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1136,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00036">36</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00038">38</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1160,31 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00035">35</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00036">36</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+
+</div>
+</div>
+<a id="a28c27946f8a5b62d4754a0348b1f1482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c27946f8a5b62d4754a0348b1f1482">&#9670;&nbsp;</a></span>paqueteBatallaNPC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html">PaqueteBatallaNPC</a> servidor.EscuchaCliente.paqueteBatallaNPC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00037">37</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1208,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00039">39</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00041">41</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1232,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00041">41</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00043">43</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1159,7 +1256,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00040">40</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00042">42</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1280,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00037">37</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00039">39</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1304,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00034">34</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00035">35</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1231,7 +1328,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00033">33</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00034">34</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1352,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00032">32</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00033">33</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1279,7 +1376,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00038">38</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00040">40</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1303,7 +1400,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00028">28</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00029">29</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
@@ -1327,12 +1424,12 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00026">26</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_escucha_cliente_8java_source.html#l00027">27</a> del archivo <a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a>.</p>
 
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-servidor/src/main/java/servidor/<a class="el" href="_escucha_cliente_8java_source.html">EscuchaCliente.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

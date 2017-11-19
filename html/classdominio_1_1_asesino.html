@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -93,17 +94,17 @@ Diagrama de herencias de dominio.Asesino</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_asesino__inherit__graph.png" border="0" usemap="#dominio_8_asesino_inherit__map" alt="Inheritance graph"/></div>
 <map name="dominio_8_asesino_inherit__map" id="dominio_8_asesino_inherit__map">
-<area shape="rect" id="node2" href="classdominio_1_1_casta.html" title="dominio.Casta" alt="" coords="12,80,117,107"/>
+<area shape="rect" id="node2" href="classdominio_1_1_casta.html" title="{dominio.Casta\n|&#45; probabilidadGolpeCritico\l&#45; probabilidadEvitarDaño\l&#45; dañoCritico\l&#45; PROBEVITARGOLPC\l&#45; PROBEVITARDANIO\l&#45; DANIOCRITICO\l|+ Casta()\l+ Casta()\l+ habilidad1()\l+ recibirFuerzaBonus()\l+ recibirDestrezaBonus()\l+ recibirInteligenciaBonus()\l+ habilidad2()\l+ habilidad3()\l+ getNombreCasta()\l+ getHabilidadesCasta()\ly 7 más...\l}" alt="" coords="9,131,187,428"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <div class="dynheader">
 Diagrama de colaboración para dominio.Asesino:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_asesino__coll__graph.png" border="0" usemap="#dominio_8_asesino_coll__map" alt="Collaboration graph"/></div>
 <map name="dominio_8_asesino_coll__map" id="dominio_8_asesino_coll__map">
-<area shape="rect" id="node2" href="classdominio_1_1_casta.html" title="dominio.Casta" alt="" coords="47,168,152,195"/>
+<area shape="rect" id="node2" href="classdominio_1_1_casta.html" title="{dominio.Casta\n||+ Casta()\l+ Casta()\l+ habilidad1()\l+ recibirFuerzaBonus()\l+ recibirDestrezaBonus()\l+ recibirInteligenciaBonus()\l+ habilidad2()\l+ habilidad3()\l+ getNombreCasta()\l+ getHabilidadesCasta()\ly 7 más...\l}" alt="" coords="10,219,189,443"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -175,9 +176,9 @@ Atributos privados estáticos</h2></td></tr>
 <tr class="separator:a77ac14945e9a62971a40d5b4199df1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>La clase <a class="el" href="classdominio_1_1_asesino.html">Asesino</a> es una casta de <a class="el" href="classdominio_1_1_personaje.html">Personaje</a>. Hereda de la clase <a class="el" href="classdominio_1_1_casta.html">Casta</a> posee dos constructores. El otro constructor, llama al constructor de la clase padre (<a class="el" href="classdominio_1_1_casta.html">Casta</a>) pasándole los argumentos recibidos por el constructor hijo y luego inicializa la variable nombreCasta </p>
+<div class="textblock"><p>La clase <a class="el" href="classdominio_1_1_asesino.html">Asesino</a> es una casta de <a class="el" href="classdominio_1_1_personaje.html">Personaje</a>. Hereda de la clase <a class="el" href="classdominio_1_1_casta.html">Casta</a>. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00014">14</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00008">8</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
 </div><h2 class="groupheader">Documentación del constructor y destructor</h2>
 <a id="a0151f58949c92a448dd6297a84755292"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0151f58949c92a448dd6297a84755292">&#9670;&nbsp;</a></span>Asesino() <span class="overload">[1/2]</span></h2>
@@ -210,17 +211,17 @@ Atributos privados estáticos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>La clase <a class="el" href="classdominio_1_1_asesino.html">Asesino</a> es una casta de <a class="el" href="classdominio_1_1_personaje.html">Personaje</a>. hereda de la clase <a class="el" href="classdominio_1_1_casta.html">Casta</a> posee dos constructores. El otro constructor, llama al constructor de la clase padre (<a class="el" href="classdominio_1_1_casta.html">Casta</a>) pasándole los argumentos recibidos por el constructor hijo y luego inicializa la variable nombreCasta </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Llama al constructor de la clase padre (<a class="el" href="classdominio_1_1_casta.html">Casta</a>) pasándole los argumentos recibidos por el constructor hijo y luego inicializa la variable nombreCasta. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">probCrit</td><td>Probabilidad de que el personaje realice un golpe crítico </td></tr>
-    <tr><td class="paramname">evasion</td><td>Probabilidad de que el personaje evite un golpe crítico </td></tr>
-    <tr><td class="paramname">danioCrit</td><td>Valor por el cual será multiplicado el golpe básico </td></tr>
+    <tr><td class="paramname">probCrit</td><td>Probabilidad de que el personaje realice un golpe crítico. </td></tr>
+    <tr><td class="paramname">evasion</td><td>Probabilidad de que el personaje evite un golpe crítico. </td></tr>
+    <tr><td class="paramname">danioCrit</td><td>Valor por el cual será multiplicado el golpe básico. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00049">49</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                                                    {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    super(probCrit, evasion, danioCrit);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00040">40</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                                                                    {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    super(probCrit, evasion, danioCrit);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a53948c5c35a839fa12528045488723c8"></a>
@@ -237,10 +238,10 @@ Atributos privados estáticos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>El constructor por defecto, llama al constructor por defecto. padre (<a class="el" href="classdominio_1_1_casta.html">Casta</a>), inicializando probabilidadGolpeCritico, probabilidadEvitarDaño, dañoCritico, con valores predeterminados. </p>
+<p>El constructor por defecto, llama al constructor por defecto padre (<a class="el" href="classdominio_1_1_casta.html">Casta</a>), inicializando probabilidadGolpeCritico, probabilidadEvitarDaño, dañoCritico, con valores predeterminados. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00057">57</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                     {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        super();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00048">48</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                     {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        super();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentación de las funciones miembro</h2>
@@ -260,8 +261,8 @@ Atributos privados estáticos</h2></td></tr>
 </div><div class="memdoc">
 <p>Retorna un vector de string. Con los nombres de las habilidades de la casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna nombres de las habilidades propias de la casta. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00179">179</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> String[] {<span class="stringliteral">&quot;Golpe Critico&quot;</span>, <span class="stringliteral">&quot;Aumentar Evasion&quot;</span>, <span class="stringliteral">&quot;Robar&quot;</span>};</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00156">156</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                                {</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> String[] {<span class="stringliteral">&quot;Golpe Critico&quot;</span>, <span class="stringliteral">&quot;Aumentar Evasion&quot;</span>, <span class="stringliteral">&quot;Robar&quot;</span>};</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a7884f7a8a1b853b30aa7950a505f0f7b"></a>
@@ -280,8 +281,8 @@ Atributos privados estáticos</h2></td></tr>
 </div><div class="memdoc">
 <p>Retorna una string con el nombre de la casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el nombre de la casta. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00170">170</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                         {</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Asesino&quot;</span>;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00147">147</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                         {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Asesino&quot;</span>;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a58505b24eb19d6cdfa2b004d1d609409"></a>
@@ -309,17 +310,17 @@ Atributos privados estáticos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un booleano. Dependiendo de si se realizó exitosamente o no el ataque. La primera condición para que el ataque pueda realizarse es que el atacante(caster) posea 10 o más del atributo energia ya que estos se descuentan seguido de comprobar que los posee, de lo contrario el ataque no será posible y se retornará false De ser posible el ataque, se llama al método serAtacado() del argumento atacado el cual actuará de cierta manera dependiendo de que clase sea el argumento atacado </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Intenta realizar un ataque aplicando la habilidad 1 de la casta Para que el ataque pueda realizarse, el atacante(caster) debe tener puntos de energía suficiente, ya que estos se descuentan seguido de comprobar que los posee, de lo contrario el ataque no será posible. De ser posible el ataque, se llama al método serAtacado() del argumento atacado el cual actuará de cierta manera dependiendo de que clase sea el argumento atacado. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">caster</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> atacante </td></tr>
-    <tr><td class="paramname">atacado</td><td>puede recibir como argumento una instancia de <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> o de NPC (<a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>) ya que ambas implementan la interface <a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> </td></tr>
+    <tr><td class="paramname">caster</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> atacante. </td></tr>
+    <tr><td class="paramname">atacado</td><td>puede recibir como argumento una instancia de <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> o de NPC (<a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>) ya que ambas implementan la interface <a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Devuelve</dt><dd>retorna si el ataque fue realizado con éxito o no. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00084">84</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                                                    {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (caster.getEnergia() &gt;= <a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>) {</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            caster.reducirEnergia(<a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado((<span class="keywordtype">int</span>) (caster.getAtaque() * caster.getCasta().getDañoCritico())) &gt; 0;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="comment">/*</span></div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">            if (atacado.serAtacado((int) (caster.getAtaque() * caster.getCasta().getDañoCritico())) &gt; 0) {</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">                return true;</span></div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">            }</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">            */</span></div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_asesino_html_a69bc35a280c8a72300e43fe97adb3e4e"><div class="ttname"><a href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">dominio.Asesino.ENERGIAMINIMA</a></div><div class="ttdeci">static final int ENERGIAMINIMA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00018">Asesino.java:18</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00071">71</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                                    {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (caster.getEnergia() &gt;= <a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>) {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            caster.reducirEnergia(<a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado((<span class="keywordtype">int</span>) (caster.getAtaque() * caster.getCasta().getDañoCritico())) &gt; 0;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="comment">/*</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">            if (atacado.serAtacado((int) (caster.getAtaque() * caster.getCasta().getDañoCritico())) &gt; 0) {</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">                return true;</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">            }</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">            */</span></div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_asesino_html_a69bc35a280c8a72300e43fe97adb3e4e"><div class="ttname"><a href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">dominio.Asesino.ENERGIAMINIMA</a></div><div class="ttdeci">static final int ENERGIAMINIMA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00012">Asesino.java:12</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -361,22 +362,22 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un booleano. Dependiendo de si se realizó exitosamente o no el ataque. La primera condición para que el ataque pueda realizarse es que el atacante(caster) posea 10 o más del atributo energia ya que estos se descuentan seguido de comprobar que los posee, de lo contrario el ataque no será posible y se retornará false </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Efectua de ser posible la habilidad 2 de la casta. Para que la habilidad pueda realizarse, el atacante(caster) debe tener puntos de energía suficiente, ya que estos se descuentan seguido de comprobar que los posee, de lo contrario la habilidad no podra efectuarse. La habilidad es realizar un aumento en el atributo probabilidadEvitarDaño. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">caster</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> que realiza el ataque, en este caso no es un ataque si no un aumento en las caracteristicas del caster en este caso incrementa el atributo probabilidadEvitarDaño </td></tr>
-    <tr><td class="paramname">atacado</td><td>no cumple función alguna dentro de este método </td></tr>
+    <tr><td class="paramname">caster</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> que efectua la habilidad. </td></tr>
+    <tr><td class="paramname">atacado</td><td>no cumple función alguna dentro de este método. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Devuelve</dt><dd>retorna si el ataque fue realizado con éxito o no. </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>retorna si la habilidad fue realizada con éxito o no. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00117">117</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                                                    {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (caster.getEnergia() &gt;= <a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>) {</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            caster.reducirEnergia(<a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_casta.html#ac786543aab19a03a2458b5e37befb59b">getProbabilidadEvitarDaño</a>() + <a class="code" href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">AUMENTARPROBEVITAR</a> &lt; 0.5) {</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                this.<a class="code" href="classdominio_1_1_casta.html#ab73cc3c6349b41ee4cec326fd2aeca45">aumentarEvitarDaño</a>(<a class="code" href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">AUMENTARPROBEVITAR</a>);</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                this.<a class="code" href="classdominio_1_1_casta.html#a51aef23675f3efeac50aa4d41ebc8c82">setProbabilidadEvitarDaño</a>(<a class="code" href="classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd">PROBEVITARDANIO</a>);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            }</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_casta_html_ab73cc3c6349b41ee4cec326fd2aeca45"><div class="ttname"><a href="classdominio_1_1_casta.html#ab73cc3c6349b41ee4cec326fd2aeca45">dominio.Casta.aumentarEvitarDaño</a></div><div class="ttdeci">final void aumentarEvitarDaño(final double bonus)</div><div class="ttdef"><b>Definition:</b> <a href="_casta_8java_source.html#l00172">Casta.java:172</a></div></div>
-<div class="ttc" id="classdominio_1_1_casta_html_ac786543aab19a03a2458b5e37befb59b"><div class="ttname"><a href="classdominio_1_1_casta.html#ac786543aab19a03a2458b5e37befb59b">dominio.Casta.getProbabilidadEvitarDaño</a></div><div class="ttdeci">final double getProbabilidadEvitarDaño()</div><div class="ttdef"><b>Definition:</b> <a href="_casta_8java_source.html#l00141">Casta.java:141</a></div></div>
-<div class="ttc" id="classdominio_1_1_asesino_html_a77ac14945e9a62971a40d5b4199df1bd"><div class="ttname"><a href="classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd">dominio.Asesino.PROBEVITARDANIO</a></div><div class="ttdeci">static final double PROBEVITARDANIO</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00030">Asesino.java:30</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00099">99</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                                                                    {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> (caster.getEnergia() &gt;= <a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>) {</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            caster.reducirEnergia(<a class="code" href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">ENERGIAMINIMA</a>);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_casta.html#ac786543aab19a03a2458b5e37befb59b">getProbabilidadEvitarDaño</a>() + <a class="code" href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">AUMENTARPROBEVITAR</a> &lt; 0.5) {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                this.<a class="code" href="classdominio_1_1_casta.html#ab73cc3c6349b41ee4cec326fd2aeca45">aumentarEvitarDaño</a>(<a class="code" href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">AUMENTARPROBEVITAR</a>);</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                this.<a class="code" href="classdominio_1_1_casta.html#a51aef23675f3efeac50aa4d41ebc8c82">setProbabilidadEvitarDaño</a>(<a class="code" href="classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd">PROBEVITARDANIO</a>);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_casta_html_ab73cc3c6349b41ee4cec326fd2aeca45"><div class="ttname"><a href="classdominio_1_1_casta.html#ab73cc3c6349b41ee4cec326fd2aeca45">dominio.Casta.aumentarEvitarDaño</a></div><div class="ttdeci">final void aumentarEvitarDaño(final double bonus)</div><div class="ttdef"><b>Definition:</b> <a href="_casta_8java_source.html#l00170">Casta.java:170</a></div></div>
+<div class="ttc" id="classdominio_1_1_casta_html_ac786543aab19a03a2458b5e37befb59b"><div class="ttname"><a href="classdominio_1_1_casta.html#ac786543aab19a03a2458b5e37befb59b">dominio.Casta.getProbabilidadEvitarDaño</a></div><div class="ttdeci">final double getProbabilidadEvitarDaño()</div><div class="ttdef"><b>Definition:</b> <a href="_casta_8java_source.html#l00142">Casta.java:142</a></div></div>
+<div class="ttc" id="classdominio_1_1_asesino_html_a77ac14945e9a62971a40d5b4199df1bd"><div class="ttname"><a href="classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd">dominio.Asesino.PROBEVITARDANIO</a></div><div class="ttdeci">static final double PROBEVITARDANIO</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00024">Asesino.java:24</a></div></div>
 <div class="ttc" id="classdominio_1_1_casta_html_a51aef23675f3efeac50aa4d41ebc8c82"><div class="ttname"><a href="classdominio_1_1_casta.html#a51aef23675f3efeac50aa4d41ebc8c82">dominio.Casta.setProbabilidadEvitarDaño</a></div><div class="ttdeci">final void setProbabilidadEvitarDaño(final double probabilidadEvitarDanio)</div><div class="ttdef"><b>Definition:</b> <a href="_casta_8java_source.html#l00150">Casta.java:150</a></div></div>
-<div class="ttc" id="classdominio_1_1_asesino_html_a69bc35a280c8a72300e43fe97adb3e4e"><div class="ttname"><a href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">dominio.Asesino.ENERGIAMINIMA</a></div><div class="ttdeci">static final int ENERGIAMINIMA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00018">Asesino.java:18</a></div></div>
-<div class="ttc" id="classdominio_1_1_asesino_html_a03c972f96c9bf71f622eae2f16297eb5"><div class="ttname"><a href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">dominio.Asesino.AUMENTARPROBEVITAR</a></div><div class="ttdeci">static final double AUMENTARPROBEVITAR</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00026">Asesino.java:26</a></div></div>
+<div class="ttc" id="classdominio_1_1_asesino_html_a69bc35a280c8a72300e43fe97adb3e4e"><div class="ttname"><a href="classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e">dominio.Asesino.ENERGIAMINIMA</a></div><div class="ttdeci">static final int ENERGIAMINIMA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00012">Asesino.java:12</a></div></div>
+<div class="ttc" id="classdominio_1_1_asesino_html_a03c972f96c9bf71f622eae2f16297eb5"><div class="ttname"><a href="classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5">dominio.Asesino.AUMENTARPROBEVITAR</a></div><div class="ttdeci">static final double AUMENTARPROBEVITAR</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00020">Asesino.java:20</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -417,17 +418,17 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Not implemented yet. </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>No implementado hasta el momento. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
     <tr><td class="paramname">caster</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> que realiza el ataque. </td></tr>
-    <tr><td class="paramname">atacado</td><td>. </td></tr>
+    <tr><td class="paramname">atacado.</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Devuelve</dt><dd>Retorna falso. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00136">136</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                                                                    {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00118">118</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                                                    {</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="af623f45cbd077bcb6f69e184ea05834b"></a>
@@ -444,10 +445,10 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero. Que otorga el bonus de destreza perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna la destreza extra de la casta. </dd></dl>
+<p>Otorga el bonus de destreza perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna la destreza extra de la casta. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00145">145</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                            {</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_asesino.html#aa02c4e6fc2f24890693c69ecaa737cbc">BONUSDESTREZA</a>;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_asesino_html_aa02c4e6fc2f24890693c69ecaa737cbc"><div class="ttname"><a href="classdominio_1_1_asesino.html#aa02c4e6fc2f24890693c69ecaa737cbc">dominio.Asesino.BONUSDESTREZA</a></div><div class="ttdeci">static final int BONUSDESTREZA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00022">Asesino.java:22</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00125">125</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                            {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_asesino.html#aa02c4e6fc2f24890693c69ecaa737cbc">BONUSDESTREZA</a>;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_asesino_html_aa02c4e6fc2f24890693c69ecaa737cbc"><div class="ttname"><a href="classdominio_1_1_asesino.html#aa02c4e6fc2f24890693c69ecaa737cbc">dominio.Asesino.BONUSDESTREZA</a></div><div class="ttdeci">static final int BONUSDESTREZA</div><div class="ttdef"><b>Definition:</b> <a href="_asesino_8java_source.html#l00016">Asesino.java:16</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -465,10 +466,10 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero. Que otorga el bonus de fuerza perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 para esta casta. </dd></dl>
+<p>Devuelve el bonus de fuerza perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 para esta casta. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00154">154</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                          {</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00132">132</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                          {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a05edfa7aa2b1f42ee0e89f35490a0e4c"></a>
@@ -485,10 +486,10 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero. Que otorga el bonus de inteligencia perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 para esta casta. </dd></dl>
+<p>Otorga el bonus de inteligencia perteneciente a esta casta. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 para esta casta. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00163">163</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                                {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00140">140</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                                {</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentación de los datos miembro</h2>
@@ -513,7 +514,7 @@ Gráfico de llamadas para esta función:</div>
 </div><div class="memdoc">
 <p>Bonus al realizar correctamente la habilidad2. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00026">26</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00020">20</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
 
 </div>
 </div>
@@ -538,7 +539,7 @@ Gráfico de llamadas para esta función:</div>
 </div><div class="memdoc">
 <p>Bonus de destreza por ser <a class="el" href="classdominio_1_1_asesino.html">Asesino</a>. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00022">22</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00016">16</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
 
 </div>
 </div>
@@ -561,9 +562,9 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Energia minima necesario para realizar una habilidad. </p>
+<p>Energía mínima necesaria para realizar una habilidad. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00018">18</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00012">12</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
 
 </div>
 </div>
@@ -586,14 +587,14 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Probabilidad de evitar dano por defecto. </p>
+<p>Probabilidad de evitar daño por defecto. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00030">30</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_asesino_8java_source.html#l00024">24</a> del archivo <a class="el" href="_asesino_8java_source.html">Asesino.java</a>.</p>
 
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_asesino_8java_source.html">Asesino.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_asesino_8java_source.html">Asesino.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

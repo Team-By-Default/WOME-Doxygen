@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -92,13 +93,18 @@ Diagrama de herencias de dominio.Peleable</div>
 <div class="dyncontent">
 <div class="center"><img src="interfacedominio_1_1_peleable__inherit__graph.png" border="0" usemap="#dominio_8_peleable_inherit__map" alt="Inheritance graph"/></div>
 <map name="dominio_8_peleable_inherit__map" id="dominio_8_peleable_inherit__map">
-<area shape="rect" id="node2" href="classdominio_1_1_non_playable_character.html" title="dominio.NonPlayableCharacter" alt="" coords="5,80,205,107"/>
-<area shape="rect" id="node3" href="classdominio_1_1_personaje.html" title="dominio.Personaje" alt="" coords="230,80,359,107"/>
-<area shape="rect" id="node4" href="classdominio_1_1_elfo.html" title="dominio.Elfo" alt="" coords="117,155,211,181"/>
-<area shape="rect" id="node5" href="classdominio_1_1_humano.html" title="dominio.Humano" alt="" coords="235,155,354,181"/>
-<area shape="rect" id="node6" href="classdominio_1_1_orco.html" title="dominio.Orco" alt="" coords="379,155,477,181"/>
+<area shape="rect" id="node2" href="classdominio_1_1_non_playable_character.html" title="{dominio.NonPlayableCharacter\n|&#45; salud\l&#45; saludTope\l&#45; ELEGIRDIF\l&#45; DIFICULTADALEATORIA\l&#45; MULTIPLICADOREXPNPC\l&#45; MULTIPLICADORFUERZA\l&#45; NUMEROPARASERATACADO\l&#45; NUMEROPARAATACAR\l&#45; DIVISORDEDEFENSA\l&#45; MODIFICADORBASEF\l&#45; MODIFICADORBASES\l&#45; MODIFICADORBASED\l&#45; MULTIPLICADORF\l&#45; MULTIPLICADORS\l&#45; MULTIPLICADORD\l&#45; SALUDTOPEINICIAL\l|+ NonPlayableCharacter()\l+ setPosicion()\l+ getPosicionX()\l+ getPosicionY()\l+ otorgarExp()\l+ estaVivo()\l+ getSalud()\l+ setSalud()\l+ getSaludTope()\l+ atacar()\ly 6 más...\l}" alt="" coords="5,314,217,758"/>
+<area shape="rect" id="node3" href="classdominio_1_1_personaje.html" title="{dominio.Personaje\n|&#45; salud\l&#45; energia\l&#45; ataque\l&#45; magia\l&#45; nombreRaza\l&#45; saludTope\l&#45; energiaTope\l&#45; destreza\l&#45; inteligencia\l&#45; casta\ly 6 más...\l&#45; CANTHABILIDADESCASTA\l&#45; CANTHABILIDADESRAZA\l&#45; CANTIDADNIVELES\l&#45; CONSTANTENIVEL\l&#45; FUERZAINICIAL\l&#45; DESTREZAINICIAL\l&#45; INTELIGENCIANICIAL\l&#45; DEFENSAINICIAL\l&#45; EXPERIENCIAINICIAL\l&#45; NIVELINICIAL\ly 16 más...\l|+ Personaje()\l+ Personaje()\l+ getHabilidadesCasta()\l+ getAtaque()\l+ setAtaque()\l+ getMagia()\l+ setMagia()\l+ getClan()\l+ setClan()\l+ getSalud()\ly 52 más...\l+ cargarTablaNivel()\l+ getTablaDeNiveles()\l&#45; setTablaDeNiveles()\l}" alt="" coords="242,248,434,824"/>
+<area shape="rect" id="node4" href="classdominio_1_1_elfo.html" title="{dominio.Elfo\n|&#45; ENERGIAMINIMA\l&#45; MULTIPLICADORNIVEL\l&#45; BONUSENERGIA\l|+ Elfo()\l+ Elfo()\l+ habilidadRaza1()\l+ habilidadRaza2()\l+ getHabilidadesRaza()\l+ getSaludBonus()\l+ getEnergiaBonus()\l+ getNombreRaza()\l}" alt="" coords="65,887,235,1096"/>
+<area shape="rect" id="node5" href="classdominio_1_1_humano.html" title="{dominio.Humano\n|&#45; ENERGIAMINIMA\l&#45; DIVISORSALUD\l&#45; DIVISORENERGIA\l&#45; BONUSENERGIA\l&#45; BONUSSALUD\l|+ Humano()\l+ Humano()\l+ habilidadRaza1()\l+ habilidadRaza2()\l+ getHabilidadesRaza()\l+ getSaludBonus()\l+ getEnergiaBonus()\l+ getNombreRaza()\l}" alt="" coords="259,872,417,1111"/>
+<area shape="rect" id="node6" href="classdominio_1_1_orco.html" title="{dominio.Orco\n|&#45; ENERGIAMINIMA\l&#45; BONUSSALUD\l&#45; MULTIPLICADORDEFENSA\l|+ Orco()\l+ Orco()\l+ habilidadRaza1()\l+ habilidadRaza2()\l+ getHabilidadesRaza()\l+ getSaludBonus()\l+ getEnergiaBonus()\l+ getNombreRaza()\l}" alt="" coords="441,887,635,1096"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
+<div class="dynheader">
+Diagrama de colaboración para dominio.Peleable:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacedominio_1_1_peleable__coll__graph.png" border="0" usemap="#dominio_8_peleable_coll__map" alt="Collaboration graph"/></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -120,11 +126,9 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:af86ef9aba8bcbada4509b5e97cbe2efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73be415c353d27563add330b7c45a9bd"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedominio_1_1_peleable.html#a73be415c353d27563add330b7c45a9bd">estaVivo</a> ()</td></tr>
 <tr class="separator:a73be415c353d27563add330b7c45a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2aed2a70e09e10a4e0124476fdf872"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedominio_1_1_peleable.html#a0d2aed2a70e09e10a4e0124476fdf872">getNombre</a> ()</td></tr>
-<tr class="separator:a0d2aed2a70e09e10a4e0124476fdf872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Interface implementada en las clases <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y NPC. Dependiendo qué clase las esté implementando será como responderán </p>
+<div class="textblock"><p>Interfaz implementada en las clases <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. Contiene los métodos utilizados durante un combate. Cada método se implementa de forma diferente en cada clase. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_peleable_8java_source.html#l00009">9</a> del archivo <a class="el" href="_peleable_8java_source.html">Peleable.java</a>.</p>
 </div><h2 class="groupheader">Documentación de las funciones miembro</h2>
@@ -143,13 +147,13 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">atacado</td><td><a class="el" href="classdominio_1_1_personaje.html">Personaje</a> al cual el llamador atacara. </td></tr>
+    <tr><td class="paramname">atacado</td><td><a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> al cual el llamador atacara. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Devuelve</dt><dd>Retorna el daño causado del atacante al atacado. </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Retorna el daño efectivo causado por el atacante al atacado. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a9416b94498fb657093541e4588610608">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#aa20249c341133705a21aa02976820567">dominio.NonPlayableCharacter</a>.</p>
 
@@ -169,7 +173,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo void implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p>
+<p>Método void implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. Hasta el momento no se usa. </p>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a7b34ff6ad1e1c16cdd2bf97fd26c83ef">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#a4d2477b9aff821ba4f0a05199f9a341e">dominio.NonPlayableCharacter</a>.</p>
 
@@ -189,8 +193,8 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
-<dl class="section return"><dt>Devuelve</dt><dd>Retorna un boolean si esta vivo o no el llamador. </dd></dl>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
+<p>Retorna un booleano. Que indica si el <a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> esta vivo o no. </p><dl class="section return"><dt>Devuelve</dt><dd>true si el NPC está vivo, false para lo contrario. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a656925e416605abdea808db0350d340b">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#ac3641e0b6be25000bffb9cbeae78ec1c">dominio.NonPlayableCharacter</a>.</p>
 
@@ -210,7 +214,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna un entero con el ataque del llamador. </dd></dl>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna un entero con el ataque del llamador. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#ac7ccacb3cf4cc9122780d6d0c1814fab">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">dominio.NonPlayableCharacter</a>.</p>
 <div class="dynheader">
@@ -238,28 +242,10 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
-<dl class="section return"><dt>Devuelve</dt><dd>Retornara un entero con la energia del llamador. </dd></dl>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Retornara un entero con la magia del llamador. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a6de6f7c5ce7c54adbded2eaeeb42127b">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#a90348a9ec7f34f3a21a29180a6af09aa">dominio.NonPlayableCharacter</a>.</p>
-
-</div>
-</div>
-<a id="a0d2aed2a70e09e10a4e0124476fdf872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2aed2a70e09e10a4e0124476fdf872">&#9670;&nbsp;</a></span>getNombre()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String dominio.Peleable.getNombre </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Método. </p><dl class="section return"><dt>Devuelve</dt><dd>retorna el nombre del <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> o NPC. </dd></dl>
 
 </div>
 </div>
@@ -277,8 +263,8 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
-<dl class="section return"><dt>Devuelve</dt><dd>Retornara un entero con la salud del llamador. </dd></dl>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
+<p>Retorna un entero que representa los puntos de salud del <a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> llamador. </p><dl class="section return"><dt>Devuelve</dt><dd>Devuelve la cantidad de vida actual del llamador. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a32ee307aa9958cd2ffaa9bfeed409875">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#aa0eef73a9ad8df77738b1e1679316e15">dominio.NonPlayableCharacter</a>.</p>
 <div class="dynheader">
@@ -307,7 +293,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el nivel del llamador multiplicado por la constante MULTIPLICADOREXP. </dd></dl>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el nivel del llamador multiplicado por la constante MULTIPLICADOREXP. </dd></dl>
 
 <p>Implementado en <a class="el" href="classdominio_1_1_personaje.html#a479e22db38b9f3582164084c55df0fcc">dominio.Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html#a4d22acf35e0765c229b68872ee2e42f3">dominio.NonPlayableCharacter</a>.</p>
 
@@ -328,10 +314,11 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y en <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y en <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>.</p>
+<p>el método determinara a traves de la defensa del llamador y el daño que ejerce el oponente, cual sera el daño real ejercido sobre el llamador, el cual se resta a la salud del mismo.</p>
 <dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">daño</td><td>Valor el cual se descontará de la defensa. </td></tr>
+    <tr><td class="paramname">daño</td><td>Valor que representa el daño que ejerce el atacante. </td></tr>
   </table>
   </dd>
 </dl>
@@ -374,7 +361,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Metodo implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Método implementado en <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> y <a class="el" href="classdominio_1_1_non_playable_character.html">NonPlayableCharacter</a>. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
     <tr><td class="paramname">ataque</td><td>Entero que será el nuevo ataque del llamador. </td></tr>
   </table>
@@ -394,7 +381,7 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_peleable_8java_source.html">Peleable.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_peleable_8java_source.html">Peleable.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

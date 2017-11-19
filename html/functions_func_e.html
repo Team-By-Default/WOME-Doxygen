@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -84,7 +85,13 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>ejecutar()
-: <a class="el" href="classcomandos_1_1_actualizar_comercio.html#a8f8408076e2076b56510ed0bd0df9787">comandos.ActualizarComercio</a>
+: <a class="el" href="classchat_1_1_big_daddy_handler.html#a5189e41f1cee8c370984dcffea68e8b7">chat.BigDaddyHandler</a>
+, <a class="el" href="classchat_1_1_god_mode_handler.html#abcb3f0377e2682c4aecaa5cb3c0c9aa0">chat.GodModeHandler</a>
+, <a class="el" href="classchat_1_1_invisible_handler.html#aae7d9f0cf8d2497a4a6b23ccfeca4176">chat.InvisibleHandler</a>
+, <a class="el" href="classchat_1_1_no_clip_handler.html#ad4b3f1748c382498405282cf9ea94590">chat.NoClipHandler</a>
+, <a class="el" href="classchat_1_1_tiny_daddy_handler.html#a88d7f6b957134637ad06b58728de4b95">chat.TinyDaddyHandler</a>
+, <a class="el" href="classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2">chat.TrickHandler</a>
+, <a class="el" href="classcomandos_1_1_actualizar_comercio.html#a8f8408076e2076b56510ed0bd0df9787">comandos.ActualizarComercio</a>
 , <a class="el" href="classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0">comandos.ActualizarInventario</a>
 , <a class="el" href="classcomandos_1_1_actualizar_n_p_cs.html#a5a3fb5cf60db7f9442b07bc345daa5fa">comandos.ActualizarNPCs</a>
 , <a class="el" href="classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593">comandos.ActualizarPersonaje</a>
@@ -92,6 +99,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 , <a class="el" href="classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c">comandos.ActualizarTrueque</a>
 , <a class="el" href="classcomandos_1_1_atacar.html#a55d29038299b5b7f2b10cde420d296b2">comandos.Atacar</a>
 , <a class="el" href="classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71">comandos.Batalla</a>
+, <a class="el" href="classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769">comandos.BatallaNPC</a>
 , <a class="el" href="classcomandos_1_1_comercio.html#a8ee004d25d5ec856613b42bdc65c40ca">comandos.Comercio</a>
 , <a class="el" href="classcomandos_1_1_conexion.html#a36ceefca5b06e3728b2cad268ab1aa38">comandos.Conexion</a>
 , <a class="el" href="classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10">comandos.CrearPersonaje</a>
@@ -110,6 +118,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 , <a class="el" href="classcomandos_1_1_trueque.html#a32cbaa4536d7b49316e3ffc5ba09a327">comandos.Trueque</a>
 , <a class="el" href="classmensajeria_1_1_comando.html#ab55e973dc9b657693ee9df2afc005141">mensajeria.Comando</a>
 </li>
+<li>ejecutarComando()
+: <a class="el" href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976">chat.TrickHandler</a>
+</li>
 <li>Elfo()
 : <a class="el" href="classdominio_1_1_elfo.html#a835ddd937b63eedaf10b79458a0abcc4">dominio.Elfo</a>
 </li>
@@ -124,6 +135,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 </li>
 <li>enviarAtaque()
 : <a class="el" href="classestados_1_1_estado_batalla.html#a200d7b267b643cdfb57f804d6b680f8c">estados.EstadoBatalla</a>
+</li>
+<li>enviarMensaje()
+: <a class="el" href="classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb">chat.MiChat</a>
 </li>
 <li>enviarPosicion()
 : <a class="el" href="classentidades_1_1_entidad.html#ad15c5b9425c1db9a7a8d93603d006ba5">entidades.Entidad</a>
@@ -140,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 , <a class="el" href="classestados_1_1_estado_batalla_n_p_c.html#aef95461d36ca0828c8522ce005cd2013">estados.EstadoBatallaNPC</a>
 , <a class="el" href="classestados_1_1_estado_juego.html#a27db213573e003e9e88bd87f4e682241">estados.EstadoJuego</a>
 </li>
+<li>esLugarProhibido()
+: <a class="el" href="classservidor_1_1_servidor.html#a2f62cbb0705ce30430a19c4641577d3d">servidor.Servidor</a>
+</li>
 <li>esSolido()
 : <a class="el" href="classmundo_1_1_tile.html#abdbecf1cabb6d2e3f657591b923581cc">mundo.Tile</a>
 </li>
@@ -153,13 +170,16 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 : <a class="el" href="classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07">estados.EstadoBatalla</a>
 </li>
 <li>EstadoBatallaNPC()
-: <a class="el" href="classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e">estados.EstadoBatallaNPC</a>
+: <a class="el" href="classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168">estados.EstadoBatallaNPC</a>
 </li>
 <li>EstadoJuego()
 : <a class="el" href="classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9">estados.EstadoJuego</a>
 </li>
 <li>estanEnDiagonal()
 : <a class="el" href="classentidades_1_1_entidad.html#ae24e3219d3925ce84405ca772e82b451">entidades.Entidad</a>
+</li>
+<li>estaPeleando()
+: <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a0e8e637c05dcfffcc133b1fa25ea3550">mensajeria.PaqueteNPC</a>
 </li>
 <li>estaVacia()
 : <a class="el" href="classentidades_1_1_pila_de_tiles.html#abe1d01c4b70e69de97dfe33dfa2a1ea3">entidades.PilaDeTiles</a>
@@ -168,6 +188,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 : <a class="el" href="classdominio_1_1_non_playable_character.html#ac3641e0b6be25000bffb9cbeae78ec1c">dominio.NonPlayableCharacter</a>
 , <a class="el" href="interfacedominio_1_1_peleable.html#a73be415c353d27563add330b7c45a9bd">dominio.Peleable</a>
 , <a class="el" href="classdominio_1_1_personaje.html#a656925e416605abdea808db0350d340b">dominio.Personaje</a>
+</li>
+<li>esVisible()
+: <a class="el" href="classservidor_1_1_servidor.html#af6b0725599480ab343104891a1d00028">servidor.Servidor</a>
 </li>
 </ul>
 </div><!-- contents -->

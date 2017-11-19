@@ -1,3 +1,3 @@
 <map id="Runnable" name="Runnable">
-<area shape="rect" id="node2" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html" title="{juego.Juego\n|&#45; pantalla\l&#45; NOMBRE\l&#45; ANCHO\l&#45; ALTO\l&#45; hilo\l&#45; corriendo\l&#45; bs\l&#45; g\l&#45; estadoJuego\l&#45; estadoBatalla\ly 13 más...\l|+ Juego()\l+ iniciar()\l+ run()\l+ start()\l+ stop()\l+ getAncho()\l+ getAlto()\l+ getHandlerMouse()\l+ getCamara()\l+ getEstadoJuego()\ly 19 más...\l&#45; actualizar()\l&#45; graficar()\l}" alt="" coords="5,131,148,531"/>
 </map>

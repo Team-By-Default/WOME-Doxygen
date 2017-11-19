@@ -8,6 +8,7 @@ var namespacecomandos =
     [ "ActualizarTrueque", "classcomandos_1_1_actualizar_trueque.html", "classcomandos_1_1_actualizar_trueque" ],
     [ "Atacar", "classcomandos_1_1_atacar.html", "classcomandos_1_1_atacar" ],
     [ "Batalla", "classcomandos_1_1_batalla.html", "classcomandos_1_1_batalla" ],
+    [ "BatallaNPC", "classcomandos_1_1_batalla_n_p_c.html", "classcomandos_1_1_batalla_n_p_c" ],
     [ "ComandosCliente", "classcomandos_1_1_comandos_cliente.html", "classcomandos_1_1_comandos_cliente" ],
     [ "ComandosEscucha", "classcomandos_1_1_comandos_escucha.html", "classcomandos_1_1_comandos_escucha" ],
     [ "ComandosServer", "classcomandos_1_1_comandos_server.html", "classcomandos_1_1_comandos_server" ],

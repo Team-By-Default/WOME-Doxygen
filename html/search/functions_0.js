@@ -1,10 +1,11 @@
 var searchData=
 [
+  ['abrirmenu',['abrirMenu',['../classjuego_1_1_pantalla.html#a05059cc1681a8eb3a0a251af7987dd75',1,'juego::Pantalla']]],
   ['actionlistenersylabel',['actionListenersYLabel',['../classinventario_1_1_celda.html#a52c01667a3d96fcca8e25d57d6ff44d7',1,'inventario::Celda']]],
   ['actualizar',['actualizar',['../classentidades_1_1_animacion.html#af9415306eac5d9f0fdefda795e89fa43',1,'entidades.Animacion.actualizar()'],['../classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664',1,'entidades.Entidad.actualizar()'],['../classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38',1,'estados.Estado.actualizar()'],['../classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc',1,'estados.EstadoBatalla.actualizar()'],['../classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3',1,'estados.EstadoBatallaNPC.actualizar()'],['../classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879',1,'estados.EstadoJuego.actualizar()'],['../classjuego_1_1_juego.html#a60c7d6714ab92fb29caba13f42253fbc',1,'juego.Juego.actualizar()'],['../classmundo_1_1_mundo.html#a3984b3ba2976ce2c382b938980691a01',1,'mundo.Mundo.actualizar()'],['../classmundo_1_1_tile.html#a38619307fa4603dde2f25f5d5cb5ae75',1,'mundo.Tile.actualizar()']]],
   ['actualizaratributos',['actualizarAtributos',['../classdominio_1_1_personaje.html#a4e09f1eb12586219e6b446823b7043ad',1,'dominio::Personaje']]],
   ['actualizarbarradecarga',['actualizarBarraDeCarga',['../classrecursos_1_1_recursos.html#a8510aaa5cef782c2d41dec722b41bbe1',1,'recursos::Recursos']]],
-  ['actualizarinventario',['actualizarInventario',['../classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9',1,'servidor.Conector.actualizarInventario(PaquetePersonaje paquetePersonaje)'],['../classservidor_1_1_conector.html#a22f46862a359fbdf6d1813ff1cdd5096',1,'servidor.Conector.actualizarInventario(int idPersonaje)']]],
+  ['actualizarinventario',['actualizarInventario',['../classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9',1,'servidor::Conector']]],
   ['actualizaritems',['actualizarItems',['../classcliente_1_1_cliente.html#ac93f30447d507e64eff44f1e00a07862',1,'cliente::Cliente']]],
   ['actualizarlista',['actualizarLista',['../classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346',1,'chat.VentanaContactos.actualizarLista()'],['../classcomandos_1_1_conexion.html#a2d6107a49ae1629a41819c3ee3b41cf8',1,'comandos.Conexion.actualizarLista()']]],
   ['actualizarpersonaje',['actualizarPersonaje',['../classcliente_1_1_cliente.html#a0843dfe28f736b3fe8966bc0c7ff6896',1,'cliente.Cliente.actualizarPersonaje()'],['../classestados_1_1_estado_juego.html#afdc493c11b966daa48098dbb56f3334c',1,'estados.EstadoJuego.actualizarPersonaje()'],['../classjuego_1_1_juego.html#a28e4ed3003af0179d60843f37035cc42',1,'juego.Juego.actualizarPersonaje()'],['../classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985',1,'servidor.Conector.actualizarPersonaje()']]],
@@ -12,6 +13,7 @@ var searchData=
   ['actualizartrueque',['actualizarTrueque',['../classmensajeria_1_1_paquete_personaje.html#ad326e753578516e5ea2d8cfefe5da3c6',1,'mensajeria::PaquetePersonaje']]],
   ['agregaradyacente',['agregarAdyacente',['../classmundo_1_1_nodo.html#a198bcd1fabdc56d844cac8a65c6f2c93',1,'mundo::Nodo']]],
   ['agregaradyacentes',['agregarAdyacentes',['../classmundo_1_1_grafo.html#a2ed1d1484a06eeae9b3c4bdf247bdb8b',1,'mundo::Grafo']]],
+  ['agregariteminventario',['agregarItemInventario',['../classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20',1,'servidor::Conector']]],
   ['agregarnodo',['agregarNodo',['../classmundo_1_1_grafo.html#a5681bd9e2ce0036166f8a3a6878ecb07',1,'mundo::Grafo']]],
   ['alianza',['Alianza',['../classdominio_1_1_alianza.html#a7b019ed5f07f1c45ebc882e1c9116542',1,'dominio::Alianza']]],
   ['aliar',['aliar',['../classdominio_1_1_personaje.html#a1b1e2bc115b59ac22f51cb2d7ee8fe10',1,'dominio::Personaje']]],

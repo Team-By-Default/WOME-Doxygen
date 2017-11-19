@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -89,10 +90,23 @@ $(document).ready(function(){initNavTree('classmensajeria_1_1_paquete_n_p_c.html
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
+Diagrama de herencias de mensajeria.PaqueteNPC</div>
+<div class="dyncontent">
+<div class="center"><img src="classmensajeria_1_1_paquete_n_p_c__inherit__graph.png" border="0" usemap="#mensajeria_8_paquete_n_p_c_inherit__map" alt="Inheritance graph"/></div>
+<map name="mensajeria_8_paquete_n_p_c_inherit__map" id="mensajeria_8_paquete_n_p_c_inherit__map">
+<area shape="rect" id="node2" href="classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n|+ msjExito\l+ msjFracaso\l&#45; mensaje\l&#45; ip\l&#45; comando\l|+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="35,131,172,443"/>
+<area shape="rect" id="node4" href="class_cloneable.html" title="{Cloneable\n||}" alt="" coords="119,5,197,83"/>
+</map>
+</div>
+<div class="dynheader">
 Diagrama de colaboración para mensajeria.PaqueteNPC:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmensajeria_1_1_paquete_n_p_c__coll__graph.png" border="0" usemap="#mensajeria_8_paquete_n_p_c_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+<map name="mensajeria_8_paquete_n_p_c_coll__map" id="mensajeria_8_paquete_n_p_c_coll__map">
+<area shape="rect" id="node2" href="classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="97,189,235,443"/>
+<area shape="rect" id="node4" href="class_cloneable.html" title="{Cloneable\n||}" alt="" coords="119,5,197,83"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -130,6 +144,35 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:ab3fffd27adfa560cad4786374c3ef6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76420eecb31b9f26f04c14dfa92c41fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a76420eecb31b9f26f04c14dfa92c41fc">setItems</a> (ArrayList&lt; <a class="el" href="classdominio_1_1_item.html">Item</a> &gt; <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a>)</td></tr>
 <tr class="separator:a76420eecb31b9f26f04c14dfa92c41fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8e637c05dcfffcc133b1fa25ea3550"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a0e8e637c05dcfffcc133b1fa25ea3550">estaPeleando</a> ()</td></tr>
+<tr class="separator:a0e8e637c05dcfffcc133b1fa25ea3550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecc724d1472352b6c760d842e371a66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66">setPeleando</a> (boolean <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">peleando</a>)</td></tr>
+<tr class="separator:aeecc724d1472352b6c760d842e371a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmensajeria_1_1_paquete"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmensajeria_1_1_paquete')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classmensajeria_1_1_paquete.html">mensajeria.Paquete</a></td></tr>
+<tr class="memitem:a9c3a62a113fed92ee94eca2bec361577 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a9c3a62a113fed92ee94eca2bec361577">Paquete</a> ()</td></tr>
+<tr class="separator:a9c3a62a113fed92ee94eca2bec361577 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26fd71869e46a9baf93c29b2d33bf7a4 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a26fd71869e46a9baf93c29b2d33bf7a4">Paquete</a> (String <a class="el" href="classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f">mensaje</a>, String nick, String <a class="el" href="classmensajeria_1_1_paquete.html#abd68eac15ea1aaaaed7bdd973a09cf70">ip</a>, int <a class="el" href="classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0">comando</a>)</td></tr>
+<tr class="separator:a26fd71869e46a9baf93c29b2d33bf7a4 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b912ff8e2f74ee9e2608007e7c1c69 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a64b912ff8e2f74ee9e2608007e7c1c69">Paquete</a> (String <a class="el" href="classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f">mensaje</a>, int <a class="el" href="classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0">comando</a>)</td></tr>
+<tr class="separator:a64b912ff8e2f74ee9e2608007e7c1c69 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3365f73d82a2259aeabbceb963e5354 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#aa3365f73d82a2259aeabbceb963e5354">Paquete</a> (int <a class="el" href="classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0">comando</a>)</td></tr>
+<tr class="separator:aa3365f73d82a2259aeabbceb963e5354 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1756d9752346d17f68386839b1e83b1e inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a1756d9752346d17f68386839b1e83b1e">setMensaje</a> (String <a class="el" href="classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f">mensaje</a>)</td></tr>
+<tr class="separator:a1756d9752346d17f68386839b1e83b1e inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4c522056207893cf6b5b25971290ba inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba">setIp</a> (String <a class="el" href="classmensajeria_1_1_paquete.html#abd68eac15ea1aaaaed7bdd973a09cf70">ip</a>)</td></tr>
+<tr class="separator:aff4c522056207893cf6b5b25971290ba inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0025715a81ff38f861dbbcbbd548c3 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3">setComando</a> (int <a class="el" href="classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0">comando</a>)</td></tr>
+<tr class="separator:a9b0025715a81ff38f861dbbcbbd548c3 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a960ec9a1022c5e1bb8ef0526a2c1734a inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a">getMensaje</a> ()</td></tr>
+<tr class="separator:a960ec9a1022c5e1bb8ef0526a2c1734a inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e34051be8350261d030b1604d8db57 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a36e34051be8350261d030b1604d8db57">getIp</a> ()</td></tr>
+<tr class="separator:a36e34051be8350261d030b1604d8db57 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2158a0dfa5ddcbf1c4bc118477fc676a inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a2158a0dfa5ddcbf1c4bc118477fc676a">getComando</a> ()</td></tr>
+<tr class="separator:a2158a0dfa5ddcbf1c4bc118477fc676a inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef332bd718915ecaeb0703185f7ff126 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#aef332bd718915ecaeb0703185f7ff126">clone</a> ()</td></tr>
+<tr class="separator:aef332bd718915ecaeb0703185f7ff126 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e41efcaa2f476d06761486d0bc8f08 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmensajeria_1_1_comando.html">Comando</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08">getObjeto</a> (String nombrePaquete)  throws InstantiationException, IllegalAccessException, ClassNotFoundException </td></tr>
+<tr class="separator:a17e41efcaa2f476d06761486d0bc8f08 inherit pub_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributos privados</h2></td></tr>
@@ -149,6 +192,19 @@ Atributos privados</h2></td></tr>
 <tr class="separator:a49f02298b47de0b682e8c4d7aca21e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09ecf7d999bd7dd43d04afb4639f41d1"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; <a class="el" href="classdominio_1_1_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a> = new ArrayList&lt;<a class="el" href="classdominio_1_1_item.html">Item</a>&gt;()</td></tr>
 <tr class="separator:a09ecf7d999bd7dd43d04afb4639f41d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b0171ccb8dca666ac2161f9a157377"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">peleando</a></td></tr>
+<tr class="separator:af5b0171ccb8dca666ac2161f9a157377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classmensajeria_1_1_paquete"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classmensajeria_1_1_paquete')"><img src="closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados desde <a class="el" href="classmensajeria_1_1_paquete.html">mensajeria.Paquete</a></td></tr>
+<tr class="memitem:abd27800008ef66b2d58d6fec07a78d58 inherit pub_static_methods_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmensajeria_1_1_comando.html">Comando</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#abd27800008ef66b2d58d6fec07a78d58">getObjetoSet</a> (String nombrePaquete, int accion)  throws InstantiationException, IllegalAccessException, ClassNotFoundException </td></tr>
+<tr class="separator:abd27800008ef66b2d58d6fec07a78d58 inherit pub_static_methods_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classmensajeria_1_1_paquete"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classmensajeria_1_1_paquete')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classmensajeria_1_1_paquete.html">mensajeria.Paquete</a></td></tr>
+<tr class="memitem:a68a2c07ac025740661bdf6632381ea2f inherit pub_static_attribs_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#a68a2c07ac025740661bdf6632381ea2f">msjExito</a> = &quot;1&quot;</td></tr>
+<tr class="separator:a68a2c07ac025740661bdf6632381ea2f inherit pub_static_attribs_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa342742bf848bcf5f4bf4c28a2fd5c8d inherit pub_static_attribs_classmensajeria_1_1_paquete"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmensajeria_1_1_paquete.html#aa342742bf848bcf5f4bf4c28a2fd5c8d">msjFracaso</a> = &quot;0&quot;</td></tr>
+<tr class="separator:aa342742bf848bcf5f4bf4c28a2fd5c8d inherit pub_static_attribs_classmensajeria_1_1_paquete"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
@@ -170,18 +226,48 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00018">18</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                              {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        super();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        this.<span class="keywordtype">id</span> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a> = 1;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a> = <span class="stringliteral">&quot;enemigo&quot;</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a> = 100;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a> = 20;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a> = 50;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a> = 1;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00022">22</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                              {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this.<span class="keywordtype">id</span> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a> = 1;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a> = <span class="stringliteral">&quot;Enemigo&quot;</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a> = 100;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a> = 20;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a> = 50;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a> = 1;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66">setPeleando</a>(<span class="keyword">false</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a14a48006f25090d52ce029c196456f7a"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">mensajeria.PaqueteNPC.energiaTope</a></div><div class="ttdeci">int energiaTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00012">PaqueteNPC.java:12</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a49f02298b47de0b682e8c4d7aca21e90"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">mensajeria.PaqueteNPC.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00014">PaqueteNPC.java:14</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a4ba062f621cd7da80eb68e1777d05a6f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">mensajeria.PaqueteNPC.idMapa</a></div><div class="ttdeci">int idMapa</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00009">PaqueteNPC.java:9</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a1c46182ce17c7d04c58348e5cc25c8af"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">mensajeria.PaqueteNPC.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00011">PaqueteNPC.java:11</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a5e66500d8d71286812e69868f9fef00b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">mensajeria.PaqueteNPC.fuerza</a></div><div class="ttdeci">int fuerza</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00013">PaqueteNPC.java:13</a></div></div>
+<div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_aeecc724d1472352b6c760d842e371a66"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66">mensajeria.PaqueteNPC.setPeleando</a></div><div class="ttdeci">void setPeleando(boolean peleando)</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00096">PaqueteNPC.java:96</a></div></div>
 <div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a72926c470a28c40415fe0d2ac6bca50b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">mensajeria.PaqueteNPC.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00010">PaqueteNPC.java:10</a></div></div>
-</div><!-- fragment -->
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmensajeria_1_1_paquete_n_p_c_a19b8b8b1a5de8dc5e0d51fe4a464fddf_cgraph.png" border="0" usemap="#classmensajeria_1_1_paquete_n_p_c_a19b8b8b1a5de8dc5e0d51fe4a464fddf_cgraph" alt=""/></div>
+<map name="classmensajeria_1_1_paquete_n_p_c_a19b8b8b1a5de8dc5e0d51fe4a464fddf_cgraph" id="classmensajeria_1_1_paquete_n_p_c_a19b8b8b1a5de8dc5e0d51fe4a464fddf_cgraph">
+<area shape="rect" id="node2" href="classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66" title="mensajeria.PaqueteNPC.set\lPeleando" alt="" coords="296,5,483,47"/>
+</map>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a0e8e637c05dcfffcc133b1fa25ea3550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8e637c05dcfffcc133b1fa25ea3550">&#9670;&nbsp;</a></span>estaPeleando()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean mensajeria.PaqueteNPC.estaPeleando </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true si está en una pelea, false si está libre </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00087">87</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                  {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">peleando</a>;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_af5b0171ccb8dca666ac2161f9a157377"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">mensajeria.PaqueteNPC.peleando</a></div><div class="ttdeci">boolean peleando</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00019">PaqueteNPC.java:19</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="aed5f891bbc442a396a12f8812f0bddd1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed5f891bbc442a396a12f8812f0bddd1">&#9670;&nbsp;</a></span>getEnergiaTope()</h2>
 
@@ -197,8 +283,8 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00054">54</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a14a48006f25090d52ce029c196456f7a"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">mensajeria.PaqueteNPC.energiaTope</a></div><div class="ttdeci">int energiaTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00012">PaqueteNPC.java:12</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00058">58</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a14a48006f25090d52ce029c196456f7a"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">mensajeria.PaqueteNPC.energiaTope</a></div><div class="ttdeci">int energiaTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00012">PaqueteNPC.java:12</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -217,8 +303,8 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00060">60</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                           {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a5e66500d8d71286812e69868f9fef00b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">mensajeria.PaqueteNPC.fuerza</a></div><div class="ttdeci">int fuerza</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00013">PaqueteNPC.java:13</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00064">64</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                           {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a>;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a5e66500d8d71286812e69868f9fef00b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">mensajeria.PaqueteNPC.fuerza</a></div><div class="ttdeci">int fuerza</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00013">PaqueteNPC.java:13</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -237,14 +323,14 @@ Atributos privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00030">30</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                       {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00034">34</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                       {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmensajeria_1_1_paquete_n_p_c_a659d20b11955edd1b0dfb130d6513d99_icgraph.png" border="0" usemap="#classmensajeria_1_1_paquete_n_p_c_a659d20b11955edd1b0dfb130d6513d99_icgraph" alt=""/></div>
 <map name="classmensajeria_1_1_paquete_n_p_c_a659d20b11955edd1b0dfb130d6513d99_icgraph" id="classmensajeria_1_1_paquete_n_p_c_a659d20b11955edd1b0dfb130d6513d99_icgraph">
-<area shape="rect" id="node2" href="classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="249,5,433,47"/>
+<area shape="rect" id="node2" href="classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="249,5,433,47"/>
 </map>
 </div>
 
@@ -265,8 +351,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00036">36</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                           {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a4ba062f621cd7da80eb68e1777d05a6f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">mensajeria.PaqueteNPC.idMapa</a></div><div class="ttdeci">int idMapa</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00009">PaqueteNPC.java:9</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00040">40</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                           {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a4ba062f621cd7da80eb68e1777d05a6f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">mensajeria.PaqueteNPC.idMapa</a></div><div class="ttdeci">int idMapa</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00009">PaqueteNPC.java:9</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -285,8 +371,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00072">72</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                      {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a09ecf7d999bd7dd43d04afb4639f41d1"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">mensajeria.PaqueteNPC.items</a></div><div class="ttdeci">ArrayList&lt; Item &gt; items</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00015">PaqueteNPC.java:15</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00076">76</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                      {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a09ecf7d999bd7dd43d04afb4639f41d1"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">mensajeria.PaqueteNPC.items</a></div><div class="ttdeci">ArrayList&lt; Item &gt; items</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00015">PaqueteNPC.java:15</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -305,15 +391,15 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00066">66</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                          {</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a>;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a49f02298b47de0b682e8c4d7aca21e90"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">mensajeria.PaqueteNPC.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00014">PaqueteNPC.java:14</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00070">70</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                          {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a49f02298b47de0b682e8c4d7aca21e90"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">mensajeria.PaqueteNPC.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00014">PaqueteNPC.java:14</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmensajeria_1_1_paquete_n_p_c_ab3777ea3d42d36a8636d7556704d714b_icgraph.png" border="0" usemap="#classmensajeria_1_1_paquete_n_p_c_ab3777ea3d42d36a8636d7556704d714b_icgraph" alt=""/></div>
 <map name="classmensajeria_1_1_paquete_n_p_c_ab3777ea3d42d36a8636d7556704d714b_icgraph" id="classmensajeria_1_1_paquete_n_p_c_ab3777ea3d42d36a8636d7556704d714b_icgraph">
 <area shape="rect" id="node2" href="classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="240,5,453,47"/>
-<area shape="rect" id="node3" href="classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="501,5,685,47"/>
+<area shape="rect" id="node3" href="classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="501,5,685,47"/>
 </map>
 </div>
 
@@ -334,15 +420,15 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00042">42</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                              {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a72926c470a28c40415fe0d2ac6bca50b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">mensajeria.PaqueteNPC.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00010">PaqueteNPC.java:10</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00046">46</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                              {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a72926c470a28c40415fe0d2ac6bca50b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">mensajeria.PaqueteNPC.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00010">PaqueteNPC.java:10</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmensajeria_1_1_paquete_n_p_c_ac3dcdfd01d4d18c7d9c4cfc93221afd9_icgraph.png" border="0" usemap="#classmensajeria_1_1_paquete_n_p_c_ac3dcdfd01d4d18c7d9c4cfc93221afd9_icgraph" alt=""/></div>
 <map name="classmensajeria_1_1_paquete_n_p_c_ac3dcdfd01d4d18c7d9c4cfc93221afd9_icgraph" id="classmensajeria_1_1_paquete_n_p_c_ac3dcdfd01d4d18c7d9c4cfc93221afd9_icgraph">
 <area shape="rect" id="node2" href="classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="240,5,453,47"/>
-<area shape="rect" id="node3" href="classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="501,5,685,47"/>
+<area shape="rect" id="node3" href="classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="501,5,685,47"/>
 </map>
 </div>
 
@@ -363,8 +449,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00048">48</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                              {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a1c46182ce17c7d04c58348e5cc25c8af"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">mensajeria.PaqueteNPC.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00011">PaqueteNPC.java:11</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00052">52</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                              {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a>;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a1c46182ce17c7d04c58348e5cc25c8af"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">mensajeria.PaqueteNPC.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00011">PaqueteNPC.java:11</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -384,8 +470,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00057">57</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a14a48006f25090d52ce029c196456f7a"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">mensajeria.PaqueteNPC.energiaTope</a></div><div class="ttdeci">int energiaTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00012">PaqueteNPC.java:12</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00061">61</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">energiaTope</a>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a14a48006f25090d52ce029c196456f7a"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a">mensajeria.PaqueteNPC.energiaTope</a></div><div class="ttdeci">int energiaTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00012">PaqueteNPC.java:12</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -405,8 +491,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00063">63</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                      {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a>;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a5e66500d8d71286812e69868f9fef00b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">mensajeria.PaqueteNPC.fuerza</a></div><div class="ttdeci">int fuerza</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00013">PaqueteNPC.java:13</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00067">67</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                      {</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">fuerza</a>;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a5e66500d8d71286812e69868f9fef00b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b">mensajeria.PaqueteNPC.fuerza</a></div><div class="ttdeci">int fuerza</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00013">PaqueteNPC.java:13</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -426,8 +512,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00033">33</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                              {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        this.<span class="keywordtype">id</span> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00037">37</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                              {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        this.<span class="keywordtype">id</span> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">id</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_abe2249b106b5472f01d554c22448867f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#abe2249b106b5472f01d554c22448867f">mensajeria.PaqueteNPC.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00008">PaqueteNPC.java:8</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -447,8 +533,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00039">39</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                      {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a4ba062f621cd7da80eb68e1777d05a6f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">mensajeria.PaqueteNPC.idMapa</a></div><div class="ttdeci">int idMapa</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00009">PaqueteNPC.java:9</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00043">43</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                      {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">idMapa</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a4ba062f621cd7da80eb68e1777d05a6f"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a4ba062f621cd7da80eb68e1777d05a6f">mensajeria.PaqueteNPC.idMapa</a></div><div class="ttdeci">int idMapa</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00009">PaqueteNPC.java:9</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -468,8 +554,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00075">75</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a>;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a09ecf7d999bd7dd43d04afb4639f41d1"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">mensajeria.PaqueteNPC.items</a></div><div class="ttdeci">ArrayList&lt; Item &gt; items</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00015">PaqueteNPC.java:15</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00079">79</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                                {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">items</a>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a09ecf7d999bd7dd43d04afb4639f41d1"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1">mensajeria.PaqueteNPC.items</a></div><div class="ttdeci">ArrayList&lt; Item &gt; items</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00015">PaqueteNPC.java:15</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -489,8 +575,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00069">69</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                    {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a49f02298b47de0b682e8c4d7aca21e90"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">mensajeria.PaqueteNPC.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00014">PaqueteNPC.java:14</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00073">73</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                    {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">nivel</a>;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a49f02298b47de0b682e8c4d7aca21e90"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90">mensajeria.PaqueteNPC.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00014">PaqueteNPC.java:14</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -510,9 +596,44 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00045">45</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                         {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a72926c470a28c40415fe0d2ac6bca50b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">mensajeria.PaqueteNPC.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00010">PaqueteNPC.java:10</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00049">49</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                         {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">nombre</a>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a72926c470a28c40415fe0d2ac6bca50b"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b">mensajeria.PaqueteNPC.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00010">PaqueteNPC.java:10</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="aeecc724d1472352b6c760d842e371a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeecc724d1472352b6c760d842e371a66">&#9670;&nbsp;</a></span>setPeleando()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mensajeria.PaqueteNPC.setPeleando </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>peleando</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">peleando</td><td>poner true si está en una pelea, false si se libera de una pelea </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00096">96</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                              {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">peleando</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">peleando</a>;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_af5b0171ccb8dca666ac2161f9a157377"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377">mensajeria.PaqueteNPC.peleando</a></div><div class="ttdeci">boolean peleando</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00019">PaqueteNPC.java:19</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmensajeria_1_1_paquete_n_p_c_aeecc724d1472352b6c760d842e371a66_icgraph.png" border="0" usemap="#classmensajeria_1_1_paquete_n_p_c_aeecc724d1472352b6c760d842e371a66_icgraph" alt=""/></div>
+<map name="classmensajeria_1_1_paquete_n_p_c_aeecc724d1472352b6c760d842e371a66_icgraph" id="classmensajeria_1_1_paquete_n_p_c_aeecc724d1472352b6c760d842e371a66_icgraph">
+<area shape="rect" id="node2" href="classmensajeria_1_1_paquete_n_p_c.html#a19b8b8b1a5de8dc5e0d51fe4a464fddf" title="mensajeria.PaqueteNPC.PaqueteNPC" alt="" coords="240,13,483,39"/>
+</map>
+</div>
+
 </div>
 </div>
 <a id="a3da026f3619084efc7edb9add2258190"></a>
@@ -531,8 +652,8 @@ Gráfico de llamadas a esta función:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00051">51</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                            {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a1c46182ce17c7d04c58348e5cc25c8af"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">mensajeria.PaqueteNPC.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00011">PaqueteNPC.java:11</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00055">55</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                            {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this.<a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a> = <a class="code" href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">saludTope</a>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div><div class="ttc" id="classmensajeria_1_1_paquete_n_p_c_html_a1c46182ce17c7d04c58348e5cc25c8af"><div class="ttname"><a href="classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af">mensajeria.PaqueteNPC.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_paquete_n_p_c_8java_source.html#l00011">PaqueteNPC.java:11</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -705,6 +826,31 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<a id="af5b0171ccb8dca666ac2161f9a157377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5b0171ccb8dca666ac2161f9a157377">&#9670;&nbsp;</a></span>peleando</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean mensajeria.PaqueteNPC.peleando</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Estado que indica si está en batalla o no </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_paquete_n_p_c_8java_source.html#l00019">19</a> del archivo <a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a>.</p>
+
+</div>
+</div>
 <a id="a1c46182ce17c7d04c58348e5cc25c8af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c46182ce17c7d04c58348e5cc25c8af">&#9670;&nbsp;</a></span>saludTope</h2>
 
@@ -730,7 +876,7 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/mensajeria/<a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-cliente/src/main/java/mensajeria/<a class="el" href="_paquete_n_p_c_8java_source.html">PaqueteNPC.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

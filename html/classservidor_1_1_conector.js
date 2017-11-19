@@ -1,9 +1,9 @@
 var classservidor_1_1_conector =
 [
     [ "actualizarInventario", "classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9", null ],
-    [ "actualizarInventario", "classservidor_1_1_conector.html#a22f46862a359fbdf6d1813ff1cdd5096", null ],
     [ "actualizarPersonaje", "classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985", null ],
     [ "actualizarPersonajeSubioNivel", "classservidor_1_1_conector.html#a3731c9c14b8d6c8e23852eff0d8e7416", null ],
+    [ "agregarItemInventario", "classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20", null ],
     [ "close", "classservidor_1_1_conector.html#a3d9d5874d25f32323edf09177017da7c", null ],
     [ "connect", "classservidor_1_1_conector.html#a9d126230ef97662f3c1f8438f3323535", null ],
     [ "getPersonaje", "classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21", null ],

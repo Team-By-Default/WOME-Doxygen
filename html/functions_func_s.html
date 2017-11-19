@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -115,6 +116,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setAccion()
 : <a class="el" href="classcliente_1_1_cliente.html#a9c1ead5cb28a360e32797c28d83d2f91">cliente.Cliente</a>
 </li>
+<li>setAlianza()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#ac71bbe62e3133f25a51de8254c1fb3c2">mensajeria.PaquetePersonaje</a>
+</li>
 <li>setAlto()
 : <a class="el" href="classentidades_1_1_entidad.html#aca617f17640bee4648b65e770911cb59">entidades.Entidad</a>
 </li>
@@ -125,6 +129,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classdominio_1_1_non_playable_character.html#a85a0939074bb8b633969dfe9cfaaefc6">dominio.NonPlayableCharacter</a>
 , <a class="el" href="interfacedominio_1_1_peleable.html#af86ef9aba8bcbada4509b5e97cbe2efc">dominio.Peleable</a>
 , <a class="el" href="classdominio_1_1_personaje.html#a1687708677fce6ef9281bc1dd27661df">dominio.Personaje</a>
+</li>
+<li>setBackPack()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a7f17bb1943dd5ea5aa3b3e181e6fd288">mensajeria.PaquetePersonaje</a>
 </li>
 <li>setBarraCargando()
 : <a class="el" href="classframes_1_1_menu_carga.html#a5bd7f4638ac581860dd6b6f4d8fa82d3">frames.MenuCarga</a>
@@ -183,7 +190,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classmensajeria_1_1_paquete_movimiento.html#a5d325c0c59da9ef53a2cf77fcee5a732">mensajeria.PaqueteMovimiento</a>
 </li>
 <li>setFuerza()
-: <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a59c3dce0fa95d743107a9358fcb6e21b">mensajeria.PaqueteNPC</a>
+: <a class="el" href="classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca">dominio.MadreDeTodo</a>
+, <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a59c3dce0fa95d743107a9358fcb6e21b">mensajeria.PaqueteNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a61496fd7e8b1b8eacf461704c315ec28">mensajeria.PaquetePersonaje</a>
 </li>
 <li>setGanadorBatalla()
@@ -198,6 +206,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setId()
 : <a class="el" href="classmensajeria_1_1_paquete_atacar.html#ae4e67055466bb8c305558d57388e8428">mensajeria.PaqueteAtacar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#adeeb313c265b07c0c64dc744661f21c0">mensajeria.PaqueteBatalla</a>
+, <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#a6dd8acd32210672a2d6ea79a33ea8f56">mensajeria.PaqueteBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_comerciar.html#a4a1622ce8d0b188d97ee9e61df86c20f">mensajeria.PaqueteComerciar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#a01b3d05ee3c2fc22280de4353e8ff10d">mensajeria.PaqueteFinalizarBatalla</a>
 , <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#abf466f8760d701d0bbce2820d21c8a00">mensajeria.PaqueteNPC</a>
@@ -206,6 +215,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setIdEnemigo()
 : <a class="el" href="classmensajeria_1_1_paquete_atacar.html#a8fc95665a62e49db821842bec70a948b">mensajeria.PaqueteAtacar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#a4520301cafe7617b88c1fc834f0f876c">mensajeria.PaqueteBatalla</a>
+, <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#af8546ee5553dd78159573ee3cc74d491">mensajeria.PaqueteBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_comerciar.html#adc14b287f4d835fbf2946980d69204dc">mensajeria.PaqueteComerciar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#a17984d83e1056e6fe350a28b30e87c80">mensajeria.PaqueteFinalizarBatalla</a>
 </li>
@@ -224,6 +234,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>setInteligencia()
 : <a class="el" href="classmensajeria_1_1_paquete_personaje.html#afa24dc4557eb6e78f82f5fefaf2467aa">mensajeria.PaquetePersonaje</a>
+</li>
+<li>setInventario()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a8f9bbeab62145d94cd960a63d57f675c">mensajeria.PaquetePersonaje</a>
 </li>
 <li>setIp()
 : <a class="el" href="classcliente_1_1_cliente.html#a41dbb883661f7826950c1ecd87c5861c">cliente.Cliente</a>
@@ -265,6 +278,10 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="classestados_1_1_estado_batalla.html#addbb444f1ae86b464dd2e4f9b14ad64a">estados.EstadoBatalla</a>
 , <a class="el" href="classestados_1_1_estado_batalla_n_p_c.html#aa09361c44f08a1db4716c9b92e65f477">estados.EstadoBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#a8d7a755014336b139eadd8856c529373">mensajeria.PaqueteBatalla</a>
+, <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#a6b26620a6c2ff725884fc5812dd67f7c">mensajeria.PaqueteBatallaNPC</a>
+</li>
+<li>setMochila()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#ae3eb1296f7130887aca2f5da2e367f3d">mensajeria.PaquetePersonaje</a>
 </li>
 <li>setNivel()
 : <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#af7e917138f233d16cb10f7ec3bff79b3">mensajeria.PaqueteNPC</a>
@@ -306,6 +323,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setPaqueteBatalla()
 : <a class="el" href="classservidor_1_1_escucha_cliente.html#acc97ca35065c4457f0873d363fde9b1e">servidor.EscuchaCliente</a>
 </li>
+<li>setPaqueteBatallaNPC()
+: <a class="el" href="classservidor_1_1_escucha_cliente.html#a2e8d9c06a41620a9e2924975b16b5d15">servidor.EscuchaCliente</a>
+</li>
 <li>setPaqueteComercio()
 : <a class="el" href="classcliente_1_1_cliente.html#aef4abda1ec2ffb053749ac271a918883">cliente.Cliente</a>
 </li>
@@ -343,6 +363,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>setPasswordField()
 : <a class="el" href="classframes_1_1_menu_registro.html#a4ae8949ab969fe874a5f0394954853c9">frames.MenuRegistro</a>
+</li>
+<li>setPeleando()
+: <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66">mensajeria.PaqueteNPC</a>
 </li>
 <li>setPersonaje()
 : <a class="el" href="classjuego_1_1_juego.html#a9417ff8a1c282e15af94d7514a2dc169">juego.Juego</a>

@@ -1,3 +1,5 @@
 <map id="servidor.Servidor.getNPCs" name="servidor.Servidor.getNPCs">
-<area shape="rect" id="node2" href="$classcomandos_1_1_mostrar_mapas.html#a445c5f8fcb0f78cb1cded959609de4b4" title="comandos.MostrarMapas.ejecutar" alt="" coords="225,5,444,32"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769" title="comandos.BatallaNPC.ejecutar" alt="" coords="233,5,436,32"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="247,57,422,98"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_mostrar_mapas.html#a445c5f8fcb0f78cb1cded959609de4b4" title="comandos.MostrarMapas.ejecutar" alt="" coords="225,123,444,149"/>
 </map>

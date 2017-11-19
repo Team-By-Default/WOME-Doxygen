@@ -1,3 +1,4 @@
 <map id="cliente.Cliente.getPaqueteMensaje" name="cliente.Cliente.getPaqueteMensaje">
-<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="228,13,365,39"/>
+<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb" title="chat.MiChat.enviarMensaje" alt="" coords="228,13,407,39"/>
+<area shape="rect" id="node3" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="455,13,592,39"/>
 </map>

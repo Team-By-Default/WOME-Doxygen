@@ -1,0 +1,7 @@
+<map id="juego.Pantalla.abrirMenu" name="juego.Pantalla.abrirMenu">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="233,5,426,32"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_escape.html#a4e7effeeb9ef2c6609b6bd9102739f5f" title="frames.MenuEscape.MenuEscape" alt="" coords="219,56,440,83"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_pantalla.html#a673116170ff232617ff058b7f94f8a83" title="juego.Pantalla.Pantalla" alt="" coords="252,107,407,133"/>
+<area shape="rect" id="node3" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="488,5,675,32"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="723,5,929,32"/>
+</map>

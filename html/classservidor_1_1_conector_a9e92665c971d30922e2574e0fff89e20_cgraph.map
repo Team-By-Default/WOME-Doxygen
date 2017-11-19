@@ -1,0 +1,6 @@
+<map id="servidor.Conector.agregarItemInventario" name="servidor.Conector.agregarItemInventario">
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="235,5,437,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="227,71,445,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="227,136,445,177"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="223,202,449,229"/>
+</map>

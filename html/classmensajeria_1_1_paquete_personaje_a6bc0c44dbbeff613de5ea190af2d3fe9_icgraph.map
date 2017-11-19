@@ -10,7 +10,7 @@
 <area shape="rect" id="node13" href="$classinterfaz_1_1_menu_info_personaje.html#aaf629513d4d1d19a950e245be692186b" title="interfaz.MenuInfoPersonaje.graficar\lMenuComerciar" alt="" coords="301,473,525,514"/>
 <area shape="rect" id="node14" href="$classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb" title="servidor.Conector.registrar\lPersonaje" alt="" coords="327,538,500,579"/>
 <area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="588,57,787,98"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="595,174,779,215"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="595,174,779,215"/>
 <area shape="rect" id="node11" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="848,415,1041,441"/>
 <area shape="rect" id="node15" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="575,545,800,572"/>
 </map>

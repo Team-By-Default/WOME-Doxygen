@@ -12,7 +12,7 @@ var searchData=
   ['habilidadraza1',['habilidadRaza1',['../classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87',1,'dominio.Elfo.habilidadRaza1()'],['../classdominio_1_1_humano.html#a40afbd8880662d76fce7f633dfd8c97f',1,'dominio.Humano.habilidadRaza1()'],['../classdominio_1_1_orco.html#af1958ca87af04640b618643b6f3ff430',1,'dominio.Orco.habilidadRaza1()'],['../classdominio_1_1_personaje.html#a1004e54a093c5a4606523a011f8de061',1,'dominio.Personaje.habilidadRaza1()']]],
   ['habilidadraza2',['habilidadRaza2',['../classdominio_1_1_elfo.html#aa63002415c7b7b3b6c75bd06bb5637b2',1,'dominio.Elfo.habilidadRaza2()'],['../classdominio_1_1_humano.html#a4464fcd3adfcf884ae720d9b66cc21a6',1,'dominio.Humano.habilidadRaza2()'],['../classdominio_1_1_orco.html#ae19b0ca82efc943a984e0f8890db2949',1,'dominio.Orco.habilidadRaza2()'],['../classdominio_1_1_personaje.html#aba448490777d4c950c135d475bac2513',1,'dominio.Personaje.habilidadRaza2()']]],
   ['habilitado',['habilitado',['../classinterfaz_1_1_menu_batalla.html#afb946792a764beaf6721c1bf74e54f7a',1,'interfaz::MenuBatalla']]],
-  ['handlermouse',['HandlerMouse',['../classjuego_1_1_handler_mouse.html',1,'juego.HandlerMouse'],['../classjuego_1_1_handler_mouse.html#a8ca8adb2a10b3198a9ec5d0afe48b885',1,'juego.HandlerMouse.HandlerMouse()'],['../classjuego_1_1_juego.html#a83b13fdf32baa2aba6d895c682f4cce3',1,'juego.Juego.handlerMouse()']]],
+  ['handlermouse',['HandlerMouse',['../classjuego_1_1_handler_mouse.html',1,'juego.HandlerMouse'],['../classjuego_1_1_juego.html#a83b13fdf32baa2aba6d895c682f4cce3',1,'juego.Juego.handlerMouse()'],['../classjuego_1_1_handler_mouse.html#a8ca8adb2a10b3198a9ec5d0afe48b885',1,'juego.HandlerMouse.HandlerMouse()']]],
   ['handlermouse_2ejava',['HandlerMouse.java',['../_handler_mouse_8java.html',1,'']]],
   ['haysolicitud',['haySolicitud',['../classestados_1_1_estado_juego.html#a9cfcaeedbf2f1df79845289cce661021',1,'estados::EstadoJuego']]],
   ['hayspellseleccionada',['haySpellSeleccionada',['../classestados_1_1_estado_batalla.html#a2d6a13430e04b775b2d37294b800e998',1,'estados.EstadoBatalla.haySpellSeleccionada()'],['../classestados_1_1_estado_batalla_n_p_c.html#ac8b42f97cbafa680c165c34cf6d6ed2c',1,'estados.EstadoBatallaNPC.haySpellSeleccionada()']]],
@@ -32,6 +32,6 @@ var searchData=
   ['humanoarribaizq',['humanoArribaIzq',['../classrecursos_1_1_recursos.html#a5d46e730564bdb6affe0b0b81f133a2f',1,'recursos::Recursos']]],
   ['humanoder',['humanoDer',['../classrecursos_1_1_recursos.html#a64ef452c2f99b09bdadc1524e0e0304d',1,'recursos::Recursos']]],
   ['humanoizq',['humanoIzq',['../classrecursos_1_1_recursos.html#a26139a1c4eb5f61b025e8265d889f303',1,'recursos::Recursos']]],
-  ['humans_2emd',['humans.md',['../jrpg-2017b-cliente_2humans_8md.html',1,'(Namespace global)'],['../jrpg-2017b-dominio_2humans_8md.html',1,'(Namespace global)'],['../jrpg-2017b-servidor_2humans_8md.html',1,'(Namespace global)']]],
-  ['historias_20de_20usuario',['Historias de usuario',['../md__f_1__programacion_avanzada__mordor_jrpg-2017b-cliente__historias_de_usuario.html',1,'']]]
+  ['humans_2emd',['humans.md',['../humans_8md.html',1,'']]],
+  ['historias_20de_20usuario',['Historias de usuario',['../md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente__historias_de_usuario.html',1,'']]]
 ];

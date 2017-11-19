@@ -1,4 +1,4 @@
 <map id="mensajeria.PaqueteComerciar" name="mensajeria.PaqueteComerciar">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="136,147,273,174"/>
-<area shape="rect" id="node4" href="$class_cloneable.html" title="Cloneable" alt="" coords="359,5,437,32"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="88,189,225,443"/>
+<area shape="rect" id="node4" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="119,5,197,83"/>
 </map>

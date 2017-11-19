@@ -1,13 +1,9 @@
 var NAVTREE =
 [
   [ "World of Middle Earth", "index.html", [
-    [ "Historias de usuario", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-cliente__historias_de_usuario.html", null ],
-    [ "La gente detrás del proyecto", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-cliente_humans.html", null ],
-    [ "README", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-cliente__r_e_a_d_m_e.html", null ],
-    [ "La gente detrás del proyecto", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-dominio_humans.html", null ],
-    [ "README", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-dominio__r_e_a_d_m_e.html", null ],
-    [ "La gente detrás del proyecto", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-servidor_humans.html", null ],
-    [ "README", "md__f_1__programacion_avanzada__mordor_jrpg-2017b-servidor__r_e_a_d_m_e.html", null ],
+    [ "Historias de usuario", "md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente__historias_de_usuario.html", null ],
+    [ "La gente detrás del proyecto", "md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente_humans.html", null ],
+    [ "README", "md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente__r_e_a_d_m_e.html", null ],
     [ "Paquetes", null, [
       [ "Paquetes", "namespaces.html", "namespaces" ]
     ] ],
@@ -22,7 +18,12 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Archivos", null, [
-      [ "Lista de archivos", "files.html", "files" ]
+      [ "Lista de archivos", "files.html", "files" ],
+      [ "Miembros de los ficheros", "globals.html", [
+        [ "Todo", "globals.html", null ],
+        [ "Funciones", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
@@ -30,12 +31,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_actualizar_n_p_cs_8java.html",
-"classcliente_1_1_escucha_mensajes.html#aeb189e0ba827e68148f4f3ff9f680e08",
-"classdominio_1_1_personaje.html#a0bd78bde8cb435a42e54a7c06ff7d0b3",
-"classframes_1_1_menu_asignar_skills.html#a4c6cc89235f80e641fca93742b0abdd6",
-"classmensajeria_1_1_paquete_atacar.html#a658a3383f7583e46349e6c23d5cda2d9",
-"classmundo_1_1_nodo.html",
-"jrpg-2017b-servidor_2src_2main_2java_2comandos_2_actualizar_comercio_8java_source.html"
+"classcliente_1_1_cliente.html#a0843dfe28f736b3fe8966bc0c7ff6896",
+"classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47",
+"classentidades_1_1_entidad.html#abbab8ca9be8532e933c2bf28a0991184",
+"classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc",
+"classmensajeria_1_1_paquete_comerciar.html#a00a151a4d421b91b8afea6aef9612671",
+"classmundo_1_1_nodo.html#a7707904c8e68feeaa53f3a613d2905e4",
+"functions_func_o.html"
 ];
 
 var SYNCONMSG = 'click en deshabilitar sincronización';

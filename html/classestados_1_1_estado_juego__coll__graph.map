@@ -1,31 +1,26 @@
 <map id="estados.EstadoJuego" name="estados.EstadoJuego">
-<area shape="rect" id="node2" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="1428,1096,1541,1123"/>
-<area shape="rect" id="node3" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="1787,1509,1877,1536"/>
-<area shape="rect" id="node13" href="$classjuego_1_1_camara.html" title="juego.Camara" alt="" coords="2056,1440,2159,1467"/>
-<area shape="rect" id="node32" href="$classcliente_1_1_cliente.html" title="cliente.Cliente" alt="" coords="2055,2043,2159,2069"/>
-<area shape="rect" id="node37" href="$classcliente_1_1_escucha_mensajes.html" title="cliente.EscuchaMensajes" alt="" coords="2268,1592,2439,1619"/>
-<area shape="rect" id="node41" href="$classentidades_1_1_entidad.html" title="entidades.Entidad" alt="" coords="2290,587,2417,613"/>
-<area shape="rect" id="node47" href="$classmundo_1_1_mundo.html" title="mundo.Mundo" alt="" coords="2055,264,2159,291"/>
-<area shape="rect" id="node4" href="$class_runnable.html" title="Runnable" alt="" coords="1447,1349,1523,1376"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="656,2148,851,2175"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="299,2287,436,2313"/>
-<area shape="rect" id="node34" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="663,2415,844,2441"/>
-<area shape="rect" id="node35" href="$classmensajeria_1_1_paquete_mensaje.html" title="mensajeria.PaqueteMensaje" alt="" coords="660,2648,847,2675"/>
-<area shape="rect" id="node50" href="$classinterfaz_1_1_menu_info_personaje.html" title="interfaz.MenuInfoPersonaje" alt="" coords="1049,2292,1228,2319"/>
-<area shape="rect" id="node27" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="1075,1803,1203,1829"/>
-<area shape="rect" id="node15" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="652,1879,855,1905"/>
-<area shape="rect" id="node9" href="$class_cloneable.html" title="Cloneable" alt="" coords="11,2475,89,2501"/>
-<area shape="rect" id="node19" href="$classjuego_1_1_handler_mouse.html" title="juego.HandlerMouse" alt="" coords="683,992,823,1019"/>
-<area shape="rect" id="node29" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="1052,1385,1225,1412"/>
-<area shape="rect" id="node33" href="$classframes_1_1_menu_comerciar.html" title="frames.MenuComerciar" alt="" coords="1061,1752,1217,1779"/>
-<area shape="rect" id="node42" href="$classentidades_1_1_animacion.html" title="entidades.Animacion" alt="" coords="1067,519,1210,545"/>
-<area shape="rect" id="node46" href="$classentidades_1_1_nodo_de_pila.html" title="entidades.NodoDePila" alt="" coords="477,404,628,431"/>
-<area shape="rect" id="node48" href="$classmundo_1_1_grafo.html" title="mundo.Grafo" alt="" coords="705,140,801,167"/>
-<area shape="rect" id="node49" href="$classmundo_1_1_nodo.html" title="mundo.Nodo" alt="" coords="320,140,415,167"/>
-<area shape="rect" id="node39" href="$classjuego_1_1_cargar_recursos.html" title="juego.CargarRecursos" alt="" coords="2278,2043,2429,2069"/>
-<area shape="rect" id="node23" href="$classjuego_1_1_pantalla.html" title="juego.Pantalla" alt="" coords="1433,1451,1537,1477"/>
-<area shape="rect" id="node24" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="1068,1436,1209,1463"/>
-<area shape="rect" id="node28" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="1063,1651,1214,1677"/>
-<area shape="rect" id="node30" href="$classchat_1_1_ventana_contactos.html" title="chat.VentanaContactos" alt="" coords="1059,1701,1218,1728"/>
-<area shape="rect" id="node45" href="$classentidades_1_1_pila_de_tiles.html" title="entidades.PilaDeTiles" alt="" coords="879,380,1025,407"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html" title="{estados.Estado\n||+ Estado()\l+ actualizar()\l+ graficar()\l+ esEstadoDeJuego()\l+ setEstado()\l+ getEstado()\l}" alt="" coords="2412,711,2559,861"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html" title="{juego.Juego\n||+ Juego()\l+ iniciar()\l+ run()\l+ start()\l+ stop()\l+ getAncho()\l+ getAlto()\l+ getHandlerMouse()\l+ getCamara()\l+ getEstadoJuego()\ly 19 más...\l&#45; actualizar()\l&#45; graficar()\l}" alt="" coords="2918,1129,3061,1383"/>
+<area shape="rect" id="node16" href="$classjuego_1_1_camara.html" title="{juego.Camara\n||+ Camara()\l+ Centrar()\l+ mover()\l+ getyOffset()\l+ setyOffset()\l+ getxOffset()\l+ setxOffset()\l}" alt="" coords="2867,1497,2970,1662"/>
+<area shape="rect" id="node31" href="$classcliente_1_1_cliente.html" title="{cliente.Cliente\n||+ getAccion()\l+ setAccion()\l+ Cliente()\l+ Cliente()\l+ run()\l+ getSocket()\l+ setSocket()\l+ getMiIp()\l+ setMiIp()\l+ getEntrada()\ly 23 más...\l}" alt="" coords="3901,1467,4006,1691"/>
+<area shape="rect" id="node37" href="$classcliente_1_1_escucha_mensajes.html" title="{cliente.EscuchaMensajes\n||+ EscuchaMensajes()\l+ run()\l}" alt="" coords="3433,1996,3604,2088"/>
+<area shape="rect" id="node41" href="$classentidades_1_1_entidad.html" title="{entidades.Entidad\n|&#45; ancho\l&#45; xInicio\l&#45; xOffset\l&#45; yOffset\l&#45; posMouseRecorrido\l&#45; posMouse\l&#45; tile\l&#45; tileFinal\l&#45; horizontalIzq\l&#45; diagonalSupIzq\l&#45; verticalSup\l&#45; diagonalSupDer\l&#45; diagonalInfDer\l&#45; verticalInf\l&#45; diagonalInfIzq\l|+ Entidad()\l+ actualizar()\l+ getEntrada()\l+ mover()\l+ graficar()\l+ graficarNombre()\l+ getX()\l+ setX()\l+ getY()\l+ setY()\ly 6 más...\l&#45; getFrameAnimacionActual()\l&#45; getDireccion()\l&#45; getFrame()\l&#45; enviarPosicion()\l&#45; caminoMasCorto()\l&#45; estanEnDiagonal()\l&#45; verSiNoEstaCercaDeUnNPC()\l}" alt="" coords="924,1776,1127,2308"/>
+<area shape="rect" id="node47" href="$classmundo_1_1_mundo.html" title="{mundo.Mundo\n|&#45; ancho\l&#45; spawnY\l|+ Mundo()\l+ actualizar()\l+ graficar()\l+ graficarObstaculos()\l+ getTile()\l+ obtenerGrafoDeTilesNoSolidos()\l+ obtenerAncho()\l+ obtenerAlto()\l+ isoA2D()\l+ dosDaIso()\l+ mouseATile()\l&#45; cargarMundo()\l&#45; mundoAGrafo()\l}" alt="" coords="476,1445,695,1713"/>
+<area shape="rect" id="node4" href="$class_runnable.html" title="{Runnable\n||}" alt="" coords="3383,747,3459,825"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html" title="{mensajeria.PaquetePersonaje\n|&#45; idMapa\l&#45; energiaTope\l&#45; fuerza\l|+ PaquetePersonaje()\l+ getInventario()\l+ setInventario()\l+ getMochila()\l+ setMochila()\l+ getAlianza()\l+ setAlianza()\l+ setBackPack()\l+ getBackPack()\l+ getEstado()\ly 46 más...\l}" alt="" coords="4461,659,4656,913"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="4383,189,4521,443"/>
+<area shape="rect" id="node33" href="$classmensajeria_1_1_paquete_usuario.html" title="{mensajeria.PaqueteUsuario\n||+ PaqueteUsuario()\l+ PaqueteUsuario()\l+ getIdPj()\l+ setIdPj()\l+ getUsername()\l+ setUsername()\l+ getPassword()\l+ setPassword()\l+ isInicioSesion()\l+ setInicioSesion()\l+ clone()\l}" alt="" coords="4216,674,4397,898"/>
+<area shape="rect" id="node34" href="$classmensajeria_1_1_paquete_mensaje.html" title="{mensajeria.PaqueteMensaje\n||+ PaqueteMensaje()\l+ getMensaje()\l+ setMensaje()\l+ getUserEmisor()\l+ setUserEmisor()\l+ getUserReceptor()\l+ setUserReceptor()\l+ clone()\l}" alt="" coords="4680,696,4867,876"/>
+<area shape="rect" id="node50" href="$classinterfaz_1_1_menu_info_personaje.html" title="{interfaz.MenuInfoPersonaje\n||+ MenuInfoPersonaje()\l+ graficar()\l+ graficarMenuInformacion()\l+ clickEnBoton()\l+ clickEnCerrar()\l+ clickEnMenu()\l&#45; graficarMenuPerderBatalla()\l&#45; graficarMenuGanarBatalla()\l&#45; graficarMenuSubirNivel()\l&#45; graficarMenuItem()\l&#45; graficarMenuComerciar()\l}" alt="" coords="2147,1144,2338,1368"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete_movimiento.html" title="{mensajeria.PaqueteMovimiento\n||+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ getIdPersonaje()\l+ setIdPersonaje()\l+ getPosX()\l+ setPosX()\l+ getPosY()\l+ setPosY()\l+ getDireccion()\l+ setDireccion()\l+ getFrame()\l+ setFrame()\l+ clone()\l}" alt="" coords="3912,652,4115,920"/>
+<area shape="rect" id="node9" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="4463,5,4542,83"/>
+<area shape="rect" id="node22" href="$classjuego_1_1_handler_mouse.html" title="{juego.HandlerMouse\n||+ HandlerMouse()\l+ mouseClicked()\l+ mouseEntered()\l+ mouseExited()\l+ mousePressed()\l+ mouseReleased()\l+ getPosMouse()\l+ getPosMouseRecorrido()\l+ getNuevoRecorrido()\l+ setNuevoRecorrido()\l+ getNuevoClick()\l+ setNuevoClick()\l}" alt="" coords="2901,667,3078,905"/>
+<area shape="rect" id="node26" href="$classjuego_1_1_pantalla.html" title="{juego.Pantalla\n||+ Pantalla()\l+ getCanvas()\l+ getFrame()\l+ mostrar()\l+ centerString()\l+ abrirMenu()\l+ cerrarMenu()\l+ getVentContac()\l}" alt="" coords="3103,696,3231,876"/>
+<area shape="rect" id="node32" href="$classframes_1_1_menu_comerciar.html" title="{frames.MenuComerciar\n||+ MenuComerciar()\l+ getCantListos()\l+ setCantListos()\l+ getCantListo()\l+ setObtener()\l+ getObtener()\l+ getDar()\l+ getSizeItems()\l+ getChckbxListo()\l+ getLeyenda()\l}" alt="" coords="3586,681,3742,891"/>
+<area shape="rect" id="node42" href="$classentidades_1_1_animacion.html" title="{entidades.Animacion\n||+ Animacion()\l+ actualizar()\l+ reset()\l+ getFrameActual()\l+ getFrame()\l}" alt="" coords="883,1188,1026,1324"/>
+<area shape="rect" id="node46" href="$classentidades_1_1_nodo_de_pila.html" title="{entidades.NodoDePila\n||+ NodoDePila()\l+ obtenerSiguiente()\l+ establecerSiguiente()\l+ obtenerX()\l+ obtenerY()\l}" alt="" coords="506,479,662,615"/>
+<area shape="rect" id="node48" href="$classmundo_1_1_grafo.html" title="{mundo.Grafo\n||+ Grafo()\l+ agregarNodo()\l+ agregarAdyacentes()\l+ obtenerNodos()\l+ obtenerCantidadDeNodos()\l+ obtenerCantidadDeNodosTotal()\l}" alt="" coords="230,711,447,861"/>
+<area shape="rect" id="node49" href="$classmundo_1_1_nodo.html" title="{mundo.Nodo\n||+ Nodo()\l+ obtenerX()\l+ obtenerY()\l+ obtenerIndice()\l+ obtenerNodosAdyacentes()\l+ agregarAdyacente()\l+ obtenerCantidadDeAdyacentes()\l}" alt="" coords="45,233,267,399"/>
+<area shape="rect" id="node39" href="$classjuego_1_1_cargar_recursos.html" title="{juego.CargarRecursos\n||+ CargarRecursos()\l+ run()\l}" alt="" coords="4537,1996,4687,2088"/>
+<area shape="rect" id="node45" href="$classentidades_1_1_pila_de_tiles.html" title="{entidades.PilaDeTiles\n||+ PilaDeTiles()\l+ push()\l+ pop()\l+ estaVacia()\l}" alt="" coords="651,964,797,1085"/>
 </map>

@@ -21,6 +21,9 @@ var dir_016a4f9fc3ebf1cbbae5e083fedf0231 =
     [ "Batalla.java", "jrpg-2017b-servidor_2src_2main_2java_2comandos_2_batalla_8java.html", [
       [ "Batalla", "classcomandos_1_1_batalla.html", "classcomandos_1_1_batalla" ]
     ] ],
+    [ "BatallaNPC.java", "jrpg-2017b-servidor_2src_2main_2java_2comandos_2_batalla_n_p_c_8java.html", [
+      [ "BatallaNPC", "classcomandos_1_1_batalla_n_p_c.html", "classcomandos_1_1_batalla_n_p_c" ]
+    ] ],
     [ "ComandosServer.java", "_comandos_server_8java.html", [
       [ "ComandosServer", "classcomandos_1_1_comandos_server.html", "classcomandos_1_1_comandos_server" ]
     ] ],

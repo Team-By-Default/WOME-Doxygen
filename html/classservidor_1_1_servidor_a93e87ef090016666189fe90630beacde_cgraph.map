@@ -1,0 +1,5 @@
+<map id="servidor.Servidor.generarPosIso" name="servidor.Servidor.generarPosIso">
+<area shape="rect" id="node2" href="$classmundo_1_1_mundo.html#a9cfa073afa161501c2360af823ee6214" title="mundo.Mundo.dosDaIso" alt="" coords="221,5,384,32"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a2f62cbb0705ce30430a19c4641577d3d" title="servidor.Servidor.esLugar\lProhibido" alt="" coords="219,57,386,98"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_servidor.html#af6b0725599480ab343104891a1d00028" title="servidor.Servidor.esVisible" alt="" coords="216,123,389,149"/>
+</map>

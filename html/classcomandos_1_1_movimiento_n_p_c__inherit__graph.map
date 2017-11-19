@@ -1,4 +1,4 @@
 <map id="comandos.MovimientoNPC" name="comandos.MovimientoNPC">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_escucha.html" title="comandos.ComandosEscucha" alt="" coords="5,80,204,107"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="33,5,177,32"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_escucha.html" title="{comandos.ComandosEscucha\n|# juego\l|+ setJuego()\l}" alt="" coords="5,321,204,399"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 16 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="28,5,181,273"/>
 </map>

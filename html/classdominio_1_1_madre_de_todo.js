@@ -15,6 +15,7 @@ var classdominio_1_1_madre_de_todo =
     [ "getRandom", "classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed", null ],
     [ "reducirDefensa", "classdominio_1_1_madre_de_todo.html#a55be30554c205b3ff6ec485d7be4ba5a", null ],
     [ "removerItem", "classdominio_1_1_madre_de_todo.html#aebc30a696b686b8b41760fd06239cc1d", null ],
+    [ "setFuerza", "classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca", null ],
     [ "setNombre", "classdominio_1_1_madre_de_todo.html#a6b57b9b8d733a774a95f8743243e34d1", null ],
     [ "setPosicionX", "classdominio_1_1_madre_de_todo.html#a7d212b0e07133af22b7172aba5ac4443", null ],
     [ "setPosicionY", "classdominio_1_1_madre_de_todo.html#aa7046837aefd47be06a5c1a884773bcc", null ],

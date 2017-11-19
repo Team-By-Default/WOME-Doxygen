@@ -12,6 +12,9 @@ var dir_96019ca267b8387142330b4ca78af274 =
     [ "PaqueteBatalla.java", "_paquete_batalla_8java.html", [
       [ "PaqueteBatalla", "classmensajeria_1_1_paquete_batalla.html", "classmensajeria_1_1_paquete_batalla" ]
     ] ],
+    [ "PaqueteBatallaNPC.java", "_paquete_batalla_n_p_c_8java.html", [
+      [ "PaqueteBatallaNPC", "classmensajeria_1_1_paquete_batalla_n_p_c.html", "classmensajeria_1_1_paquete_batalla_n_p_c" ]
+    ] ],
     [ "PaqueteComerciar.java", "_paquete_comerciar_8java.html", [
       [ "PaqueteComerciar", "classmensajeria_1_1_paquete_comerciar.html", "classmensajeria_1_1_paquete_comerciar" ]
     ] ],

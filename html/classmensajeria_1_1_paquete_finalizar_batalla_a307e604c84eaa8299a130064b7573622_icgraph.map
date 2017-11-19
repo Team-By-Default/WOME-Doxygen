@@ -1,5 +1,5 @@
 <map id="mensajeria.PaqueteFinalizarBatalla.setGanadorBatalla" name="mensajeria.PaqueteFinalizarBatalla.setGanadorBatalla">
 <area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="253,5,467,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="268,57,452,98"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="268,57,452,98"/>
 <area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="240,123,480,149"/>
 </map>

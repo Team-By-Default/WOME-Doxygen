@@ -1,3 +1,3 @@
 <map id="dominio.Guerrero" name="dominio.Guerrero">
-<area shape="rect" id="node2" href="$classdominio_1_1_casta.html" title="dominio.Casta" alt="" coords="13,80,119,107"/>
+<area shape="rect" id="node2" href="$classdominio_1_1_casta.html" title="{dominio.Casta\n|&#45; probabilidadGolpeCritico\l&#45; probabilidadEvitarDaño\l&#45; dañoCritico\l&#45; PROBEVITARGOLPC\l&#45; PROBEVITARDANIO\l&#45; DANIOCRITICO\l|+ Casta()\l+ Casta()\l+ habilidad1()\l+ recibirFuerzaBonus()\l+ recibirDestrezaBonus()\l+ recibirInteligenciaBonus()\l+ habilidad2()\l+ habilidad3()\l+ getNombreCasta()\l+ getHabilidadesCasta()\ly 7 más...\l}" alt="" coords="7,131,186,428"/>
 </map>

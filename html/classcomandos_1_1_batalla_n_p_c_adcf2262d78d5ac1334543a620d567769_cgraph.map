@@ -1,0 +1,11 @@
+<map id="comandos.BatallaNPC.ejecutar" name="comandos.BatallaNPC.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a2e8d9c06a41620a9e2924975b16b5d15" title="servidor.EscuchaCliente.set\lPaqueteBatallaNPC" alt="" coords="272,5,455,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#add05004367a22d0967ac8e7c7d9a4040" title="servidor.EscuchaCliente.get\lPaqueteBatallaNPC" alt="" coords="272,71,455,112"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_batalla_n_p_c.html#aa1add2bac603e17272b699a780cd43ad" title="mensajeria.PaqueteBatalla\lNPC.getId" alt="" coords="275,136,452,177"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_batalla_n_p_c.html#ab2affc4b74dae80bb443185350e0dc94" title="mensajeria.PaqueteBatalla\lNPC.getIdEnemigo" alt="" coords="275,201,452,243"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="262,267,465,308"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_servidor.html#a7b799586e7d1eb02b3b2a5adb41579c6" title="servidor.Servidor.getNPCs" alt="" coords="277,333,449,359"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_escucha_cliente.html#a5ffa10f28a017a543443cfdc3ae63ada" title="servidor.EscuchaCliente.get\lSalida" alt="" coords="272,384,455,425"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="256,450,471,477"/>
+<area shape="rect" id="node10" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="271,501,456,543"/>
+</map>

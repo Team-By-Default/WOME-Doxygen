@@ -1,6 +1,6 @@
 var classestados_1_1_estado_batalla_n_p_c =
 [
-    [ "EstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e", null ],
+    [ "EstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168", null ],
     [ "actualizar", "classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3", null ],
     [ "crearPersonajes", "classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a", null ],
     [ "esEstadoDeJuego", "classestados_1_1_estado_batalla_n_p_c.html#aef95461d36ca0828c8522ce005cd2013", null ],

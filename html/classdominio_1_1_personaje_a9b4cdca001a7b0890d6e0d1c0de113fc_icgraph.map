@@ -1,6 +1,6 @@
 <map id="dominio.Personaje.getNombreRaza" name="dominio.Personaje.getNombreRaza">
 <area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="280,5,479,47"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="287,71,471,112"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="287,71,471,112"/>
 <area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="284,137,475,163"/>
 <area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a8392921ff607a0ccad20e99e866a3243" title="dominio.Personaje.habilidad\lCasta3" alt="" coords="287,188,471,229"/>
 <area shape="rect" id="node6" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="540,170,753,197"/>

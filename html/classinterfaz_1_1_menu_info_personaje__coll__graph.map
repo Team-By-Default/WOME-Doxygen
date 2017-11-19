@@ -1,5 +1,5 @@
 <map id="interfaz.MenuInfoPersonaje" name="interfaz.MenuInfoPersonaje">
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="408,509,602,536"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="436,206,574,233"/>
-<area shape="rect" id="node6" href="$class_cloneable.html" title="Cloneable" alt="" coords="492,5,571,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html" title="{mensajeria.PaquetePersonaje\n|&#45; idMapa\l&#45; energiaTope\l&#45; fuerza\l|+ PaquetePersonaje()\l+ getInventario()\l+ setInventario()\l+ getMochila()\l+ setMochila()\l+ getAlianza()\l+ setAlianza()\l+ setBackPack()\l+ getBackPack()\l+ getEstado()\ly 46 más...\l}" alt="" coords="417,652,612,905"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="314,189,451,443"/>
+<area shape="rect" id="node6" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="363,5,442,83"/>
 </map>

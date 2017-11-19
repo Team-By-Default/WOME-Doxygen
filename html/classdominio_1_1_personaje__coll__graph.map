@@ -1,7 +1,7 @@
 <map id="dominio.Personaje" name="dominio.Personaje">
-<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="407,304,557,331"/>
-<area shape="rect" id="node11" href="$classdominio_1_1_alianza.html" title="dominio.Alianza" alt="" coords="425,512,539,539"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_random_generator.html" title="dominio.RandomGenerator" alt="" coords="23,263,199,289"/>
-<area shape="rect" id="node7" href="$interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="421,461,543,488"/>
-<area shape="rect" id="node9" href="$classdominio_1_1_casta.html" title="dominio.Casta" alt="" coords="429,613,535,640"/>
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html" title="{dominio.MadreDeTodo\n||+ MadreDeTodo()\l+ getPosicionX()\l+ setPosicionX()\l+ getPosicionY()\l+ setPosicionY()\l+ getFuerza()\l+ getDefensa()\l+ getNivel()\l+ getNombre()\l+ setNombre()\ly 10 más...\l}" alt="" coords="297,388,448,612"/>
+<area shape="rect" id="node12" href="$classdominio_1_1_alianza.html" title="{dominio.Alianza\n||+ Alianza()\l+ getAliados()\l+ obtenerNombre()\l+ eliminarPersonaje()\l+ añadirPersonaje()\l}" alt="" coords="1021,432,1167,568"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_random_generator.html" title="{dominio.RandomGenerator\n||+ nextInt()\l+ nextDouble()\l+ RandomGenerator()\l}" alt="" coords="202,145,378,252"/>
+<area shape="rect" id="node8" href="$interfacedominio_1_1_peleable.html" title="{dominio.Peleable\n||+ serAtacado()\l+ getSalud()\l+ getMagia()\l+ despuesDeTurno()\l+ atacar()\l+ otorgarExp()\l+ getAtaque()\l+ setAtaque()\l+ estaVivo()\l}" alt="" coords="858,403,997,597"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_casta.html" title="{dominio.Casta\n||+ Casta()\l+ Casta()\l+ habilidad1()\l+ recibirFuerzaBonus()\l+ recibirDestrezaBonus()\l+ recibirInteligenciaBonus()\l+ habilidad2()\l+ habilidad3()\l+ getNombreCasta()\l+ getHabilidadesCasta()\ly 7 más...\l}" alt="" coords="1242,388,1421,612"/>
 </map>

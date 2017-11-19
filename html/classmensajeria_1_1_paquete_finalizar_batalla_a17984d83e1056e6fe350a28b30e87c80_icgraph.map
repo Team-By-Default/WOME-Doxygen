@@ -1,4 +1,4 @@
 <map id="mensajeria.PaqueteFinalizarBatalla.setIdEnemigo" name="mensajeria.PaqueteFinalizarBatalla.setIdEnemigo">
 <area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="240,5,439,47"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="247,71,431,112"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="247,71,431,112"/>
 </map>

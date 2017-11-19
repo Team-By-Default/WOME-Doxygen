@@ -1,27 +1,22 @@
 <map id="comandos.ComandosCliente" name="comandos.ComandosCliente">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="mensajeria.Comando" alt="" coords="621,282,765,309"/>
-<area shape="rect" id="node6" href="$classcliente_1_1_cliente.html" title="cliente.Cliente" alt="" coords="1005,1818,1109,1845"/>
-<area shape="rect" id="node10" href="$classdominio_1_1_item.html" title="dominio.Item" alt="" coords="284,1518,380,1545"/>
-<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_usuario.html" title="mensajeria.PaqueteUsuario" alt="" coords="603,2371,784,2398"/>
-<area shape="rect" id="node17" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="263,2237,401,2263"/>
-<area shape="rect" id="node20" href="$classmensajeria_1_1_paquete_mensaje.html" title="mensajeria.PaqueteMensaje" alt="" coords="600,2138,787,2165"/>
-<area shape="rect" id="node22" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="596,1930,791,1957"/>
-<area shape="rect" id="node24" href="$classjuego_1_1_juego.html" title="juego.Juego" alt="" coords="1660,2086,1751,2113"/>
-<area shape="rect" id="node8" href="$classframes_1_1_menu_comerciar.html" title="frames.MenuComerciar" alt="" coords="615,1445,771,1471"/>
-<area shape="rect" id="node35" href="$classjuego_1_1_pantalla.html" title="juego.Pantalla" alt="" coords="1329,793,1433,819"/>
-<area shape="rect" id="node36" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="623,523,764,550"/>
-<area shape="rect" id="node39" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="607,659,780,686"/>
-<area shape="rect" id="node42" href="$classcliente_1_1_escucha_mensajes.html" title="cliente.EscuchaMensajes" alt="" coords="1908,1711,2079,1738"/>
-<area shape="rect" id="node29" href="$classmensajeria_1_1_paquete_movimiento.html" title="mensajeria.PaqueteMovimiento" alt="" coords="592,2882,795,2909"/>
-<area shape="rect" id="node32" href="$classjuego_1_1_handler_mouse.html" title="juego.HandlerMouse" alt="" coords="623,2717,763,2743"/>
-<area shape="rect" id="node47" href="$classestados_1_1_estado.html" title="estados.Estado" alt="" coords="1937,2377,2050,2403"/>
-<area shape="rect" id="node49" href="$classmensajeria_1_1_paquete_comerciar.html" title="mensajeria.PaqueteComerciar" alt="" coords="595,2271,791,2298"/>
-<area shape="rect" id="node45" href="$classjuego_1_1_cargar_recursos.html" title="juego.CargarRecursos" alt="" coords="1305,2061,1456,2087"/>
-<area shape="rect" id="node37" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="993,894,1121,921"/>
-<area shape="rect" id="node38" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="819,959,969,986"/>
-<area shape="rect" id="node40" href="$classchat_1_1_ventana_contactos.html" title="chat.VentanaContactos" alt="" coords="614,1023,773,1050"/>
-<area shape="rect" id="node48" href="$classframes_1_1_menu_carga.html" title="frames.MenuCarga" alt="" coords="628,1323,759,1350"/>
-<area shape="rect" id="node18" href="$class_cloneable.html" title="Cloneable" alt="" coords="11,2549,89,2575"/>
-<area shape="rect" id="node27" href="$classjuego_1_1_camara.html" title="juego.Camara" alt="" coords="1942,2467,2045,2494"/>
-<area shape="rect" id="node25" href="$class_runnable.html" title="Runnable" alt="" coords="1343,2213,1419,2239"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ CREACIONPJ\l+ DESCONECTAR\l+ MOVIMIENTO\l+ REGISTRO\l+ SALIR\l+ BATALLA\l+ FINALIZARBATALLA\l+ ACTUALIZARPERSONAJE\l+ ACTUALIZARPERSONAJELV\l+ COMERCIO\l+ ACTUALIZARTRUEQUE\l+ MOVIMIENTONPCS\l+ BATALLANPC\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="2856,579,3063,847"/>
+<area shape="rect" id="node6" href="$classcliente_1_1_cliente.html" title="{cliente.Cliente\n||+ getAccion()\l+ setAccion()\l+ Cliente()\l+ Cliente()\l+ run()\l+ getSocket()\l+ setSocket()\l+ getMiIp()\l+ setMiIp()\l+ getEntrada()\ly 23 más...\l}" alt="" coords="2608,924,2713,1148"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_item.html" title="{dominio.Item\n||+ Item()\l+ getFoto()\l+ getNombre()\l+ getBonusSalud()\l+ getBonusEnergia()\l+ getBonusFuerza()\l+ getBonusDestreza()\l+ getBonusInteligencia()\l+ getIdItem()\l}" alt="" coords="2077,263,2239,457"/>
+<area shape="rect" id="node17" href="$classmensajeria_1_1_paquete_usuario.html" title="{mensajeria.PaqueteUsuario\n||+ PaqueteUsuario()\l+ PaqueteUsuario()\l+ getIdPj()\l+ setIdPj()\l+ getUsername()\l+ setUsername()\l+ getPassword()\l+ setPassword()\l+ isInicioSesion()\l+ setInicioSesion()\l+ clone()\l}" alt="" coords="1483,601,1665,825"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="941,233,1079,487"/>
+<area shape="rect" id="node21" href="$classmensajeria_1_1_paquete_mensaje.html" title="{mensajeria.PaqueteMensaje\n||+ PaqueteMensaje()\l+ getMensaje()\l+ setMensaje()\l+ getUserEmisor()\l+ setUserEmisor()\l+ getUserReceptor()\l+ setUserReceptor()\l+ clone()\l}" alt="" coords="914,623,1101,803"/>
+<area shape="rect" id="node23" href="$classmensajeria_1_1_paquete_personaje.html" title="{mensajeria.PaquetePersonaje\n|&#45; idMapa\l&#45; energiaTope\l&#45; fuerza\l|+ PaquetePersonaje()\l+ getInventario()\l+ setInventario()\l+ getMochila()\l+ setMochila()\l+ getAlianza()\l+ setAlianza()\l+ setBackPack()\l+ getBackPack()\l+ getEstado()\ly 46 más...\l}" alt="" coords="541,586,735,839"/>
+<area shape="rect" id="node27" href="$classjuego_1_1_juego.html" title="{juego.Juego\n||+ Juego()\l+ iniciar()\l+ run()\l+ start()\l+ stop()\l+ getAncho()\l+ getAlto()\l+ getHandlerMouse()\l+ getCamara()\l+ getEstadoJuego()\ly 19 más...\l&#45; actualizar()\l&#45; graficar()\l}" alt="" coords="2639,1395,2781,1648"/>
+<area shape="rect" id="node8" href="$classframes_1_1_menu_comerciar.html" title="{frames.MenuComerciar\n||+ MenuComerciar()\l+ getCantListos()\l+ setCantListos()\l+ getCantListo()\l+ setObtener()\l+ getObtener()\l+ getDar()\l+ getSizeItems()\l+ getChckbxListo()\l+ getLeyenda()\l}" alt="" coords="2408,608,2564,817"/>
+<area shape="rect" id="node39" href="$classjuego_1_1_pantalla.html" title="{juego.Pantalla\n||+ Pantalla()\l+ getCanvas()\l+ getFrame()\l+ mostrar()\l+ centerString()\l+ abrirMenu()\l+ cerrarMenu()\l+ getVentContac()\l}" alt="" coords="3666,623,3794,803"/>
+<area shape="rect" id="node42" href="$classcliente_1_1_escucha_mensajes.html" title="{cliente.EscuchaMensajes\n||+ EscuchaMensajes()\l+ run()\l}" alt="" coords="3582,1777,3753,1869"/>
+<area shape="rect" id="node33" href="$classmensajeria_1_1_paquete_movimiento.html" title="{mensajeria.PaqueteMovimiento\n||+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ PaqueteMovimiento()\l+ getIdPersonaje()\l+ setIdPersonaje()\l+ getPosX()\l+ setPosX()\l+ getPosY()\l+ setPosY()\l+ getDireccion()\l+ setDireccion()\l+ getFrame()\l+ setFrame()\l+ clone()\l}" alt="" coords="126,579,329,847"/>
+<area shape="rect" id="node36" href="$classjuego_1_1_handler_mouse.html" title="{juego.HandlerMouse\n||+ HandlerMouse()\l+ mouseClicked()\l+ mouseEntered()\l+ mouseExited()\l+ mousePressed()\l+ mouseReleased()\l+ getPosMouse()\l+ getPosMouseRecorrido()\l+ getNuevoRecorrido()\l+ setNuevoRecorrido()\l+ getNuevoClick()\l+ setNuevoClick()\l}" alt="" coords="3413,593,3591,832"/>
+<area shape="rect" id="node47" href="$classestados_1_1_estado.html" title="{estados.Estado\n||+ Estado()\l+ actualizar()\l+ graficar()\l+ esEstadoDeJuego()\l+ setEstado()\l+ getEstado()\l}" alt="" coords="2751,1747,2898,1898"/>
+<area shape="rect" id="node49" href="$classmensajeria_1_1_paquete_comerciar.html" title="{mensajeria.PaqueteComerciar\n||+ PaqueteComerciar()\l+ isSolicitudDeComercio()\l+ setSolicitudDeComercio()\l+ getItemsADar()\l+ setItemsADar()\l+ getId()\l+ setId()\l+ getIdEnemigo()\l+ setIdEnemigo()\l+ getListo()\l+ aumentarListo()\l+ disminuirListo()\l+ getItemsAObtener()\l+ setItemsAObtener()\l}" alt="" coords="1125,579,1321,847"/>
+<area shape="rect" id="node45" href="$classjuego_1_1_cargar_recursos.html" title="{juego.CargarRecursos\n||+ CargarRecursos()\l+ run()\l}" alt="" coords="3036,1225,3187,1317"/>
+<area shape="rect" id="node48" href="$classframes_1_1_menu_carga.html" title="{frames.MenuCarga\n||+ MenuCarga()\l+ setBarraCargando()\l}" alt="" coords="2031,667,2178,759"/>
+<area shape="rect" id="node19" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="844,5,923,83"/>
+<area shape="rect" id="node31" href="$classjuego_1_1_camara.html" title="{juego.Camara\n||+ Camara()\l+ Centrar()\l+ mover()\l+ getyOffset()\l+ setyOffset()\l+ getxOffset()\l+ setxOffset()\l}" alt="" coords="2547,1740,2649,1905"/>
+<area shape="rect" id="node28" href="$class_runnable.html" title="{Runnable\n||}" alt="" coords="3364,1233,3440,1310"/>
 </map>

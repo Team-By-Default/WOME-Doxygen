@@ -1,0 +1,7 @@
+<map id="chat.TrickHandler" name="chat.TrickHandler">
+<area shape="rect" id="node2" href="$classchat_1_1_big_daddy_handler.html" title="{chat.BigDaddyHandler\n|+ miComando\l|+ BigDaddyHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="5,175,156,281"/>
+<area shape="rect" id="node3" href="$classchat_1_1_god_mode_handler.html" title="{chat.GodModeHandler\n|+ miComando\l|+ GodModeHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="180,175,331,281"/>
+<area shape="rect" id="node4" href="$classchat_1_1_invisible_handler.html" title="{chat.InvisibleHandler\n|+ miComando\l|+ InvisibleHandler()\l+ puedoSoportarlo()\l+ ejecutar()\l}" alt="" coords="355,175,495,281"/>
+<area shape="rect" id="node5" href="$classchat_1_1_no_clip_handler.html" title="{chat.NoClipHandler\n|+ miComando\l|+ NoClipHandler()\l+ puedoSoportarlo()\l+ ejecutar()\l}" alt="" coords="519,175,655,281"/>
+<area shape="rect" id="node6" href="$classchat_1_1_tiny_daddy_handler.html" title="{chat.TinyDaddyHandler\n|+ miComando\l|+ TinyDaddyHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="680,175,836,281"/>
+</map>

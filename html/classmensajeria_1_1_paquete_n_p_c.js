@@ -1,6 +1,7 @@
 var classmensajeria_1_1_paquete_n_p_c =
 [
     [ "PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html#a19b8b8b1a5de8dc5e0d51fe4a464fddf", null ],
+    [ "estaPeleando", "classmensajeria_1_1_paquete_n_p_c.html#a0e8e637c05dcfffcc133b1fa25ea3550", null ],
     [ "getEnergiaTope", "classmensajeria_1_1_paquete_n_p_c.html#aed5f891bbc442a396a12f8812f0bddd1", null ],
     [ "getFuerza", "classmensajeria_1_1_paquete_n_p_c.html#a222ae6214f93cfc1bb80958cbc1cc9b1", null ],
     [ "getId", "classmensajeria_1_1_paquete_n_p_c.html#a659d20b11955edd1b0dfb130d6513d99", null ],
@@ -16,6 +17,7 @@ var classmensajeria_1_1_paquete_n_p_c =
     [ "setItems", "classmensajeria_1_1_paquete_n_p_c.html#a76420eecb31b9f26f04c14dfa92c41fc", null ],
     [ "setNivel", "classmensajeria_1_1_paquete_n_p_c.html#af7e917138f233d16cb10f7ec3bff79b3", null ],
     [ "setNombre", "classmensajeria_1_1_paquete_n_p_c.html#a2e48ce006b5a94af9325f6b878ba27a7", null ],
+    [ "setPeleando", "classmensajeria_1_1_paquete_n_p_c.html#aeecc724d1472352b6c760d842e371a66", null ],
     [ "setSaludTope", "classmensajeria_1_1_paquete_n_p_c.html#a3da026f3619084efc7edb9add2258190", null ],
     [ "energiaTope", "classmensajeria_1_1_paquete_n_p_c.html#a14a48006f25090d52ce029c196456f7a", null ],
     [ "fuerza", "classmensajeria_1_1_paquete_n_p_c.html#a5e66500d8d71286812e69868f9fef00b", null ],
@@ -24,5 +26,6 @@ var classmensajeria_1_1_paquete_n_p_c =
     [ "items", "classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1", null ],
     [ "nivel", "classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90", null ],
     [ "nombre", "classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b", null ],
+    [ "peleando", "classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377", null ],
     [ "saludTope", "classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af", null ]
 ];

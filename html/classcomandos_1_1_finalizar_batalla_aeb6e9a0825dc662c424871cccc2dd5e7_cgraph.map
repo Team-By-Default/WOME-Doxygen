@@ -1,14 +1,14 @@
 <map id="comandos.FinalizarBatalla.ejecutar" name="comandos.FinalizarBatalla.ejecutar">
-<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a9ded6352d3eb37ae5724e54560ca4fd3" title="servidor.EscuchaCliente.set\lPaqueteFinalizarBatalla" alt="" coords="289,5,471,47"/>
-<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="285,71,475,98"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="289,123,471,164"/>
-<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a4721d6b56883823c3e37bf31101d0134" title="mensajeria.PaqueteFinalizar\lBatalla.getGanadorBatalla" alt="" coords="287,188,473,229"/>
-<area shape="rect" id="node9" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="279,253,481,295"/>
-<area shape="rect" id="node10" href="$classservidor_1_1_escucha_cliente.html#aaf432d8a88a363d3ac247f84127ea228" title="servidor.EscuchaCliente.get\lPaqueteFinalizarBatalla" alt="" coords="289,319,471,360"/>
-<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a8af7463316069bd70bfe045c5452a243" title="mensajeria.PaqueteFinalizar\lBatalla.getId" alt="" coords="287,384,473,425"/>
-<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#ac864c19484641b422817befea6c2e8c7" title="mensajeria.PaqueteFinalizar\lBatalla.getIdEnemigo" alt="" coords="287,449,473,491"/>
-<area shape="rect" id="node13" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="287,515,473,556"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="534,57,751,99"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="534,123,751,164"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="529,189,756,215"/>
+<area shape="rect" id="node2" href="$classservidor_1_1_escucha_cliente.html#a9ded6352d3eb37ae5724e54560ca4fd3" title="servidor.EscuchaCliente.set\lPaqueteFinalizarBatalla" alt="" coords="283,5,465,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_servidor.html#a142ca477d7b7dd91f5511f8bd49b0443" title="servidor.Servidor.getConector" alt="" coords="279,71,469,98"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20" title="servidor.Conector.agregar\lItemInventario" alt="" coords="289,173,459,215"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_servidor.html#aafac84ea3e8c4cccafd9324e3eeab030" title="servidor.Servidor.getPersonajes\lConectados" alt="" coords="529,108,732,149"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a4721d6b56883823c3e37bf31101d0134" title="mensajeria.PaqueteFinalizar\lBatalla.getGanadorBatalla" alt="" coords="281,239,467,280"/>
+<area shape="rect" id="node10" href="$classservidor_1_1_escucha_cliente.html#aaf432d8a88a363d3ac247f84127ea228" title="servidor.EscuchaCliente.get\lPaqueteFinalizarBatalla" alt="" coords="283,304,465,345"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#a8af7463316069bd70bfe045c5452a243" title="mensajeria.PaqueteFinalizar\lBatalla.getId" alt="" coords="281,369,467,411"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_finalizar_batalla.html#ac864c19484641b422817befea6c2e8c7" title="mensajeria.PaqueteFinalizar\lBatalla.getIdEnemigo" alt="" coords="281,435,467,476"/>
+<area shape="rect" id="node13" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="281,500,467,541"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="522,173,739,215"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="522,239,739,280"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="517,305,744,331"/>
 </map>

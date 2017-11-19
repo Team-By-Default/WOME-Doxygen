@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['valdouble',['valDouble',['../classdominio_1_1_my_random_stub.html#a806a53b57baf4abdc8a0ea12559a23c1',1,'dominio::MyRandomStub']]],
-  ['valint',['valInt',['../classdominio_1_1_my_random_stub.html#a8a9f26da27a4cec3ab89ae33335f216a',1,'dominio::MyRandomStub']]],
-  ['velocidad',['velocidad',['../classentidades_1_1_animacion.html#a42b93bcdd06a5694f31a9c817929e91e',1,'entidades::Animacion']]],
-  ['ventcontac',['ventContac',['../classjuego_1_1_pantalla.html#a8e753a1412a3f1ad67dd6ecd670de2a6',1,'juego::Pantalla']]],
-  ['verticalinf',['verticalInf',['../classentidades_1_1_entidad.html#adf63956314aa0d3f65d2f51685b1c15d',1,'entidades::Entidad']]],
-  ['verticalsup',['verticalSup',['../classentidades_1_1_entidad.html#a3613e76ba6a5ea2fd6bacb384b95f6e9',1,'entidades::Entidad']]]
+  ['ubicacionnpcs',['ubicacionNPCs',['../classestados_1_1_estado_juego.html#ac3a8791a6b4bf88854a51487b308e76b',1,'estados.EstadoJuego.ubicacionNPCs()'],['../classjuego_1_1_juego.html#aabf910fbffbc11f755f91e154cfbcf01',1,'juego.Juego.ubicacionNPCs()'],['../classservidor_1_1_servidor.html#ae760453632a2968001d4c6f2236b0454',1,'servidor.Servidor.ubicacionNPCs()']]],
+  ['ubicacionpersonaje',['ubicacionPersonaje',['../classjuego_1_1_juego.html#a0404139509362826d23fbe1ebc1b3f41',1,'juego::Juego']]],
+  ['ubicacionpersonajes',['ubicacionPersonajes',['../classestados_1_1_estado_juego.html#a2c74a6388fde0c89c7da67553f8b4fb1',1,'estados.EstadoJuego.ubicacionPersonajes()'],['../classjuego_1_1_juego.html#a2c7cd67d81405cda76e1db9c4ec64dd2',1,'juego.Juego.ubicacionPersonajes()'],['../classservidor_1_1_servidor.html#a53a4a5776b672ec1a1a0c04cc6a95e7e',1,'servidor.Servidor.ubicacionPersonajes()']]],
+  ['ultimotiempo',['ultimoTiempo',['../classentidades_1_1_animacion.html#af39c22f1968851180ac901456ac09f5c',1,'entidades::Animacion']]],
+  ['url',['url',['../classservidor_1_1_conector.html#a9462a189593059e8f23e267e6978cad0',1,'servidor::Conector']]],
+  ['use',['use',['../jrpg-2017b-cliente_2_l_i_c_e_n_s_e_8txt.html#aa62d35257af3497101065692a222b8d8',1,'use():&#160;LICENSE.txt'],['../jrpg-2017b-dominio_2_l_i_c_e_n_s_e_8txt.html#aa62d35257af3497101065692a222b8d8',1,'use():&#160;LICENSE.txt'],['../jrpg-2017b-servidor_2_l_i_c_e_n_s_e_8txt.html#aa62d35257af3497101065692a222b8d8',1,'use():&#160;LICENSE.txt']]],
+  ['useremisor',['userEmisor',['../classmensajeria_1_1_paquete_mensaje.html#abe152c9d4a8012e0079718f9162438b8',1,'mensajeria::PaqueteMensaje']]],
+  ['username',['username',['../classmensajeria_1_1_paquete_usuario.html#ae21b93a29d5737174113aa30b58b09d2',1,'mensajeria::PaqueteUsuario']]],
+  ['userreceptor',['userReceptor',['../classmensajeria_1_1_paquete_mensaje.html#a2d076aee8a253b891dd48b975d0fdf2d',1,'mensajeria::PaqueteMensaje']]]
 ];

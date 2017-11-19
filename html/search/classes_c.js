@@ -4,6 +4,7 @@ var searchData=
   ['paquete',['Paquete',['../classmensajeria_1_1_paquete.html',1,'mensajeria']]],
   ['paqueteatacar',['PaqueteAtacar',['../classmensajeria_1_1_paquete_atacar.html',1,'mensajeria']]],
   ['paquetebatalla',['PaqueteBatalla',['../classmensajeria_1_1_paquete_batalla.html',1,'mensajeria']]],
+  ['paquetebatallanpc',['PaqueteBatallaNPC',['../classmensajeria_1_1_paquete_batalla_n_p_c.html',1,'mensajeria']]],
   ['paquetecomerciar',['PaqueteComerciar',['../classmensajeria_1_1_paquete_comerciar.html',1,'mensajeria']]],
   ['paquetedemovimientos',['PaqueteDeMovimientos',['../classmensajeria_1_1_paquete_de_movimientos.html',1,'mensajeria']]],
   ['paquetedepersonajes',['PaqueteDePersonajes',['../classmensajeria_1_1_paquete_de_personajes.html',1,'mensajeria']]],

@@ -1,0 +1,11 @@
+<map id="chat.MiChat.enviarMensaje" name="chat.MiChat.enviarMensaje">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="264,5,417,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_cliente.html#afa4d2e82adf27cd413abbb3343ef4506" title="cliente.Cliente.getPaquete\lMensaje" alt="" coords="253,57,428,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_mensaje.html#adf04781942c4cc85fd174d4bb4f1899a" title="mensajeria.PaqueteMensaje.set\lUserEmisor" alt="" coords="237,122,445,163"/>
+<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="255,188,426,215"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="232,239,449,281"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_mensaje.html#a793e2d558b84d2a0c4252f7577eb657d" title="mensajeria.PaqueteMensaje.set\lUserReceptor" alt="" coords="237,305,445,346"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_mensaje.html#affafd5ac136e54b36c6f99d2565dd285" title="mensajeria.PaqueteMensaje.set\lMensaje" alt="" coords="237,370,445,411"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="233,436,448,463"/>
+<area shape="rect" id="node10" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="259,487,422,513"/>
+</map>

@@ -1,10 +1,11 @@
 <map id="frames.MenuEscape.MenuEscape" name="frames.MenuEscape.MenuEscape">
-<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="294,5,470,32"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="537,23,725,65"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="275,107,489,133"/>
-<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba" title="mensajeria.Paquete.setIp" alt="" coords="297,157,467,184"/>
-<area shape="rect" id="node6" href="$classcliente_1_1_cliente.html#ae8745d6881293ab049bdb0043548698f" title="cliente.Cliente.getMiIp" alt="" coords="307,208,457,235"/>
-<area shape="rect" id="node7" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="301,259,463,285"/>
-<area shape="rect" id="node8" href="$classcliente_1_1_cliente.html#a7e45541b240962d794e7acd48c71447d" title="cliente.Cliente.getEntrada" alt="" coords="297,309,467,336"/>
-<area shape="rect" id="node9" href="$classcliente_1_1_cliente.html#a705f65490a99c07c9b01a404555895d1" title="cliente.Cliente.getSocket" alt="" coords="299,360,465,387"/>
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a1936b6e4795a16f13d53cca8c3503815" title="juego.Pantalla.cerrarMenu" alt="" coords="295,5,469,32"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_pantalla.html#a05059cc1681a8eb3a0a251af7987dd75" title="juego.Pantalla.abrirMenu" alt="" coords="299,56,465,83"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="275,107,489,133"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba" title="mensajeria.Paquete.setIp" alt="" coords="297,157,467,184"/>
+<area shape="rect" id="node7" href="$classcliente_1_1_cliente.html#ae8745d6881293ab049bdb0043548698f" title="cliente.Cliente.getMiIp" alt="" coords="307,208,457,235"/>
+<area shape="rect" id="node8" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="301,259,463,285"/>
+<area shape="rect" id="node9" href="$classcliente_1_1_cliente.html#a7e45541b240962d794e7acd48c71447d" title="cliente.Cliente.getEntrada" alt="" coords="297,309,467,336"/>
+<area shape="rect" id="node10" href="$classcliente_1_1_cliente.html#a705f65490a99c07c9b01a404555895d1" title="cliente.Cliente.getSocket" alt="" coords="299,360,465,387"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_cliente.html#ae4174da918f51610f63909a187c6db3b" title="cliente.Cliente.getJuego" alt="" coords="537,56,697,83"/>
 </map>

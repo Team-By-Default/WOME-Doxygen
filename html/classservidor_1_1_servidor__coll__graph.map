@@ -1,5 +1,5 @@
 <map id="servidor.Servidor" name="servidor.Servidor">
-<area shape="rect" id="node3" href="$classservidor_1_1_atencion_conexiones.html" title="servidor.AtencionConexiones" alt="" coords="193,136,382,163"/>
-<area shape="rect" id="node5" href="$classservidor_1_1_atencion_movimientos.html" title="servidor.AtencionMovimientos" alt="" coords="191,187,384,213"/>
-<area shape="rect" id="node13" href="$classservidor_1_1_conector.html" title="servidor.Conector" alt="" coords="226,673,349,700"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_atencion_conexiones.html" title="{servidor.AtencionConexiones\n||+ AtencionConexiones()\l+ run()\l}" alt="" coords="349,241,538,333"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_atencion_movimientos.html" title="{servidor.AtencionMovimientos\n||+ AtencionMovimientos()\l+ run()\l}" alt="" coords="131,241,324,333"/>
+<area shape="rect" id="node16" href="$classservidor_1_1_conector.html" title="{servidor.Conector\n||+ connect()\l+ close()\l+ registrarUsuario()\l+ registrarPersonaje()\l+ registrarInventarioMochila()\l+ loguearUsuario()\l+ actualizarPersonaje()\l+ getPersonaje()\l+ getUsuario()\l+ actualizarInventario()\l+ agregarItemInventario()\l+ actualizarPersonajeSubio\lNivel()\l}" alt="" coords="1751,160,1939,413"/>
 </map>

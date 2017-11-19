@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -87,11 +88,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classdominio_1_1_non_playable_character.html#ab9f38a9254d2dd61495e738396de9b46">dominio.NonPlayableCharacter</a>
 , <a class="el" href="classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740">dominio.Personaje</a>
 </li>
+<li>generarPosIso()
+: <a class="el" href="classservidor_1_1_servidor.html#a93e87ef090016666189fe90630beacde">servidor.Servidor</a>
+</li>
 <li>getAccion()
 : <a class="el" href="classcliente_1_1_cliente.html#af0f6ce8e3c939f96e881c08c8a41db80">cliente.Cliente</a>
 </li>
 <li>getAliados()
 : <a class="el" href="classdominio_1_1_alianza.html#a972215e194df5592a802a3c8305e27fc">dominio.Alianza</a>
+</li>
+<li>getAlianza()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#afdbea69bf3c5ee0fd901df978823ffa5">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getAlto()
 : <a class="el" href="classentidades_1_1_entidad.html#a5a063937180bd0fb22febe4d32272332">entidades.Entidad</a>
@@ -107,6 +114,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">dominio.NonPlayableCharacter</a>
 , <a class="el" href="interfacedominio_1_1_peleable.html#a8633f9a0915d00a86b798fdfd341dae1">dominio.Peleable</a>
 , <a class="el" href="classdominio_1_1_personaje.html#ac7ccacb3cf4cc9122780d6d0c1814fab">dominio.Personaje</a>
+</li>
+<li>getBackPack()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a8f2c8d11f5325e5225f5f274e8dc3f88">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getBonusDestreza()
 : <a class="el" href="classdominio_1_1_item.html#a1ff41b721e2477d575b4a947566dfec7">dominio.Item</a>
@@ -277,6 +287,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getId()
 : <a class="el" href="classmensajeria_1_1_paquete_atacar.html#add16f543a4d51ff2183549f2b4d45a45">mensajeria.PaqueteAtacar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#a5e60822f13b858415083f376fa1abf11">mensajeria.PaqueteBatalla</a>
+, <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#aa1add2bac603e17272b699a780cd43ad">mensajeria.PaqueteBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_comerciar.html#a87a3053e6c5347d35fad2310f48769fd">mensajeria.PaqueteComerciar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#a8af7463316069bd70bfe045c5452a243">mensajeria.PaqueteFinalizarBatalla</a>
 , <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a659d20b11955edd1b0dfb130d6513d99">mensajeria.PaqueteNPC</a>
@@ -286,6 +297,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getIdEnemigo()
 : <a class="el" href="classmensajeria_1_1_paquete_atacar.html#a866bf7cfb738bf4b3991a32be5bb4371">mensajeria.PaqueteAtacar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#a6edc8ac83316ee287b085718c3fbfc42">mensajeria.PaqueteBatalla</a>
+, <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#ab2affc4b74dae80bb443185350e0dc94">mensajeria.PaqueteBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_comerciar.html#aef2a3a0cd1d749e6d4e75956d5e7113b">mensajeria.PaqueteComerciar</a>
 , <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#ac864c19484641b422817befea6c2e8c7">mensajeria.PaqueteFinalizarBatalla</a>
 </li>
@@ -306,6 +318,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getInteligencia()
 : <a class="el" href="classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5">dominio.Personaje</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a11b1a9b1b0acde69f09b02b6043650d8">mensajeria.PaquetePersonaje</a>
+</li>
+<li>getInventario()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a4c5a77e53b2203c709fdbbd315885de5">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getIp()
 : <a class="el" href="classcliente_1_1_cliente.html#ab4e38d9d67ee70180cc0be8dfbfe56f7">cliente.Cliente</a>
@@ -373,6 +388,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getMiIp()
 : <a class="el" href="classcliente_1_1_cliente.html#ae8745d6881293ab049bdb0043548698f">cliente.Cliente</a>
 </li>
+<li>getMochila()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#aa3f58d55986c52cb9d79fac8cc161509">mensajeria.PaquetePersonaje</a>
+</li>
 <li>getMundo()
 : <a class="el" href="classestados_1_1_estado_juego.html#a8545118845681baf6bbb5e4a2a746ddd">estados.EstadoJuego</a>
 </li>
@@ -384,7 +402,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getNombre()
 : <a class="el" href="classdominio_1_1_item.html#af7d99502f79762f8e1d2c7a3f4fc4f08">dominio.Item</a>
 , <a class="el" href="classdominio_1_1_madre_de_todo.html#a7deb89d2fb3ac43412356ab3371b1e5c">dominio.MadreDeTodo</a>
-, <a class="el" href="interfacedominio_1_1_peleable.html#a0d2aed2a70e09e10a4e0124476fdf872">dominio.Peleable</a>
 , <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#ac3dcdfd01d4d18c7d9c4cfc93221afd9">mensajeria.PaqueteNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b">mensajeria.PaquetePersonaje</a>
 </li>
@@ -437,6 +454,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getPaqueteBatalla()
 : <a class="el" href="classservidor_1_1_escucha_cliente.html#a42d46eb6f9579267b8645ed8154026b6">servidor.EscuchaCliente</a>
+</li>
+<li>getPaqueteBatallaNPC()
+: <a class="el" href="classservidor_1_1_escucha_cliente.html#add05004367a22d0967ac8e7c7d9a4040">servidor.EscuchaCliente</a>
 </li>
 <li>getPaqueteComercio()
 : <a class="el" href="classcliente_1_1_cliente.html#ab3c6599cb9fb6984a3df440dc34abf69">cliente.Cliente</a>
@@ -602,6 +622,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getUsuario()
 : <a class="el" href="classservidor_1_1_conector.html#aecc5680e13d3eb39dbc5fea42a376a5f">servidor.Conector</a>
 </li>
+<li>getVentContac()
+: <a class="el" href="classjuego_1_1_pantalla.html#a650ed289c1d08b3f65852a03a1df1973">juego.Pantalla</a>
+</li>
 <li>getWome()
 : <a class="el" href="classcliente_1_1_cliente.html#a3a25fbe07341507e83fbe1446eef17c1">cliente.Cliente</a>
 </li>
@@ -621,6 +644,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getyOffset()
 : <a class="el" href="classjuego_1_1_camara.html#a2da1fac91b73364105be3b326c9182cf">juego.Camara</a>
 </li>
+<li>GodModeHandler()
+: <a class="el" href="classchat_1_1_god_mode_handler.html#a36ad203aa94388e22223d45ac0ede9e1">chat.GodModeHandler</a>
+</li>
 <li>golpe_critico()
 : <a class="el" href="classdominio_1_1_personaje.html#aaa28d04831cb32076623c50c80230868">dominio.Personaje</a>
 </li>
@@ -634,7 +660,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d">interfaz.MenuInfoPersonaje</a>
 , <a class="el" href="classjuego_1_1_juego.html#a82d7dac8155988dff22b39a888dac643">juego.Juego</a>
 , <a class="el" href="classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773">mundo.Mundo</a>
-, <a class="el" href="classmundo_1_1_tile.html#a90e1feabf510da7fb656f176e8574918">mundo.Tile</a>
+, <a class="el" href="classmundo_1_1_tile.html#a6791b90ef5c9d6f2974ecc27e6ceb6c5">mundo.Tile</a>
 </li>
 <li>graficarMenuComerciar()
 : <a class="el" href="classinterfaz_1_1_menu_info_personaje.html#aaf629513d4d1d19a950e245be692186b">interfaz.MenuInfoPersonaje</a>

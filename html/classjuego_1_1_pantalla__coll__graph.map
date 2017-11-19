@@ -1,10 +1,2 @@
 <map id="juego.Pantalla" name="juego.Pantalla">
-<area shape="rect" id="node2" href="$classframes_1_1_menu_escape.html" title="frames.MenuEscape" alt="" coords="935,424,1076,451"/>
-<area shape="rect" id="node6" href="$classframes_1_1_menu_stats.html" title="frames.MenuStats" alt="" coords="941,621,1069,648"/>
-<area shape="rect" id="node15" href="$classframes_1_1_menu_inventario.html" title="frames.MenuInventario" alt="" coords="930,475,1081,501"/>
-<area shape="rect" id="node17" href="$classframes_1_1_menu_asignar_skills.html" title="frames.MenuAsignarSkills" alt="" coords="919,239,1092,265"/>
-<area shape="rect" id="node18" href="$classchat_1_1_ventana_contactos.html" title="chat.VentanaContactos" alt="" coords="926,737,1085,764"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="567,655,761,681"/>
-<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="229,532,367,559"/>
-<area shape="rect" id="node10" href="$class_cloneable.html" title="Cloneable" alt="" coords="11,472,89,499"/>
 </map>

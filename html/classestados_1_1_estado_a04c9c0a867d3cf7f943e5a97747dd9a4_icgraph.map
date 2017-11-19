@@ -1,12 +1,9 @@
 <map id="estados.Estado.setEstado" name="estados.Estado.setEstado">
 <area shape="rect" id="node2" href="$classcomandos_1_1_batalla.html#a71bbf385dbaac8a2f1a3f9976ab59b71" title="comandos.Batalla.ejecutar" alt="" coords="261,5,437,32"/>
-<area shape="rect" id="node3" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="237,56,462,83"/>
-<area shape="rect" id="node4" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="262,107,437,149"/>
-<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="243,173,456,200"/>
-<area shape="rect" id="node9" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="229,224,469,251"/>
-<area shape="rect" id="node10" href="$classjuego_1_1_juego.html#ae3ec6c4178d0bd067b160b548d0d8ef3" title="juego.Juego.start" alt="" coords="289,275,410,301"/>
-<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="517,115,681,141"/>
-<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="729,115,916,141"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="964,115,1171,141"/>
-<area shape="rect" id="node11" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="536,275,663,301"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_batalla_n_p_c.html#adcf2262d78d5ac1334543a620d567769" title="comandos.BatallaNPC.ejecutar" alt="" coords="248,56,451,83"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="237,107,462,133"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="243,157,456,184"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="229,208,469,235"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#ae3ec6c4178d0bd067b160b548d0d8ef3" title="juego.Juego.start" alt="" coords="289,259,410,285"/>
+<area shape="rect" id="node8" href="$classcliente_1_1_cliente.html#ab0a58b75266a339512ce17e15c6948b1" title="cliente.Cliente.run" alt="" coords="517,259,644,285"/>
 </map>

@@ -1,3 +1,3 @@
 <map id="mundo.Grafo" name="mundo.Grafo">
-<area shape="rect" id="node2" href="$classmundo_1_1_nodo.html" title="mundo.Nodo" alt="" coords="156,140,250,167"/>
+<area shape="rect" id="node2" href="$classmundo_1_1_nodo.html" title="{mundo.Nodo\n||+ Nodo()\l+ obtenerX()\l+ obtenerY()\l+ obtenerIndice()\l+ obtenerNodosAdyacentes()\l+ agregarAdyacente()\l+ obtenerCantidadDeAdyacentes()\l}" alt="" coords="195,189,417,355"/>
 </map>

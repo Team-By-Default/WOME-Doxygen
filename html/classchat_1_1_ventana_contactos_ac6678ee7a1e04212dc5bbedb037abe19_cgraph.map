@@ -1,8 +1,9 @@
 <map id="chat.VentanaContactos.VentanaContactos" name="chat.VentanaContactos.VentanaContactos">
-<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#ab583bc1ae76f40f87246eaf39c4f7e0c" title="juego.Juego.getChatsActivos" alt="" coords="279,5,468,32"/>
-<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="264,107,483,149"/>
-<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="563,56,716,83"/>
-<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#a4814815fc75a15fc162f89e9db6340ff" title="juego.Juego.getPersonajes\lConectados" alt="" coords="550,107,729,149"/>
-<area shape="rect" id="node6" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="554,173,725,200"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="531,225,748,266"/>
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a1936b6e4795a16f13d53cca8c3503815" title="juego.Pantalla.cerrarMenu" alt="" coords="287,5,460,32"/>
+<area shape="rect" id="node3" href="$classjuego_1_1_juego.html#ab583bc1ae76f40f87246eaf39c4f7e0c" title="juego.Juego.getChatsActivos" alt="" coords="279,56,468,83"/>
+<area shape="rect" id="node4" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="264,158,483,199"/>
+<area shape="rect" id="node5" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="563,107,716,133"/>
+<area shape="rect" id="node6" href="$classjuego_1_1_juego.html#a4814815fc75a15fc162f89e9db6340ff" title="juego.Juego.getPersonajes\lConectados" alt="" coords="550,158,729,199"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="554,224,725,251"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="531,275,748,317"/>
 </map>

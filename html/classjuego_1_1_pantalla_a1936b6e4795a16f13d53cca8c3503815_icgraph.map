@@ -1,0 +1,7 @@
+<map id="juego.Pantalla.cerrarMenu" name="juego.Pantalla.cerrarMenu">
+<area shape="rect" id="node2" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="232,5,443,47"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="249,71,426,112"/>
+<area shape="rect" id="node4" href="$classframes_1_1_menu_escape.html#a4e7effeeb9ef2c6609b6bd9102739f5f" title="frames.MenuEscape.MenuEscape" alt="" coords="227,137,448,163"/>
+<area shape="rect" id="node5" href="$classframes_1_1_menu_inventario.html#a49103911adf05a2e0ac6cd3e07e77206" title="frames.MenuInventario.Menu\lInventario" alt="" coords="244,188,431,229"/>
+<area shape="rect" id="node6" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="240,254,435,281"/>
+</map>

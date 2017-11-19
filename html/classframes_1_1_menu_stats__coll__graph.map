@@ -1,5 +1,5 @@
 <map id="frames.MenuStats" name="frames.MenuStats">
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html" title="mensajeria.PaquetePersonaje" alt="" coords="199,363,394,389"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html" title="mensajeria.Paquete" alt="" coords="140,206,277,233"/>
-<area shape="rect" id="node6" href="$class_cloneable.html" title="Cloneable" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html" title="{mensajeria.PaquetePersonaje\n|&#45; idMapa\l&#45; energiaTope\l&#45; fuerza\l|+ PaquetePersonaje()\l+ getInventario()\l+ setInventario()\l+ getMochila()\l+ setMochila()\l+ getAlianza()\l+ setAlianza()\l+ setBackPack()\l+ getBackPack()\l+ getEstado()\ly 46 más...\l}" alt="" coords="233,505,427,759"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="144,189,281,443"/>
+<area shape="rect" id="node6" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="5,5,84,83"/>
 </map>

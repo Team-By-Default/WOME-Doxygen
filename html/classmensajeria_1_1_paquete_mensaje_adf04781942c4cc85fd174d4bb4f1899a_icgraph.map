@@ -1,3 +1,4 @@
 <map id="mensajeria.PaqueteMensaje.setUserEmisor" name="mensajeria.PaqueteMensaje.setUserEmisor">
-<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="261,13,399,39"/>
+<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb" title="chat.MiChat.enviarMensaje" alt="" coords="261,13,440,39"/>
+<area shape="rect" id="node3" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="488,13,625,39"/>
 </map>

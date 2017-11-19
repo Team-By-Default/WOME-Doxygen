@@ -15,6 +15,7 @@ var searchData=
   ['diagonalsupizq',['diagonalSupIzq',['../classentidades_1_1_entidad.html#a32516bf0d14f4b0229ed062bded1a035',1,'entidades::Entidad']]],
   ['dificultadaleatoria',['DIFICULTADALEATORIA',['../classdominio_1_1_non_playable_character.html#aff1377339a54a752140cf1a56a78422d',1,'dominio::NonPlayableCharacter']]],
   ['direccion',['direccion',['../classmensajeria_1_1_paquete_movimiento.html#a19c7d9cf3e025cd8f427d0ce9ff8bf16',1,'mensajeria::PaqueteMovimiento']]],
+  ['distribute',['distribute',['../jrpg-2017b-cliente_2_l_i_c_e_n_s_e_8txt.html#a9637430c1cf5b754f2b307f1bc5bba6f',1,'distribute():&#160;LICENSE.txt'],['../jrpg-2017b-dominio_2_l_i_c_e_n_s_e_8txt.html#a9637430c1cf5b754f2b307f1bc5bba6f',1,'distribute():&#160;LICENSE.txt'],['../jrpg-2017b-servidor_2_l_i_c_e_n_s_e_8txt.html#a9637430c1cf5b754f2b307f1bc5bba6f',1,'distribute():&#160;LICENSE.txt']]],
   ['divisordedefensa',['DIVISORDEDEFENSA',['../classdominio_1_1_non_playable_character.html#a70b255be31acf5280042fe9f69a1db8a',1,'dominio::NonPlayableCharacter']]],
   ['divisordedestreza',['DIVISORDEDESTREZA',['../classdominio_1_1_personaje.html#a7da58401b763922f3120d206e90d64c6',1,'dominio::Personaje']]],
   ['divisordemagia',['DIVISORDEMAGIA',['../classdominio_1_1_hechicero.html#a5631bbfeb2e187d3a3d4caf22efd409f',1,'dominio::Hechicero']]],

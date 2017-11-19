@@ -1,19 +1,20 @@
 <map id="juego.Juego.getPersonaje" name="juego.Juego.getPersonaje">
-<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="265,5,402,32"/>
-<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="224,57,443,98"/>
-<area shape="rect" id="node5" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="502,188,695,215"/>
-<area shape="rect" id="node8" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="246,122,421,163"/>
-<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="234,341,433,382"/>
-<area shape="rect" id="node11" href="$classestados_1_1_estado_batalla_n_p_c.html#aad15b2780aa8b0765fbf38639503698e" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="241,406,425,447"/>
-<area shape="rect" id="node12" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="237,471,429,513"/>
-<area shape="rect" id="node13" href="$classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773" title="mundo.Mundo.graficar" alt="" coords="523,289,674,316"/>
-<area shape="rect" id="node17" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="260,239,407,265"/>
-<area shape="rect" id="node4" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="493,57,704,98"/>
-<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="775,136,961,163"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="1029,136,1236,163"/>
-<area shape="rect" id="node9" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="517,132,681,159"/>
-<area shape="rect" id="node14" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="769,188,967,215"/>
-<area shape="rect" id="node15" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="755,239,981,265"/>
-<area shape="rect" id="node16" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="771,289,965,316"/>
-<area shape="rect" id="node18" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="491,239,707,265"/>
+<area shape="rect" id="node2" href="$classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb" title="chat.MiChat.enviarMensaje" alt="" coords="244,5,423,32"/>
+<area shape="rect" id="node4" href="$classchat_1_1_ventana_contactos.html#ae6b42661863e00f688ade5d415dce346" title="chat.VentanaContactos.actualizar\lLista" alt="" coords="224,57,443,98"/>
+<area shape="rect" id="node6" href="$classentidades_1_1_entidad.html#a59df5d67467f40f5d399052f91dfd378" title="entidades.Entidad.getEntrada" alt="" coords="502,188,695,215"/>
+<area shape="rect" id="node9" href="$classentidades_1_1_entidad.html#af640a6271a24b2bb9e37b916e59eb4c0" title="entidades.Entidad.verSiNo\lEstaCercaDeUnNPC" alt="" coords="246,122,421,163"/>
+<area shape="rect" id="node11" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="234,341,433,382"/>
+<area shape="rect" id="node12" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="241,406,425,447"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado_juego.html#a0c67525630330ea4b35131f0cd6565c9" title="estados.EstadoJuego.Estado\lJuego" alt="" coords="237,471,429,513"/>
+<area shape="rect" id="node14" href="$classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773" title="mundo.Mundo.graficar" alt="" coords="523,289,674,316"/>
+<area shape="rect" id="node18" href="$classmundo_1_1_mundo.html#afd3c9e65f700f207933db1dc0f3e5256" title="mundo.Mundo.getTile" alt="" coords="260,239,407,265"/>
+<area shape="rect" id="node3" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="530,5,667,32"/>
+<area shape="rect" id="node5" href="$classchat_1_1_ventana_contactos.html#ac6678ee7a1e04212dc5bbedb037abe19" title="chat.VentanaContactos.Ventana\lContactos" alt="" coords="493,57,704,98"/>
+<area shape="rect" id="node7" href="$classentidades_1_1_entidad.html#a21b5aa05ad44e095bef341d8896e0664" title="entidades.Entidad.actualizar" alt="" coords="775,136,961,163"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado_juego.html#a9e2bd426f92cada2e023fcbbe1b8d879" title="estados.EstadoJuego.actualizar" alt="" coords="1029,136,1236,163"/>
+<area shape="rect" id="node10" href="$classentidades_1_1_entidad.html#aae0673b49baf4568cbd4b4e8e0efc74d" title="entidades.Entidad.mover" alt="" coords="517,132,681,159"/>
+<area shape="rect" id="node15" href="$classestados_1_1_estado_batalla.html#a5e7abe773ffa38b50e4f7a40257e9a19" title="estados.EstadoBatalla.graficar" alt="" coords="769,188,967,215"/>
+<area shape="rect" id="node16" href="$classestados_1_1_estado_batalla_n_p_c.html#a84b4096e55ca042efba542cb272dfb2e" title="estados.EstadoBatallaNPC.graficar" alt="" coords="755,239,981,265"/>
+<area shape="rect" id="node17" href="$classestados_1_1_estado_juego.html#aa4e03b564e540defa653d0d29dc9f689" title="estados.EstadoJuego.graficar" alt="" coords="771,289,965,316"/>
+<area shape="rect" id="node19" href="$classmundo_1_1_mundo.html#a6a3fe60ff685b441a4d7f8788327a681" title="mundo.Mundo.graficarObstaculos" alt="" coords="491,239,707,265"/>
 </map>

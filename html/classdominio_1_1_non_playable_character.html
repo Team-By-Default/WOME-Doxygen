@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +83,6 @@ $(document).ready(function(){initNavTree('classdominio_1_1_non_playable_characte
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pro-methods">Métodos protegidos</a> &#124;
 <a href="#pri-attribs">Atributos privados</a> &#124;
 <a href="#pri-static-attribs">Atributos privados estáticos</a> &#124;
 <a href="classdominio_1_1_non_playable_character-members.html">Lista de todos los miembros</a>  </div>
@@ -95,20 +95,20 @@ Diagrama de herencias de dominio.NonPlayableCharacter</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_non_playable_character__inherit__graph.png" border="0" usemap="#dominio_8_non_playable_character_inherit__map" alt="Inheritance graph"/></div>
 <map name="dominio_8_non_playable_character_inherit__map" id="dominio_8_non_playable_character_inherit__map">
-<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node3" href="interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="180,5,301,32"/>
+<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html" title="{dominio.MadreDeTodo\n|# defensa\l# items\l&#45; fuerza\l&#45; nivel\l&#45; nombre\l&#45; random\l&#45; x\l&#45; y\l|+ MadreDeTodo()\l+ getPosicionX()\l+ setPosicionX()\l+ getPosicionY()\l+ setPosicionY()\l+ getFuerza()\l+ getDefensa()\l+ getNivel()\l+ getNombre()\l+ setNombre()\ly 10 más...\l}" alt="" coords="5,5,156,332"/>
+<area shape="rect" id="node3" href="interfacedominio_1_1_peleable.html" title="{dominio.Peleable\n||+ serAtacado()\l+ getSalud()\l+ getMagia()\l+ despuesDeTurno()\l+ atacar()\l+ otorgarExp()\l+ getAtaque()\l+ setAtaque()\l+ estaVivo()\l}" alt="" coords="181,71,319,266"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <div class="dynheader">
 Diagrama de colaboración para dominio.NonPlayableCharacter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_non_playable_character__coll__graph.png" border="0" usemap="#dominio_8_non_playable_character_coll__map" alt="Collaboration graph"/></div>
 <map name="dominio_8_non_playable_character_coll__map" id="dominio_8_non_playable_character_coll__map">
-<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html" title="dominio.MadreDeTodo" alt="" coords="291,221,441,247"/>
-<area shape="rect" id="node6" href="classdominio_1_1_random_generator.html" title="dominio.RandomGenerator" alt="" coords="282,5,458,32"/>
-<area shape="rect" id="node7" href="interfacedominio_1_1_peleable.html" title="dominio.Peleable" alt="" coords="680,221,801,247"/>
+<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html" title="{dominio.MadreDeTodo\n||+ MadreDeTodo()\l+ getPosicionX()\l+ setPosicionX()\l+ getPosicionY()\l+ setPosicionY()\l+ getFuerza()\l+ getDefensa()\l+ getNivel()\l+ getNombre()\l+ setNombre()\ly 10 más...\l}" alt="" coords="288,373,439,597"/>
+<area shape="rect" id="node7" href="classdominio_1_1_random_generator.html" title="{dominio.RandomGenerator\n||+ nextInt()\l+ nextDouble()\l+ RandomGenerator()\l}" alt="" coords="282,145,458,252"/>
+<area shape="rect" id="node8" href="interfacedominio_1_1_peleable.html" title="{dominio.Peleable\n||+ serAtacado()\l+ getSalud()\l+ getMagia()\l+ despuesDeTurno()\l+ atacar()\l+ otorgarExp()\l+ getAtaque()\l+ setAtaque()\l+ estaVivo()\l}" alt="" coords="702,388,841,583"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -167,6 +167,8 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a6b57b9b8d733a774a95f8743243e34d1 inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a541ec2233cda4d60ba1e24bba0d1e inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">aumentarFuerza</a> (final int aumento)</td></tr>
 <tr class="separator:a35a541ec2233cda4d60ba1e24bba0d1e inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad702d6139283842baa3b2baa29258dca inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca">setFuerza</a> (final int <a class="el" href="classdominio_1_1_madre_de_todo.html#ac639bd00644220208424cca6128ab7b6">fuerza</a>)</td></tr>
+<tr class="separator:ad702d6139283842baa3b2baa29258dca inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fe50161559959f0e2173db44edef9f6 inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_madre_de_todo.html#a2fe50161559959f0e2173db44edef9f6">aumentarNivel</a> ()</td></tr>
 <tr class="separator:a2fe50161559959f0e2173db44edef9f6 inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f02127281b1667b57f6d139e0de4aed inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classdominio_1_1_random_generator.html">RandomGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a> ()</td></tr>
@@ -183,14 +185,6 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:aebc30a696b686b8b41760fd06239cc1d inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab22b72f6af682c25ffd0e5bf46c1f184 inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; <a class="el" href="classdominio_1_1_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_madre_de_todo.html#ab22b72f6af682c25ffd0e5bf46c1f184">getItems</a> ()</td></tr>
 <tr class="separator:ab22b72f6af682c25ffd0e5bf46c1f184 inherit pub_methods_classdominio_1_1_madre_de_todo"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_interfacedominio_1_1_peleable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfacedominio_1_1_peleable')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfacedominio_1_1_peleable.html">dominio.Peleable</a></td></tr>
-<tr class="memitem:a0d2aed2a70e09e10a4e0124476fdf872 inherit pub_methods_interfacedominio_1_1_peleable"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacedominio_1_1_peleable.html#a0d2aed2a70e09e10a4e0124476fdf872">getNombre</a> ()</td></tr>
-<tr class="separator:a0d2aed2a70e09e10a4e0124476fdf872 inherit pub_methods_interfacedominio_1_1_peleable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Métodos protegidos</h2></td></tr>
-<tr class="memitem:a0982e49a924a399945d8f17501fa5e6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdominio_1_1_non_playable_character.html#a0982e49a924a399945d8f17501fa5e6f">posicionSpawnNpc</a> ()</td></tr>
-<tr class="separator:a0982e49a924a399945d8f17501fa5e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributos privados</h2></td></tr>
@@ -278,25 +272,24 @@ Otros miembros heredados</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">nombre</td><td>Nombre que se le otorga al NPC </td></tr>
     <tr><td class="paramname">nivel</td><td>Nivel que se le otorga al NPC </td></tr>
-    <tr><td class="paramname">dificultadNPC</td><td>Valor entero que produce una variación en los atributos. </td></tr>
+    <tr><td class="paramname">dificultadNPC</td><td>valor Entero que produce una variación en los atributos. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00089">89</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                                                                               {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        super(0, 0, <a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a>, <a class="code" href="classdominio_1_1_madre_de_todo.html#ac0655189c7eed820dc52261211a01b79">nombre</a>,0,0);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">//este metodo determina la posicion de spawn del npc.</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="classdominio_1_1_non_playable_character.html#a0982e49a924a399945d8f17501fa5e6f">posicionSpawnNpc</a>();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">saludTope</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#a5ddd9e5da6e2587deda4e2aa37b16dce">SALUDTOPEINICIAL</a>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">int</span> dificultad;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> (dificultadNPC == <a class="code" href="classdominio_1_1_non_playable_character.html#aff1377339a54a752140cf1a56a78422d">DIFICULTADALEATORIA</a>) {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            dificultad = this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().<a class="code" href="classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8">nextInt</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a8185ef03eb231ff213fdfd35ef427f2b">ELEGIRDIF</a>);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            dificultad = dificultadNPC;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">aumentarFuerza</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a26e9086e0c82ff259797be70ee9cd0d6">MODIFICADORBASEF</a> * (dificultad + 1) +</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a1939a5ee7df7f2ca61a943bd8142810e">MULTIPLICADORF</a> * (dificultad + 1));</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#aa96630dd828fc3fc16ec188341f1111d">MODIFICADORBASES</a> * (dificultad + 1) + (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a9a7ca848f6757df64724934ca97c9350">MULTIPLICADORS</a> * (dificultad + 1);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac">aumentarDefensa</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a0d85300d40603e158d1d878620e03f1e">MODIFICADORBASED</a> * (dificultad + 1) +</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a4ffb667382cb479c604580c87cbf7932">MULTIPLICADORD</a> * (dificultad + 1));</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        </div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a1939a5ee7df7f2ca61a943bd8142810e"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a1939a5ee7df7f2ca61a943bd8142810e">dominio.NonPlayableCharacter.MULTIPLICADORF</a></div><div class="ttdeci">static final int MULTIPLICADORF</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00058">NonPlayableCharacter.java:58</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00088">88</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                                                               {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        super(0, 0, <a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a>, <a class="code" href="classdominio_1_1_madre_de_todo.html#ac0655189c7eed820dc52261211a01b79">nombre</a>,0,0);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        </div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">saludTope</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#a5ddd9e5da6e2587deda4e2aa37b16dce">SALUDTOPEINICIAL</a>;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordtype">int</span> dificultad;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (dificultadNPC == <a class="code" href="classdominio_1_1_non_playable_character.html#aff1377339a54a752140cf1a56a78422d">DIFICULTADALEATORIA</a>) {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            dificultad = this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().<a class="code" href="classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8">nextInt</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a8185ef03eb231ff213fdfd35ef427f2b">ELEGIRDIF</a>);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            dificultad = dificultadNPC;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">aumentarFuerza</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a26e9086e0c82ff259797be70ee9cd0d6">MODIFICADORBASEF</a> * (dificultad + 1) +</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a1939a5ee7df7f2ca61a943bd8142810e">MULTIPLICADORF</a> * (dificultad + 1));</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#aa96630dd828fc3fc16ec188341f1111d">MODIFICADORBASES</a> * (dificultad + 1) + (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a9a7ca848f6757df64724934ca97c9350">MULTIPLICADORS</a> * (dificultad + 1);</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac">aumentarDefensa</a>(<a class="code" href="classdominio_1_1_non_playable_character.html#a0d85300d40603e158d1d878620e03f1e">MODIFICADORBASED</a> * (dificultad + 1) +</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                (<a class="code" href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">nivel</a> - 1) * <a class="code" href="classdominio_1_1_non_playable_character.html#a4ffb667382cb479c604580c87cbf7932">MULTIPLICADORD</a> * (dificultad + 1));</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        </div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a1939a5ee7df7f2ca61a943bd8142810e"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a1939a5ee7df7f2ca61a943bd8142810e">dominio.NonPlayableCharacter.MULTIPLICADORF</a></div><div class="ttdeci">static final int MULTIPLICADORF</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00058">NonPlayableCharacter.java:58</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a0d85300d40603e158d1d878620e03f1e"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a0d85300d40603e158d1d878620e03f1e">dominio.NonPlayableCharacter.MODIFICADORBASED</a></div><div class="ttdeci">static final int MODIFICADORBASED</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00054">NonPlayableCharacter.java:54</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_af383755a3458ebe1887ba48812d544ac"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac">dominio.MadreDeTodo.aumentarDefensa</a></div><div class="ttdeci">final void aumentarDefensa(final int bonus)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00149">MadreDeTodo.java:149</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a477438b945749e7c9304483845e6b38f"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">dominio.MadreDeTodo.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00023">MadreDeTodo.java:23</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_ac0655189c7eed820dc52261211a01b79"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#ac0655189c7eed820dc52261211a01b79">dominio.MadreDeTodo.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00027">MadreDeTodo.java:27</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_af383755a3458ebe1887ba48812d544ac"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac">dominio.MadreDeTodo.aumentarDefensa</a></div><div class="ttdeci">final void aumentarDefensa(final int bonus)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00165">MadreDeTodo.java:165</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a477438b945749e7c9304483845e6b38f"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a477438b945749e7c9304483845e6b38f">dominio.MadreDeTodo.nivel</a></div><div class="ttdeci">int nivel</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00022">MadreDeTodo.java:22</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_ac0655189c7eed820dc52261211a01b79"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#ac0655189c7eed820dc52261211a01b79">dominio.MadreDeTodo.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00026">MadreDeTodo.java:26</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a9a7ca848f6757df64724934ca97c9350"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a9a7ca848f6757df64724934ca97c9350">dominio.NonPlayableCharacter.MULTIPLICADORS</a></div><div class="ttdeci">static final int MULTIPLICADORS</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00062">NonPlayableCharacter.java:62</a></div></div>
-<div class="ttc" id="classdominio_1_1_non_playable_character_html_a0982e49a924a399945d8f17501fa5e6f"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a0982e49a924a399945d8f17501fa5e6f">dominio.NonPlayableCharacter.posicionSpawnNpc</a></div><div class="ttdeci">void posicionSpawnNpc()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00123">NonPlayableCharacter.java:123</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a5ddd9e5da6e2587deda4e2aa37b16dce"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a5ddd9e5da6e2587deda4e2aa37b16dce">dominio.NonPlayableCharacter.SALUDTOPEINICIAL</a></div><div class="ttdeci">static final int SALUDTOPEINICIAL</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00070">NonPlayableCharacter.java:70</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00134">MadreDeTodo.java:134</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00150">MadreDeTodo.java:150</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a26e9086e0c82ff259797be70ee9cd0d6"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a26e9086e0c82ff259797be70ee9cd0d6">dominio.NonPlayableCharacter.MODIFICADORBASEF</a></div><div class="ttdeci">static final int MODIFICADORBASEF</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00046">NonPlayableCharacter.java:46</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a8185ef03eb231ff213fdfd35ef427f2b"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a8185ef03eb231ff213fdfd35ef427f2b">dominio.NonPlayableCharacter.ELEGIRDIF</a></div><div class="ttdeci">static final int ELEGIRDIF</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00014">NonPlayableCharacter.java:14</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_aa96630dd828fc3fc16ec188341f1111d"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#aa96630dd828fc3fc16ec188341f1111d">dominio.NonPlayableCharacter.MODIFICADORBASES</a></div><div class="ttdeci">static final int MODIFICADORBASES</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00050">NonPlayableCharacter.java:50</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a35a541ec2233cda4d60ba1e24bba0d1e"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">dominio.MadreDeTodo.aumentarFuerza</a></div><div class="ttdeci">final void aumentarFuerza(final int aumento)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00121">MadreDeTodo.java:121</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a35a541ec2233cda4d60ba1e24bba0d1e"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">dominio.MadreDeTodo.aumentarFuerza</a></div><div class="ttdeci">final void aumentarFuerza(final int aumento)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00129">MadreDeTodo.java:129</a></div></div>
 <div class="ttc" id="classdominio_1_1_random_generator_html_aafe748ca9d8a52bda268d50e753247e8"><div class="ttname"><a href="classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8">dominio.RandomGenerator.nextInt</a></div><div class="ttdeci">int nextInt(final int val)</div><div class="ttdef"><b>Definition:</b> <a href="_random_generator_8java_source.html#l00012">RandomGenerator.java:12</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a27975698e16cdffb4f9a65a204972a5b"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">dominio.NonPlayableCharacter.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00074">NonPlayableCharacter.java:74</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
@@ -307,11 +300,10 @@ Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_non_playable_character_a3832cae8ce151a029f81c862f1955e03_cgraph.png" border="0" usemap="#classdominio_1_1_non_playable_character_a3832cae8ce151a029f81c862f1955e03_cgraph" alt=""/></div>
 <map name="classdominio_1_1_non_playable_character_a3832cae8ce151a029f81c862f1955e03_cgraph" id="classdominio_1_1_non_playable_character_a3832cae8ce151a029f81c862f1955e03_cgraph">
-<area shape="rect" id="node2" href="classdominio_1_1_non_playable_character.html#a0982e49a924a399945d8f17501fa5e6f" title="dominio.NonPlayableCharacter.posicion\lSpawnNpc" alt="" coords="257,5,509,47"/>
-<area shape="rect" id="node3" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="273,71,494,98"/>
-<area shape="rect" id="node4" href="classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8" title="dominio.RandomGenerator.nextInt" alt="" coords="274,122,493,149"/>
-<area shape="rect" id="node5" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="279,173,488,215"/>
-<area shape="rect" id="node6" href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="279,239,488,280"/>
+<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="257,5,479,32"/>
+<area shape="rect" id="node3" href="classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8" title="dominio.RandomGenerator.nextInt" alt="" coords="259,56,477,83"/>
+<area shape="rect" id="node4" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="263,107,473,149"/>
+<area shape="rect" id="node5" href="classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="263,173,473,214"/>
 </map>
 </div>
 
@@ -333,20 +325,20 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que, dependiendo de MyRandom.nextdouble() y NUMEROPARAATACAR. Puede ejecutar un ataque mejorado por el atributo MULTIPLICADORFUERZA </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Dependiendo de <a class="el" href="classdominio_1_1_my_random.html#a07a6335615880ce19aa9a991fcbe8aa0">MyRandom.nextDouble()</a> y NUMEROPARAATACAR, permite ejecutar un ataque mejorado por el atributo MULTIPLICADORFUERZA. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">atacado</td><td><a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> que recibe el ataque </td></tr>
+    <tr><td class="paramname">atacado</td><td><a class="el" href="interfacedominio_1_1_peleable.html">Peleable</a> que recibe el ataque. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Devuelve</dt><dd>Retorna un entero que representa los puntos de daño realizados </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Retorna un entero que representa los puntos de daño realizados. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#aedabe79dca86ef5b32e15af4a78ead9e">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00191">191</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                    {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().nextDouble() &lt;= <a class="code" href="classdominio_1_1_non_playable_character.html#a22b3ae2d8d1589997727e5982c04218f">NUMEROPARAATACAR</a>) {</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado((<span class="keywordtype">int</span>) (this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">getAtaque</a>() * <a class="code" href="classdominio_1_1_non_playable_character.html#a9c7641909b3b66d80a27f3aa50f4e800">MULTIPLICADORFUERZA</a>));</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado(this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">getAtaque</a>());</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a22b3ae2d8d1589997727e5982c04218f"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a22b3ae2d8d1589997727e5982c04218f">dominio.NonPlayableCharacter.NUMEROPARAATACAR</a></div><div class="ttdeci">static final double NUMEROPARAATACAR</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00038">NonPlayableCharacter.java:38</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00134">MadreDeTodo.java:134</a></div></div>
-<div class="ttc" id="classdominio_1_1_non_playable_character_html_a8b855690a61a321dd08c2994e5fc852e"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">dominio.NonPlayableCharacter.getAtaque</a></div><div class="ttdeci">final int getAtaque()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00236">NonPlayableCharacter.java:236</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00188">188</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                                    {</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().nextDouble() &lt;= <a class="code" href="classdominio_1_1_non_playable_character.html#a22b3ae2d8d1589997727e5982c04218f">NUMEROPARAATACAR</a>) {</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado((<span class="keywordtype">int</span>) (this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">getAtaque</a>() * <a class="code" href="classdominio_1_1_non_playable_character.html#a9c7641909b3b66d80a27f3aa50f4e800">MULTIPLICADORFUERZA</a>));</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordflow">return</span> atacado.serAtacado(this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">getAtaque</a>());</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        }</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a22b3ae2d8d1589997727e5982c04218f"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a22b3ae2d8d1589997727e5982c04218f">dominio.NonPlayableCharacter.NUMEROPARAATACAR</a></div><div class="ttdeci">static final double NUMEROPARAATACAR</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00038">NonPlayableCharacter.java:38</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00150">MadreDeTodo.java:150</a></div></div>
+<div class="ttc" id="classdominio_1_1_non_playable_character_html_a8b855690a61a321dd08c2994e5fc852e"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e">dominio.NonPlayableCharacter.getAtaque</a></div><div class="ttdeci">final int getAtaque()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00233">NonPlayableCharacter.java:233</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a9c7641909b3b66d80a27f3aa50f4e800"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a9c7641909b3b66d80a27f3aa50f4e800">dominio.NonPlayableCharacter.MULTIPLICADORFUERZA</a></div><div class="ttdeci">static final double MULTIPLICADORFUERZA</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00030">NonPlayableCharacter.java:30</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
@@ -384,12 +376,12 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método sin implementar. </p>
+<p>Método no implementado. </p>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#a219ab96eb347b2d06a869b191584002b">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00222">222</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;{ }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00219">219</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;{ }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ac3641e0b6be25000bffb9cbeae78ec1c"></a>
@@ -406,12 +398,12 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un booleano. Que indica si el NPC esta vivo, evaluando si el mismo tiene salud mayor a 0. </p><dl class="section return"><dt>Devuelve</dt><dd>true si el NPC está vivo, false para lo contrario. </dd></dl>
+<p>Retorna un booleano, que indica si el NPC esta vivo, evaluando si el mismo tiene salud mayor a 0. </p><dl class="section return"><dt>Devuelve</dt><dd>true si el NPC está vivo, false para lo contrario. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#a73be415c353d27563add330b7c45a9bd">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00152">152</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                    {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> &gt; 0;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00149">149</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                                    {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> &gt; 0;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -438,15 +430,15 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método sin implementar. </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Método no implementado. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">exp</td><td>Experiencia a aumentar al npc. </td></tr>
+    <tr><td class="paramname">exp</td><td>Experiencia que se debe aumentar al NPC. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00227">227</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                                                {</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00224">224</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                {</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a8b855690a61a321dd08c2994e5fc852e"></a>
@@ -463,12 +455,12 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero que representa el atributo de Fuerza del NPC. </p><dl class="section return"><dt>Devuelve</dt><dd>retorna el ataque del NPC. </dd></dl>
+<p>Retorna la Fuerza del NPC, que se usara como su fuerza de ataque. </p><dl class="section return"><dt>Devuelve</dt><dd>retorna el ataque del NPC. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#a8633f9a0915d00a86b798fdfd341dae1">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00236">236</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                                 {</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f">getFuerza</a>();</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7613be32e61137bd3620488dbe190d1f"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f">dominio.MadreDeTodo.getFuerza</a></div><div class="ttdeci">final int getFuerza()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00086">MadreDeTodo.java:86</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00233">233</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                                 {</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f">getFuerza</a>();</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7613be32e61137bd3620488dbe190d1f"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f">dominio.MadreDeTodo.getFuerza</a></div><div class="ttdeci">final int getFuerza()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00094">MadreDeTodo.java:94</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -507,8 +499,8 @@ Gráfico de llamadas a esta función:</div>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#a24a9c49ae5571886eb6deec736493f48">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00254">254</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                                {</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00251">251</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                                {</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a8b6b12742f5b96a05e910af82bbb1c7c"></a>
@@ -525,9 +517,10 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve la posición en X del NPC </p><dl class="section return"><dt>Devuelve</dt><dd>posición actual del NPC en X. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00115">115</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                             {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b6b12742f5b96a05e910af82bbb1c7c">getPosicionX</a>();</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a8b6b12742f5b96a05e910af82bbb1c7c"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a8b6b12742f5b96a05e910af82bbb1c7c">dominio.NonPlayableCharacter.getPosicionX</a></div><div class="ttdeci">int getPosicionX()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00115">NonPlayableCharacter.java:115</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00119">119</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                             {</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a8b6b12742f5b96a05e910af82bbb1c7c">getPosicionX</a>();</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a8b6b12742f5b96a05e910af82bbb1c7c"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a8b6b12742f5b96a05e910af82bbb1c7c">dominio.NonPlayableCharacter.getPosicionX</a></div><div class="ttdeci">int getPosicionX()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00119">NonPlayableCharacter.java:119</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -545,9 +538,10 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve la posición en Y del NPC </p><dl class="section return"><dt>Devuelve</dt><dd>posición actual del NPC en Y. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00119">119</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                             {</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a3f0e6429bbef3c184195cdd9091d8ae1">getPosicionY</a>();</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a3f0e6429bbef3c184195cdd9091d8ae1"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a3f0e6429bbef3c184195cdd9091d8ae1">dominio.NonPlayableCharacter.getPosicionY</a></div><div class="ttdeci">int getPosicionY()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00119">NonPlayableCharacter.java:119</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00125">125</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                             {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a3f0e6429bbef3c184195cdd9091d8ae1">getPosicionY</a>();</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a3f0e6429bbef3c184195cdd9091d8ae1"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a3f0e6429bbef3c184195cdd9091d8ae1">dominio.NonPlayableCharacter.getPosicionY</a></div><div class="ttdeci">int getPosicionY()</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00125">NonPlayableCharacter.java:125</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -565,12 +559,12 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero que representa los puntos de salud del NPC. </p><dl class="section return"><dt>Devuelve</dt><dd>Devuelve la cantidad de vida actual del NPC </dd></dl>
+<p>Retorna un entero que representa los puntos de salud del NPC. </p><dl class="section return"><dt>Devuelve</dt><dd>Devuelve la cantidad de vida actual del NPC. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#af61a46d30be091cf89b74a0909dceb2a">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00162">162</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                {</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a>;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00159">159</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a>;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -596,10 +590,10 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Devuelve un entero con la saludTope del NPC </p><dl class="section return"><dt>Devuelve</dt><dd>salud tope </dd></dl>
+<p>Devuelve un entero con la saludTope del NPC. </p><dl class="section return"><dt>Devuelve</dt><dd>salud tope. </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00178">178</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                              {</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">saludTope</a>;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a27975698e16cdffb4f9a65a204972a5b"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">dominio.NonPlayableCharacter.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00074">NonPlayableCharacter.java:74</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00175">175</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                              {</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">saludTope</a>;</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_a27975698e16cdffb4f9a65a204972a5b"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a27975698e16cdffb4f9a65a204972a5b">dominio.NonPlayableCharacter.saludTope</a></div><div class="ttdeci">int saludTope</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00074">NonPlayableCharacter.java:74</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -625,54 +619,19 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retorna un entero. Que la cantidad de experiencia que debe sumarse al <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> que produjo la disminución de la salud del NPC a 0. La misma sera MULTIPLCADOREXPNPC veces el valor del atributo nivel </p><dl class="section return"><dt>Devuelve</dt><dd>Cantidad de experiencia a otorgar </dd></dl>
+<p>Retorna un entero. Que representa los puntos de experiencia que deben sumarse al <a class="el" href="classdominio_1_1_personaje.html">Personaje</a> que derrotó al NPC (disminución de la salud del NPC a 0). La misma sera MULTIPLCADOREXPNPC veces el nivel del NPC derrotado. </p><dl class="section return"><dt>Devuelve</dt><dd>Puntos de experiencia a otorgar. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#a948a8c7e8a36d0754566861e9b37c8dd">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00140">140</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                  {</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b">getNivel</a>() * <a class="code" href="classdominio_1_1_non_playable_character.html#ae9d2ffb86fa42e4c1ee362fd66b2d038">MULTIPLICADOREXPNPC</a>;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ae9d2ffb86fa42e4c1ee362fd66b2d038"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ae9d2ffb86fa42e4c1ee362fd66b2d038">dominio.NonPlayableCharacter.MULTIPLICADOREXPNPC</a></div><div class="ttdeci">static final int MULTIPLICADOREXPNPC</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00026">NonPlayableCharacter.java:26</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7cbf246b0c30e7343378a03e6e03d63b"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b">dominio.MadreDeTodo.getNivel</a></div><div class="ttdeci">final int getNivel()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00100">MadreDeTodo.java:100</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00138">138</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                  {</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b">getNivel</a>() * <a class="code" href="classdominio_1_1_non_playable_character.html#ae9d2ffb86fa42e4c1ee362fd66b2d038">MULTIPLICADOREXPNPC</a>;</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ae9d2ffb86fa42e4c1ee362fd66b2d038"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ae9d2ffb86fa42e4c1ee362fd66b2d038">dominio.NonPlayableCharacter.MULTIPLICADOREXPNPC</a></div><div class="ttdeci">static final int MULTIPLICADOREXPNPC</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00026">NonPlayableCharacter.java:26</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7cbf246b0c30e7343378a03e6e03d63b"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b">dominio.MadreDeTodo.getNivel</a></div><div class="ttdeci">final int getNivel()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00108">MadreDeTodo.java:108</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_non_playable_character_a4d22acf35e0765c229b68872ee2e42f3_cgraph.png" border="0" usemap="#classdominio_1_1_non_playable_character_a4d22acf35e0765c229b68872ee2e42f3_cgraph" alt=""/></div>
 <map name="classdominio_1_1_non_playable_character_a4d22acf35e0765c229b68872ee2e42f3_cgraph" id="classdominio_1_1_non_playable_character_a4d22acf35e0765c229b68872ee2e42f3_cgraph">
 <area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b" title="dominio.MadreDeTodo.getNivel" alt="" coords="320,5,520,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a0982e49a924a399945d8f17501fa5e6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0982e49a924a399945d8f17501fa5e6f">&#9670;&nbsp;</a></span>posicionSpawnNpc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dominio.NonPlayableCharacter.posicionSpawnNpc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00123">123</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                     {      </div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="comment">//condicion 1: no sea zona visible por ningun personaje y este  dentro del mapa.</span></div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        </div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="comment">//condicion 2: sea zona viable</span></div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><img src="classdominio_1_1_non_playable_character_a0982e49a924a399945d8f17501fa5e6f_icgraph.png" border="0" usemap="#classdominio_1_1_non_playable_character_a0982e49a924a399945d8f17501fa5e6f_icgraph" alt=""/></div>
-<map name="classdominio_1_1_non_playable_character_a0982e49a924a399945d8f17501fa5e6f_icgraph" id="classdominio_1_1_non_playable_character_a0982e49a924a399945d8f17501fa5e6f_icgraph">
-<area shape="rect" id="node2" href="classdominio_1_1_non_playable_character.html#a3832cae8ce151a029f81c862f1955e03" title="dominio.NonPlayableCharacter.\lNonPlayableCharacter" alt="" coords="305,5,509,47"/>
 </map>
 </div>
 
@@ -699,14 +658,14 @@ Gráfico de llamadas a esta función:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 si el ataque no fue realizado con exito </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Retorna 0 si el ataque no fue realizado con exito. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00206">206</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                           {</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().nextDouble() &gt;= <a class="code" href="classdominio_1_1_non_playable_character.html#af9292c07e207b6208d195b6c4740e6f3">NUMEROPARASERATACADO</a>) {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            danio -= this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8">getDefensa</a>() / <a class="code" href="classdominio_1_1_non_playable_character.html#a70b255be31acf5280042fe9f69a1db8a">DIVISORDEDEFENSA</a>;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="keywordflow">if</span> (danio &gt; 0) {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> -= danio;</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                <span class="keywordflow">return</span> danio;</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            }</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00134">MadreDeTodo.java:134</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00203">203</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                           {</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">getRandom</a>().nextDouble() &gt;= <a class="code" href="classdominio_1_1_non_playable_character.html#af9292c07e207b6208d195b6c4740e6f3">NUMEROPARASERATACADO</a>) {</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            danio -= this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8">getDefensa</a>() / <a class="code" href="classdominio_1_1_non_playable_character.html#a70b255be31acf5280042fe9f69a1db8a">DIVISORDEDEFENSA</a>;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keywordflow">if</span> (danio &gt; 0) {</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> -= danio;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordflow">return</span> danio;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            }</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        }</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_a8f02127281b1667b57f6d139e0de4aed"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed">dominio.MadreDeTodo.getRandom</a></div><div class="ttdeci">final RandomGenerator getRandom()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00150">MadreDeTodo.java:150</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_af9292c07e207b6208d195b6c4740e6f3"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#af9292c07e207b6208d195b6c4740e6f3">dominio.NonPlayableCharacter.NUMEROPARASERATACADO</a></div><div class="ttdeci">static final double NUMEROPARASERATACADO</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00034">NonPlayableCharacter.java:34</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a01c61a6d686c0fd599783bbeb06197a8"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8">dominio.MadreDeTodo.getDefensa</a></div><div class="ttdeci">final int getDefensa()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00093">MadreDeTodo.java:93</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a01c61a6d686c0fd599783bbeb06197a8"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8">dominio.MadreDeTodo.getDefensa</a></div><div class="ttdeci">final int getDefensa()</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00101">MadreDeTodo.java:101</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
 <div class="ttc" id="classdominio_1_1_non_playable_character_html_a70b255be31acf5280042fe9f69a1db8a"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#a70b255be31acf5280042fe9f69a1db8a">dominio.NonPlayableCharacter.DIVISORDEDEFENSA</a></div><div class="ttdeci">static final int DIVISORDEDEFENSA</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00042">NonPlayableCharacter.java:42</a></div></div>
 </div><!-- fragment --><div class="dynheader">
@@ -736,23 +695,23 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Asigna un valor entero que representará el ataque del NPC. </p><dl class="params"><dt>Parámetros</dt><dd>
+<p>Asigna un valor entero que representará el ataque del NPC al atributo fuerza. </p><dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ataque</td><td>Entero que indica la nueva fuerza del NPC. </td></tr>
+    <tr><td class="paramname">ataque</td><td>Entero que se le asigna a la fuerza del NPC. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Implementa <a class="el" href="interfacedominio_1_1_peleable.html#af86ef9aba8bcbada4509b5e97cbe2efc">dominio.Peleable</a>.</p>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00245">245</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                                                  {</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">aumentarFuerza</a>(ataque);</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_a35a541ec2233cda4d60ba1e24bba0d1e"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e">dominio.MadreDeTodo.aumentarFuerza</a></div><div class="ttdeci">final void aumentarFuerza(final int aumento)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00121">MadreDeTodo.java:121</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00242">242</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                  {</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca">setFuerza</a>(ataque);</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_ad702d6139283842baa3b2baa29258dca"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca">dominio.MadreDeTodo.setFuerza</a></div><div class="ttdeci">final void setFuerza(final int fuerza)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00137">MadreDeTodo.java:137</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_non_playable_character_a85a0939074bb8b633969dfe9cfaaefc6_cgraph.png" border="0" usemap="#classdominio_1_1_non_playable_character_a85a0939074bb8b633969dfe9cfaaefc6_cgraph" alt=""/></div>
 <map name="classdominio_1_1_non_playable_character_a85a0939074bb8b633969dfe9cfaaefc6_cgraph" id="classdominio_1_1_non_playable_character_a85a0939074bb8b633969dfe9cfaaefc6_cgraph">
-<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="276,5,485,47"/>
+<area shape="rect" id="node2" href="classdominio_1_1_madre_de_todo.html#ad702d6139283842baa3b2baa29258dca" title="dominio.MadreDeTodo.setFuerza" alt="" coords="276,13,489,39"/>
 </map>
 </div>
 
@@ -783,12 +742,19 @@ Gráfico de llamadas para esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Le asigna al NPC una nueva posición en el mapa. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>posición en X </td></tr>
+    <tr><td class="paramname">y</td><td>posición en Y </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00110">110</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                                        {</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7d212b0e07133af22b7172aba5ac4443">setPosicionX</a>(<a class="code" href="classdominio_1_1_madre_de_todo.html#abb3d69f1321f5220983b1e5327a17027">x</a>);</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#aa7046837aefd47be06a5c1a884773bcc">setPosicionY</a>(<a class="code" href="classdominio_1_1_madre_de_todo.html#aa637a7de7fe63b142075188e1b17d549">y</a>);</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_aa637a7de7fe63b142075188e1b17d549"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#aa637a7de7fe63b142075188e1b17d549">dominio.MadreDeTodo.y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00041">MadreDeTodo.java:41</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_aa7046837aefd47be06a5c1a884773bcc"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#aa7046837aefd47be06a5c1a884773bcc">dominio.MadreDeTodo.setPosicionY</a></div><div class="ttdeci">void setPosicionY(int y)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00079">MadreDeTodo.java:79</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7d212b0e07133af22b7172aba5ac4443"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7d212b0e07133af22b7172aba5ac4443">dominio.MadreDeTodo.setPosicionX</a></div><div class="ttdeci">void setPosicionX(int x)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00071">MadreDeTodo.java:71</a></div></div>
-<div class="ttc" id="classdominio_1_1_madre_de_todo_html_abb3d69f1321f5220983b1e5327a17027"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#abb3d69f1321f5220983b1e5327a17027">dominio.MadreDeTodo.x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00037">MadreDeTodo.java:37</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00112">112</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                        {</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#a7d212b0e07133af22b7172aba5ac4443">setPosicionX</a>(<a class="code" href="classdominio_1_1_madre_de_todo.html#abb3d69f1321f5220983b1e5327a17027">x</a>);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        this.<a class="code" href="classdominio_1_1_madre_de_todo.html#aa7046837aefd47be06a5c1a884773bcc">setPosicionY</a>(<a class="code" href="classdominio_1_1_madre_de_todo.html#aa637a7de7fe63b142075188e1b17d549">y</a>);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_madre_de_todo_html_aa637a7de7fe63b142075188e1b17d549"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#aa637a7de7fe63b142075188e1b17d549">dominio.MadreDeTodo.y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00040">MadreDeTodo.java:40</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_aa7046837aefd47be06a5c1a884773bcc"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#aa7046837aefd47be06a5c1a884773bcc">dominio.MadreDeTodo.setPosicionY</a></div><div class="ttdeci">void setPosicionY(int y)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00087">MadreDeTodo.java:87</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_a7d212b0e07133af22b7172aba5ac4443"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#a7d212b0e07133af22b7172aba5ac4443">dominio.MadreDeTodo.setPosicionX</a></div><div class="ttdeci">void setPosicionX(int x)</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00075">MadreDeTodo.java:75</a></div></div>
+<div class="ttc" id="classdominio_1_1_madre_de_todo_html_abb3d69f1321f5220983b1e5327a17027"><div class="ttname"><a href="classdominio_1_1_madre_de_todo.html#abb3d69f1321f5220983b1e5327a17027">dominio.MadreDeTodo.x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_madre_de_todo_8java_source.html#l00036">MadreDeTodo.java:36</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
@@ -823,8 +789,8 @@ Gráfico de llamadas para esta función:</div>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00170">170</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                                {</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a>;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00167">167</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        this.<a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a> = <a class="code" href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">salud</a>;</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_non_playable_character_html_ab8747043eb4f48c8883997da92030091"><div class="ttname"><a href="classdominio_1_1_non_playable_character.html#ab8747043eb4f48c8883997da92030091">dominio.NonPlayableCharacter.salud</a></div><div class="ttdeci">int salud</div><div class="ttdef"><b>Definition:</b> <a href="_non_playable_character_8java_source.html#l00018">NonPlayableCharacter.java:18</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -873,7 +839,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Numero por el cual se divide la defensa cuando el npc es atacado. </p>
+<p>Número por el cual se divide la defensa cuando el NPC es atacado. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00042">42</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -898,7 +864,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Numero que sirve de argumento para obtener la dificultad. </p>
+<p>Número que sirve de argumento para obtener la dificultad. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00014">14</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -1023,7 +989,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Multiplicador de experiencia otorgada por el npc. </p>
+<p>Multiplicador de experiencia otorgada por el NPC. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00026">26</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -1073,7 +1039,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Multiplicador de fuerza para el golpe critico del npc. </p>
+<p>Multiplicador de fuerza para el golpe crítico del NPC. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00030">30</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -1123,7 +1089,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Numero a superar para poder atacar. </p>
+<p>Número a superar para poder atacar. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00038">38</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -1148,7 +1114,7 @@ Gráfico de llamadas para esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Numero a superar para poder ser atacado. </p>
+<p>Número a superar para poder ser atacado. </p>
 
 <p class="definition">Definición en la línea <a class="el" href="_non_playable_character_8java_source.html#l00034">34</a> del archivo <a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a>.</p>
 
@@ -1230,7 +1196,7 @@ Gráfico de llamadas para esta función:</div>
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_non_playable_character_8java_source.html">NonPlayableCharacter.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

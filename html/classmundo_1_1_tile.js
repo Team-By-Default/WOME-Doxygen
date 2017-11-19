@@ -10,9 +10,16 @@ var classmundo_1_1_tile =
     [ "graficar", "classmundo_1_1_tile.html#a6791b90ef5c9d6f2974ecc27e6ceb6c5", null ],
     [ "graficar", "classmundo_1_1_tile.html#a90e1feabf510da7fb656f176e8574918", null ],
     [ "setSolido", "classmundo_1_1_tile.html#a90175dfcdbf5bae6455d77fa443648fe", null ],
+    [ "ALTO", "classmundo_1_1_tile.html#ad324803d7dd56bdfdde2e359218aa527", null ],
     [ "alto", "classmundo_1_1_tile.html#a5df902d8ef0c3be0959d21dba994670c", null ],
+    [ "ANCHO", "classmundo_1_1_tile.html#afda77b19c7b020c35173f8b2b3dcd310", null ],
     [ "ancho", "classmundo_1_1_tile.html#a7c43f435650e2ea23e9b3a1d55517f6c", null ],
+    [ "aris", "classmundo_1_1_tile.html#a57452a55034a99ddce9ddae6207ee59a", null ],
+    [ "arisBase", "classmundo_1_1_tile.html#aff47dfe84aa422548834d03ce8486bbd", null ],
+    [ "aubenor", "classmundo_1_1_tile.html#a52f94ad8983abd46ee89f5e817283833", null ],
+    [ "aubenorBase", "classmundo_1_1_tile.html#a2cc7a9a480f28bc11e331833f312a61b", null ],
     [ "esSolido", "classmundo_1_1_tile.html#a335c3641d370ae491e591e48562be4c8", null ],
     [ "id", "classmundo_1_1_tile.html#ab84d9b57f6ad9b6ec15c0eecf277d61d", null ],
-    [ "textura", "classmundo_1_1_tile.html#abfb54fb1e7b3577cf429d7f735e1c31c", null ]
+    [ "textura", "classmundo_1_1_tile.html#abfb54fb1e7b3577cf429d7f735e1c31c", null ],
+    [ "tiles", "classmundo_1_1_tile.html#a3f1e5a772ea07d93f6212e33d4d97edf", null ]
 ];

@@ -1,0 +1,5 @@
+<map id="servidor.Servidor.esLugarProhibido" name="servidor.Servidor.esLugarProhibido">
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#a93e87ef090016666189fe90630beacde" title="servidor.Servidor.generar\lPosIso" alt="" coords="220,35,383,76"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="431,5,605,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_servidor.html#a77fbb0fe903fb0c1298678a1ea84aab8" title="servidor.Servidor.run" alt="" coords="449,71,587,98"/>
+</map>

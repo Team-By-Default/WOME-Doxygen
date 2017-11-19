@@ -1,7 +1,6 @@
 <map id="dominio.NonPlayableCharacter.NonPlayableCharacter" name="dominio.NonPlayableCharacter.NonPlayableCharacter">
-<area shape="rect" id="node2" href="$classdominio_1_1_non_playable_character.html#a0982e49a924a399945d8f17501fa5e6f" title="dominio.NonPlayableCharacter.posicion\lSpawnNpc" alt="" coords="257,5,509,47"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="273,71,494,98"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8" title="dominio.RandomGenerator.nextInt" alt="" coords="274,122,493,149"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="279,173,488,215"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="279,239,488,280"/>
+<area shape="rect" id="node2" href="$classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="257,5,479,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_random_generator.html#aafe748ca9d8a52bda268d50e753247e8" title="dominio.RandomGenerator.nextInt" alt="" coords="259,56,477,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_madre_de_todo.html#a35a541ec2233cda4d60ba1e24bba0d1e" title="dominio.MadreDeTodo.aumentar\lFuerza" alt="" coords="263,107,473,149"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#af383755a3458ebe1887ba48812d544ac" title="dominio.MadreDeTodo.aumentar\lDefensa" alt="" coords="263,173,473,214"/>
 </map>

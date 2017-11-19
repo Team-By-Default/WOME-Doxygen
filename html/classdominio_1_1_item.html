@@ -27,10 +27,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Ataque Doble.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
+   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
   </td>
  </tr>
  </tbody>
@@ -92,12 +93,12 @@ $(document).ready(function(){initNavTree('classdominio_1_1_item.html','');});
 Diagrama de herencias de dominio.Item</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_item__inherit__graph.png" border="0" usemap="#dominio_8_item_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <div class="dynheader">
 Diagrama de colaboración para dominio.Item:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdominio_1_1_item__coll__graph.png" border="0" usemap="#dominio_8_item_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
@@ -227,12 +228,12 @@ Atributos privados</h2></td></tr>
     <tr><td class="paramname">nombre</td><td>String que representa el nombre del item. </td></tr>
     <tr><td class="paramname">wearLocation</td><td>Entero que representa donde se usa el item. </td></tr>
     <tr><td class="paramname">bonusSalud</td><td>Entero que representa el bonus de salud del item. </td></tr>
-    <tr><td class="paramname">bonusEnergia</td><td>Entero que representa el bonus de energia del item. </td></tr>
+    <tr><td class="paramname">bonusEnergia</td><td>Entero que representa el bonus de energía del item. </td></tr>
     <tr><td class="paramname">bonusFuerza</td><td>Entero que representa el bonus de fuerza del item. </td></tr>
     <tr><td class="paramname">bonusDestreza</td><td>Entero que representa el bonus de destreza del item. </td></tr>
     <tr><td class="paramname">bonusInteligencia</td><td>Entero que representa el bonus de inteligencia del item. </td></tr>
     <tr><td class="paramname">foto</td><td>String que representa el path de la foto del item. </td></tr>
-    <tr><td class="paramname">fotoEquipado</td><td>String que representa la foto cuando el item está equipado. </td></tr>
+    <tr><td class="paramname">fotoEquipado</td><td>String que representa el path de la foto cuando el item está equipado. </td></tr>
   </table>
   </dd>
 </dl>
@@ -243,8 +244,8 @@ Atributos privados</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00037">37</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                                                                          {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a> = <a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">idItem</a> = <a class="code" href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">idItem</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">nombre</a> = <a class="code" href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">nombre</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac4d86a86f4dca0461d7b7385fa13ce63">wearLocation</a> = <a class="code" href="classdominio_1_1_item.html#ac4d86a86f4dca0461d7b7385fa13ce63">wearLocation</a>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">bonusSalud</a> = <a class="code" href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">bonusSalud</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">bonusEnergia</a> = <a class="code" href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">bonusEnergia</a>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">bonusFuerza</a> = <a class="code" href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">bonusFuerza</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">bonusDestreza</a> = <a class="code" href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">bonusDestreza</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">bonusInteligencia</a> = <a class="code" href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">bonusInteligencia</a>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a024288a57bf6d2ae1d4997daa7ccf188">fotoEquipado</a> = <a class="code" href="classdominio_1_1_item.html#a024288a57bf6d2ae1d4997daa7ccf188">fotoEquipado</a>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a5b6fb68d16feb46f6e93ee0ae78a2c1f"><div class="ttname"><a href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">dominio.Item.bonusInteligencia</a></div><div class="ttdeci">final int bonusInteligencia</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00021">Item.java:21</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00038">38</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                                                                                          {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a> = <a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">idItem</a> = <a class="code" href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">idItem</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">nombre</a> = <a class="code" href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">nombre</a>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac4d86a86f4dca0461d7b7385fa13ce63">wearLocation</a> = <a class="code" href="classdominio_1_1_item.html#ac4d86a86f4dca0461d7b7385fa13ce63">wearLocation</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">bonusSalud</a> = <a class="code" href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">bonusSalud</a>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">bonusEnergia</a> = <a class="code" href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">bonusEnergia</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">bonusFuerza</a> = <a class="code" href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">bonusFuerza</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">bonusDestreza</a> = <a class="code" href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">bonusDestreza</a>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">bonusInteligencia</a> = <a class="code" href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">bonusInteligencia</a>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.<a class="code" href="classdominio_1_1_item.html#a024288a57bf6d2ae1d4997daa7ccf188">fotoEquipado</a> = <a class="code" href="classdominio_1_1_item.html#a024288a57bf6d2ae1d4997daa7ccf188">fotoEquipado</a>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a5b6fb68d16feb46f6e93ee0ae78a2c1f"><div class="ttname"><a href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">dominio.Item.bonusInteligencia</a></div><div class="ttdeci">final int bonusInteligencia</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00021">Item.java:21</a></div></div>
 <div class="ttc" id="classdominio_1_1_item_html_a2ee0219693ed54775fefd068dfb5782f"><div class="ttname"><a href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">dominio.Item.bonusSalud</a></div><div class="ttdeci">final int bonusSalud</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00017">Item.java:17</a></div></div>
 <div class="ttc" id="classdominio_1_1_item_html_a8f1be76415e879cd61c2ddaa9cac0f20"><div class="ttname"><a href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">dominio.Item.bonusEnergia</a></div><div class="ttdeci">final int bonusEnergia</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00018">Item.java:18</a></div></div>
 <div class="ttc" id="classdominio_1_1_item_html_a55e81f710d66e3bed0c623c4fe1d05dc"><div class="ttname"><a href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">dominio.Item.nombre</a></div><div class="ttdeci">final String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00015">Item.java:15</a></div></div>
@@ -272,7 +273,7 @@ Atributos privados</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el bonus de destreza del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de destreza. </dd></dl>
+<p>Retorna el bonus de destreza del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de destreza. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00093">93</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                  {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">bonusDestreza</a>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_ac0c69f89de51386e445c0d1e9fdc590d"><div class="ttname"><a href="classdominio_1_1_item.html#ac0c69f89de51386e445c0d1e9fdc590d">dominio.Item.bonusDestreza</a></div><div class="ttdeci">final int bonusDestreza</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00020">Item.java:20</a></div></div>
@@ -303,7 +304,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el bonus de energia del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de energia. </dd></dl>
+<p>Retorna el bonus de energía del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de energía. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00079">79</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                 {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">bonusEnergia</a>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a8f1be76415e879cd61c2ddaa9cac0f20"><div class="ttname"><a href="classdominio_1_1_item.html#a8f1be76415e879cd61c2ddaa9cac0f20">dominio.Item.bonusEnergia</a></div><div class="ttdeci">final int bonusEnergia</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00018">Item.java:18</a></div></div>
@@ -334,7 +335,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el bonus de fuerza del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de fuerza. </dd></dl>
+<p>Retorna el bonus de fuerza del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de fuerza. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00086">86</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">bonusFuerza</a>;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_ac0e7728ea21db876c4678399e7484b47"><div class="ttname"><a href="classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47">dominio.Item.bonusFuerza</a></div><div class="ttdeci">final int bonusFuerza</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00019">Item.java:19</a></div></div>
@@ -365,7 +366,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el bonus de inteligencia del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de inteligencia. </dd></dl>
+<p>Retorna el bonus de inteligencia del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de inteligencia. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00100">100</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                      {</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">bonusInteligencia</a>;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a5b6fb68d16feb46f6e93ee0ae78a2c1f"><div class="ttname"><a href="classdominio_1_1_item.html#a5b6fb68d16feb46f6e93ee0ae78a2c1f">dominio.Item.bonusInteligencia</a></div><div class="ttdeci">final int bonusInteligencia</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00021">Item.java:21</a></div></div>
@@ -396,7 +397,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el bonus de salud del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de salud. </dd></dl>
+<p>Retorna el bonus de salud del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna bonus de salud. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00072">72</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                               {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">bonusSalud</a>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a2ee0219693ed54775fefd068dfb5782f"><div class="ttname"><a href="classdominio_1_1_item.html#a2ee0219693ed54775fefd068dfb5782f">dominio.Item.bonusSalud</a></div><div class="ttdeci">final int bonusSalud</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00017">Item.java:17</a></div></div>
@@ -427,7 +428,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna la foto del item. </p><dl class="section return"><dt>Devuelve</dt><dd>retorna la foto del item. </dd></dl>
+<p>Retorna la foto del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna la foto del item. </dd></dl>
 <dl class="exception"><dt>Excepciones</dt><dd>
   <table class="exception">
     <tr><td class="paramname">IOException</td><td>Cuando no se encuentra la foto del item. </td></tr>
@@ -435,8 +436,8 @@ Gráfico de llamadas a esta función:</div>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00057">57</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                      {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> ImageIO.read(<span class="keyword">new</span> File(<span class="stringliteral">&quot;recursos//&quot;</span> + <a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a>));</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a24a12c976b81a0fe59ecb6813304fe17"><div class="ttname"><a href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">dominio.Item.foto</a></div><div class="ttdeci">final String foto</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00014">Item.java:14</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00058">58</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                      {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> ImageIO.read(<span class="keyword">new</span> File(<span class="stringliteral">&quot;recursos//&quot;</span> + <a class="code" href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">foto</a>));</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a24a12c976b81a0fe59ecb6813304fe17"><div class="ttname"><a href="classdominio_1_1_item.html#a24a12c976b81a0fe59ecb6813304fe17">dominio.Item.foto</a></div><div class="ttdeci">final String foto</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00014">Item.java:14</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -454,7 +455,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el id del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el id del item. </dd></dl>
+<p>Retorna el id del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el id del item. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00107">107</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                           {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">idItem</a>;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a39e37b3d3cc72631f318486912f29739"><div class="ttname"><a href="classdominio_1_1_item.html#a39e37b3d3cc72631f318486912f29739">dominio.Item.idItem</a></div><div class="ttdeci">final int idItem</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00013">Item.java:13</a></div></div>
@@ -475,7 +476,7 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Método que retorna el nombre del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el nombre del item. </dd></dl>
+<p>Retorna el nombre del item. </p><dl class="section return"><dt>Devuelve</dt><dd>Retorna el nombre del item. </dd></dl>
 
 <p class="definition">Definición en la línea <a class="el" href="_item_8java_source.html#l00065">65</a> del archivo <a class="el" href="_item_8java_source.html">Item.java</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                              {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">nombre</a>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div><div class="ttc" id="classdominio_1_1_item_html_a55e81f710d66e3bed0c623c4fe1d05dc"><div class="ttname"><a href="classdominio_1_1_item.html#a55e81f710d66e3bed0c623c4fe1d05dc">dominio.Item.nombre</a></div><div class="ttdeci">final String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_item_8java_source.html#l00015">Item.java:15</a></div></div>
@@ -735,7 +736,7 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
-<li>F:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_item_8java_source.html">Item.java</a></li>
+<li>E:/Programacion avanzada/Mordor/jrpg-2017b-dominio/src/main/java/dominio/<a class="el" href="_item_8java_source.html">Item.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -8,18 +8,21 @@ var hierarchy =
       [ "mensajeria.Paquete", "classmensajeria_1_1_paquete.html", [
         [ "mensajeria.PaqueteAtacar", "classmensajeria_1_1_paquete_atacar.html", null ],
         [ "mensajeria.PaqueteBatalla", "classmensajeria_1_1_paquete_batalla.html", null ],
+        [ "mensajeria.PaqueteBatallaNPC", "classmensajeria_1_1_paquete_batalla_n_p_c.html", null ],
         [ "mensajeria.PaqueteComerciar", "classmensajeria_1_1_paquete_comerciar.html", null ],
         [ "mensajeria.PaqueteDeMovimientos", "classmensajeria_1_1_paquete_de_movimientos.html", null ],
         [ "mensajeria.PaqueteDePersonajes", "classmensajeria_1_1_paquete_de_personajes.html", null ],
         [ "mensajeria.PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", null ],
         [ "mensajeria.PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", null ],
         [ "mensajeria.PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", null ],
+        [ "mensajeria.PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html", null ],
         [ "mensajeria.PaqueteNPCs", "classmensajeria_1_1_paquete_n_p_cs.html", null ],
         [ "mensajeria.PaquetePersonaje", "classmensajeria_1_1_paquete_personaje.html", null ],
         [ "mensajeria.PaqueteUsuario", "classmensajeria_1_1_paquete_usuario.html", null ]
       ] ],
       [ "mensajeria.PaqueteAtacar", "classmensajeria_1_1_paquete_atacar.html", null ],
       [ "mensajeria.PaqueteBatalla", "classmensajeria_1_1_paquete_batalla.html", null ],
+      [ "mensajeria.PaqueteBatallaNPC", "classmensajeria_1_1_paquete_batalla_n_p_c.html", null ],
       [ "mensajeria.PaqueteComerciar", "classmensajeria_1_1_paquete_comerciar.html", null ],
       [ "mensajeria.PaqueteDeMovimientos", "classmensajeria_1_1_paquete_de_movimientos.html", null ],
       [ "mensajeria.PaqueteDePersonajes", "classmensajeria_1_1_paquete_de_personajes.html", null ],
@@ -49,6 +52,7 @@ var hierarchy =
         [ "comandos.ActualizarTrueque", "classcomandos_1_1_actualizar_trueque.html", null ],
         [ "comandos.Atacar", "classcomandos_1_1_atacar.html", null ],
         [ "comandos.Batalla", "classcomandos_1_1_batalla.html", null ],
+        [ "comandos.BatallaNPC", "classcomandos_1_1_batalla_n_p_c.html", null ],
         [ "comandos.Comercio", "classcomandos_1_1_comercio.html", null ],
         [ "comandos.Conexion", "classcomandos_1_1_conexion.html", null ],
         [ "comandos.FinalizarBatalla", "classcomandos_1_1_finalizar_batalla.html", null ],
@@ -65,6 +69,7 @@ var hierarchy =
         [ "comandos.ActualizarTrueque", "classcomandos_1_1_actualizar_trueque.html", null ],
         [ "comandos.Atacar", "classcomandos_1_1_atacar.html", null ],
         [ "comandos.Batalla", "classcomandos_1_1_batalla.html", null ],
+        [ "comandos.BatallaNPC", "classcomandos_1_1_batalla_n_p_c.html", null ],
         [ "comandos.Comercio", "classcomandos_1_1_comercio.html", null ],
         [ "comandos.Conexion", "classcomandos_1_1_conexion.html", null ],
         [ "comandos.CrearPersonaje", "classcomandos_1_1_crear_personaje.html", null ],
@@ -103,7 +108,6 @@ var hierarchy =
     [ "mundo.Nodo", "classmundo_1_1_nodo.html", null ],
     [ "entidades.NodoDePila", "classentidades_1_1_nodo_de_pila.html", null ],
     [ "juego.Pantalla", "classjuego_1_1_pantalla.html", null ],
-    [ "mensajeria.PaqueteNPC", "classmensajeria_1_1_paquete_n_p_c.html", null ],
     [ "dominio.Peleable", "interfacedominio_1_1_peleable.html", [
       [ "dominio.NonPlayableCharacter", "classdominio_1_1_non_playable_character.html", null ],
       [ "dominio.Personaje", "classdominio_1_1_personaje.html", null ]
@@ -119,6 +123,13 @@ var hierarchy =
     ] ],
     [ "recursos.SpriteSheet", "classrecursos_1_1_sprite_sheet.html", null ],
     [ "mundo.Tile", "classmundo_1_1_tile.html", null ],
+    [ "chat.TrickHandler", "classchat_1_1_trick_handler.html", [
+      [ "chat.BigDaddyHandler", "classchat_1_1_big_daddy_handler.html", null ],
+      [ "chat.GodModeHandler", "classchat_1_1_god_mode_handler.html", null ],
+      [ "chat.InvisibleHandler", "classchat_1_1_invisible_handler.html", null ],
+      [ "chat.NoClipHandler", "classchat_1_1_no_clip_handler.html", null ],
+      [ "chat.TinyDaddyHandler", "classchat_1_1_tiny_daddy_handler.html", null ]
+    ] ],
     [ "mundo.Utilitarias", "classmundo_1_1_utilitarias.html", null ],
     [ "JFrame", null, [
       [ "chat.MiChat", "classchat_1_1_mi_chat.html", null ],
@@ -154,6 +165,7 @@ var hierarchy =
       [ "mensajeria.Paquete", "classmensajeria_1_1_paquete.html", null ],
       [ "mensajeria.PaqueteAtacar", "classmensajeria_1_1_paquete_atacar.html", null ],
       [ "mensajeria.PaqueteBatalla", "classmensajeria_1_1_paquete_batalla.html", null ],
+      [ "mensajeria.PaqueteBatallaNPC", "classmensajeria_1_1_paquete_batalla_n_p_c.html", null ],
       [ "mensajeria.PaqueteComerciar", "classmensajeria_1_1_paquete_comerciar.html", null ],
       [ "mensajeria.PaqueteDeMovimientos", "classmensajeria_1_1_paquete_de_movimientos.html", null ],
       [ "mensajeria.PaqueteDePersonajes", "classmensajeria_1_1_paquete_de_personajes.html", null ],
