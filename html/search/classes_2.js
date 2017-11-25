@@ -5,6 +5,8 @@ var searchData=
   ['cargarrecursos',['CargarRecursos',['../classjuego_1_1_cargar_recursos.html',1,'juego']]],
   ['casta',['Casta',['../classdominio_1_1_casta.html',1,'dominio']]],
   ['celda',['Celda',['../classinventario_1_1_celda.html',1,'inventario']]],
+  ['cheat',['Cheat',['../classcomandos_1_1_cheat.html',1,'comandos']]],
+  ['chucknorris',['ChuckNorris',['../classcomandos_1_1_chuck_norris.html',1,'comandos']]],
   ['cliente',['Cliente',['../classcliente_1_1_cliente.html',1,'cliente']]],
   ['cloneable',['Cloneable',['../class_cloneable.html',1,'']]],
   ['comando',['Comando',['../classmensajeria_1_1_comando.html',1,'mensajeria']]],

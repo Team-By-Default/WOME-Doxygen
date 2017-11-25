@@ -1,5 +1,6 @@
 <map id="servidor.Conector.actualizarInventario" name="servidor.Conector.actualizarInventario">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#ab3ac3566354e8958108067810af4daee" title="mensajeria.PaquetePersonaje.get\lCantItems" alt="" coords="241,5,458,47"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447" title="mensajeria.PaquetePersonaje.get\lItemID" alt="" coords="241,71,458,112"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="236,137,463,163"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#a8f2c8d11f5325e5225f5f274e8dc3f88" title="mensajeria.PaquetePersonaje.get\lBackPack" alt="" coords="236,5,453,47"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_mochila.html#a806bd63c58fbe733acee08cd414a7cdd" title="dominio.Mochila.setItems" alt="" coords="259,71,430,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#aa4f5e7e7552628aef71168f7df3828ab" title="mensajeria.PaquetePersonaje.get\lItems" alt="" coords="236,123,453,164"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="236,188,453,229"/>
 </map>

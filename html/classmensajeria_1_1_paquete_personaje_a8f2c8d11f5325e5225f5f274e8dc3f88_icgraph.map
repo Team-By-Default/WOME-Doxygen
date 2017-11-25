@@ -1,0 +1,12 @@
+<map id="mensajeria.PaquetePersonaje.getBackPack" name="mensajeria.PaquetePersonaje.getBackPack">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a12439f7147abe6b2f203f53136cccf5a" title="servidor.Conector.registrar\lPersonaje" alt="" coords="275,5,449,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="271,72,453,113"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="271,137,453,179"/>
+<area shape="rect" id="node9" href="$classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20" title="servidor.Conector.agregar\lItemInventario" alt="" coords="277,205,447,247"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="515,10,740,37"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="501,61,753,87"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="507,111,747,138"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="503,162,751,189"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="515,213,740,239"/>
+<area shape="rect" id="node11" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="540,264,715,305"/>
+</map>

@@ -1,4 +1,5 @@
 <map id="dominio.Personaje.getIdPersonaje" name="dominio.Personaje.getIdPersonaje">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="272,5,471,47"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="279,71,463,112"/>
+<area shape="rect" id="node2" href="$classchat_1_1_god_mode_handler.html#a032b357a292fb222a87167a294193929" title="chat.GodModeHandler.ejecutar" alt="" coords="272,5,473,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="273,57,472,98"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="281,122,465,163"/>
 </map>

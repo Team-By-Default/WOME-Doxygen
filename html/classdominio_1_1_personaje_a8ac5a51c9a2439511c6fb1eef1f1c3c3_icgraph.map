@@ -1,0 +1,7 @@
+<map id="dominio.Personaje.setGod" name="dominio.Personaje.setGod">
+<area shape="rect" id="node2" href="$classchat_1_1_god_mode_handler.html#a032b357a292fb222a87167a294193929" title="chat.GodModeHandler.ejecutar" alt="" coords="234,5,435,32"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a1e2d3196c9b11e3b6eb34626a557d3b4" title="estados.EstadoBatalla.crear\lPersonajes" alt="" coords="241,57,428,98"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="228,122,441,163"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="489,57,688,98"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="497,122,681,163"/>
+</map>

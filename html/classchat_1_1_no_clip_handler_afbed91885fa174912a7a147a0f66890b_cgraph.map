@@ -1,0 +1,11 @@
+<map id="chat.NoClipHandler.ejecutar" name="chat.NoClipHandler.ejecutar">
+<area shape="rect" id="node2" href="$classentidades_1_1_entidad.html#a791616560a25df59f90855dc74d8d5a7" title="entidades.Entidad.getMundo" alt="" coords="251,5,438,32"/>
+<area shape="rect" id="node3" href="$classmundo_1_1_mundo.html#a688f430d44836542517255efccb5876e" title="mundo.Mundo.getGrafoDeTiles\lNoSolidos" alt="" coords="245,57,445,98"/>
+<area shape="rect" id="node4" href="$classmundo_1_1_mundo.html#a8d529ccda68cdf98077c9ee79d9c3464" title="mundo.Mundo.setGrafoDeTiles\lNoSolidos" alt="" coords="245,122,445,163"/>
+<area shape="rect" id="node5" href="$classmundo_1_1_mundo.html#ac2f2d39022a0b1a3de441db1272f9115" title="mundo.Mundo.getGrafoCompleto" alt="" coords="239,188,451,215"/>
+<area shape="rect" id="node6" href="$classmundo_1_1_mundo.html#ad3768c2b12302397486c1de0dca0184d" title="mundo.Mundo.setGrafoCompleto" alt="" coords="239,239,451,265"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="268,289,421,316"/>
+<area shape="rect" id="node8" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="257,341,432,382"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#a61b3d28a9417dc795e28a028ba7a24ef" title="mensajeria.PaquetePersonaje.set\lClipper" alt="" coords="236,406,453,447"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#a3b7b2283e768c179d4b3b4ec9bb9d59c" title="mensajeria.PaquetePersonaje.is\lClipper" alt="" coords="240,471,449,513"/>
+</map>

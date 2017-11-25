@@ -26,6 +26,7 @@ var classmensajeria_1_1_paquete_n_p_c =
     [ "items", "classmensajeria_1_1_paquete_n_p_c.html#a09ecf7d999bd7dd43d04afb4639f41d1", null ],
     [ "nivel", "classmensajeria_1_1_paquete_n_p_c.html#a49f02298b47de0b682e8c4d7aca21e90", null ],
     [ "nombre", "classmensajeria_1_1_paquete_n_p_c.html#a72926c470a28c40415fe0d2ac6bca50b", null ],
+    [ "nombres", "classmensajeria_1_1_paquete_n_p_c.html#a7b61b6aa53aee55b550beba7430e1d25", null ],
     [ "peleando", "classmensajeria_1_1_paquete_n_p_c.html#af5b0171ccb8dca666ac2161f9a157377", null ],
     [ "saludTope", "classmensajeria_1_1_paquete_n_p_c.html#a1c46182ce17c7d04c58348e5cc25c8af", null ]
 ];

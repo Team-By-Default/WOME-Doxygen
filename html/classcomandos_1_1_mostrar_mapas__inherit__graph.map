@@ -1,4 +1,4 @@
 <map id="comandos.MostrarMapas" name="comandos.MostrarMapas">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="{comandos.ComandosServer\n|# escuchaCliente\l|+ setEscuchaCliente()\l}" alt="" coords="5,321,189,399"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 16 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="21,5,174,273"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="{comandos.ComandosServer\n|# escuchaCliente\l|+ setEscuchaCliente()\l# notificarPjActualizado()\l}" alt="" coords="5,321,189,413"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 18 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="21,5,174,273"/>
 </map>

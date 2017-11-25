@@ -27,6 +27,9 @@ var dir_0dcc2f370bc243e67f71734347db82cd =
     [ "MadreDeTodo.java", "_madre_de_todo_8java.html", [
       [ "MadreDeTodo", "classdominio_1_1_madre_de_todo.html", "classdominio_1_1_madre_de_todo" ]
     ] ],
+    [ "Mochila.java", "_mochila_8java.html", [
+      [ "Mochila", "classdominio_1_1_mochila.html", "classdominio_1_1_mochila" ]
+    ] ],
     [ "MyRandom.java", "_my_random_8java.html", [
       [ "MyRandom", "classdominio_1_1_my_random.html", "classdominio_1_1_my_random" ]
     ] ],

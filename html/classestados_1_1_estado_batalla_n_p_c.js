@@ -3,6 +3,8 @@ var classestados_1_1_estado_batalla_n_p_c =
     [ "EstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168", null ],
     [ "actualizar", "classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3", null ],
     [ "crearPersonajes", "classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a", null ],
+    [ "esEstadoBatalla", "classestados_1_1_estado_batalla_n_p_c.html#a7a52157f8c79a4fb8b1b36c0c694420c", null ],
+    [ "esEstadoBatallaNPC", "classestados_1_1_estado_batalla_n_p_c.html#af8e1e710f1277756bae786b9cb31d35a", null ],
     [ "esEstadoDeJuego", "classestados_1_1_estado_batalla_n_p_c.html#aef95461d36ca0828c8522ce005cd2013", null ],
     [ "finalizarBatalla", "classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93", null ],
     [ "getEnemigo", "classestados_1_1_estado_batalla_n_p_c.html#a7a419e88507b195779c74a502b315676", null ],

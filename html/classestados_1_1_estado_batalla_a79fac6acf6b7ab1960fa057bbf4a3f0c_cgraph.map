@@ -13,7 +13,14 @@
 <area shape="rect" id="node13" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="270,658,483,685"/>
 <area shape="rect" id="node14" href="$classmensajeria_1_1_paquete_personaje.html#afa24dc4557eb6e78f82f5fefaf2467aa" title="mensajeria.PaquetePersonaje.set\lInteligencia" alt="" coords="268,709,485,751"/>
 <area shape="rect" id="node15" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="269,775,485,802"/>
-<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_personaje.html#a7517172752318ca6709541ea4d635196" title="mensajeria.PaquetePersonaje.remover\lBonus" alt="" coords="255,827,499,868"/>
-<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="269,893,484,919"/>
-<area shape="rect" id="node17" href="$classmensajeria_1_1_paquete_personaje.html#a17d03ce06321895c0f82ce9e2dbd37dc" title="mensajeria.PaquetePersonaje.sacar\lBonus" alt="" coords="547,827,777,868"/>
+<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_personaje.html#ae318b950626174c428c80bdda42dacf9" title="mensajeria.PaquetePersonaje.set\lMultiplicador" alt="" coords="268,827,485,868"/>
+<area shape="rect" id="node17" href="$classdominio_1_1_personaje.html#a9c725a77a53123eebff33333bbc8a41c" title="dominio.Personaje.getMulti\lDaddy" alt="" coords="287,892,466,933"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete_personaje.html#a9aa5b025792ed6443549c8fce1f9d9f8" title="mensajeria.PaquetePersonaje.setDios" alt="" coords="255,958,498,985"/>
+<area shape="rect" id="node19" href="$classdominio_1_1_personaje.html#acb29fedcde9366f80b38a412bdbb83e5" title="dominio.Personaje.isDios" alt="" coords="292,1009,461,1035"/>
+<area shape="rect" id="node20" href="$classmensajeria_1_1_paquete_personaje.html#a7517172752318ca6709541ea4d635196" title="mensajeria.PaquetePersonaje.remover\lBonus" alt="" coords="255,1060,499,1101"/>
+<area shape="rect" id="node22" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="269,1126,484,1153"/>
+<area shape="rect" id="node23" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="263,1177,490,1203"/>
+<area shape="rect" id="node24" href="$classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0" title="mensajeria.PaquetePersonaje.get\lMultiplicador" alt="" coords="268,1228,485,1269"/>
+<area shape="rect" id="node25" href="$classmensajeria_1_1_paquete_personaje.html#ace19da746815e45727398b03ea574ac3" title="mensajeria.PaquetePersonaje.isDios" alt="" coords="259,1294,494,1321"/>
+<area shape="rect" id="node21" href="$classmensajeria_1_1_paquete_personaje.html#a17d03ce06321895c0f82ce9e2dbd37dc" title="mensajeria.PaquetePersonaje.sacar\lBonus" alt="" coords="547,1060,777,1101"/>
 </map>

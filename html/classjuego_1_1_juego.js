@@ -10,7 +10,7 @@ var classjuego_1_1_juego =
     [ "getCliente", "classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c", null ],
     [ "getEscuchaMensajes", "classjuego_1_1_juego.html#afdf2e9b9b7e426aa3fb1676e963d764e", null ],
     [ "getEstadoBatalla", "classjuego_1_1_juego.html#ac2f4343a76086b4471cf26c6f0e8a4c5", null ],
-    [ "getEstadoBatallaNPC", "classjuego_1_1_juego.html#a10146efb687ea73ebde3ec10ccc1111c", null ],
+    [ "getEstadoBatallaNPC", "classjuego_1_1_juego.html#a90dc988ba8796d557e417a56f317773b", null ],
     [ "getEstadoJuego", "classjuego_1_1_juego.html#a1966f79473cd94badd068f1e4cd241e7", null ],
     [ "getHandlerMouse", "classjuego_1_1_juego.html#ae0e1507070f5454c3e117e4c4a40c11d", null ],
     [ "getNPCs", "classjuego_1_1_juego.html#a4a8ce6d75ae9c1d12f871bc46c9814b9", null ],

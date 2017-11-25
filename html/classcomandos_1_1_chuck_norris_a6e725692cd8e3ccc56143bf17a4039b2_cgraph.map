@@ -1,0 +1,4 @@
+<map id="comandos.ChuckNorris.ejecutar" name="comandos.ChuckNorris.ejecutar">
+<area shape="rect" id="node2" href="$classservidor_1_1_servidor.html#a077d69c0a8984c2f5c79d94ee435b358" title="servidor.Servidor.getClientes\lConectados" alt="" coords="260,5,445,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_dios.html#ae48ea2c5586bb7fa02659622007fdfe0" title="mensajeria.PaqueteDios.get\lIdEnemigo" alt="" coords="260,71,445,112"/>
+</map>

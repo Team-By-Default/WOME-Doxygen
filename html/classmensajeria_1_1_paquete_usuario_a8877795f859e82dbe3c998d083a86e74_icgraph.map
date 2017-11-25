@@ -1,3 +1,4 @@
 <map id="mensajeria.PaqueteUsuario.setIdPj" name="mensajeria.PaqueteUsuario.setIdPj">
-<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#aecc5680e13d3eb39dbc5fea42a376a5f" title="servidor.Conector.getUsuario" alt="" coords="279,5,467,32"/>
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a12439f7147abe6b2f203f53136cccf5a" title="servidor.Conector.registrar\lPersonaje" alt="" coords="279,5,452,47"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="500,13,725,39"/>
 </map>

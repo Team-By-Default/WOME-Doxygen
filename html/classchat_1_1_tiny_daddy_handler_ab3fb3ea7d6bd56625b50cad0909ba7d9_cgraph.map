@@ -1,0 +1,19 @@
+<map id="chat.TinyDaddyHandler.ejecutar" name="chat.TinyDaddyHandler.ejecutar">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="297,5,450,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="286,57,461,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a493539f3e40181c8841efe2c9266c5aa" title="mensajeria.PaquetePersonaje.multi\lMultiply" alt="" coords="260,122,487,163"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="285,239,461,265"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado.html#adba00169569b628782b0d0c0a5856096" title="estados.Estado.esEstadoBatalla" alt="" coords="548,180,760,207"/>
+<area shape="rect" id="node8" href="$classestados_1_1_estado.html#a7c10968311914d8e9e62d0b2b18e6f41" title="estados.Estado.esEstadoBatallaNPC" alt="" coords="535,297,773,324"/>
+<area shape="rect" id="node9" href="$classjuego_1_1_juego.html#ac2f4343a76086b4471cf26c6f0e8a4c5" title="juego.Juego.getEstadoBatalla" alt="" coords="276,340,471,367"/>
+<area shape="rect" id="node10" href="$classestados_1_1_estado_batalla.html#a19588e1bf2bee91bbcad402263bb9543" title="estados.EstadoBatalla.get\lPersonaje" alt="" coords="286,391,461,433"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a61599f811ec68c8d43b4ed4e311fb8fc" title="dominio.Personaje.setMulti\lDaddy" alt="" coords="284,457,463,498"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0" title="mensajeria.PaquetePersonaje.get\lMultiplicador" alt="" coords="265,522,482,563"/>
+<area shape="rect" id="node13" href="$classdominio_1_1_personaje.html#a1687708677fce6ef9281bc1dd27661df" title="dominio.Personaje.setAtaque" alt="" coords="277,588,469,615"/>
+<area shape="rect" id="node14" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="284,639,463,681"/>
+<area shape="rect" id="node16" href="$classjuego_1_1_juego.html#a90dc988ba8796d557e417a56f317773b" title="juego.Juego.getEstadoBatallaNPC" alt="" coords="263,705,484,732"/>
+<area shape="rect" id="node17" href="$classestados_1_1_estado_batalla_n_p_c.html#a34678bf9de27750d25bf45570f3e71b0" title="estados.EstadoBatallaNPC.get\lPersonaje" alt="" coords="272,757,475,798"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete_personaje.html#a4b9236582db1eadac461b4e1d8079a4e" title="mensajeria.PaquetePersonaje.get\lFuerzaTrucada" alt="" coords="265,822,482,863"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="560,231,748,273"/>
+<area shape="rect" id="node15" href="$classdominio_1_1_madre_de_todo.html#a7613be32e61137bd3620488dbe190d1f" title="dominio.MadreDeTodo.getFuerza" alt="" coords="547,647,761,673"/>
+</map>

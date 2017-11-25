@@ -1,5 +1,12 @@
 <map id="dominio.Item.getBonusFuerza" name="dominio.Item.getBonusFuerza">
-<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a52c01667a3d96fcca8e25d57d6ff44d7" title="inventario.Celda.actionListeners\lYLabel" alt="" coords="248,5,453,47"/>
-<area shape="rect" id="node4" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="267,71,434,98"/>
-<area shape="rect" id="node3" href="$classinventario_1_1_celda.html#a46fe511de9bd89316d3e73f7ed18453c" title="inventario.Celda.Celda" alt="" coords="501,13,652,39"/>
+<area shape="rect" id="node2" href="$classinventario_1_1_celda.html#a52c01667a3d96fcca8e25d57d6ff44d7" title="inventario.Celda.actionListeners\lYLabel" alt="" coords="263,5,468,47"/>
+<area shape="rect" id="node4" href="$classinventario_1_1_celda.html#a58ba4bf428ebb725ac874436633985f9" title="inventario.Celda.getLabel" alt="" coords="282,71,449,98"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#aa089c0fb8f517e0210df3ff6f8da35a0" title="mensajeria.PaquetePersonaje.anadir\lItemYBonus" alt="" coords="248,123,483,164"/>
+<area shape="rect" id="node3" href="$classinventario_1_1_celda.html#a46fe511de9bd89316d3e73f7ed18453c" title="inventario.Celda.Celda" alt="" coords="557,13,707,39"/>
+<area shape="rect" id="node6" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="541,93,723,135"/>
+<area shape="rect" id="node9" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="531,159,733,186"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="781,54,1033,81"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="787,105,1027,131"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="795,157,1020,183"/>
+<area shape="rect" id="node11" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="804,207,1011,234"/>
 </map>

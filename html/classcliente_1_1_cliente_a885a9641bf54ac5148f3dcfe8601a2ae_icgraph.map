@@ -1,9 +1,16 @@
 <map id="cliente.Cliente.getPaquetePersonaje" name="cliente.Cliente.getPaquetePersonaje">
-<area shape="rect" id="node2" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="245,5,422,47"/>
-<area shape="rect" id="node3" href="$classframes_1_1_menu_comerciar.html#a6704fe67c67ecfc07421e453645b73d1" title="frames.MenuComerciar.Menu\lComerciar" alt="" coords="237,71,429,112"/>
-<area shape="rect" id="node4" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="231,137,436,163"/>
-<area shape="rect" id="node6" href="$classframes_1_1_menu_inventario.html#a49103911adf05a2e0ac6cd3e07e77206" title="frames.MenuInventario.Menu\lInventario" alt="" coords="240,188,427,229"/>
-<area shape="rect" id="node7" href="$classframes_1_1_menu_mapas.html#a145190813a03a1c65cb8d1eba9c63c20" title="frames.MenuMapas.MenuMapas" alt="" coords="228,254,439,281"/>
-<area shape="rect" id="node8" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="236,305,431,331"/>
-<area shape="rect" id="node5" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="487,129,683,171"/>
+<area shape="rect" id="node2" href="$classchat_1_1_big_daddy_handler.html#a99784883194365366d541a93c0de2007" title="chat.BigDaddyHandler.ejecutar" alt="" coords="233,5,434,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_god_mode_handler.html#a032b357a292fb222a87167a294193929" title="chat.GodModeHandler.ejecutar" alt="" coords="233,56,434,83"/>
+<area shape="rect" id="node4" href="$classchat_1_1_invisible_handler.html#ad6b5242342d096a2301e1c0ba974df30" title="chat.InvisibleHandler.ejecutar" alt="" coords="238,107,429,133"/>
+<area shape="rect" id="node5" href="$classchat_1_1_no_clip_handler.html#afbed91885fa174912a7a147a0f66890b" title="chat.NoClipHandler.ejecutar" alt="" coords="242,157,425,184"/>
+<area shape="rect" id="node6" href="$classchat_1_1_tiny_daddy_handler.html#ab3fb3ea7d6bd56625b50cad0909ba7d9" title="chat.TinyDaddyHandler.ejecutar" alt="" coords="230,208,437,235"/>
+<area shape="rect" id="node7" href="$classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="247,283,420,325"/>
+<area shape="rect" id="node9" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="245,349,422,390"/>
+<area shape="rect" id="node10" href="$classframes_1_1_menu_comerciar.html#a6704fe67c67ecfc07421e453645b73d1" title="frames.MenuComerciar.Menu\lComerciar" alt="" coords="237,414,429,455"/>
+<area shape="rect" id="node11" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="231,480,436,507"/>
+<area shape="rect" id="node13" href="$classframes_1_1_menu_inventario.html#a49103911adf05a2e0ac6cd3e07e77206" title="frames.MenuInventario.Menu\lInventario" alt="" coords="240,531,427,573"/>
+<area shape="rect" id="node14" href="$classframes_1_1_menu_mapas.html#a145190813a03a1c65cb8d1eba9c63c20" title="frames.MenuMapas.MenuMapas" alt="" coords="228,597,439,624"/>
+<area shape="rect" id="node15" href="$classframes_1_1_menu_stats.html#ad59d8bac029e9f4fbaef54fa93e1f275" title="frames.MenuStats.MenuStats" alt="" coords="236,648,431,675"/>
+<area shape="rect" id="node8" href="$classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="516,291,653,317"/>
+<area shape="rect" id="node12" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="487,473,683,514"/>
 </map>

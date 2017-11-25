@@ -1,0 +1,6 @@
+<map id="comandos.Cheat.ejecutar" name="comandos.Cheat.ejecutar">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="230,5,445,32"/>
+<area shape="rect" id="node3" href="$classservidor_1_1_escucha_cliente.html#a3437f70eded66aba10f747550d33a3f6" title="servidor.EscuchaCliente.set\lPaquetePersonaje" alt="" coords="246,57,429,98"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_escucha_cliente.html#a6d4d2edf78fdb294f530b521deef52e2" title="servidor.EscuchaCliente.get\lPaquetePersonaje" alt="" coords="246,122,429,163"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="224,188,451,215"/>
+</map>

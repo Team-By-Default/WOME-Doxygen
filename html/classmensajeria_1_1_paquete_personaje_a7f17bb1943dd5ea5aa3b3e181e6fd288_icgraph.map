@@ -1,0 +1,9 @@
+<map id="mensajeria.PaquetePersonaje.setBackPack" name="mensajeria.PaquetePersonaje.setBackPack">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a12439f7147abe6b2f203f53136cccf5a" title="servidor.Conector.registrar\lPersonaje" alt="" coords="285,105,459,146"/>
+<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="281,39,463,81"/>
+<area shape="rect" id="node7" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="271,171,473,197"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="535,116,760,143"/>
+<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="521,56,773,83"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="527,5,767,32"/>
+<area shape="rect" id="node8" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="544,171,751,197"/>
+</map>

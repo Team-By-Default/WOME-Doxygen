@@ -1,7 +1,4 @@
 <map id="mensajeria.PaquetePersonaje.setNombre" name="mensajeria.PaquetePersonaje.setNombre">
-<area shape="rect" id="node2" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="539,5,735,47"/>
-<area shape="rect" id="node3" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="271,42,476,69"/>
-<area shape="rect" id="node4" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="272,93,475,119"/>
-<area shape="rect" id="node5" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="524,82,749,109"/>
-<area shape="rect" id="node6" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="533,133,740,159"/>
+<area shape="rect" id="node2" href="$classframes_1_1_menu_creacion_pj.html#a71e3a7ec692dbc16672c6a7ca823397f" title="frames.MenuCreacionPj.Menu\lCreacionPj" alt="" coords="524,5,720,47"/>
+<area shape="rect" id="node3" href="$classframes_1_1_menu_creacion_pj.html#a31715a87345a3b6c6048e22b4f4d1790" title="frames.MenuCreacionPj.crearPj" alt="" coords="271,38,476,65"/>
 </map>

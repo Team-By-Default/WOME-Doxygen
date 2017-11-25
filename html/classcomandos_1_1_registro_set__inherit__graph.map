@@ -1,4 +1,4 @@
 <map id="comandos.RegistroSet" name="comandos.RegistroSet">
 <area shape="rect" id="node2" href="$classcomandos_1_1_comandos_cliente.html" title="{comandos.ComandosCliente\n|# cliente\l|+ setCliente()\l}" alt="" coords="5,321,193,399"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 16 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="23,5,176,273"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 18 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="23,5,176,273"/>
 </map>

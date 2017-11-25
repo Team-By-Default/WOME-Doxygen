@@ -1,7 +1,14 @@
 <map id="mensajeria.PaquetePersonaje.useBonus" name="mensajeria.PaquetePersonaje.useBonus">
 <area shape="rect" id="node2" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="314,5,491,47"/>
 <area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a7dbe59c32d0382a15a02371f4f941dda" title="mensajeria.PaquetePersonaje.anadirItem" alt="" coords="273,71,532,98"/>
-<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#a5c42a7b37310c06d67226e1a7560af9f" title="mensajeria.PaquetePersonaje.poner\lBonus" alt="" coords="287,123,518,164"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_personaje.html#a537ec411af26e5a56c70b0a57c02dd58" title="mensajeria.PaquetePersonaje.poner\lUltimoItem" alt="" coords="287,188,518,229"/>
-<area shape="rect" id="node5" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="580,123,783,164"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#aa089c0fb8f517e0210df3ff6f8da35a0" title="mensajeria.PaquetePersonaje.anadir\lItemYBonus" alt="" coords="285,123,520,164"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_personaje.html#a5c42a7b37310c06d67226e1a7560af9f" title="mensajeria.PaquetePersonaje.poner\lBonus" alt="" coords="287,188,518,229"/>
+<area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_personaje.html#a537ec411af26e5a56c70b0a57c02dd58" title="mensajeria.PaquetePersonaje.poner\lUltimoItem" alt="" coords="287,253,518,295"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_conector.html#ae369c7d8c162aa88125f4c113d075985" title="servidor.Conector.actualizar\lPersonaje" alt="" coords="590,68,773,109"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_conector.html#aae4a45a528285356f815eee449fa8a21" title="servidor.Conector.getPersonaje" alt="" coords="580,134,783,161"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_personaje.html#a62b9d27a08f945211843602597b93593" title="comandos.ActualizarPersonaje.ejecutar" alt="" coords="831,29,1083,55"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="837,79,1077,106"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="844,131,1069,158"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_inicio_sesion.html#a5ed505a98e862f21a32f5ca3bc5c42f1" title="comandos.InicioSesion.ejecutar" alt="" coords="853,182,1060,209"/>
+<area shape="rect" id="node12" href="$classcomandos_1_1_actualizar_personaje_lvl.html#a0d7eb29719d0861720cee05d3790a78c" title="comandos.ActualizarPersonaje\lLvl.ejecutar" alt="" coords="580,188,783,229"/>
 </map>

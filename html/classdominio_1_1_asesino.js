@@ -9,9 +9,5 @@ var classdominio_1_1_asesino =
     [ "habilidad3", "classdominio_1_1_asesino.html#aa4028456280951b39f8b3c7dfae55cb0", null ],
     [ "recibirDestrezaBonus", "classdominio_1_1_asesino.html#af623f45cbd077bcb6f69e184ea05834b", null ],
     [ "recibirFuerzaBonus", "classdominio_1_1_asesino.html#a689aa7ea9dabd4d0dcd6c1b410c4aa47", null ],
-    [ "recibirInteligenciaBonus", "classdominio_1_1_asesino.html#a05edfa7aa2b1f42ee0e89f35490a0e4c", null ],
-    [ "AUMENTARPROBEVITAR", "classdominio_1_1_asesino.html#a03c972f96c9bf71f622eae2f16297eb5", null ],
-    [ "BONUSDESTREZA", "classdominio_1_1_asesino.html#aa02c4e6fc2f24890693c69ecaa737cbc", null ],
-    [ "ENERGIAMINIMA", "classdominio_1_1_asesino.html#a69bc35a280c8a72300e43fe97adb3e4e", null ],
-    [ "PROBEVITARDANIO", "classdominio_1_1_asesino.html#a77ac14945e9a62971a40d5b4199df1bd", null ]
+    [ "recibirInteligenciaBonus", "classdominio_1_1_asesino.html#a05edfa7aa2b1f42ee0e89f35490a0e4c", null ]
 ];

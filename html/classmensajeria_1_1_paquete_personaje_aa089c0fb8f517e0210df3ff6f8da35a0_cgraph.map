@@ -1,0 +1,8 @@
+<map id="mensajeria.PaquetePersonaje.anadirItemYBonus" name="mensajeria.PaquetePersonaje.anadirItemYBonus">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_personaje.html#a899d62688d452f49be92605fe2f7ef8d" title="mensajeria.PaquetePersonaje.use\lBonus" alt="" coords="288,5,508,47"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_item.html#aa663574cee556b330a5fbf0e6a05c39c" title="dominio.Item.getBonusSalud" alt="" coords="304,71,492,98"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_item.html#a587f3c57f42d94959d3fbc0c58f367d6" title="dominio.Item.getBonusEnergia" alt="" coords="299,122,497,149"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_item.html#a7b6b823dd3c88a7334b7a4770729f405" title="dominio.Item.getBonusFuerza" alt="" coords="301,173,495,199"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_item.html#a1ff41b721e2477d575b4a947566dfec7" title="dominio.Item.getBonusDestreza" alt="" coords="295,223,501,250"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_item.html#a8d41a92822f87db0ccef9ef20705bbd9" title="dominio.Item.getBonusInteligencia" alt="" coords="288,274,508,301"/>
+</map>

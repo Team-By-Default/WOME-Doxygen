@@ -24,6 +24,9 @@ var dir_96019ca267b8387142330b4ca78af274 =
     [ "PaqueteDePersonajes.java", "_paquete_de_personajes_8java.html", [
       [ "PaqueteDePersonajes", "classmensajeria_1_1_paquete_de_personajes.html", "classmensajeria_1_1_paquete_de_personajes" ]
     ] ],
+    [ "PaqueteDios.java", "_paquete_dios_8java.html", [
+      [ "PaqueteDios", "classmensajeria_1_1_paquete_dios.html", "classmensajeria_1_1_paquete_dios" ]
+    ] ],
     [ "PaqueteFinalizarBatalla.java", "_paquete_finalizar_batalla_8java.html", [
       [ "PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", "classmensajeria_1_1_paquete_finalizar_batalla" ]
     ] ],

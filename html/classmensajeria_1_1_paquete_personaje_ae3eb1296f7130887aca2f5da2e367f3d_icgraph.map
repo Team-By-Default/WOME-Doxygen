@@ -1,0 +1,4 @@
+<map id="mensajeria.PaquetePersonaje.setMochila" name="mensajeria.PaquetePersonaje.setMochila">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#a12439f7147abe6b2f203f53136cccf5a" title="servidor.Conector.registrar\lPersonaje" alt="" coords="271,5,444,47"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_crear_personaje.html#a940897f531e371669f80aef3b9671b10" title="comandos.CrearPersonaje.ejecutar" alt="" coords="492,13,717,39"/>
+</map>

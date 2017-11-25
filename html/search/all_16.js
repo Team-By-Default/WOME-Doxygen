@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['x',['x',['../classentidades_1_1_entidad.html#ac1c2d278717c3a1ddbd3fac27d2859e3',1,'entidades.Entidad.x()'],['../classentidades_1_1_nodo_de_pila.html#a2f15e7a3779aaede77024d35361be78c',1,'entidades.NodoDePila.x()'],['../classinterfaz_1_1_menu_batalla.html#adfa2f9f86981616429f2c7b8d704c4b5',1,'interfaz.MenuBatalla.x()'],['../classinterfaz_1_1_menu_info_personaje.html#a5083d3af8aca7fb891b016cd5befa77a',1,'interfaz.MenuInfoPersonaje.x()'],['../classmundo_1_1_nodo.html#a09564d13de070e6a740aafc07700306a',1,'mundo.Nodo.x()'],['../classdominio_1_1_madre_de_todo.html#abb3d69f1321f5220983b1e5327a17027',1,'dominio.MadreDeTodo.x()']]],
-  ['xcomercio',['xComercio',['../classentidades_1_1_entidad.html#a4d0c88798b90af82ebafb9e6da920ae1',1,'entidades::Entidad']]],
-  ['xfinal',['xFinal',['../classentidades_1_1_entidad.html#ac5c376a2983a6b549fee1082d19dc6ee',1,'entidades::Entidad']]],
-  ['xinicio',['xInicio',['../classentidades_1_1_entidad.html#a2286ff1feeea266369d61021c3060df8',1,'entidades::Entidad']]],
-  ['xmaximo',['xMaximo',['../classmundo_1_1_mundo.html#a0012bc1916ccf3c6187bf8a6fda48168',1,'mundo::Mundo']]],
-  ['xminimo',['xMinimo',['../classmundo_1_1_mundo.html#a4afb166a202eb3d479ec0566fce88adc',1,'mundo::Mundo']]],
-  ['xoffset',['xOffset',['../classentidades_1_1_entidad.html#a6799d2197c6802fc1a527388fbb4cb2c',1,'entidades.Entidad.xOffset()'],['../classjuego_1_1_camara.html#a44108e55a4da4fea4a97fba8b1f5c76b',1,'juego.Camara.xOffset()'],['../classmundo_1_1_mundo.html#a1264001b1933d64156c245d1a5e5d85c',1,'mundo.Mundo.xOffset()']]]
+  ['y',['y',['../classentidades_1_1_entidad.html#a4105336da8120e3d7c82b906657fb80b',1,'entidades.Entidad.y()'],['../classentidades_1_1_nodo_de_pila.html#a43b628a5f7c3c53db1a7bbca275040ac',1,'entidades.NodoDePila.y()'],['../classinterfaz_1_1_menu_batalla.html#ae351d795e538ae1d80708dd311c31f72',1,'interfaz.MenuBatalla.y()'],['../classinterfaz_1_1_menu_info_personaje.html#a3b7e62a0abedbfded20ee8249681ff7a',1,'interfaz.MenuInfoPersonaje.y()'],['../classmundo_1_1_nodo.html#a32d729f762ab7c3d38d7582402a26dee',1,'mundo.Nodo.y()'],['../classdominio_1_1_madre_de_todo.html#aa637a7de7fe63b142075188e1b17d549',1,'dominio.MadreDeTodo.y()']]],
+  ['ycomercio',['yComercio',['../classentidades_1_1_entidad.html#ac5711517a22f15d5a12c53f30d839b9a',1,'entidades::Entidad']]],
+  ['yfinal',['yFinal',['../classentidades_1_1_entidad.html#aefae0d3dafc1d7629fbe7945caf3a665',1,'entidades::Entidad']]],
+  ['yinicio',['yInicio',['../classentidades_1_1_entidad.html#abbab8ca9be8532e933c2bf28a0991184',1,'entidades::Entidad']]],
+  ['ymaximo',['yMaximo',['../classmundo_1_1_mundo.html#a3177760634e735a4a225dde897015498',1,'mundo::Mundo']]],
+  ['yminimo',['yMinimo',['../classmundo_1_1_mundo.html#a53b186ec81d5bdad20e420293c96b2e4',1,'mundo::Mundo']]],
+  ['yoffset',['yOffset',['../classentidades_1_1_entidad.html#a19f19fb77839f416658905c5c7c82d1a',1,'entidades.Entidad.yOffset()'],['../classjuego_1_1_camara.html#ad435720a52d13feb2d80577749e32659',1,'juego.Camara.yOffset()'],['../classmundo_1_1_mundo.html#ae825c986f931ad0000b93feabc8be90c',1,'mundo.Mundo.yOffset()']]]
 ];

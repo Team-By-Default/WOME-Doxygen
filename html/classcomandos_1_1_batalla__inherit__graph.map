@@ -1,5 +1,5 @@
 <map id="comandos.Batalla" name="comandos.Batalla">
-<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="{comandos.ComandosServer\n|# escuchaCliente\l|+ setEscuchaCliente()\l}" alt="" coords="5,321,189,399"/>
-<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 16 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="129,5,282,273"/>
-<area shape="rect" id="node4" href="$classcomandos_1_1_comandos_escucha.html" title="{comandos.ComandosEscucha\n|# juego\l|+ setJuego()\l}" alt="" coords="214,321,413,399"/>
+<area shape="rect" id="node2" href="$classcomandos_1_1_comandos_server.html" title="{comandos.ComandosServer\n|# escuchaCliente\l|+ setEscuchaCliente()\l# notificarPjActualizado()\l}" alt="" coords="5,321,189,413"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 18 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="129,5,282,273"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_comandos_escucha.html" title="{comandos.ComandosEscucha\n|# juego\l|+ setJuego()\l}" alt="" coords="214,329,413,406"/>
 </map>

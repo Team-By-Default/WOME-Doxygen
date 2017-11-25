@@ -1,4 +1,5 @@
 <map id="mensajeria.PaquetePersonaje" name="mensajeria.PaquetePersonaje">
-<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="144,189,281,443"/>
-<area shape="rect" id="node4" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="5,5,84,83"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete.html" title="{mensajeria.Paquete\n||+ Paquete()\l+ Paquete()\l+ Paquete()\l+ Paquete()\l+ setMensaje()\l+ setIp()\l+ setComando()\l+ getMensaje()\l+ getIp()\l+ getComando()\l+ clone()\l+ getObjeto()\l+ getObjetoSet()\l}" alt="" coords="149,189,287,443"/>
+<area shape="rect" id="node4" href="$class_cloneable.html" title="{Cloneable\n||}" alt="" coords="121,5,200,83"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_mochila.html" title="{dominio.Mochila\n||+ Mochila()\l+ anadirItem()\l+ removerItem()\l+ setItems()\l+ removerTodos()\l+ getItem()\l+ getMochila()\l+ setMochila()\l+ getItem1()\l+ setItem1()\ly 38 más...\l}" alt="" coords="611,204,734,428"/>
 </map>

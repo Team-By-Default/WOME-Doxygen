@@ -9,6 +9,7 @@ var namespacedominio =
     [ "Humano", "classdominio_1_1_humano.html", "classdominio_1_1_humano" ],
     [ "Item", "classdominio_1_1_item.html", "classdominio_1_1_item" ],
     [ "MadreDeTodo", "classdominio_1_1_madre_de_todo.html", "classdominio_1_1_madre_de_todo" ],
+    [ "Mochila", "classdominio_1_1_mochila.html", "classdominio_1_1_mochila" ],
     [ "MyRandom", "classdominio_1_1_my_random.html", "classdominio_1_1_my_random" ],
     [ "MyRandomStub", "classdominio_1_1_my_random_stub.html", "classdominio_1_1_my_random_stub" ],
     [ "NonPlayableCharacter", "classdominio_1_1_non_playable_character.html", "classdominio_1_1_non_playable_character" ],

@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['valdouble',['valDouble',['../classdominio_1_1_my_random_stub.html#a806a53b57baf4abdc8a0ea12559a23c1',1,'dominio::MyRandomStub']]],
-  ['valint',['valInt',['../classdominio_1_1_my_random_stub.html#a8a9f26da27a4cec3ab89ae33335f216a',1,'dominio::MyRandomStub']]],
-  ['velocidad',['velocidad',['../classentidades_1_1_animacion.html#a42b93bcdd06a5694f31a9c817929e91e',1,'entidades::Animacion']]],
-  ['ventcontac',['ventContac',['../classjuego_1_1_pantalla.html#ac9b7970c767510d60ee1554bedf73c6f',1,'juego::Pantalla']]],
-  ['verticalinf',['verticalInf',['../classentidades_1_1_entidad.html#adf63956314aa0d3f65d2f51685b1c15d',1,'entidades::Entidad']]],
-  ['verticalsup',['verticalSup',['../classentidades_1_1_entidad.html#a3613e76ba6a5ea2fd6bacb384b95f6e9',1,'entidades::Entidad']]]
+  ['wearlocation',['wearLocation',['../classdominio_1_1_item.html#ab4838bef8bed5cb67e566e55af98d16b',1,'dominio::Item']]],
+  ['wome',['wome',['../classcliente_1_1_cliente.html#a48690075af043c105722fa12a90c6c55',1,'cliente::Cliente']]]
 ];

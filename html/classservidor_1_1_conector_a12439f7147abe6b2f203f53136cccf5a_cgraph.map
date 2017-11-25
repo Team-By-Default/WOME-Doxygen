@@ -1,0 +1,11 @@
+<map id="servidor.Conector.registrarPersonaje" name="servidor.Conector.registrarPersonaje">
+<area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_usuario.html#aa85eef9184d97447ea1c9ae1ce43fa00" title="mensajeria.PaqueteUsuario.get\lUsername" alt="" coords="239,5,441,47"/>
+<area shape="rect" id="node3" href="$classmensajeria_1_1_paquete_personaje.html#a73eee8440030a5ac1c5ddb4e769eb6f2" title="mensajeria.PaquetePersonaje.setId" alt="" coords="227,71,453,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#ae3eb1296f7130887aca2f5da2e367f3d" title="mensajeria.PaquetePersonaje.set\lMochila" alt="" coords="231,123,449,164"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a8f9bbeab62145d94cd960a63d57f675c" title="mensajeria.PaquetePersonaje.set\lInventario" alt="" coords="231,188,449,229"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_usuario.html#a8877795f859e82dbe3c998d083a86e74" title="mensajeria.PaqueteUsuario.setIdPj" alt="" coords="227,254,453,281"/>
+<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_personaje.html#a7f17bb1943dd5ea5aa3b3e181e6fd288" title="mensajeria.PaquetePersonaje.set\lBackPack" alt="" coords="231,305,449,347"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a8f2c8d11f5325e5225f5f274e8dc3f88" title="mensajeria.PaquetePersonaje.get\lBackPack" alt="" coords="231,371,449,412"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_mochila.html#af8f0194274626161421f1eb8f313e77c" title="dominio.Mochila.setMochila" alt="" coords="249,437,431,463"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="227,487,453,514"/>
+</map>

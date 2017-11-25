@@ -1,3 +1,5 @@
 <map id="estados.Estado.getEstado" name="estados.Estado.getEstado">
-<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="229,5,417,47"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="255,5,443,47"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado.html#adba00169569b628782b0d0c0a5856096" title="estados.Estado.esEstadoBatalla" alt="" coords="243,71,455,98"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado.html#a7c10968311914d8e9e62d0b2b18e6f41" title="estados.Estado.esEstadoBatallaNPC" alt="" coords="229,122,468,149"/>
 </map>

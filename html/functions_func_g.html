@@ -31,7 +31,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -195,6 +195,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classdominio_1_1_personaje.html#ae2877667563c29269f569792591e4498">dominio.Personaje</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#ab4aead6b36e0c832de472f93a520b738">mensajeria.PaquetePersonaje</a>
 </li>
+<li>getDestrezaRequerida()
+: <a class="el" href="classdominio_1_1_item.html#a8b3ea693c5327954f87625684d705ce7">dominio.Item</a>
+</li>
 <li>getDireccion()
 : <a class="el" href="classentidades_1_1_entidad.html#a690422f13720818bdc30c6dbd5845548">entidades.Entidad</a>
 , <a class="el" href="classmensajeria_1_1_paquete_movimiento.html#a67afec43b88f0861925f3df483a8f95d">mensajeria.PaqueteMovimiento</a>
@@ -233,7 +236,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classjuego_1_1_juego.html#ac2f4343a76086b4471cf26c6f0e8a4c5">juego.Juego</a>
 </li>
 <li>getEstadoBatallaNPC()
-: <a class="el" href="classjuego_1_1_juego.html#a10146efb687ea73ebde3ec10ccc1111c">juego.Juego</a>
+: <a class="el" href="classjuego_1_1_juego.html#a90dc988ba8796d557e417a56f317773b">juego.Juego</a>
 </li>
 <li>getEstadoJuego()
 : <a class="el" href="classjuego_1_1_juego.html#a1966f79473cd94badd068f1e4cd241e7">juego.Juego</a>
@@ -243,7 +246,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#abe106124989ce91362e4b73c0f0876fe">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getFoto()
-: <a class="el" href="classdominio_1_1_item.html#ad661fe90f6f18833fc78de2db522f01d">dominio.Item</a>
+: <a class="el" href="classdominio_1_1_item.html#ae60c218545c891a4b9ae0915dcef4e48">dominio.Item</a>
+</li>
+<li>getFotoBI()
+: <a class="el" href="classdominio_1_1_item.html#a188d519fe8450848cb3cf8862553aaac">dominio.Item</a>
+</li>
+<li>getFotoEquipado()
+: <a class="el" href="classdominio_1_1_item.html#a757c38cd59ac3974cead07889b647301">dominio.Item</a>
 </li>
 <li>getFrame()
 : <a class="el" href="classentidades_1_1_animacion.html#a8c7d553c3251d594f2a96a9cf7c10976">entidades.Animacion</a>
@@ -262,8 +271,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classmensajeria_1_1_paquete_n_p_c.html#a222ae6214f93cfc1bb80958cbc1cc9b1">mensajeria.PaqueteNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a3c8d5553e8eaa88c48239c505efafd3b">mensajeria.PaquetePersonaje</a>
 </li>
+<li>getFuerzaRequerida()
+: <a class="el" href="classdominio_1_1_item.html#a4656e1669a4b092dd12a5c4d42ddeeea">dominio.Item</a>
+</li>
+<li>getFuerzaTrucada()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a4b9236582db1eadac461b4e1d8079a4e">mensajeria.PaquetePersonaje</a>
+</li>
 <li>getGanadorBatalla()
 : <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#a4721d6b56883823c3e37bf31101d0134">mensajeria.PaqueteFinalizarBatalla</a>
+</li>
+<li>getGrafoCompleto()
+: <a class="el" href="classmundo_1_1_mundo.html#ac2f2d39022a0b1a3de441db1272f9115">mundo.Mundo</a>
+</li>
+<li>getGrafoDeTilesNoSolidos()
+: <a class="el" href="classmundo_1_1_mundo.html#a688f430d44836542517255efccb5876e">mundo.Mundo</a>
 </li>
 <li>getHabilidadesCasta()
 : <a class="el" href="classdominio_1_1_asesino.html#a03d33605b91482c980fb71bc61d86dc5">dominio.Asesino</a>
@@ -299,6 +320,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classmensajeria_1_1_paquete_batalla.html#a6edc8ac83316ee287b085718c3fbfc42">mensajeria.PaqueteBatalla</a>
 , <a class="el" href="classmensajeria_1_1_paquete_batalla_n_p_c.html#ab2affc4b74dae80bb443185350e0dc94">mensajeria.PaqueteBatallaNPC</a>
 , <a class="el" href="classmensajeria_1_1_paquete_comerciar.html#aef2a3a0cd1d749e6d4e75956d5e7113b">mensajeria.PaqueteComerciar</a>
+, <a class="el" href="classmensajeria_1_1_paquete_dios.html#ae48ea2c5586bb7fa02659622007fdfe0">mensajeria.PaqueteDios</a>
 , <a class="el" href="classmensajeria_1_1_paquete_finalizar_batalla.html#ac864c19484641b422817befea6c2e8c7">mensajeria.PaqueteFinalizarBatalla</a>
 </li>
 <li>getIdItem()
@@ -309,6 +331,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getIdPersonaje()
 : <a class="el" href="classdominio_1_1_personaje.html#a6c423486f03b05c11b78cdbf158eefc4">dominio.Personaje</a>
+, <a class="el" href="classmensajeria_1_1_paquete_dios.html#ae0879c856839852b020d800269a3798a">mensajeria.PaqueteDios</a>
 , <a class="el" href="classmensajeria_1_1_paquete_movimiento.html#aa7ef4fb93d4d746227bb04bfea21253e">mensajeria.PaqueteMovimiento</a>
 , <a class="el" href="classservidor_1_1_escucha_cliente.html#afc00f0c87edfcec654fc11a290d516df">servidor.EscuchaCliente</a>
 </li>
@@ -319,12 +342,78 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5">dominio.Personaje</a>
 , <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a11b1a9b1b0acde69f09b02b6043650d8">mensajeria.PaquetePersonaje</a>
 </li>
+<li>getInteligenciarequerida()
+: <a class="el" href="classdominio_1_1_item.html#a2af3c7a6fa46697f8a9029b192dce7a7">dominio.Item</a>
+</li>
 <li>getInventario()
 : <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a4c5a77e53b2203c709fdbbd315885de5">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getIp()
 : <a class="el" href="classcliente_1_1_cliente.html#ab4e38d9d67ee70180cc0be8dfbfe56f7">cliente.Cliente</a>
 , <a class="el" href="classmensajeria_1_1_paquete.html#a36e34051be8350261d030b1604d8db57">mensajeria.Paquete</a>
+</li>
+<li>getItem()
+: <a class="el" href="classdominio_1_1_mochila.html#a5ebb0a77d0a42d76087dabd27638239d">dominio.Mochila</a>
+</li>
+<li>getItem1()
+: <a class="el" href="classdominio_1_1_mochila.html#a0be7b7276be2bff7f00a738b9ef11024">dominio.Mochila</a>
+</li>
+<li>getItem10()
+: <a class="el" href="classdominio_1_1_mochila.html#aa42593dc87f8371084a79e75084013c5">dominio.Mochila</a>
+</li>
+<li>getItem11()
+: <a class="el" href="classdominio_1_1_mochila.html#a3b6548ccd4e615bb6eec1b76208a9439">dominio.Mochila</a>
+</li>
+<li>getItem12()
+: <a class="el" href="classdominio_1_1_mochila.html#af6ac998fc57ccb6ab797f2b84392d62d">dominio.Mochila</a>
+</li>
+<li>getItem13()
+: <a class="el" href="classdominio_1_1_mochila.html#ac71047c5f1755c158bd259dc600bc26a">dominio.Mochila</a>
+</li>
+<li>getItem14()
+: <a class="el" href="classdominio_1_1_mochila.html#a647554cfcce40ee44f47b3f6f2f7dd53">dominio.Mochila</a>
+</li>
+<li>getItem15()
+: <a class="el" href="classdominio_1_1_mochila.html#a90637c1582ee262196fdacb5c6717bb7">dominio.Mochila</a>
+</li>
+<li>getItem16()
+: <a class="el" href="classdominio_1_1_mochila.html#ae36939bbeb8bd051ade88b4581d13092">dominio.Mochila</a>
+</li>
+<li>getItem17()
+: <a class="el" href="classdominio_1_1_mochila.html#a37c87797d75b91ed3a64451667ec9f28">dominio.Mochila</a>
+</li>
+<li>getItem18()
+: <a class="el" href="classdominio_1_1_mochila.html#a38d6ed044ebfd4bee11634e866ddc578">dominio.Mochila</a>
+</li>
+<li>getItem19()
+: <a class="el" href="classdominio_1_1_mochila.html#a2bcc841ec43eaa1475d6e795574dc3dc">dominio.Mochila</a>
+</li>
+<li>getItem2()
+: <a class="el" href="classdominio_1_1_mochila.html#a3a23005445657dcc6d9b62014645e390">dominio.Mochila</a>
+</li>
+<li>getItem20()
+: <a class="el" href="classdominio_1_1_mochila.html#a71e71eb5b6f27b72cbf8eba0f6f87e27">dominio.Mochila</a>
+</li>
+<li>getItem3()
+: <a class="el" href="classdominio_1_1_mochila.html#a819a76573c494b9ae1806e8125b64069">dominio.Mochila</a>
+</li>
+<li>getItem4()
+: <a class="el" href="classdominio_1_1_mochila.html#a6319cfdef51ffba724d4d16f7e265c37">dominio.Mochila</a>
+</li>
+<li>getItem5()
+: <a class="el" href="classdominio_1_1_mochila.html#a0472fc764853d4338c5784b8e4aa3372">dominio.Mochila</a>
+</li>
+<li>getItem6()
+: <a class="el" href="classdominio_1_1_mochila.html#a5ba4d2f08e3f44439631e9e624a1029d">dominio.Mochila</a>
+</li>
+<li>getItem7()
+: <a class="el" href="classdominio_1_1_mochila.html#ad9ddb6cb78c2527395c20e33a252906f">dominio.Mochila</a>
+</li>
+<li>getItem8()
+: <a class="el" href="classdominio_1_1_mochila.html#ad6f9620377c77580ea5ac5ba1e902b7f">dominio.Mochila</a>
+</li>
+<li>getItem9()
+: <a class="el" href="classdominio_1_1_mochila.html#adea99303e72d149b76861429cdc7613c">dominio.Mochila</a>
 </li>
 <li>getItemID()
 : <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a4356c161b1f9157ba1401ef0f9bab447">mensajeria.PaquetePersonaje</a>
@@ -389,10 +478,18 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classcliente_1_1_cliente.html#ae8745d6881293ab049bdb0043548698f">cliente.Cliente</a>
 </li>
 <li>getMochila()
-: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#aa3f58d55986c52cb9d79fac8cc161509">mensajeria.PaquetePersonaje</a>
+: <a class="el" href="classdominio_1_1_mochila.html#a1c74743c7297d38fb8f9fc9bec31c1de">dominio.Mochila</a>
+, <a class="el" href="classmensajeria_1_1_paquete_personaje.html#aa3f58d55986c52cb9d79fac8cc161509">mensajeria.PaquetePersonaje</a>
+</li>
+<li>getMultiDaddy()
+: <a class="el" href="classdominio_1_1_personaje.html#a9c725a77a53123eebff33333bbc8a41c">dominio.Personaje</a>
+</li>
+<li>getMultiplicador()
+: <a class="el" href="classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0">mensajeria.PaquetePersonaje</a>
 </li>
 <li>getMundo()
-: <a class="el" href="classestados_1_1_estado_juego.html#a8545118845681baf6bbb5e4a2a746ddd">estados.EstadoJuego</a>
+: <a class="el" href="classentidades_1_1_entidad.html#a791616560a25df59f90855dc74d8d5a7">entidades.Entidad</a>
+, <a class="el" href="classestados_1_1_estado_juego.html#a8545118845681baf6bbb5e4a2a746ddd">estados.EstadoJuego</a>
 </li>
 <li>getNivel()
 : <a class="el" href="classdominio_1_1_madre_de_todo.html#a7cbf246b0c30e7343378a03e6e03d63b">dominio.MadreDeTodo</a>
@@ -625,6 +722,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getVentContac()
 : <a class="el" href="classjuego_1_1_pantalla.html#a650ed289c1d08b3f65852a03a1df1973">juego.Pantalla</a>
 </li>
+<li>getWearLocation()
+: <a class="el" href="classdominio_1_1_item.html#a941779dbb72be46f1ad964077a4d1503">dominio.Item</a>
+</li>
 <li>getWome()
 : <a class="el" href="classcliente_1_1_cliente.html#a3a25fbe07341507e83fbe1446eef17c1">cliente.Cliente</a>
 </li>
@@ -660,7 +760,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classinterfaz_1_1_menu_info_personaje.html#a830fbf9a9012004586cb3bd69df9b33d">interfaz.MenuInfoPersonaje</a>
 , <a class="el" href="classjuego_1_1_juego.html#a82d7dac8155988dff22b39a888dac643">juego.Juego</a>
 , <a class="el" href="classmundo_1_1_mundo.html#a82f3fbfb7f4d38187453f9dd9932c773">mundo.Mundo</a>
-, <a class="el" href="classmundo_1_1_tile.html#a6791b90ef5c9d6f2974ecc27e6ceb6c5">mundo.Tile</a>
+, <a class="el" href="classmundo_1_1_tile.html#a90e1feabf510da7fb656f176e8574918">mundo.Tile</a>
 </li>
 <li>graficarMenuComerciar()
 : <a class="el" href="classinterfaz_1_1_menu_info_personaje.html#aaf629513d4d1d19a950e245be692186b">interfaz.MenuInfoPersonaje</a>

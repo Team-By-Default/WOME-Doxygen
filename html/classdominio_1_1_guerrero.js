@@ -9,8 +9,5 @@ var classdominio_1_1_guerrero =
     [ "habilidad3", "classdominio_1_1_guerrero.html#a28d33790715e18dcbe8b497155f16a13", null ],
     [ "recibirDestrezaBonus", "classdominio_1_1_guerrero.html#ab1fa9f9291145f292820999e3eb2e57d", null ],
     [ "recibirFuerzaBonus", "classdominio_1_1_guerrero.html#ac8c98eec4f1deff28efcbe5afddb2c99", null ],
-    [ "recibirInteligenciaBonus", "classdominio_1_1_guerrero.html#a59e8c977019f9e4be4b91ceca674326e", null ],
-    [ "BONUSFUERZA", "classdominio_1_1_guerrero.html#aff201dc90ccffdc52806538bfcf01bae", null ],
-    [ "ENERGIAMINIMA", "classdominio_1_1_guerrero.html#a484a443248445bd924021a4a511dc642", null ],
-    [ "MULTIPLICADORFUERZA", "classdominio_1_1_guerrero.html#a7a1af63a807c717927fa901f04a50bc4", null ]
+    [ "recibirInteligenciaBonus", "classdominio_1_1_guerrero.html#a59e8c977019f9e4be4b91ceca674326e", null ]
 ];

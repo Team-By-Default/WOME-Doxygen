@@ -1,7 +1,7 @@
 <map id="dominio.Hechicero.habilidad1" name="dominio.Hechicero.habilidad1">
 <area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a5951d0e510d35c3151d5b9a0b39bc6e8" title="dominio.Personaje.getEnergia" alt="" coords="244,5,439,32"/>
 <area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#abb2c772bc6984f0b703f96bfb1c13724" title="dominio.Personaje.reducir\lEnergia" alt="" coords="255,57,427,98"/>
-<area shape="rect" id="node4" href="$interfacedominio_1_1_peleable.html#aabc5fc8ed47b0c75e737e9c6681421cc" title="dominio.Peleable.serAtacado" alt="" coords="246,123,437,149"/>
+<area shape="rect" id="node4" href="$interfacedominio_1_1_peleable.html#a2ea33cce7015c8c493e176a49601692a" title="dominio.Peleable.serAtacado" alt="" coords="246,123,437,149"/>
 <area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#aae105c199c14172f5d80fa8886d0712f" title="dominio.Personaje.calcular\lPuntosDeMagia" alt="" coords="252,174,431,215"/>
 <area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a709867fbe767c2dec3d4d024409ea4b5" title="dominio.Personaje.getInteligencia" alt="" coords="487,181,703,208"/>
 </map>

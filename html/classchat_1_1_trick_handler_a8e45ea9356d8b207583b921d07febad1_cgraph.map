@@ -1,0 +1,10 @@
+<map id="chat.TrickHandler.ejecutarComando" name="chat.TrickHandler.ejecutarComando">
+<area shape="rect" id="node2" href="$classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51" title="chat.TrickHandler.puedoSoportarlo" alt="" coords="229,5,451,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8" title="chat.TrickHandler.ejecutar" alt="" coords="253,56,427,83"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="263,107,417,133"/>
+<area shape="rect" id="node5" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="253,158,427,199"/>
+<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="233,224,447,251"/>
+<area shape="rect" id="node7" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="259,275,421,301"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="227,325,453,352"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0" title="mensajeria.PaquetePersonaje.get\lMultiplicador" alt="" coords="231,377,449,418"/>
+</map>

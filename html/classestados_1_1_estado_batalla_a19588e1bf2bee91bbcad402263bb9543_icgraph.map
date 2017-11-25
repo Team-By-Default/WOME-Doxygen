@@ -1,0 +1,5 @@
+<map id="estados.EstadoBatalla.getPersonaje" name="estados.EstadoBatalla.getPersonaje">
+<area shape="rect" id="node2" href="$classchat_1_1_big_daddy_handler.html#a99784883194365366d541a93c0de2007" title="chat.BigDaddyHandler.ejecutar" alt="" coords="231,5,432,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_god_mode_handler.html#a032b357a292fb222a87167a294193929" title="chat.GodModeHandler.ejecutar" alt="" coords="231,56,432,83"/>
+<area shape="rect" id="node4" href="$classchat_1_1_tiny_daddy_handler.html#ab3fb3ea7d6bd56625b50cad0909ba7d9" title="chat.TinyDaddyHandler.ejecutar" alt="" coords="228,107,435,133"/>
+</map>

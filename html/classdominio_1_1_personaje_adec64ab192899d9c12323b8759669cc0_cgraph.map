@@ -1,0 +1,6 @@
+<map id="dominio.Personaje.serAtacado" name="dominio.Personaje.serAtacado">
+<area shape="rect" id="node2" href="$interfacedominio_1_1_peleable.html#af3c97bb7c71396d936da015d5f7ddf87" title="dominio.Peleable.isDios" alt="" coords="282,5,443,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_madre_de_todo.html#a8f02127281b1667b57f6d139e0de4aed" title="dominio.MadreDeTodo.getRandom" alt="" coords="252,56,473,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#add459c0f13cbad7268d04a96242a264a" title="dominio.Personaje.getCasta" alt="" coords="270,107,455,133"/>
+<area shape="rect" id="node5" href="$classdominio_1_1_madre_de_todo.html#a01c61a6d686c0fd599783bbeb06197a8" title="dominio.MadreDeTodo.getDefensa" alt="" coords="253,157,473,184"/>
+</map>

@@ -1,9 +1,15 @@
 <map id="dominio.Personaje.calcularPuntosDeAtaque" name="dominio.Personaje.calcularPuntosDeAtaque">
-<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="232,5,423,32"/>
-<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="235,57,420,98"/>
-<area shape="rect" id="node4" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="476,27,653,69"/>
-<area shape="rect" id="node5" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="471,93,659,120"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="707,93,940,120"/>
-<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="1001,68,1215,95"/>
-<area shape="rect" id="node8" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="988,119,1228,145"/>
+<area shape="rect" id="node2" href="$classchat_1_1_big_daddy_handler.html#a99784883194365366d541a93c0de2007" title="chat.BigDaddyHandler.ejecutar" alt="" coords="238,5,439,32"/>
+<area shape="rect" id="node3" href="$classchat_1_1_tiny_daddy_handler.html#ab3fb3ea7d6bd56625b50cad0909ba7d9" title="chat.TinyDaddyHandler.ejecutar" alt="" coords="235,56,442,83"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla.html#a1e2d3196c9b11e3b6eb34626a557d3b4" title="estados.EstadoBatalla.crear\lPersonajes" alt="" coords="245,107,432,149"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="232,173,445,214"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="243,239,434,265"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="246,290,431,331"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="493,107,692,149"/>
+<area shape="rect" id="node7" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="501,173,685,214"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="504,263,681,305"/>
+<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="499,329,687,356"/>
+<area shape="rect" id="node12" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="740,329,973,356"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="1035,304,1248,331"/>
+<area shape="rect" id="node14" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="1021,355,1261,381"/>
 </map>

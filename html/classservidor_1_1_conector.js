@@ -10,7 +10,7 @@ var classservidor_1_1_conector =
     [ "getUsuario", "classservidor_1_1_conector.html#aecc5680e13d3eb39dbc5fea42a376a5f", null ],
     [ "loguearUsuario", "classservidor_1_1_conector.html#a48c421217783f9052f42fb4ad6874c05", null ],
     [ "registrarInventarioMochila", "classservidor_1_1_conector.html#a246c68073110913286b28f5dd9ed097d", null ],
-    [ "registrarPersonaje", "classservidor_1_1_conector.html#a9c9ac1792d258e0727d1187e7eb3eacb", null ],
+    [ "registrarPersonaje", "classservidor_1_1_conector.html#a12439f7147abe6b2f203f53136cccf5a", null ],
     [ "registrarUsuario", "classservidor_1_1_conector.html#a1c56fd32fc557481849fed90a799e4d5", null ],
     [ "url", "classservidor_1_1_conector.html#a9462a189593059e8f23e267e6978cad0", null ]
 ];

@@ -1,0 +1,8 @@
+<map id="dominio.Mochila.setItems" name="dominio.Mochila.setItems">
+<area shape="rect" id="node2" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="224,42,407,83"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20" title="servidor.Conector.agregar\lItemInventario" alt="" coords="231,107,400,149"/>
+<area shape="rect" id="node3" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="455,5,703,32"/>
+<area shape="rect" id="node4" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="459,56,699,83"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="466,111,691,137"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="491,162,666,203"/>
+</map>

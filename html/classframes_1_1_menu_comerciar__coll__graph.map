@@ -1,3 +1,3 @@
 <map id="frames.MenuComerciar" name="frames.MenuComerciar">
-<area shape="rect" id="node3" href="$classdominio_1_1_item.html" title="{dominio.Item\n||+ Item()\l+ getFoto()\l+ getNombre()\l+ getBonusSalud()\l+ getBonusEnergia()\l+ getBonusFuerza()\l+ getBonusDestreza()\l+ getBonusInteligencia()\l+ getIdItem()\l}" alt="" coords="177,233,339,428"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_item.html" title="{dominio.Item\n||+ Item()\l+ Item()\l+ getFotoBI()\l+ getFoto()\l+ getNombre()\l+ getBonusSalud()\l+ getBonusEnergia()\l+ getBonusFuerza()\l+ getBonusDestreza()\l+ getBonusInteligencia()\ly 19 más...\l}" alt="" coords="177,292,339,516"/>
 </map>

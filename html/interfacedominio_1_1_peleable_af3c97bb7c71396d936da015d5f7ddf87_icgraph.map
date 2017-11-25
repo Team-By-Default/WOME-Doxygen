@@ -1,0 +1,5 @@
+<map id="dominio.Peleable.isDios" name="dominio.Peleable.isDios">
+<area shape="rect" id="node2" href="$classdominio_1_1_personaje.html#a9416b94498fb657093541e4588610608" title="dominio.Personaje.atacar" alt="" coords="229,5,399,32"/>
+<area shape="rect" id="node3" href="$classdominio_1_1_personaje.html#adec64ab192899d9c12323b8759669cc0" title="dominio.Personaje.serAtacado" alt="" coords="215,56,413,83"/>
+<area shape="rect" id="node4" href="$classdominio_1_1_guerrero.html#a28d33790715e18dcbe8b497155f16a13" title="dominio.Guerrero.habilidad3" alt="" coords="461,56,644,83"/>
+</map>

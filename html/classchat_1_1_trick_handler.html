@@ -31,7 +31,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">World of Middle Earth
    </div>
-   <div id="projectbrief">Documentación del WOME, juego desarrollado en el taller de Programación Avanzada en la UNLaM</div>
+   <div id="projectbrief">Documentación del WOME, juego del taller de progra avanzada</div>
   </td>
  </tr>
  </tbody>
@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('classchat_1_1_trick_handler.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
 <a href="#pro-attribs">Atributos protegidos</a> &#124;
 <a href="classchat_1_1_trick_handler-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
@@ -94,11 +95,11 @@ Diagrama de herencias de chat.TrickHandler</div>
 <div class="dyncontent">
 <div class="center"><img src="classchat_1_1_trick_handler__inherit__graph.png" border="0" usemap="#chat_8_trick_handler_inherit__map" alt="Inheritance graph"/></div>
 <map name="chat_8_trick_handler_inherit__map" id="chat_8_trick_handler_inherit__map">
-<area shape="rect" id="node2" href="classchat_1_1_big_daddy_handler.html" title="{chat.BigDaddyHandler\n|+ miComando\l|+ BigDaddyHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="5,175,156,281"/>
-<area shape="rect" id="node3" href="classchat_1_1_god_mode_handler.html" title="{chat.GodModeHandler\n|+ miComando\l|+ GodModeHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="180,175,331,281"/>
-<area shape="rect" id="node4" href="classchat_1_1_invisible_handler.html" title="{chat.InvisibleHandler\n|+ miComando\l|+ InvisibleHandler()\l+ puedoSoportarlo()\l+ ejecutar()\l}" alt="" coords="355,175,495,281"/>
-<area shape="rect" id="node5" href="classchat_1_1_no_clip_handler.html" title="{chat.NoClipHandler\n|+ miComando\l|+ NoClipHandler()\l+ puedoSoportarlo()\l+ ejecutar()\l}" alt="" coords="519,175,655,281"/>
-<area shape="rect" id="node6" href="classchat_1_1_tiny_daddy_handler.html" title="{chat.TinyDaddyHandler\n|+ miComando\l|+ TinyDaddyHandler()\l+ ejecutar()\l+ puedoSoportarlo()\l}" alt="" coords="680,175,836,281"/>
+<area shape="rect" id="node2" href="classchat_1_1_big_daddy_handler.html" title="{chat.BigDaddyHandler\n|+ miComando\l|+ BigDaddyHandler()\l+ puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="5,197,156,303"/>
+<area shape="rect" id="node3" href="classchat_1_1_god_mode_handler.html" title="{chat.GodModeHandler\n|+ miComando\l+ miComando2\l|+ GodModeHandler()\l+ puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="180,189,331,311"/>
+<area shape="rect" id="node4" href="classchat_1_1_invisible_handler.html" title="{chat.InvisibleHandler\n|+ miComando\l+ miComando2\l|+ InvisibleHandler()\l+ puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="355,189,495,311"/>
+<area shape="rect" id="node5" href="classchat_1_1_no_clip_handler.html" title="{chat.NoClipHandler\n|+ miComando\l|+ NoClipHandler()\l+ puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="519,197,655,303"/>
+<area shape="rect" id="node6" href="classchat_1_1_tiny_daddy_handler.html" title="{chat.TinyDaddyHandler\n|+ miComando\l|+ TinyDaddyHandler()\l+ puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="680,197,836,303"/>
 </map>
 </div>
 <div class="dynheader">
@@ -113,21 +114,26 @@ Diagrama de colaboración para chat.TrickHandler:</div>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:a8661c293eac9c8603a04dde32fa81950"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a8661c293eac9c8603a04dde32fa81950">TrickHandler</a> (<a class="el" href="classchat_1_1_trick_handler.html">TrickHandler</a> <a class="el" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a>)</td></tr>
 <tr class="separator:a8661c293eac9c8603a04dde32fa81950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b68fe536ee959ac9786f2031cea4976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976">ejecutarComando</a> (String comando)</td></tr>
-<tr class="separator:a3b68fe536ee959ac9786f2031cea4976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e45ea9356d8b207583b921d07febad1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1">ejecutarComando</a> (String comando, <a class="el" href="classjuego_1_1_juego.html">Juego</a> juego, JTextArea chat)</td></tr>
+<tr class="separator:a8e45ea9356d8b207583b921d07febad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
 <tr class="memitem:af1e964e7e63e2c87344dda98ebfa6c51"><td class="memItemLeft" align="right" valign="top">abstract boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51">puedoSoportarlo</a> (String comando)</td></tr>
 <tr class="separator:af1e964e7e63e2c87344dda98ebfa6c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cdd6ccea3fd4b379443cb8c130b1df2"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2">ejecutar</a> ()</td></tr>
-<tr class="separator:a2cdd6ccea3fd4b379443cb8c130b1df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe708bcc16ad70908286dc03e5fb6c8"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8">ejecutar</a> (<a class="el" href="classjuego_1_1_juego.html">Juego</a> juego, JTextArea chat)</td></tr>
+<tr class="separator:a0fe708bcc16ad70908286dc03e5fb6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributos protegidos</h2></td></tr>
 <tr class="memitem:a0739f36cb6d1a3db037c33a2f4fe9777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchat_1_1_trick_handler.html">TrickHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a></td></tr>
 <tr class="separator:a0739f36cb6d1a3db037c33a2f4fe9777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ecbf653e9946ead0d856c4480b024f"><td class="memItemLeft" align="right" valign="top">final Gson&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchat_1_1_trick_handler.html#a78ecbf653e9946ead0d856c4480b024f">gson</a></td></tr>
+<tr class="separator:a78ecbf653e9946ead0d856c4480b024f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock">
-<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00003">3</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00011">11</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
 </div><h2 class="groupheader">Documentación del constructor y destructor</h2>
 <a id="a8661c293eac9c8603a04dde32fa81950"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8661c293eac9c8603a04dde32fa81950">&#9670;&nbsp;</a></span>TrickHandler()</h2>
@@ -144,15 +150,22 @@ Atributos protegidos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Crea un nuevo trick handler seteando su sucesor de la ChainOfResponsabilty </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sucesor</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00006">6</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                                              {</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        this.<a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a> = <a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    }</div><div class="ttc" id="classchat_1_1_trick_handler_html_a0739f36cb6d1a3db037c33a2f4fe9777"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">chat.TrickHandler.sucesor</a></div><div class="ttdeci">TrickHandler sucesor</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00004">TrickHandler.java:4</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00019">19</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                              {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        this.<a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a> = <a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        this.<a class="code" href="classchat_1_1_trick_handler.html#a78ecbf653e9946ead0d856c4480b024f">gson</a> = <span class="keyword">new</span> Gson();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="ttc" id="classchat_1_1_trick_handler_html_a0739f36cb6d1a3db037c33a2f4fe9777"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">chat.TrickHandler.sucesor</a></div><div class="ttdeci">TrickHandler sucesor</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00012">TrickHandler.java:12</a></div></div>
+<div class="ttc" id="classchat_1_1_trick_handler_html_a78ecbf653e9946ead0d856c4480b024f"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a78ecbf653e9946ead0d856c4480b024f">chat.TrickHandler.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00013">TrickHandler.java:13</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentación de las funciones miembro</h2>
-<a id="a2cdd6ccea3fd4b379443cb8c130b1df2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cdd6ccea3fd4b379443cb8c130b1df2">&#9670;&nbsp;</a></span>ejecutar()</h2>
+<a id="a0fe708bcc16ad70908286dc03e5fb6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe708bcc16ad70908286dc03e5fb6c8">&#9670;&nbsp;</a></span>ejecutar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,30 +176,47 @@ Atributos protegidos</h2></td></tr>
         <tr>
           <td class="memname">abstract void chat.TrickHandler.ejecutar </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classjuego_1_1_juego.html">Juego</a>&#160;</td>
+          <td class="paramname"><em>juego</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">JTextArea&#160;</td>
+          <td class="paramname"><em>chat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Tiene la logica del comando que soporta </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">juego</td><td>para afectar a los recursos del juego </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchat_1_1_trick_handler_a2cdd6ccea3fd4b379443cb8c130b1df2_icgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a2cdd6ccea3fd4b379443cb8c130b1df2_icgraph" alt=""/></div>
-<map name="classchat_1_1_trick_handler_a2cdd6ccea3fd4b379443cb8c130b1df2_icgraph" id="classchat_1_1_trick_handler_a2cdd6ccea3fd4b379443cb8c130b1df2_icgraph">
-<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="227,29,400,71"/>
+<div class="center"><img src="classchat_1_1_trick_handler_a0fe708bcc16ad70908286dc03e5fb6c8_icgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a0fe708bcc16ad70908286dc03e5fb6c8_icgraph" alt=""/></div>
+<map name="classchat_1_1_trick_handler_a0fe708bcc16ad70908286dc03e5fb6c8_icgraph" id="classchat_1_1_trick_handler_a0fe708bcc16ad70908286dc03e5fb6c8_icgraph">
+<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="227,29,400,71"/>
 <area shape="rect" id="node3" href="classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="448,37,585,63"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a3b68fe536ee959ac9786f2031cea4976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b68fe536ee959ac9786f2031cea4976">&#9670;&nbsp;</a></span>ejecutarComando()</h2>
+<a id="a8e45ea9356d8b207583b921d07febad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e45ea9356d8b207583b921d07febad1">&#9670;&nbsp;</a></span>ejecutarComando()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,31 +225,63 @@ Gráfico de llamadas a esta función:</div>
           <td class="memname">void chat.TrickHandler.ejecutarComando </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>comando</em></td><td>)</td>
+          <td class="paramname"><em>comando</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classjuego_1_1_juego.html">Juego</a>&#160;</td>
+          <td class="paramname"><em>juego</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JTextArea&#160;</td>
+          <td class="paramname"><em>chat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Si puede, ejecuta el comando, sino se lo delega al siguiente de la ChainOfResponsability, pero alguien lo va a ejecutar seguro. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comando</td><td>nombre del comando </td></tr>
+    <tr><td class="paramname">juego</td><td>para poder afectar a los recursos del juego </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00010">10</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                                                {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51">puedoSoportarlo</a>(comando))</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            <a class="code" href="classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2">ejecutar</a>();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a>.<a class="code" href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976">ejecutarComando</a>(comando);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div><div class="ttc" id="classchat_1_1_trick_handler_html_a2cdd6ccea3fd4b379443cb8c130b1df2"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2">chat.TrickHandler.ejecutar</a></div><div class="ttdeci">abstract void ejecutar()</div></div>
-<div class="ttc" id="classchat_1_1_trick_handler_html_a0739f36cb6d1a3db037c33a2f4fe9777"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">chat.TrickHandler.sucesor</a></div><div class="ttdeci">TrickHandler sucesor</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00004">TrickHandler.java:4</a></div></div>
+<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00030">30</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                                                            {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51">puedoSoportarlo</a>(comando)) {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8">ejecutar</a>(<a class="code" href="namespacejuego.html">juego</a>,<a class="code" href="namespacechat.html">chat</a>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="namespacejuego.html">juego</a>.getCliente().getPaquetePersonaje().setComando(Comando.CHEAT);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">try</span> {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <a class="code" href="namespacejuego.html">juego</a>.getCliente().getSalida().writeObject(<a class="code" href="classchat_1_1_trick_handler.html#a78ecbf653e9946ead0d856c4480b024f">gson</a>.toJson(<a class="code" href="namespacejuego.html">juego</a>.getCliente().getPaquetePersonaje()));</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                System.out.println(<span class="stringliteral">&quot;Estoy enviando el personaje &quot;</span> + <a class="code" href="namespacejuego.html">juego</a>.getCliente().getPaquetePersonaje().getId() + <span class="stringliteral">&quot; con multi &quot;</span> + <a class="code" href="namespacejuego.html">juego</a>.getCliente().getPaquetePersonaje().getMultiplicador());</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                JOptionPane.showMessageDialog(null, <span class="stringliteral">&quot;Error al aplicar el truco... ¡Dejá de hacer trampa!&quot;</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">sucesor</a>.<a class="code" href="classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1">ejecutarComando</a>(comando, <a class="code" href="namespacejuego.html">juego</a>,<a class="code" href="namespacechat.html">chat</a>);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div><div class="ttc" id="namespacechat_html"><div class="ttname"><a href="namespacechat.html">chat</a></div><div class="ttdef"><b>Definition:</b> <a href="_big_daddy_handler_8java_source.html#l00001">BigDaddyHandler.java:1</a></div></div>
+<div class="ttc" id="classchat_1_1_trick_handler_html_a0fe708bcc16ad70908286dc03e5fb6c8"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8">chat.TrickHandler.ejecutar</a></div><div class="ttdeci">abstract void ejecutar(Juego juego, JTextArea chat)</div></div>
+<div class="ttc" id="classchat_1_1_trick_handler_html_a0739f36cb6d1a3db037c33a2f4fe9777"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a0739f36cb6d1a3db037c33a2f4fe9777">chat.TrickHandler.sucesor</a></div><div class="ttdeci">TrickHandler sucesor</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00012">TrickHandler.java:12</a></div></div>
+<div class="ttc" id="namespacejuego_html"><div class="ttname"><a href="namespacejuego.html">juego</a></div><div class="ttdef"><b>Definition:</b> <a href="_camara_8java_source.html#l00001">Camara.java:1</a></div></div>
+<div class="ttc" id="classchat_1_1_trick_handler_html_a78ecbf653e9946ead0d856c4480b024f"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a78ecbf653e9946ead0d856c4480b024f">chat.TrickHandler.gson</a></div><div class="ttdeci">final Gson gson</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00013">TrickHandler.java:13</a></div></div>
+<div class="ttc" id="classchat_1_1_trick_handler_html_a8e45ea9356d8b207583b921d07febad1"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1">chat.TrickHandler.ejecutarComando</a></div><div class="ttdeci">void ejecutarComando(String comando, Juego juego, JTextArea chat)</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00030">TrickHandler.java:30</a></div></div>
 <div class="ttc" id="classchat_1_1_trick_handler_html_af1e964e7e63e2c87344dda98ebfa6c51"><div class="ttname"><a href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51">chat.TrickHandler.puedoSoportarlo</a></div><div class="ttdeci">abstract boolean puedoSoportarlo(String comando)</div></div>
-<div class="ttc" id="classchat_1_1_trick_handler_html_a3b68fe536ee959ac9786f2031cea4976"><div class="ttname"><a href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976">chat.TrickHandler.ejecutarComando</a></div><div class="ttdeci">void ejecutarComando(String comando)</div><div class="ttdef"><b>Definition:</b> <a href="_trick_handler_8java_source.html#l00010">TrickHandler.java:10</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Gráfico de llamadas para esta función:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_cgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_cgraph" alt=""/></div>
-<map name="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_cgraph" id="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_cgraph">
-<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51" title="chat.TrickHandler.puedoSoportarlo" alt="" coords="227,11,448,38"/>
-<area shape="rect" id="node3" href="classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2" title="chat.TrickHandler.ejecutar" alt="" coords="251,62,424,89"/>
+<div class="center"><img src="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_cgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_cgraph" alt=""/></div>
+<map name="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_cgraph" id="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_cgraph">
+<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51" title="chat.TrickHandler.puedoSoportarlo" alt="" coords="229,5,451,32"/>
+<area shape="rect" id="node3" href="classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8" title="chat.TrickHandler.ejecutar" alt="" coords="253,56,427,83"/>
+<area shape="rect" id="node4" href="classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="263,107,417,133"/>
+<area shape="rect" id="node5" href="classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="253,158,427,199"/>
+<area shape="rect" id="node6" href="classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="233,224,447,251"/>
+<area shape="rect" id="node7" href="classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="259,275,421,301"/>
+<area shape="rect" id="node8" href="classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="227,325,453,352"/>
+<area shape="rect" id="node9" href="classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0" title="mensajeria.PaquetePersonaje.get\lMultiplicador" alt="" coords="231,377,449,418"/>
 </map>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_icgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_icgraph" alt=""/></div>
-<map name="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_icgraph" id="classchat_1_1_trick_handler_a3b68fe536ee959ac9786f2031cea4976_icgraph">
+<div class="center"><img src="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_icgraph.png" border="0" usemap="#classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_icgraph" alt=""/></div>
+<map name="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_icgraph" id="classchat_1_1_trick_handler_a8e45ea9356d8b207583b921d07febad1_icgraph">
 <area shape="rect" id="node2" href="classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="227,37,364,63"/>
 </map>
 </div>
@@ -245,16 +307,23 @@ Gráfico de llamadas a esta función:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Define si es su propio comando </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comando</td><td>nombre del comando </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchat_1_1_trick_handler_af1e964e7e63e2c87344dda98ebfa6c51_icgraph.png" border="0" usemap="#classchat_1_1_trick_handler_af1e964e7e63e2c87344dda98ebfa6c51_icgraph" alt=""/></div>
 <map name="classchat_1_1_trick_handler_af1e964e7e63e2c87344dda98ebfa6c51_icgraph" id="classchat_1_1_trick_handler_af1e964e7e63e2c87344dda98ebfa6c51_icgraph">
-<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="275,29,448,71"/>
+<area shape="rect" id="node2" href="classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="275,29,448,71"/>
 <area shape="rect" id="node3" href="classchat_1_1_mi_chat.html#a5ecc0024897adda2f4d9cc312c0e061e" title="chat.MiChat.MiChat" alt="" coords="496,37,633,63"/>
 </map>
 </div>
@@ -262,6 +331,30 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a78ecbf653e9946ead0d856c4480b024f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ecbf653e9946ead0d856c4480b024f">&#9670;&nbsp;</a></span>gson</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Gson chat.TrickHandler.gson</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00013">13</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
+
+</div>
+</div>
 <a id="a0739f36cb6d1a3db037c33a2f4fe9777"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0739f36cb6d1a3db037c33a2f4fe9777">&#9670;&nbsp;</a></span>sucesor</h2>
 
@@ -282,7 +375,7 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00004">4</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_trick_handler_8java_source.html#l00012">12</a> del archivo <a class="el" href="_trick_handler_8java_source.html">TrickHandler.java</a>.</p>
 
 </div>
 </div>

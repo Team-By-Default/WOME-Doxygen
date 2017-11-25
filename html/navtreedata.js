@@ -18,12 +18,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Archivos", null, [
-      [ "Lista de archivos", "files.html", "files" ],
-      [ "Miembros de los ficheros", "globals.html", [
-        [ "Todo", "globals.html", null ],
-        [ "Funciones", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ]
-      ] ]
+      [ "Lista de archivos", "files.html", "files" ]
     ] ]
   ] ]
 ];
@@ -31,13 +26,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_actualizar_n_p_cs_8java.html",
-"classcliente_1_1_cliente.html#a0843dfe28f736b3fe8966bc0c7ff6896",
-"classdominio_1_1_item.html#ac0e7728ea21db876c4678399e7484b47",
-"classentidades_1_1_entidad.html#abbab8ca9be8532e933c2bf28a0991184",
-"classinterfaz_1_1_menu_batalla.html#a2f0bf306e3b84343777c7cf4e5d7ddbc",
-"classmensajeria_1_1_paquete_comerciar.html#a00a151a4d421b91b8afea6aef9612671",
-"classmundo_1_1_nodo.html#a7707904c8e68feeaa53f3a613d2905e4",
-"functions_func_o.html"
+"classcliente_1_1_cliente.html#a09f329be4e22eeb853c1b84830fb2499",
+"classdominio_1_1_item.html#ac54b88bacdecb6144d793aa89648e76f",
+"classentidades_1_1_entidad.html#a690422f13720818bdc30c6dbd5845548",
+"classinterfaz_1_1_menu_info_personaje.html#a4ecf9be86e090ab17a11ceec6fdb5acc",
+"classmensajeria_1_1_paquete_mensaje.html#aea70fd499f7f095f5e69ee61564e1269",
+"classservidor_1_1_conector.html#a246c68073110913286b28f5dd9ed097d",
+"md__e_1__programacion_avanzada__mordor_jrpg-2017b-cliente__r_e_a_d_m_e.html"
 ];
 
 var SYNCONMSG = 'click en deshabilitar sincronización';

@@ -1,0 +1,6 @@
+<map id="chat.InvisibleHandler.ejecutar" name="chat.InvisibleHandler.ejecutar">
+<area shape="rect" id="node2" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="276,5,429,32"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="265,57,440,98"/>
+<area shape="rect" id="node4" href="$classmensajeria_1_1_paquete_personaje.html#acfe88e2ed6807862e303304c95e16e9a" title="mensajeria.PaquetePersonaje.set\lInvisible" alt="" coords="244,122,461,163"/>
+<area shape="rect" id="node5" href="$classmensajeria_1_1_paquete_personaje.html#a785e8db0509d8de1f1ca441eee19e7d0" title="mensajeria.PaquetePersonaje.is\lInvisible" alt="" coords="248,187,457,229"/>
+</map>

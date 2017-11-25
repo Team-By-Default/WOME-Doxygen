@@ -1,18 +1,21 @@
 <map id="chat.MiChat.MiChat" name="chat.MiChat.MiChat">
-<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a650ed289c1d08b3f65852a03a1df1973" title="juego.Pantalla.getVentContac" alt="" coords="191,5,385,32"/>
-<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#a19c11902e36ecfd378a5f3cb42a24eb4" title="chat.VentanaContactos.get\lBotonMc" alt="" coords="198,57,378,98"/>
-<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#ab583bc1ae76f40f87246eaf39c4f7e0c" title="juego.Juego.getChatsActivos" alt="" coords="193,123,383,149"/>
-<area shape="rect" id="node5" href="$classchat_1_1_trick_handler.html#a3b68fe536ee959ac9786f2031cea4976" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="201,198,375,239"/>
-<area shape="rect" id="node8" href="$classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb" title="chat.MiChat.enviarMensaje" alt="" coords="199,468,377,495"/>
-<area shape="rect" id="node6" href="$classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51" title="chat.TrickHandler.puedoSoportarlo" alt="" coords="433,155,655,181"/>
-<area shape="rect" id="node7" href="$classchat_1_1_trick_handler.html#a2cdd6ccea3fd4b379443cb8c130b1df2" title="chat.TrickHandler.ejecutar" alt="" coords="457,205,631,232"/>
-<area shape="rect" id="node9" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="467,256,621,283"/>
-<area shape="rect" id="node10" href="$classcliente_1_1_cliente.html#afa4d2e82adf27cd413abbb3343ef4506" title="cliente.Cliente.getPaquete\lMensaje" alt="" coords="457,307,631,349"/>
-<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_mensaje.html#adf04781942c4cc85fd174d4bb4f1899a" title="mensajeria.PaqueteMensaje.set\lUserEmisor" alt="" coords="440,373,648,414"/>
-<area shape="rect" id="node12" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="459,439,629,465"/>
-<area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="435,490,653,531"/>
-<area shape="rect" id="node14" href="$classmensajeria_1_1_paquete_mensaje.html#a793e2d558b84d2a0c4252f7577eb657d" title="mensajeria.PaqueteMensaje.set\lUserReceptor" alt="" coords="440,555,648,597"/>
-<area shape="rect" id="node15" href="$classmensajeria_1_1_paquete_mensaje.html#affafd5ac136e54b36c6f99d2565dd285" title="mensajeria.PaqueteMensaje.set\lMensaje" alt="" coords="440,621,648,662"/>
-<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="437,687,651,713"/>
-<area shape="rect" id="node17" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="463,737,625,764"/>
+<area shape="rect" id="node2" href="$classjuego_1_1_pantalla.html#a650ed289c1d08b3f65852a03a1df1973" title="juego.Pantalla.getVentContac" alt="" coords="191,32,385,59"/>
+<area shape="rect" id="node3" href="$classchat_1_1_ventana_contactos.html#a19c11902e36ecfd378a5f3cb42a24eb4" title="chat.VentanaContactos.get\lBotonMc" alt="" coords="198,83,378,125"/>
+<area shape="rect" id="node4" href="$classjuego_1_1_juego.html#ab583bc1ae76f40f87246eaf39c4f7e0c" title="juego.Juego.getChatsActivos" alt="" coords="193,149,383,176"/>
+<area shape="rect" id="node5" href="$classchat_1_1_trick_handler.html#a8e45ea9356d8b207583b921d07febad1" title="chat.TrickHandler.ejecutar\lComando" alt="" coords="201,225,375,266"/>
+<area shape="rect" id="node14" href="$classchat_1_1_mi_chat.html#a097b8b78d65fb85979069d937a332dbb" title="chat.MiChat.enviarMensaje" alt="" coords="199,483,377,509"/>
+<area shape="rect" id="node6" href="$classchat_1_1_trick_handler.html#af1e964e7e63e2c87344dda98ebfa6c51" title="chat.TrickHandler.puedoSoportarlo" alt="" coords="436,123,657,149"/>
+<area shape="rect" id="node7" href="$classchat_1_1_trick_handler.html#a0fe708bcc16ad70908286dc03e5fb6c8" title="chat.TrickHandler.ejecutar" alt="" coords="460,173,633,200"/>
+<area shape="rect" id="node8" href="$classjuego_1_1_juego.html#adb1904320e39b7675b8f15755c61f68c" title="juego.Juego.getCliente" alt="" coords="470,291,623,317"/>
+<area shape="rect" id="node9" href="$classcliente_1_1_cliente.html#a885a9641bf54ac5148f3dcfe8601a2ae" title="cliente.Cliente.getPaquete\lPersonaje" alt="" coords="459,225,634,266"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3" title="mensajeria.Paquete.setComando" alt="" coords="439,341,654,368"/>
+<area shape="rect" id="node11" href="$classcliente_1_1_cliente.html#a17a3e56b5e44b9b34ef10efd729b344a" title="cliente.Cliente.getSalida" alt="" coords="465,392,628,419"/>
+<area shape="rect" id="node12" href="$classmensajeria_1_1_paquete_personaje.html#a3aa3eb11924fe62aed864db5fa26988d" title="mensajeria.PaquetePersonaje.getId" alt="" coords="433,5,660,32"/>
+<area shape="rect" id="node13" href="$classmensajeria_1_1_paquete_personaje.html#a08919ce031dfc094b81870089f23ccd0" title="mensajeria.PaquetePersonaje.get\lMultiplicador" alt="" coords="438,57,655,98"/>
+<area shape="rect" id="node15" href="$classcliente_1_1_cliente.html#afa4d2e82adf27cd413abbb3343ef4506" title="cliente.Cliente.getPaquete\lMensaje" alt="" coords="459,443,634,485"/>
+<area shape="rect" id="node16" href="$classmensajeria_1_1_paquete_mensaje.html#adf04781942c4cc85fd174d4bb4f1899a" title="mensajeria.PaqueteMensaje.set\lUserEmisor" alt="" coords="443,509,651,550"/>
+<area shape="rect" id="node17" href="$classjuego_1_1_juego.html#a7e0762fb2932868c809185f09f494b66" title="juego.Juego.getPersonaje" alt="" coords="461,575,632,601"/>
+<area shape="rect" id="node18" href="$classmensajeria_1_1_paquete_personaje.html#a00b3b36d510cc8cadc9bb0826dafa18b" title="mensajeria.PaquetePersonaje.get\lNombre" alt="" coords="438,626,655,667"/>
+<area shape="rect" id="node19" href="$classmensajeria_1_1_paquete_mensaje.html#a793e2d558b84d2a0c4252f7577eb657d" title="mensajeria.PaqueteMensaje.set\lUserReceptor" alt="" coords="443,691,651,733"/>
+<area shape="rect" id="node20" href="$classmensajeria_1_1_paquete_mensaje.html#affafd5ac136e54b36c6f99d2565dd285" title="mensajeria.PaqueteMensaje.set\lMensaje" alt="" coords="443,757,651,798"/>
 </map>

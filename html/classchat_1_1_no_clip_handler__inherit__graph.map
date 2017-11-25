@@ -1,3 +1,3 @@
 <map id="chat.NoClipHandler" name="chat.NoClipHandler">
-<area shape="rect" id="node2" href="$classchat_1_1_trick_handler.html" title="{chat.TrickHandler\n|# sucesor\l|+ TrickHandler()\l+ ejecutarComando()\l+ puedoSoportarlo()\l+ ejecutar()\l}" alt="" coords="5,5,148,127"/>
+<area shape="rect" id="node2" href="$classchat_1_1_trick_handler.html" title="{chat.TrickHandler\n|# sucesor\l# gson\l|+ TrickHandler()\l+ ejecutarComando()\l# puedoSoportarlo()\l# ejecutar()\l}" alt="" coords="5,5,148,141"/>
 </map>

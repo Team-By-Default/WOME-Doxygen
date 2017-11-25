@@ -9,6 +9,8 @@ var namespacecomandos =
     [ "Atacar", "classcomandos_1_1_atacar.html", "classcomandos_1_1_atacar" ],
     [ "Batalla", "classcomandos_1_1_batalla.html", "classcomandos_1_1_batalla" ],
     [ "BatallaNPC", "classcomandos_1_1_batalla_n_p_c.html", "classcomandos_1_1_batalla_n_p_c" ],
+    [ "Cheat", "classcomandos_1_1_cheat.html", "classcomandos_1_1_cheat" ],
+    [ "ChuckNorris", "classcomandos_1_1_chuck_norris.html", "classcomandos_1_1_chuck_norris" ],
     [ "ComandosCliente", "classcomandos_1_1_comandos_cliente.html", "classcomandos_1_1_comandos_cliente" ],
     [ "ComandosEscucha", "classcomandos_1_1_comandos_escucha.html", "classcomandos_1_1_comandos_escucha" ],
     [ "ComandosServer", "classcomandos_1_1_comandos_server.html", "classcomandos_1_1_comandos_server" ],

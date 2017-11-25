@@ -1,5 +1,7 @@
 <map id="juego.Juego.actualizar" name="juego.Juego.actualizar">
-<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="204,13,380,39"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="205,63,379,90"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="428,5,616,47"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="204,71,380,98"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado.html#a51e0c9f92f570ab9405d077743f58e38" title="estados.Estado.actualizar" alt="" coords="205,122,379,149"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="453,5,641,47"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado.html#adba00169569b628782b0d0c0a5856096" title="estados.Estado.esEstadoBatalla" alt="" coords="441,71,653,98"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado.html#a7c10968311914d8e9e62d0b2b18e6f41" title="estados.Estado.esEstadoBatallaNPC" alt="" coords="428,122,667,149"/>
 </map>

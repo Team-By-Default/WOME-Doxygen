@@ -6,5 +6,5 @@
 <area shape="rect" id="node7" href="$classcomandos_1_1_registro_set.html" title="{comandos.RegistroSet\n||+ ejecutar()\l}" alt="" coords="745,454,899,531"/>
 <area shape="rect" id="node8" href="$classcomandos_1_1_salir.html" title="{comandos.Salir\n||+ ejecutar()\l+ ejecutar()\l}" alt="" coords="923,447,1035,539"/>
 <area shape="rect" id="node9" href="$classcomandos_1_1_salir_set.html" title="{comandos.SalirSet\n||+ ejecutar()\l}" alt="" coords="1060,454,1192,531"/>
-<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 16 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="576,5,729,273"/>
+<area shape="rect" id="node2" href="$classmensajeria_1_1_comando.html" title="{mensajeria.Comando\n|+ NOMBREPAQUETE\l+ CLASSNAMES\l+ CLASSNAMESBIS\l+ CONEXION\l+ CREACIONPJ\l+ DESCONECTAR\l+ INICIOSESION\l+ MOSTRARMAPAS\l+ MOVIMIENTO\l+ REGISTRO\ly 18 más...\l# gson\l# cadenaLeida\l|+ setCadena()\l+ ejecutar()\l}" alt="" coords="576,5,729,273"/>
 </map>

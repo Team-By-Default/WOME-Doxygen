@@ -2,4 +2,10 @@
 <area shape="rect" id="node2" href="$classcliente_1_1_cliente.html#ac93f30447d507e64eff44f1e00a07862" title="cliente.Cliente.actualizar\lItems" alt="" coords="285,5,449,47"/>
 <area shape="rect" id="node3" href="$classframes_1_1_menu_asignar_skills.html#a2179232f5c337e6bd3feb7090ab0621e" title="frames.MenuAsignarSkills.\lMenuAsignarSkills" alt="" coords="278,71,455,112"/>
 <area shape="rect" id="node4" href="$classframes_1_1_menu_comerciar.html#a6704fe67c67ecfc07421e453645b73d1" title="frames.MenuComerciar.Menu\lComerciar" alt="" coords="271,136,463,177"/>
+<area shape="rect" id="node5" href="$classservidor_1_1_conector.html#afcca8818a23761b0793628817651e1d9" title="servidor.Conector.actualizar\lInventario" alt="" coords="275,201,458,243"/>
+<area shape="rect" id="node8" href="$classservidor_1_1_conector.html#a9e92665c971d30922e2574e0fff89e20" title="servidor.Conector.agregar\lItemInventario" alt="" coords="282,267,451,308"/>
+<area shape="rect" id="node6" href="$classcomandos_1_1_actualizar_inventario.html#a718d5575bb96200a45dbd9f8d1890fe0" title="comandos.ActualizarInventario.ejecutar" alt="" coords="511,165,759,191"/>
+<area shape="rect" id="node7" href="$classcomandos_1_1_actualizar_trueque.html#a6126df4ea81a8d4b2cc4e64d7d13243c" title="comandos.ActualizarTrueque.ejecutar" alt="" coords="515,215,755,242"/>
+<area shape="rect" id="node9" href="$classcomandos_1_1_finalizar_batalla.html#aeb6e9a0825dc662c424871cccc2dd5e7" title="comandos.FinalizarBatalla.ejecutar" alt="" coords="522,270,747,297"/>
+<area shape="rect" id="node10" href="$classcomandos_1_1_finalizar_batalla_n_p_c.html#ac7f856b5e989912615bb558a7eeacf82" title="comandos.FinalizarBatalla\lNPC.ejecutar" alt="" coords="547,321,722,363"/>
 </map>

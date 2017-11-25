@@ -1,10 +1,12 @@
 <map id="estados.EstadoJuego.graficarPersonajes" name="estados.EstadoJuego.graficarPersonajes">
 <area shape="rect" id="node2" href="$classmensajeria_1_1_paquete_movimiento.html#aa7ef4fb93d4d746227bb04bfea21253e" title="mensajeria.PaqueteMovimiento.get\lIdPersonaje" alt="" coords="263,5,487,47"/>
 <area shape="rect" id="node3" href="$classestados_1_1_estado.html#a005e6a004fa24b5fc8f6b2305a1aedb6" title="estados.Estado.getEstado" alt="" coords="287,71,463,98"/>
-<area shape="rect" id="node5" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="285,122,464,149"/>
-<area shape="rect" id="node6" href="$classmensajeria_1_1_paquete_movimiento.html#a44a06daef3e83899fbe779603ff8c1d7" title="mensajeria.PaqueteMovimiento.getPosX" alt="" coords="247,173,502,199"/>
-<area shape="rect" id="node7" href="$classmensajeria_1_1_paquete_movimiento.html#a3ba3a2ca9aa23715c37f4be17c5c6e61" title="mensajeria.PaqueteMovimiento.getPosY" alt="" coords="247,223,503,250"/>
-<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_movimiento.html#a67afec43b88f0861925f3df483a8f95d" title="mensajeria.PaqueteMovimiento.get\lDireccion" alt="" coords="263,275,487,316"/>
-<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_movimiento.html#a18295699c733e08ee14bab7fc472297e" title="mensajeria.PaqueteMovimiento.get\lFrame" alt="" coords="263,340,487,381"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="551,64,739,105"/>
+<area shape="rect" id="node7" href="$classjuego_1_1_pantalla.html#a06b4632d39e92996db3bda5f75fc1a2c" title="juego.Pantalla.centerString" alt="" coords="285,122,464,149"/>
+<area shape="rect" id="node8" href="$classmensajeria_1_1_paquete_movimiento.html#a44a06daef3e83899fbe779603ff8c1d7" title="mensajeria.PaqueteMovimiento.getPosX" alt="" coords="247,173,502,199"/>
+<area shape="rect" id="node9" href="$classmensajeria_1_1_paquete_movimiento.html#a3ba3a2ca9aa23715c37f4be17c5c6e61" title="mensajeria.PaqueteMovimiento.getPosY" alt="" coords="247,223,503,250"/>
+<area shape="rect" id="node10" href="$classmensajeria_1_1_paquete_movimiento.html#a67afec43b88f0861925f3df483a8f95d" title="mensajeria.PaqueteMovimiento.get\lDireccion" alt="" coords="263,275,487,316"/>
+<area shape="rect" id="node11" href="$classmensajeria_1_1_paquete_movimiento.html#a18295699c733e08ee14bab7fc472297e" title="mensajeria.PaqueteMovimiento.get\lFrame" alt="" coords="263,340,487,381"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado.html#a66b569088432a2ae282fdceeefe305da" title="estados.Estado.esEstadoDe\lJuego" alt="" coords="576,5,764,47"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado.html#adba00169569b628782b0d0c0a5856096" title="estados.Estado.esEstadoBatalla" alt="" coords="564,71,776,98"/>
+<area shape="rect" id="node6" href="$classestados_1_1_estado.html#a7c10968311914d8e9e62d0b2b18e6f41" title="estados.Estado.esEstadoBatallaNPC" alt="" coords="551,122,789,149"/>
 </map>

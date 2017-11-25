@@ -8,6 +8,7 @@ var namespacemensajeria =
     [ "PaqueteComerciar", "classmensajeria_1_1_paquete_comerciar.html", "classmensajeria_1_1_paquete_comerciar" ],
     [ "PaqueteDeMovimientos", "classmensajeria_1_1_paquete_de_movimientos.html", "classmensajeria_1_1_paquete_de_movimientos" ],
     [ "PaqueteDePersonajes", "classmensajeria_1_1_paquete_de_personajes.html", "classmensajeria_1_1_paquete_de_personajes" ],
+    [ "PaqueteDios", "classmensajeria_1_1_paquete_dios.html", "classmensajeria_1_1_paquete_dios" ],
     [ "PaqueteFinalizarBatalla", "classmensajeria_1_1_paquete_finalizar_batalla.html", "classmensajeria_1_1_paquete_finalizar_batalla" ],
     [ "PaqueteMensaje", "classmensajeria_1_1_paquete_mensaje.html", "classmensajeria_1_1_paquete_mensaje" ],
     [ "PaqueteMovimiento", "classmensajeria_1_1_paquete_movimiento.html", "classmensajeria_1_1_paquete_movimiento" ],

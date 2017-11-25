@@ -9,9 +9,5 @@ var classdominio_1_1_hechicero =
     [ "habilidad3", "classdominio_1_1_hechicero.html#af1e1d643c11beed3589444266b83ba7c", null ],
     [ "recibirDestrezaBonus", "classdominio_1_1_hechicero.html#a9839b75d9a67f69c9383b47d701aeca2", null ],
     [ "recibirFuerzaBonus", "classdominio_1_1_hechicero.html#a2c0e791d3fc3026d579371dea09e10a5", null ],
-    [ "recibirInteligenciaBonus", "classdominio_1_1_hechicero.html#af49af036898b41d25711a8e50e815df6", null ],
-    [ "BONUSINTELIGENCIA", "classdominio_1_1_hechicero.html#a15cc99d0580d97ce081309bcbc5afc91", null ],
-    [ "DIVISORDEMAGIA", "classdominio_1_1_hechicero.html#a5631bbfeb2e187d3a3d4caf22efd409f", null ],
-    [ "ENERGIAMINIMA", "classdominio_1_1_hechicero.html#a8f8e21dc1690cc26798be80253235b24", null ],
-    [ "MULTIPLICADORMAGIA", "classdominio_1_1_hechicero.html#ad665d225993a88a648d3fe0ebcab8327", null ]
+    [ "recibirInteligenciaBonus", "classdominio_1_1_hechicero.html#af49af036898b41d25711a8e50e815df6", null ]
 ];

@@ -16,6 +16,7 @@ var searchData=
   ['menuregistro',['MenuRegistro',['../classframes_1_1_menu_registro.html',1,'frames']]],
   ['menustats',['MenuStats',['../classframes_1_1_menu_stats.html',1,'frames']]],
   ['michat',['MiChat',['../classchat_1_1_mi_chat.html',1,'chat']]],
+  ['mochila',['Mochila',['../classdominio_1_1_mochila.html',1,'dominio']]],
   ['mostrarmapas',['MostrarMapas',['../classcomandos_1_1_mostrar_mapas.html',1,'comandos']]],
   ['movimiento',['Movimiento',['../classcomandos_1_1_movimiento.html',1,'comandos']]],
   ['movimientonpc',['MovimientoNPC',['../classcomandos_1_1_movimiento_n_p_c.html',1,'comandos']]],

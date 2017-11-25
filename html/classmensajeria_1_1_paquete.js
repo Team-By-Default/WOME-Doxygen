@@ -9,13 +9,10 @@ var classmensajeria_1_1_paquete =
     [ "getIp", "classmensajeria_1_1_paquete.html#a36e34051be8350261d030b1604d8db57", null ],
     [ "getMensaje", "classmensajeria_1_1_paquete.html#a960ec9a1022c5e1bb8ef0526a2c1734a", null ],
     [ "getObjeto", "classmensajeria_1_1_paquete.html#a17e41efcaa2f476d06761486d0bc8f08", null ],
-    [ "getObjetoSet", "classmensajeria_1_1_paquete.html#abd27800008ef66b2d58d6fec07a78d58", null ],
     [ "setComando", "classmensajeria_1_1_paquete.html#a9b0025715a81ff38f861dbbcbbd548c3", null ],
     [ "setIp", "classmensajeria_1_1_paquete.html#aff4c522056207893cf6b5b25971290ba", null ],
     [ "setMensaje", "classmensajeria_1_1_paquete.html#a1756d9752346d17f68386839b1e83b1e", null ],
     [ "comando", "classmensajeria_1_1_paquete.html#af87c22f82dab6145520eb57055d55cb0", null ],
     [ "ip", "classmensajeria_1_1_paquete.html#abd68eac15ea1aaaaed7bdd973a09cf70", null ],
-    [ "mensaje", "classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f", null ],
-    [ "msjExito", "classmensajeria_1_1_paquete.html#a68a2c07ac025740661bdf6632381ea2f", null ],
-    [ "msjFracaso", "classmensajeria_1_1_paquete.html#aa342742bf848bcf5f4bf4c28a2fd5c8d", null ]
+    [ "mensaje", "classmensajeria_1_1_paquete.html#a39ec41c9b826d2ce6ff3e231292c9a9f", null ]
 ];

@@ -1,16 +1,22 @@
 <map id="dominio.MadreDeTodo.getFuerza" name="dominio.MadreDeTodo.getFuerza">
-<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="1071,17,1273,58"/>
-<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="776,236,1004,277"/>
-<area shape="rect" id="node6" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="269,344,455,371"/>
-<area shape="rect" id="node7" href="$classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e" title="dominio.NonPlayableCharacter.get\lAtaque" alt="" coords="505,294,728,336"/>
-<area shape="rect" id="node9" href="$classdominio_1_1_orco.html#ae19b0ca82efc943a984e0f8890db2949" title="dominio.Orco.habilidadRaza2" alt="" coords="267,395,457,422"/>
-<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="273,126,451,168"/>
-<area shape="rect" id="node13" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="801,152,979,193"/>
-<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="1353,54,1567,80"/>
-<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="1340,243,1580,270"/>
-<area shape="rect" id="node8" href="$classdominio_1_1_non_playable_character.html#aa20249c341133705a21aa02976820567" title="dominio.NonPlayableCharacter.atacar" alt="" coords="1052,298,1292,324"/>
-<area shape="rect" id="node11" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="521,142,712,168"/>
-<area shape="rect" id="node12" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="524,76,709,117"/>
-<area shape="rect" id="node14" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="796,83,984,110"/>
-<area shape="rect" id="node15" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="1055,83,1289,110"/>
+<area shape="rect" id="node2" href="$classestados_1_1_estado_batalla.html#a79fac6acf6b7ab1960fa057bbf4a3f0c" title="estados.EstadoBatalla.finalizar\lBatalla" alt="" coords="1065,121,1266,162"/>
+<area shape="rect" id="node4" href="$classestados_1_1_estado_batalla_n_p_c.html#a2f6181819f91285eb317e516d3b36a93" title="estados.EstadoBatallaNPC.finalizar\lBatalla" alt="" coords="1051,497,1279,538"/>
+<area shape="rect" id="node6" href="$classdominio_1_1_elfo.html#ac33ad034d1826aa443d8a1f77d45cc87" title="dominio.Elfo.habilidadRaza1" alt="" coords="285,555,471,581"/>
+<area shape="rect" id="node7" href="$classdominio_1_1_non_playable_character.html#a8b855690a61a321dd08c2994e5fc852e" title="dominio.NonPlayableCharacter.get\lAtaque" alt="" coords="267,438,489,479"/>
+<area shape="rect" id="node9" href="$classdominio_1_1_orco.html#ae19b0ca82efc943a984e0f8890db2949" title="dominio.Orco.habilidadRaza2" alt="" coords="283,605,473,632"/>
+<area shape="rect" id="node10" href="$classdominio_1_1_personaje.html#ac94de63eaf155c360e486a86ab9f92da" title="dominio.Personaje.calcular\lPuntosDeAtaque" alt="" coords="289,203,467,245"/>
+<area shape="rect" id="node19" href="$classdominio_1_1_personaje.html#a455637b7cceda764d34868686dd232b5" title="dominio.Personaje.Asignar\lPuntosSkills" alt="" coords="809,379,987,421"/>
+<area shape="rect" id="node3" href="$classestados_1_1_estado_batalla.html#a7a0fed59b790dce9f58faf6b2bea30cc" title="estados.EstadoBatalla.actualizar" alt="" coords="1347,228,1560,255"/>
+<area shape="rect" id="node5" href="$classestados_1_1_estado_batalla_n_p_c.html#afc656423752e4266305a010654454cb3" title="estados.EstadoBatallaNPC.actualizar" alt="" coords="1333,445,1573,472"/>
+<area shape="rect" id="node8" href="$classdominio_1_1_non_playable_character.html#aa20249c341133705a21aa02976820567" title="dominio.NonPlayableCharacter.atacar" alt="" coords="1045,445,1285,472"/>
+<area shape="rect" id="node11" href="$classchat_1_1_big_daddy_handler.html#a99784883194365366d541a93c0de2007" title="chat.BigDaddyHandler.ejecutar" alt="" coords="543,87,745,113"/>
+<area shape="rect" id="node12" href="$classchat_1_1_tiny_daddy_handler.html#ab3fb3ea7d6bd56625b50cad0909ba7d9" title="chat.TinyDaddyHandler.ejecutar" alt="" coords="541,269,747,296"/>
+<area shape="rect" id="node13" href="$classestados_1_1_estado_batalla.html#a1e2d3196c9b11e3b6eb34626a557d3b4" title="estados.EstadoBatalla.crear\lPersonajes" alt="" coords="551,138,737,179"/>
+<area shape="rect" id="node15" href="$classestados_1_1_estado_batalla_n_p_c.html#abc1fa20e39074027957c6ab444a6c86a" title="estados.EstadoBatallaNPC.crear\lPersonajes" alt="" coords="537,203,751,245"/>
+<area shape="rect" id="node17" href="$classdominio_1_1_personaje.html#a07830e4da71f2c89efe9a3fcdf885cff" title="dominio.Personaje.Personaje" alt="" coords="549,36,739,63"/>
+<area shape="rect" id="node18" href="$classdominio_1_1_personaje.html#a474f2800ca8cbb7d14798ac1b4d263e2" title="dominio.Personaje.modificar\lAtributos" alt="" coords="551,321,737,362"/>
+<area shape="rect" id="node14" href="$classestados_1_1_estado_batalla.html#a66e97c4403be89344fcbdcf8c8fd0d07" title="estados.EstadoBatalla.Estado\lBatalla" alt="" coords="799,138,997,179"/>
+<area shape="rect" id="node16" href="$classestados_1_1_estado_batalla_n_p_c.html#a6423313f45cf2f9b499d6708ef334168" title="estados.EstadoBatallaNPC.\lEstadoBatallaNPC" alt="" coords="806,203,990,245"/>
+<area shape="rect" id="node20" href="$classdominio_1_1_personaje.html#a6c18202feb7648d766ebf7755607c8e3" title="dominio.Personaje.subirNivel" alt="" coords="804,328,992,355"/>
+<area shape="rect" id="node21" href="$classdominio_1_1_personaje.html#a11d08e704e2b0097b5c4127577727740" title="dominio.Personaje.ganarExperiencia" alt="" coords="1049,328,1282,355"/>
 </map>
